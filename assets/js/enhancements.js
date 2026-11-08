@@ -46,6 +46,17 @@
     for (const [key,id] of [['available','available-only'],['recent','recent-only'],['starred','starred-only']]) $(id).checked = params.get(key) === '1';
     updateLanguageLabel(); render();
   }
+  function resetFilters() {
+    $('search').value = '';
+    $('branch').value = '';
+    $('genre').value = '';
+    $('sort').value = 'relevance';
+    $('available-only').checked = false;
+    $('recent-only').checked = false;
+    $('starred-only').checked = false;
+    document.querySelectorAll('.language-option').forEach(option => option.checked = DEFAULT_LANGUAGES.includes(option.value));
+    updateLanguageLabel(); sync(); render();
+  }
   let timer;
   $('search').addEventListener('input', event => {
     event.stopImmediatePropagation(); clearTimeout(timer);
@@ -53,6 +64,8 @@
   },true);
   document.querySelector('.filter-bar').addEventListener('change',sync);
   window.addEventListener('popstate',() => { clearTimeout(timer); restore(); });
+  const reset = document.createElement('button'); reset.type = 'button'; reset.className = 'button subtle'; reset.textContent = 'Reset filters'; reset.addEventListener('click',resetFilters);
+  document.querySelector('.filter-bar').append(reset);
   const link = document.createElement('a'); link.href = 'dashboard.html'; link.className = 'button subtle'; link.textContent = 'Dashboard';
   document.querySelector('.header-inner').append(link);
   async function chunks() {
