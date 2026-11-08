@@ -1,0 +1,33 @@
+name: Inspect title metadata
+on:
+  workflow_dispatch:
+    inputs:
+      title_id:
+        description: Library record key
+        required: true
+        default: '8487743'
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install playwright==1.56.0
+      - run: python -m playwright install --with-deps chromium
+      - name: Capture title metadata requests
+        env:
+          TITLE_ID: ${{ inputs.title_id }}
+        run: python scripts/inspect_title_metadata.py
+      - name: Upload title evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: title-metadata
+          path: diagnostics/title/
+          retention-days: 7
+          if-no-files-found: warn
