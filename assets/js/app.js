@@ -3,6 +3,7 @@ let books = [], previousFocus = null, starred = new Set(), similarSeed = null;
 const list = value => Array.isArray(value) ? value : [];
 const count = value => Number.isInteger(value) && value >= 0;
 const STAR_KEY = 'bokhyllan-starred-books';
+const DEFAULT_LANGUAGES = ['Engelska','Svenska'];
 const TOPICS = [
   ['science fiction|sci-fi|rymd|framtid', 'science fiction'],
   ['fantasy|magi|drakar', 'fantasy'],
@@ -79,7 +80,32 @@ function recommendations(limit = 12, seedOverride = null) {
   }
   return [...scores.values()].sort((a,b) => b.score - a.score || (rating(b.book)?.average || 0) - (rating(a.book)?.average || 0)).slice(0, limit);
 }
-function selectedLanguages() { return [...$('language').selectedOptions].map(option => option.value).filter(Boolean); }
+function selectedLanguages() {
+  return [...document.querySelectorAll('.language-option:checked')].map(option => option.value);
+}
+function updateLanguageLabel() {
+  const selected = selectedLanguages();
+  $('language-toggle').textContent = selected.length ? 'Languages: ' + selected.join(', ') : 'Languages: All';
+}
+function fillLanguages(values) {
+  const menu = $('language-menu'); menu.replaceChildren();
+  [...new Set(values.filter(value => typeof value === 'string' && value))].sort((a,b) => a.localeCompare(b)).forEach(value => {
+    const label = document.createElement('label');
+    const checkbox = document.createElement('input'); checkbox.type = 'checkbox'; checkbox.className = 'language-option'; checkbox.value = value;
+    checkbox.checked = DEFAULT_LANGUAGES.includes(value);
+    checkbox.addEventListener('change',() => { updateLanguageLabel(); render(); });
+    label.append(checkbox, document.createTextNode(value)); menu.append(label);
+  });
+  updateLanguageLabel();
+}
+function closeLanguageMenu() { $('language-menu').hidden = true; $('language-toggle').setAttribute('aria-expanded','false'); }
+$('language-toggle').addEventListener('click',event => {
+  event.stopPropagation();
+  const menu = $('language-menu'); menu.hidden = !menu.hidden;
+  $('language-toggle').setAttribute('aria-expanded',String(!menu.hidden));
+});
+document.addEventListener('click',event => { if (!$('language-menu').contains(event.target) && event.target !== $('language-toggle')) closeLanguageMenu(); });
+document.addEventListener('keydown',event => { if (event.key === 'Escape') closeLanguageMenu(); });
 function filtered() {
   const term = $('search').value.trim().toLocaleLowerCase();
   const languages = selectedLanguages();
@@ -140,9 +166,10 @@ function render() {
   const suggestions = recommendations(12, similarSeed);
   const area = $('recommendations'); area.replaceChildren();
   if (suggestions.length) {
-    const section = document.createElement('section'); section.className = 'shelf recommendations-shelf';
-    const heading = document.createElement('h2'); heading.textContent = similarSeed ? 'More like “' + similarSeed.title + '”' : 'Because you starred… (' + suggestions.length + ')';
-    const row = document.createElement('div'); row.className = 'shelf-row'; suggestions.forEach(item => row.append(recommendationCard(item))); section.append(heading,row); area.append(section);
+    $('recommendations-summary').textContent = similarSeed ? 'More like “' + similarSeed.title + '” (' + suggestions.length + ')' : 'Because you starred… (' + suggestions.length + ')';
+    const row = document.createElement('div'); row.className = 'shelf-row'; suggestions.forEach(item => row.append(recommendationCard(item))); area.append(row);
+  } else {
+    $('recommendations-summary').textContent = similarSeed ? 'No similar books found' : 'Because you starred…';
   }
 }
 function fillSelect(id, values) {
@@ -187,10 +214,16 @@ document.addEventListener('keydown',event => {
   }
 });
 $('modal-star').addEventListener('click',() => currentModalBook && toggleStar(currentModalBook));
-$('modal-similar').addEventListener('click',() => { if (currentModalBook) { similarSeed = currentModalBook; closeModal(); render(); document.querySelector('#recommendations').scrollIntoView({behavior:'smooth'}); } });
+$('modal-similar').addEventListener('click',() => {
+  if (!currentModalBook) return;
+  similarSeed = currentModalBook; closeModal();
+  $('recommendations-details').open = true;
+  render();
+  document.querySelector('#recommendations-details').scrollIntoView({behavior:'smooth'});
+});
 $('clear-stars').addEventListener('click',() => { starred.clear(); saveStars(); render(); });
 $('search').addEventListener('input',render);
-['branch','language','genre','sort','available-only','recent-only','starred-only'].forEach(id => $(id).addEventListener('change',render));
+['branch','genre','sort','available-only','recent-only','starred-only'].forEach(id => $(id).addEventListener('change',render));
 async function load() {
   try {
     const response = await fetch('data/books.json',{cache:'no-cache'});
@@ -200,8 +233,7 @@ async function load() {
     books = data;
     loadStars();
     fillSelect('branch',books.flatMap(b => list(b.holdings).map(h => h.branch)));
-    fillSelect('language',books.map(b => b.language));
-    for (const option of $('language').options) if (['Engelska','Svenska'].includes(option.value)) option.selected = true;
+    fillLanguages(books.map(b => b.language));
     fillSelect('genre',books.flatMap(b => list(b.genres)));
     const timestamps = books.map(b => b.availability_checked_at || b.updated_at).filter(Boolean).sort();
     const rated = books.filter(b => rating(b)).length;

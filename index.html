@@ -4,7 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bokhyllan Stockholm</title>
 <link rel="stylesheet" href="assets/css/styles.css">
-<style>[hidden]{display:none!important}button:focus-visible,a:focus-visible{outline:3px solid #ffb703;outline-offset:4px}.cover-fallback{display:grid;place-items:center;height:100%;padding:1rem;color:#ddd;text-align:center}.badge.unknown{background:#30303e;color:white}.modal-media img{object-fit:contain}.filter-bar{flex-wrap:wrap}.status{color:var(--muted)}select{background:#20202b;color:white;border:1px solid #666;border-radius:12px;padding:.65rem;max-width:100%}#language{min-height:5.5rem}</style>
+<style>[hidden]{display:none!important}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #ffb703;outline-offset:4px}.cover-fallback{display:grid;place-items:center;height:100%;padding:1rem;color:#ddd;text-align:center}.badge.unknown{background:#30303e;color:white}.modal-media img{object-fit:contain}.filter-bar{flex-wrap:wrap;align-items:flex-start}.status{color:var(--muted)}select{background:#20202b;color:white;border:1px solid #666;border-radius:12px;padding:.65rem;max-width:100%}.language-dropdown{position:relative}.language-toggle{background:#20202b;color:white;border:1px solid #666;border-radius:12px;padding:.65rem .9rem;cursor:pointer;max-width:16rem;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.language-menu{position:absolute;z-index:30;top:calc(100% + .4rem);left:0;min-width:14rem;max-height:16rem;overflow:auto;background:#20202b;border:1px solid #666;border-radius:12px;padding:.5rem;box-shadow:0 10px 30px rgba(0,0,0,.45)}.language-menu label{display:flex;gap:.5rem;align-items:center;padding:.4rem .5rem;border-radius:8px;cursor:pointer}.language-menu label:hover{background:#2c2c38}.recommendations-details{margin-bottom:2rem;border:1px solid #33333f;border-radius:16px;background:#17171f}.recommendations-details>summary{cursor:pointer;padding:1rem 1.25rem;font-weight:700;color:white;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:1rem}.recommendations-details>summary::-webkit-details-marker{display:none}.recommendations-details>summary::after{content:'+';font-size:1.4rem;color:#ffb703}.recommendations-details[open]>summary::after{content:'–'}.recommendations-details .shelf{margin:0;padding:0 1.25rem 1.25rem}.recommendations-details .shelf-row{margin:0}</style>
 </head>
 <body>
 <header class="site-header"><div class="container header-inner">
@@ -15,7 +15,10 @@
 <section class="hero"><div class="container"><p class="eyebrow">Independent catalogue browser</p><h1>Find your next<br><em>great read</em></h1><p class="lede">Explore imported books from Stockholms stadsbibliotek. Star books you like to get local recommendations based on genres, subjects, author and ratings.</p><a class="button primary" href="#shelves">Browse books</a><p id="data-status" class="prototype-note" role="status">Loading catalogue data…</p></div></section>
 <section class="container" aria-label="Filters"><div class="filter-bar">
 <label>Branch <select id="branch"><option value="">All branches</option></select></label>
-<label>Language <select id="language" multiple aria-describedby="language-help"><option value="Engelska">English</option><option value="Svenska">Swedish</option></select><span id="language-help" class="visually-hidden">English and Swedish are selected by default. Hold Ctrl or Cmd to change the selection.</span></label>
+<div class="language-dropdown">
+<button id="language-toggle" class="language-toggle" type="button" aria-expanded="false" aria-haspopup="true" aria-controls="language-menu">Languages: English, Swedish</button>
+<div id="language-menu" class="language-menu" role="group" aria-label="Language filters" hidden></div>
+</div>
 <label>Genre <select id="genre"><option value="">All genres</option></select></label>
 <label>Sort by <select id="sort"><option value="relevance">Relevance</option><option value="rating">Highest rated</option><option value="recent">Most recently published</option></select></label>
 <label><input id="available-only" type="checkbox"> Available at selected branch</label>
@@ -23,7 +26,11 @@
 <label><input id="starred-only" type="checkbox"> Starred only</label>
 <button id="clear-stars" type="button" class="button subtle">Clear stars</button>
 </div></section>
-<section class="shelves container"><div id="recommendations" aria-live="polite"></div><div id="shelves" aria-live="polite"></div><p id="empty-state" class="empty-state" hidden>No imported books match these filters.</p></section>
+<details id="recommendations-details" class="recommendations-details">
+<summary id="recommendations-summary">Because you starred…</summary>
+<div id="recommendations" aria-live="polite"></div>
+</details>
+<section class="shelves container"><div id="shelves" aria-live="polite"></div><p id="empty-state" class="empty-state" hidden>No imported books match these filters.</p></section>
 </main>
 <footer class="site-footer container">Independent project, not an official library service. Availability is a timestamped snapshot, not live stock. Search covers only the imported selection. Stars are stored only in this browser.</footer>
 <div class="modal" id="book-modal" hidden><div class="modal-backdrop" data-close></div><article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
