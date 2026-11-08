@@ -1,0 +1,71 @@
+name: Inspect search state
+on:
+  workflow_dispatch:
+    inputs:
+      author:
+        description: Author to inspect
+        required: true
+        default: Gabrielle Zevin
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Fetch and inspect embedded search state
+        env:
+          AUTHOR: ${{ inputs.author }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          from urllib.parse import urljoin
+          import requests
+          from bs4 import BeautifulSoup
+
+          out = Path('diagnostics')
+          out.mkdir(exist_ok=True)
+          response = requests.get(
+              'https://biblioteket.stockholm.se/sok',
+              params={'text': '', 'author': os.environ['AUTHOR']},
+              headers={'User-Agent': 'BokhyllanStockholm/0.1 (+https://github.com/njg017/stockholm-book-shelf)'},
+              timeout=30,
+          )
+          (out / 'search.html').write_text(response.text, encoding='utf-8')
+          metadata = {'url': response.url, 'status': response.status_code, 'content_type': response.headers.get('Content-Type'), 'length': len(response.text)}
+          (out / 'response.json').write_text(json.dumps(metadata, indent=2), encoding='utf-8')
+          print(json.dumps(metadata, indent=2))
+          response.raise_for_status()
+          soup = BeautifulSoup(response.text, 'html.parser')
+          tag = soup.find('script', id='__NEXT_DATA__')
+          scripts = [urljoin(response.url, s['src']) for s in soup.find_all('script', src=True)]
+          (out / 'scripts.json').write_text(json.dumps(scripts, indent=2), encoding='utf-8')
+          print('External scripts:', json.dumps(scripts, indent=2))
+          if tag is None:
+              raise RuntimeError('No __NEXT_DATA__ script found; inspect search.html')
+          state = json.loads(tag.get_text())
+          formatted = json.dumps(state, ensure_ascii=False, indent=2)
+          (out / 'next-data.json').write_text(formatted, encoding='utf-8')
+          print('Top-level keys:', list(state))
+          print('Page:', state.get('page'))
+          print('Query:', state.get('query'))
+          print('Page-props keys:', list(state.get('props', {}).get('pageProps', {})))
+          print('Complete embedded state:\n' + formatted)
+          summary = '## Search state inspection\n\n' + '```json\n' + json.dumps(metadata, indent=2) + '\n```\n\nComplete state and HTML are in the search-state artifact.\n'
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a', encoding='utf-8') as f:
+              f.write(summary)
+          PY
+      - name: Upload inspection files even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: search-state
+          path: diagnostics/
+          retention-days: 14
+          if-no-files-found: warn
