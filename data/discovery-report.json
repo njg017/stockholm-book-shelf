@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T12:30:59.370563+00:00",
+  "generated_at": "2026-11-08T12:40:56.267640+00:00",
   "dry_run": false,
   "priority_languages": [
     "Engelska",
@@ -12,7 +12,7 @@
   "total_hits": null,
   "pagination_verified": false,
   "coverage": {
-    "generated_at": "2026-11-08T12:30:59.370559+00:00",
+    "generated_at": "2026-11-08T12:40:56.267633+00:00",
     "discovered": 0,
     "imported": 0,
     "pending": 0,
