@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-11-08T16:18:46.508419+00:00",
+  "generated_at": "2026-11-08T16:24:06.700856+00:00",
   "dry_run": false,
   "requested_batch": 25,
-  "processed": 0,
-  "imported_count": 0,
+  "processed": 25,
+  "imported_count": 25,
   "duplicate_records_merged": 0,
   "invalid_records_flagged": 0,
   "remaining_failed": 0,
-  "remaining_pending": 0,
+  "remaining_pending": 921,
   "coverage": {
-    "generated_at": "2026-11-08T16:18:46.508403+00:00",
-    "discovered": 1013,
-    "imported": 826,
-    "pending": 0,
+    "generated_at": "2026-11-08T16:24:06.700833+00:00",
+    "discovered": 1961,
+    "imported": 853,
+    "pending": 921,
     "failed": 0,
     "skipped": 0,
-    "coverage_percent": 81.54
+    "coverage_percent": 43.5
   },
   "errors": []
 }

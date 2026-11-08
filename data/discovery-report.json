@@ -1,34 +1,27 @@
 {
-  "generated_at": "2026-11-08T16:18:45.501159+00:00",
+  "generated_at": "2026-11-08T16:22:46.090503+00:00",
   "dry_run": false,
   "priority_languages": [
     "Engelska",
     "Svenska"
   ],
   "page_size": 500,
-  "fetches": 2,
-  "records_seen": 0,
-  "titles_queued_for_import": 0,
-  "already_imported_titles_reconciled": 0,
+  "fetches": 10,
+  "records_seen": 948,
+  "titles_queued_for_import": 946,
+  "already_imported_titles_reconciled": 2,
   "cursor": {
-    "years": {
-      "Engelska": 2026,
-      "Svenska": 2026
-    },
-    "phases": {
-      "Engelska": "years",
-      "Svenska": "years"
-    },
-    "queue_length": 0
+    "phases": {},
+    "queue_length": 49
   },
   "coverage": {
-    "generated_at": "2026-11-08T16:18:45.501152+00:00",
-    "discovered": 0,
-    "imported": 0,
-    "pending": 0,
+    "generated_at": "2026-11-08T16:22:46.090462+00:00",
+    "discovered": 948,
+    "imported": 2,
+    "pending": 946,
     "failed": 0,
     "skipped": 0,
-    "coverage_percent": 0
+    "coverage_percent": 0.21
   },
   "errors": []
 }
