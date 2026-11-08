@@ -54,7 +54,7 @@ async def main():
         page.on('response', queue)
         page.on('pageerror', lambda error: errors.append(str(error)))
         page.on('requestfailed', lambda request: failures.append({'url': request.url, 'failure': request.failure}))
-        url = 'https://biblioteket.stockholm.se/sok?' + urlencode({'text': '', 'author': os.environ.get('AUTHOR', 'Gabrielle Zevin')})
+        url = 'https://biblioteket.stockholm.se/sok?' + urlencode({'text': ''})
         links = []
         pagination = {'clicked': False, 'control': None, 'final_url': None}
         problem = None
