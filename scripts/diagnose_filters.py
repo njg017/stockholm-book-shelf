@@ -63,6 +63,10 @@ def main():
     output = Path('diagnostics') / 'filters.json'
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps({'generated_at': datetime.now(timezone.utc).isoformat(), 'tests': tests}, ensure_ascii=False, indent=2), encoding='utf-8')
+    compact = [{'label': test['label'], 'returned': test['returned'], 'first_id': test['first_id'],
+                'last_id': test['last_id'],
+                'error': test['errors'][0]['message'] if test['errors'] else None} for test in tests]
+    (output.parent / 'filter-summary.json').write_text(json.dumps({'generated_at': datetime.now(timezone.utc).isoformat(), 'tests': compact}, ensure_ascii=False, indent=2), encoding='utf-8')
 
 if __name__ == '__main__':
     main()

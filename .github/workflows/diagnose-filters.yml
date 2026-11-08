@@ -29,7 +29,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add diagnostics/filters.json
+          git add diagnostics/filters.json diagnostics/filter-summary.json
           if ! git diff --cached --quiet; then
             git commit -m "Record filter diagnostic results"
             git fetch origin main
