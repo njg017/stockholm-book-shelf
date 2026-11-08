@@ -1,10 +1,21 @@
 {
-  "generated_at": "2026-11-08T11:46:06.558234+00:00",
-  "requested_batch": 300,
-  "imported_count": 300,
+  "generated_at": "2026-11-08T11:59:05.260386+00:00",
+  "dry_run": false,
+  "requested_batch": 1000,
+  "processed": 0,
+  "imported_count": 0,
   "duplicate_records_merged": 0,
-  "invalid_records_flagged": 49,
-  "total_catalogue_works": 1306,
-  "remaining_discovered": 184,
+  "invalid_records_flagged": 0,
+  "remaining_failed": 0,
+  "remaining_pending": 0,
+  "coverage": {
+    "generated_at": "2026-11-08T11:59:05.260364+00:00",
+    "discovered": 985,
+    "imported": 798,
+    "pending": 0,
+    "failed": 0,
+    "skipped": 0,
+    "coverage_percent": 81.02
+  },
   "errors": []
 }

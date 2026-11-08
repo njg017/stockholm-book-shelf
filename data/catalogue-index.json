@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "discovered_at": "2026-11-08T11:34:31.585621+00:00",
+  "discovered_at": "2026-11-08T11:59:04.440934+00:00",
   "titles": {
     "8477559": {
       "title": "Beröring",
@@ -9670,6 +9670,6 @@
   },
   "cursor": {
     "query_index": 0,
-    "page": 40
+    "page": 60
   }
 }
