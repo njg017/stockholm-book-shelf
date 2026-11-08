@@ -1,4 +1,4 @@
-"""Incrementally import and deduplicate discovered Stockholm Library titles."""
+"""Incrementally import, deduplicate, validate and publish Stockholm Library titles."""
 import argparse
 import json
 import re
@@ -13,6 +13,9 @@ DATA = ROOT / 'data'
 INDEX = DATA / 'catalogue-index.json'
 BOOKS = DATA / 'books.json'
 AVAILABILITY = DATA / 'availability.json'
+SITE_INDEX = DATA / 'catalogue' / 'index.json'
+CHUNK_DIR = DATA / 'catalogue' / 'chunks'
+CHUNK_SIZE = 200
 
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -28,6 +31,30 @@ def work_key(book):
     if isbn:
         return 'isbn:' + normalize(isbn)
     return 'title:' + normalize(book.get('title')) + '|author:' + normalize(book.get('author'))
+
+def validate(book):
+    problems = []
+    if not isinstance(book.get('title'), str) or not book.get('title').strip(): problems.append('missing_title')
+    if not str(book.get('title_id') or '').isdigit(): problems.append('invalid_title_id')
+    if not book.get('author'): problems.append('missing_author')
+    if not book.get('isbn') and not list(book.get('isbns') or []): problems.append('missing_isbn')
+    return problems
+
+def split_catalogue(records):
+    items = []
+    for index, book in enumerate(records):
+        items.append({'title_id': str(book['title_id']), 'title': book.get('title'), 'author': book.get('author'),
+                      'language': book.get('language'), 'cover_url': book.get('cover_url'),
+                      'genres': book.get('genres') or [], 'published_year': book.get('published_year'),
+                      'is_recent_release': book.get('is_recent_release'),
+                      'openlibrary_rating_average': book.get('openlibrary_rating_average'),
+                      'openlibrary_rating_count': book.get('openlibrary_rating_count'),
+                      'chunk': index // CHUNK_SIZE})
+    chunks = [records[start:start + CHUNK_SIZE] for start in range(0, len(records), CHUNK_SIZE)]
+    for number, chunk in enumerate(chunks):
+        write_json(CHUNK_DIR / f'chunk-{number:04d}.json', chunk)
+    write_json(SITE_INDEX, {'generated_at': datetime.now(timezone.utc).isoformat(), 'total': len(records),
+                            'chunk_size': CHUNK_SIZE, 'chunk_count': len(chunks), 'items': items})
 
 def main():
     parser = argparse.ArgumentParser()
@@ -50,7 +77,7 @@ def main():
     pending.sort()
     selected = pending[:args.batch]
     client = GraphQLClient(args.delay, DATA / 'raw/graphql')
-    imported, errors, duplicates = [], [], 0
+    imported, errors, duplicates, invalid = [], [], 0, 0
     for title_id in selected:
         book = {'title_id': title_id, 'title': index['titles'][title_id].get('title') or '', 'shelves': []}
         try:
@@ -58,6 +85,10 @@ def main():
             if book.get('availability_status') == 'available':
                 book.setdefault('shelves', []).append('available-now')
             enrich_record(book)
+            problems = validate(book)
+            if problems:
+                invalid += 1
+                book['quality_flags'] = sorted(set(book.get('quality_flags', []) + problems))
             key = work_key(book)
             current = works.get(key)
             if current:
@@ -83,10 +114,12 @@ def main():
     write_json(BOOKS, records)
     write_json(AVAILABILITY, availability)
     write_json(INDEX, index)
+    split_catalogue(records)
     report = {'generated_at': datetime.now(timezone.utc).isoformat(), 'requested_batch': args.batch,
               'imported_count': len(imported), 'duplicate_records_merged': duplicates,
-              'total_catalogue_works': len(records), 'remaining_discovered': len(pending) - len(selected),
-              'errors': errors}
+              'invalid_records_flagged': invalid, 'total_catalogue_works': len(records),
+              'remaining_discovered': len(pending) - len(selected), 'errors': errors}
+    write_json(DATA / 'import-report.json', report)
     print(json.dumps(report, ensure_ascii=False, indent=2))
 
 if __name__ == '__main__':
