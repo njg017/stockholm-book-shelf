@@ -1,62 +1,21 @@
 {
-  "generated_at": "2026-11-08T12:49:09.227330+00:00",
+  "generated_at": "2026-11-08T12:50:25.549699+00:00",
   "dry_run": false,
   "requested_batch": 10,
-  "processed": 10,
-  "imported_count": 10,
+  "processed": 0,
+  "imported_count": 0,
   "duplicate_records_merged": 0,
-  "invalid_records_flagged": 1,
-  "remaining_failed": 10,
-  "remaining_pending": 39,
+  "invalid_records_flagged": 0,
+  "remaining_failed": 0,
+  "remaining_pending": 49,
   "coverage": {
-    "generated_at": "2026-11-08T12:49:09.227313+00:00",
+    "generated_at": "2026-11-08T12:50:25.549677+00:00",
     "discovered": 1034,
     "imported": 798,
-    "pending": 39,
-    "failed": 10,
+    "pending": 49,
+    "failed": 0,
     "skipped": 0,
     "coverage_percent": 77.18
   },
-  "errors": [
-    {
-      "title_id": "8376921",
-      "error": "'8376921'"
-    },
-    {
-      "title_id": "8430853",
-      "error": "'8430853'"
-    },
-    {
-      "title_id": "8446285",
-      "error": "'8446285'"
-    },
-    {
-      "title_id": "8451587",
-      "error": "'8451587'"
-    },
-    {
-      "title_id": "8453895",
-      "error": "'8453895'"
-    },
-    {
-      "title_id": "8466387",
-      "error": "'8466387'"
-    },
-    {
-      "title_id": "8473006",
-      "error": "'8473006'"
-    },
-    {
-      "title_id": "8474526",
-      "error": "'8474526'"
-    },
-    {
-      "title_id": "8477120",
-      "error": "'8477120'"
-    },
-    {
-      "title_id": "8477270",
-      "error": "'8477270'"
-    }
-  ]
+  "errors": []
 }
