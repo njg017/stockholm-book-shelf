@@ -1,5 +1,7 @@
 name: Validate catalogue discovery
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
 permissions:
   contents: read
@@ -16,7 +18,9 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Run one-page discovery dry run
+      - name: Run offline parser and pagination tests
+        run: python scripts/test_discovery.py
+      - name: Run one-page live discovery dry run
         run: python scripts/discover_catalogue.py --max-pages 1 --page-size 3 --delay 2 --dry-run
       - name: Show discovery report
         run: |
