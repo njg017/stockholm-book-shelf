@@ -22,6 +22,7 @@ SITE_INDEX = DATA / 'catalogue' / 'index.json'
 CHUNK_DIR = DATA / 'catalogue' / 'chunks'
 CACHE_DIR = DATA / 'raw' / 'openlibrary'
 CHUNK_SIZE = 200
+THUMBNAIL_SUFFIXES = {'small': '_S', 'medium': '_M', 'large': '_L'}
 
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -31,6 +32,16 @@ def write_json(path, value):
 
 def normalize(value):
     return re.sub(r'\s+', ' ', (value or '')).strip().casefold()
+
+def thumbnail_url(url, size):
+    if not url:
+        return None
+    suffix = THUMBNAIL_SUFFIXES.get(size, '_L')
+    base = re.sub(r'_(S|M|L)(\.[a-zA-Z0-9]+)?$', r'\2', url)
+    if base == url and not url.lower().endswith(('.jpg', '.jpeg', '.png', '.webp')):
+        return f"{url}{suffix}"
+    stem, ext = base.rsplit('.', 1) if '.' in base else (base, 'jpg')
+    return f"{stem}{suffix}.{ext}"
 
 def work_key(book):
     isbn = book.get('isbn') or next((value for value in book.get('isbns') or [] if isinstance(value, str)), None)
@@ -46,11 +57,14 @@ def validate(book):
     if not book.get('isbn') and not list(book.get('isbns') or []): problems.append('missing_isbn')
     return problems
 
-def split_catalogue(records):
+def split_catalogue(records, thumbnail_size):
     items = []
     for position, book in enumerate(records):
+        cover = book.get('cover_url')
         items.append({'title_id': str(book['title_id']), 'title': book.get('title'), 'author': book.get('author'),
-                      'language': book.get('language'), 'cover_url': book.get('cover_url'),
+                      'language': book.get('language'), 'cover_url': cover,
+                      'thumbnail_url': thumbnail_url(cover, thumbnail_size),
+                      'thumbnail_size': thumbnail_size,
                       'genres': book.get('genres') or [], 'published_year': book.get('published_year'),
                       'is_recent_release': book.get('is_recent_release'),
                       'openlibrary_rating_average': book.get('openlibrary_rating_average'),
@@ -60,7 +74,8 @@ def split_catalogue(records):
     for number, chunk in enumerate(chunks):
         write_json(CHUNK_DIR / f'chunk-{number:04d}.json', chunk)
     write_json(SITE_INDEX, {'generated_at': datetime.now(timezone.utc).isoformat(), 'total': len(records),
-                            'chunk_size': CHUNK_SIZE, 'chunk_count': len(chunks), 'items': items})
+                            'chunk_size': CHUNK_SIZE, 'chunk_count': len(chunks), 'thumbnail_size': thumbnail_size,
+                            'items': items})
 
 def cached_open_library_enrichment(book):
     isbn = book.get('isbn')
@@ -86,6 +101,7 @@ def main():
     parser.add_argument('--delay', type=float, default=1)
     parser.add_argument('--openlibrary-workers', type=int, default=6)
     parser.add_argument('--skip-openlibrary', action='store_true', help='Import library metadata without Open Library enrichment')
+    parser.add_argument('--thumbnail-size', choices=['small', 'medium', 'large'], default='large', help='Cover thumbnail size for the site index')
     parser.add_argument('--limit', type=int, help='Maximum titles to process in this run')
     parser.add_argument('--dry-run', action='store_true')
     parser.add_argument('--no-resume', action='store_true', help='Process pending titles even if previously failed')
@@ -187,11 +203,12 @@ def main():
         write_json(BOOKS, records)
         write_json(AVAILABILITY, availability)
         write_json(INDEX, index)
-        split_catalogue(records)
+        split_catalogue(records, args.thumbnail_size)
     state.save()
     coverage = state.coverage()
     report = {'generated_at': datetime.now(timezone.utc).isoformat(), 'dry_run': args.dry_run,
-              'requested_batch': args.batch, 'processed': len(selected), 'imported_count': len([item for item in imported if not item.get('dry_run')]),
+              'requested_batch': args.batch, 'thumbnail_size': args.thumbnail_size,
+              'processed': len(selected), 'imported_count': len([item for item in imported if not item.get('dry_run')]),
               'duplicate_records_merged': duplicates, 'invalid_records_flagged': invalid,
               'remaining_failed': coverage['failed'], 'remaining_pending': coverage['pending'],
               'coverage': coverage, 'errors': errors}

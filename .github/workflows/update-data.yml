@@ -14,6 +14,14 @@ on:
       fetches:
         description: Number of catalogue API requests for discovery per run
         default: '10'
+      thumbnail_size:
+        description: Cover thumbnail size (small, medium, large)
+        type: choice
+        options:
+          - small
+          - medium
+          - large
+        default: large
       reset_cursor:
         description: Reset the discovery cursor before running
         type: boolean
@@ -45,7 +53,7 @@ jobs:
           fi
           python scripts/discover_catalogue.py --page-size 500 --max-fetches "${{ inputs.fetches || 10 }}" --delay 2 $ARGS
       - name: Import next catalogue batch
-        run: python scripts/import_catalogue.py --batch "${{ inputs.batch || 100 }}" --delay 1 --openlibrary-workers 6
+        run: python scripts/import_catalogue.py --batch "${{ inputs.batch || 100 }}" --delay 1 --openlibrary-workers 6 --thumbnail-size "${{ inputs.thumbnail_size || 'large' }}"
       - name: Publish generated catalogue JSON
         if: ${{ success() && (github.event_name == 'schedule' || inputs.publish == true) }}
         run: |
