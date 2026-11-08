@@ -56,6 +56,7 @@ async def main():
         page.on('requestfailed', lambda request: failures.append({'url': request.url, 'failure': request.failure}))
         url = 'https://biblioteket.stockholm.se/sok?' + urlencode({'text': '', 'author': os.environ.get('AUTHOR', 'Gabrielle Zevin')})
         links = []
+        pagination = {'clicked': False, 'control': None, 'final_url': None}
         problem = None
         try:
             await page.goto(url, wait_until='domcontentloaded', timeout=60000)
@@ -65,6 +66,19 @@ async def main():
                 errors.append('No /titel/ anchor appeared within 30 seconds')
             await page.wait_for_timeout(5000)
             links = await page.locator('a[href*="/titel/"]').evaluate_all('(elements) => elements.map(a => ({href:a.href,text:a.textContent}))')
+            candidates = page.locator("button, a[role='button'], a").filter(has_text='Nästa')
+            count = await candidates.count()
+            if count:
+                control = candidates.first
+                pagination['control'] = await control.evaluate('element => ({tag: element.tagName, text: element.textContent?.trim(), href: element.href || null, aria: element.getAttribute("aria-label")})')
+                before = len(traffic)
+                await control.click()
+                await page.wait_for_timeout(8000)
+                pagination['clicked'] = True
+                pagination['requests_after_click'] = len(traffic) - before
+            else:
+                errors.append('No pagination control containing Nästa was found')
+            pagination['final_url'] = page.url
         except Exception as exc:
             problem = str(exc)
             errors.append(problem)
@@ -80,7 +94,8 @@ async def main():
             save('failed-requests.json', failures)
             save('errors.json', errors)
             save('title-links.json', links)
-            summary = {'requested_url': url, 'final_url': page.url, 'fetch_xhr_responses': len(traffic), 'title_links': len(links), 'navigation_error': problem}
+            save('pagination.json', pagination)
+            summary = {'requested_url': url, 'final_url': page.url, 'fetch_xhr_responses': len(traffic), 'title_links': len(links), 'pagination': pagination, 'navigation_error': problem}
             save('summary.json', summary)
             print('SUMMARY', json.dumps(summary, ensure_ascii=False))
             print('ERRORS', json.dumps(errors, ensure_ascii=False))
