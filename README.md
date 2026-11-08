@@ -12,16 +12,16 @@ This project is inspired by [stockholm-film-shelf](https://github.com/kmelkon/st
 
 ## How it works
 
-The importer uses the library’s two-stage structure:
+The pipeline expands the catalogue in two stages:
 
 ```text
-config/seeds.json
+GraphQL catalogue search
       ↓
-Search page: /sok?author=Gabrielle+Zevin
+Year-range bisection and branch slices
       ↓
-Extract /titel/<id> links
+New title IDs queued in ingestion-state.json
       ↓
-Title page: /titel/8487743
+Title page: /titel/<id>
       ↓
 Extract metadata and holdings
       ↓
@@ -30,7 +30,9 @@ Open Library enrichment
 data/books.json + data/shelves.json
 ```
 
-The catalogue is intentionally curated rather than exhaustive. `config/seeds.json` defines 21 author/shelf combinations, with up to 20 titles imported per seed.
+Discovery prioritizes English (`Engelska`) and Swedish (`Svenska`) books. It uses the library’s GraphQL search API with `yearPublishedSpan` filters, bisecting year ranges until each slice fits in a single request. Oversized single years are subdivided by library branch, and a final branch-only pass catches titles without a publication year.
+
+The API does not support offset pagination, so discovery never relies on `start` offsets. Each request is capped at 900 records, and slices are kept at 500 records or fewer whenever possible. Duplicate title IDs are merged, so overlapping branch slices do not create duplicate books.
 
 ## What the site shows
 
@@ -61,7 +63,7 @@ After importing a title from Stockholms stadsbibliotek, the pipeline queries Ope
 
 Open Library data is community-contributed and may be incomplete. The site therefore treats missing ratings and metadata as normal rather than errors.
 
-## Run the importer
+## Run the pipeline locally
 
 Install dependencies:
 
@@ -71,41 +73,58 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Run the full configured catalogue:
+Discover and queue new titles:
 
 ```bash
-python scripts/import_library.py --rows 20 --delay 2
+python scripts/discover_catalogue.py --page-size 500 --max-fetches 10 --delay 2
 ```
 
-Import one author only:
+Import the next batch of queued titles:
 
 ```bash
-python scripts/import_library.py --author "Gabrielle Zevin" --rows 3 --delay 2
+python scripts/import_catalogue.py --batch 25 --delay 2
 ```
 
-The importer reads all configured seeds when `--author` is omitted. It deduplicates records by library title ID, enriches each record, and writes the resulting catalogue files.
+Reset discovery to start from the newest publications again:
+
+```bash
+python scripts/discover_catalogue.py --page-size 500 --max-fetches 10 --delay 2 --reset-cursor
+```
+
+Discovery is resumable: the current year ranges, branch slices and pending queue are stored in `data/ingestion-state.json`. The importer processes pending titles, enriches them, deduplicates editions, and writes the resulting catalogue files.
 
 ## Automated refresh
 
 `.github/workflows/update-data.yml` runs daily at **03:17 UTC**. Scheduled runs automatically publish changed catalogue data to `main`.
 
-You can also run it manually from GitHub under **Actions → Update library data → Run workflow**. For a manual run, enable **Publish** to commit updated `books.json`, `shelves.json` and `import-report.json` to `main`.
+You can also run it manually from GitHub under **Actions → Expand catalogue metadata → Run workflow**.
 
-The importer is designed to tolerate partial failures: a failed seed, title enrichment, or Open Library request does not prevent publication of the books that imported successfully. It fails only when no books were imported. All errors are recorded in `data/import-report.json`.
+| Input | Purpose |
+|---|---|
+| `Publish` | Commit updated catalogue JSON to `main` |
+| `Batch` | Number of new titles to import per run |
+| `Fetches` | Number of catalogue API requests for discovery per run |
+| `Reset cursor` | Restart discovery from the newest publications |
+
+For a manual run, enable **Publish** to commit updated `books.json`, `shelves.json`, `import-report.json`, `discovery-report.json` and `coverage-report.json` to `main`.
+
+The pipeline is designed to tolerate partial failures: a failed title enrichment or Open Library request does not prevent publication of the books that imported successfully. Errors are recorded in `data/import-report.json` and `data/discovery-report.json`.
 
 ## Inspect results
 
-After a workflow run, download the `graphql-import` artifact. It contains:
+After a workflow run, download the `catalogue-metadata` artifact. It contains:
 
 | File | Purpose |
 |---|---|
 | `data/books.json` | Deduplicated, enriched title records |
 | `data/shelves.json` | Books grouped by shelf ID |
-| `data/import-report.json` | Run timestamp, book count, searches, errors and enrichment status |
+| `data/import-report.json` | Imported titles, duplicates, invalid records and errors |
+| `data/discovery-report.json` | Discovery fetches, records seen, queued titles and cursor state |
+| `data/coverage-report.json` | Discovered, imported, pending, failed and skipped title counts |
 | `data/raw/graphql/` | Cached library search responses |
 | `data/raw/title-html/` | Cached title-page responses |
 
-Useful report fields include `book_count`, `failed_seed_count`, `errors`, and `searches`.
+Useful report fields include `records_seen`, `titles_queued_for_import`, `fetches`, `cursor`, `processed`, `imported_count`, and `errors`.
 
 ## Browser smoke test
 
@@ -123,4 +142,4 @@ Run it from **Actions → Test website in Chromium → Run workflow**. The workf
 
 ## Status
 
-**Live and under active development.** The site publishes a curated, Open Library–enriched selection from Stockholms stadsbibliotek. The catalogue is intentionally limited to configured seeds rather than the library’s full collection.
+**Live and under active development.** The site automatically expands its English and Swedish catalogue coverage through resumable, partition-based discovery. Titles are enriched with library metadata and Open Library data, then published as searchable shelves.
