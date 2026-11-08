@@ -62,6 +62,15 @@ def process_books(state, books, imported_ids, seen, counters):
             counters['queued'] += 1
 
 
+def enqueue_branch_probe(queue, phases, language):
+    if phases.get(language) == 'branches':
+        return
+    if any(task['kind'] == 'years' and task['language'] == language for task in queue):
+        return
+    phases[language] = 'branches'
+    queue.append({'kind': 'branch_probe', 'language': language})
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--page-size', type=int, default=500)
@@ -85,12 +94,11 @@ def main():
     cursor = state.data.setdefault('discovery', {})
     if args.reset_cursor:
         cursor.clear()
-    years = cursor.setdefault('years', {language: args.start_year for language in languages})
-    phases = cursor.setdefault('phases', {language: 'years' for language in languages})
+    phases = cursor.setdefault('phases', {})
     queue = cursor.setdefault('queue', [])
-    if not queue:
+    if not queue and not phases:
         for language in languages:
-            queue.append({'kind': 'years', 'language': language, 'from': args.start_year, 'to': args.end_year})
+            queue.append({'kind': 'years', 'language': language, 'from': args.end_year, 'to': args.start_year})
     client = GraphQLClient(args.delay, DATA / 'raw/graphql')
     seen, errors = set(), []
     counters = {'queued': 0, 'reconciled': 0}
@@ -108,37 +116,53 @@ def main():
                 total = probe.get('book_total') or 0
                 if total == 0:
                     if start == end:
-                        years[language] = start - 1
+                        enqueue_branch_probe(queue, phases, language)
                     continue
                 if total <= args.page_size:
                     result = client.search(rows=total, filters=year_filters(language, start, end))
                     fetches += 1
                     process_books(state, result.get('books') or [], imported_ids, seen, counters)
                     if start == end:
-                        years[language] = start - 1
+                        enqueue_branch_probe(queue, phases, language)
                     continue
                 if start == end:
-                    branches = facet_values(probe.get('facets'), 'bibliotek')
-                    enqueued = 0
-                    for branch in branches:
-                        count = int(branch.get('count') or 0)
-                        if count == 0:
-                            continue
-                        if count <= HARD_CAP:
+                    if total <= HARD_CAP:
+                        result = client.search(rows=total, filters=year_filters(language, start, end))
+                        fetches += 1
+                        process_books(state, result.get('books') or [], imported_ids, seen, counters)
+                    else:
+                        branches = facet_values(probe.get('facets'), 'bibliotek')
+                        usable = [branch for branch in branches if 0 < int(branch['count']) <= HARD_CAP]
+                        for branch in reversed(usable):
                             queue.insert(0, {'kind': 'branch_year', 'language': language, 'year': start,
-                                             'branch': branch['name'], 'total': count})
-                            enqueued += 1
-                        else:
-                            errors.append({'partition': {'language': language, 'year': start, 'branch': branch['name']},
-                                           'error': f'branch slice too large: {count} records'})
-                    if enqueued == 0:
-                        errors.append({'partition': {'language': language, 'year': start},
-                                       'error': f'oversized year with {total} records and no usable branch slices'})
-                    years[language] = start - 1
+                                             'branch': branch['name'], 'total': int(branch['count'])})
+                        for branch in branches:
+                            if int(branch['count']) > HARD_CAP:
+                                errors.append({'partition': {'language': language, 'year': start, 'branch': branch['name']},
+                                               'error': f"branch slice too large: {branch['count']} records"})
+                        if not usable:
+                            errors.append({'partition': {'language': language, 'year': start},
+                                           'error': f'oversized year with {total} records and no usable branch slices'})
+                    enqueue_branch_probe(queue, phases, language)
                     continue
                 mid = (start + end) // 2
-                queue.insert(0, {'kind': 'years', 'language': language, 'from': mid + 1, 'to': end})
-                queue.insert(0, {'kind': 'years', 'language': language, 'from': start, 'to': mid})
+                later = {'kind': 'years', 'language': language, 'from': mid + 1, 'to': end}
+                earlier = {'kind': 'years', 'language': language, 'from': start, 'to': mid}
+                queue.insert(0, earlier)
+                queue.insert(0, later)
+            elif kind == 'branch_probe':
+                probe = client.search(rows=1, filters={'language': [language]})
+                fetches += 1
+                branches = facet_values(probe.get('facets'), 'bibliotek')
+                for branch in branches:
+                    count = int(branch['count'] or 0)
+                    if count == 0:
+                        continue
+                    if count <= HARD_CAP:
+                        queue.append({'kind': 'branch', 'language': language, 'branch': branch['name'], 'total': count})
+                    else:
+                        errors.append({'partition': {'language': language, 'branch': branch['name']},
+                                       'error': f"branch slice too large: {count} records"})
             elif kind == 'branch_year':
                 result = client.search(rows=min(int(task['total']), HARD_CAP),
                                        filters=branch_filters(language, task['branch'], task['year']))
@@ -154,7 +178,6 @@ def main():
         time.sleep(args.delay)
 
     if not args.dry_run:
-        cursor['years'] = years
         cursor['phases'] = phases
         cursor['queue'] = queue
         cursor['last_run'] = {'at': datetime.now(timezone.utc).isoformat(), 'fetches': fetches,
@@ -165,7 +188,7 @@ def main():
               'priority_languages': languages, 'page_size': args.page_size, 'fetches': fetches,
               'records_seen': len(seen), 'titles_queued_for_import': counters['queued'],
               'already_imported_titles_reconciled': counters['reconciled'],
-              'cursor': {'years': years, 'phases': phases, 'queue_length': len(queue)},
+              'cursor': {'phases': phases, 'queue_length': len(queue)},
               'coverage': coverage, 'errors': errors}
     write_json(REPORT, report)
     write_json(DATA / 'coverage-report.json', coverage)
