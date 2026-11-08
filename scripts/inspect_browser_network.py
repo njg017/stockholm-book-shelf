@@ -11,9 +11,34 @@ OUT = Path('diagnostics/browser')
 def save(name, value):
     (OUT / name).write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding='utf-8')
 
+def summarize_search_response(payload):
+    result = ((payload.get('data') or {}).get('searchWithFilter') or {})
+    groups = []
+    for group in result.get('groupedMedia') or []:
+        media = group.get('mediaList') or []
+        groups.append({'media_type': group.get('mediaTypeEnum'), 'name': group.get('name'),
+                       'num_found': group.get('numFound'), 'returned': len(media),
+                       'first_id': media[0].get('key') if media else None,
+                       'last_id': media[-1].get('key') if media else None})
+    interesting = {}
+    def walk(value, path=''):
+        if isinstance(value, dict):
+            for key, item in value.items():
+                child = f'{path}.{key}' if path else key
+                if any(token in key.lower() for token in ('cursor', 'next', 'token', 'page', 'start')):
+                    interesting[child] = item if not isinstance(item, (dict, list)) else ('complex', type(item).__name__)
+                walk(item, child)
+        elif isinstance(value, list):
+            for index, item in enumerate(value[:20]):
+                walk(item, f'{path}[{index}]')
+    walk(payload)
+    return {'top_level_keys': list(payload), 'result_keys': list(result), 'groups': groups,
+            'pagination_related': interesting}
+
 async def main():
     OUT.mkdir(parents=True, exist_ok=True)
     traffic, failures, errors, pending = [], [], [], set()
+    search_responses = []
     async with async_playwright() as p:
         browser = await p.chromium.launch()
         context = await browser.new_context(locale='sv-SE')
@@ -40,6 +65,8 @@ async def main():
                         payload = json.loads(raw)
                         save(f'response-{index:03d}.json', payload)
                         row['json_keys'] = list(payload) if isinstance(payload, dict) else {'array_length': len(payload) if isinstance(payload, list) else None}
+                        if 'searchWithFilter' in (request.post_data or ''):
+                            search_responses.append({'index': index, 'request_body': request.post_data, 'summary': summarize_search_response(payload)})
                     except (ValueError, UnicodeError):
                         pass
                 print(json.dumps(row, ensure_ascii=False))
@@ -67,6 +94,7 @@ async def main():
             await page.wait_for_timeout(5000)
             await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
             await page.wait_for_timeout(3000)
+            links_before = await page.locator('a[href*="/titel/"]').count()
             links = await page.locator('a[href*="/titel/"]').evaluate_all('(elements) => elements.map(a => ({href:a.href,text:a.textContent}))')
             candidates = await page.evaluate('''() => {
               const terms = ['nästa', 'fler', 'visa fler', 'vidare', 'next'];
@@ -95,9 +123,14 @@ async def main():
                 pagination['control'] = chosen
                 before = len(traffic)
                 await control.click()
-                await page.wait_for_timeout(8000)
+                await page.wait_for_timeout(10000)
+                await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+                await page.wait_for_timeout(3000)
+                links_after = await page.locator('a[href*="/titel/"]').count()
                 pagination['clicked'] = True
                 pagination['requests_after_click'] = len(traffic) - before
+                pagination['title_links_before'] = links_before
+                pagination['title_links_after'] = links_after
             else:
                 errors.append('No clickable pagination candidate was found')
             pagination['final_url'] = page.url
@@ -117,7 +150,8 @@ async def main():
             save('errors.json', errors)
             save('title-links.json', links)
             save('pagination.json', pagination)
-            summary = {'requested_url': url, 'final_url': page.url, 'fetch_xhr_responses': len(traffic), 'title_links': len(links), 'pagination': pagination, 'navigation_error': problem}
+            save('search-responses.json', search_responses)
+            summary = {'requested_url': url, 'final_url': page.url, 'fetch_xhr_responses': len(traffic), 'title_links': len(links), 'pagination': pagination, 'search_responses': search_responses, 'navigation_error': problem}
             save('summary.json', summary)
             print('SUMMARY', json.dumps(summary, ensure_ascii=False))
             print('ERRORS', json.dumps(errors, ensure_ascii=False))
