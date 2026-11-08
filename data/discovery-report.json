@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-11-08T12:26:10.518561+00:00",
+  "dry_run": false,
+  "priority_languages": [
+    "Engelska",
+    "Svenska"
+  ],
+  "page_size": 100,
+  "pages_fetched": 0,
+  "records_seen": 0,
+  "titles_queued_for_import": 0,
+  "total_hits": null,
+  "pagination_verified": false,
+  "coverage": {
+    "generated_at": "2026-11-08T12:26:10.518554+00:00",
+    "discovered": 0,
+    "imported": 0,
+    "pending": 0,
+    "failed": 0,
+    "skipped": 0,
+    "coverage_percent": 0
+  },
+  "errors": [
+    {
+      "page": 1,
+      "start": 0,
+      "error": "[{\"message\": \"Cannot destructure property 'mediaCount' of 'undefined' as it is undefined.\", \"locations\": [{\"line\": 2, \"column\": 3}], \"path\": [\"searchWithFilter\"], \"extensions\": {\"code\": \"INTERNAL_SERVER_ERROR\"}}]"
+    }
+  ]
+}
