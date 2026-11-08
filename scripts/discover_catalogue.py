@@ -10,8 +10,8 @@ from library_graphql import GraphQLClient
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
 STATE = DATA / 'ingestion-state.json'
+BOOKS = DATA / 'books.json'
 REPORT = DATA / 'discovery-report.json'
-FALLBACK_SIZES = (100, 50, 20, 3)
 
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -21,7 +21,7 @@ def write_json(path, value):
 
 def search_page(client, requested_size, start):
     errors = []
-    sizes = [size for size in FALLBACK_SIZES if size <= requested_size] or [3]
+    sizes = [size for size in (100, 50, 20, 3) if size <= requested_size] or [3]
     for size in sizes:
         try:
             result = client.search(query='', rows=size, start=start)
@@ -32,7 +32,7 @@ def search_page(client, requested_size, start):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--page-size', type=int, default=100)
+    parser.add_argument('--page-size', type=int, default=50)
     parser.add_argument('--max-pages', type=int, default=10)
     parser.add_argument('--delay', type=float, default=2)
     parser.add_argument('--languages', default='Engelska,Svenska', help='Comma-separated languages to prioritize for ingestion')
@@ -40,8 +40,15 @@ def main():
     args = parser.parse_args()
     priority = {value.strip() for value in args.languages.split(',') if value.strip()}
     state = IngestionState(STATE)
+    imported_ids = set()
+    if BOOKS.exists():
+        try:
+            books = json.loads(BOOKS.read_text(encoding='utf-8'))
+            imported_ids = {str(book.get('title_id')) for book in books if book.get('title_id')}
+        except (json.JSONDecodeError, OSError):
+            pass
     client = GraphQLClient(args.delay, DATA / 'raw/graphql')
-    seen, queued, pages = set(), 0, 0
+    seen, queued, already_imported, pages = set(), 0, 0, 0
     start = 0
     effective_size = args.page_size
     total_hits = book_total = None
@@ -65,7 +72,11 @@ def main():
             record = state.ensure(title_id, book.get('title') or '')
             record.update({'title': book.get('title'), 'author': book.get('author'), 'language': book.get('language'),
                            'media_type': book.get('format'), 'discovered_at': datetime.now(timezone.utc).isoformat()})
-            if record.get('status') in {'discovered', 'failed'} and book.get('language') in priority:
+            if title_id in imported_ids:
+                if record.get('status') != 'imported':
+                    state.mark_imported(title_id)
+                    already_imported += 1
+            elif record.get('status') in {'discovered', 'failed'} and book.get('language') in priority:
                 record['status'] = 'pending'
                 record['priority'] = 'high'
                 queued += 1
@@ -81,7 +92,8 @@ def main():
     report = {'generated_at': datetime.now(timezone.utc).isoformat(), 'dry_run': args.dry_run,
               'priority_languages': sorted(priority), 'requested_page_size': args.page_size,
               'effective_page_size': effective_size, 'pages_fetched': pages, 'records_seen': len(seen),
-              'titles_queued_for_import': queued, 'total_hits': total_hits, 'book_total': book_total,
+              'titles_queued_for_import': queued, 'already_imported_titles_reconciled': already_imported,
+              'total_hits': total_hits, 'book_total': book_total,
               'pagination_verified': pagination_verified, 'coverage': coverage, 'errors': errors}
     write_json(REPORT, report)
     write_json(DATA / 'coverage-report.json', coverage)

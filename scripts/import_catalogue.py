@@ -91,6 +91,9 @@ def main():
     books = json.loads(BOOKS.read_text(encoding='utf-8')) if BOOKS.exists() else []
     state = IngestionState(STATE)
     imported_ids = {str(book['title_id']) for book in books}
+    for title_id in list(state.data['titles']):
+        if title_id in imported_ids and state.data['titles'][title_id].get('status') != 'imported':
+            state.mark_imported(title_id)
     for title_id, record in index.get('titles', {}).items():
         state.ensure(title_id, record.get('title') or '')
         if title_id in imported_ids and state.data['titles'][title_id].get('status') != 'imported':
