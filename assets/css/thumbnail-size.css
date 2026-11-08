@@ -1,43 +1,11 @@
-:root { --thumb-width: 160px; }
-
-.thumbnail-controls {
-  position: fixed;
-  bottom: 1rem;
-  right: 1rem;
-  z-index: 1000;
-  display: flex;
-  gap: 0.4rem;
-  background: rgba(23,23,31,0.92);
-  padding: 0.45rem;
-  border: 1px solid #3a3a48;
-  border-radius: 999px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.35);
-}
-
-.thumbnail-controls button {
-  padding: 0.35rem 0.7rem;
-  border: 1px solid transparent;
-  border-radius: 999px;
-  background: transparent;
-  color: #ddd;
-  font-size: 0.8rem;
-  cursor: pointer;
-}
-
+:root { --book-card-min: 210px; }
+.thumbnail-controls { position: fixed; bottom: 1rem; right: 1rem; z-index: 1000; display: flex; gap: .4rem; background: rgba(23,23,31,.92); padding: .45rem; border: 1px solid #3a3a48; border-radius: 999px; box-shadow: 0 6px 20px rgba(0,0,0,.35); }
+.thumbnail-controls button { padding: .35rem .7rem; border: 1px solid transparent; border-radius: 999px; background: transparent; color: #ddd; font-size: .8rem; cursor: pointer; }
 .thumbnail-controls button:hover { background: #2c2c38; }
-
-.thumbnail-controls button.active {
-  background: #ffb703;
-  color: #17171f;
-  font-weight: 700;
-}
-
-#shelves img,
-#recommendations img {
-  width: var(--thumb-width);
-  height: auto;
-}
-
-body[data-thumbnail-size="small"] { --thumb-width: 72px; }
-body[data-thumbnail-size="medium"] { --thumb-width: 112px; }
-body[data-thumbnail-size="large"] { --thumb-width: 160px; }
+.thumbnail-controls button.active { background: #ffb703; color: #17171f; font-weight: 700; }
+body[data-thumbnail-size=small] { --book-card-min: 120px; }
+body[data-thumbnail-size=medium] { --book-card-min: 160px; }
+body[data-thumbnail-size=large] { --book-card-min: 210px; }
+#shelves .shelf-row, #recommendations .shelf-row { grid-template-columns: repeat(auto-fill, minmax(min(100%, var(--book-card-min)), 1fr)); }
+#shelves .book-card, #recommendations .book-card { min-width: 0; overflow-wrap: anywhere; }
+#shelves .cover-wrap img, #recommendations .cover-wrap img { width: 100%; height: 100%; object-fit: cover; }
