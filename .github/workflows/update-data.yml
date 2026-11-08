@@ -11,9 +11,13 @@ on:
       batch:
         description: Number of new titles to import per run
         default: '25'
-      partitions:
-        description: Number of catalogue partitions to discover per run
+      fetches:
+        description: Number of catalogue API requests for discovery per run
         default: '10'
+      reset_cursor:
+        description: Reset the discovery cursor before running
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -34,7 +38,12 @@ jobs:
       - name: Test title parser offline
         run: python scripts/test_title_metadata.py
       - name: Discover additional catalogue titles
-        run: python scripts/discover_catalogue.py --page-size 500 --max-partitions "${{ inputs.partitions || 10 }}" --delay 2
+        run: |
+          ARGS=""
+          if [ "${{ inputs.reset_cursor }}" = "true" ]; then
+            ARGS="--reset-cursor"
+          fi
+          python scripts/discover_catalogue.py --page-size 500 --max-fetches "${{ inputs.fetches || 10 }}" --delay 2 $ARGS
       - name: Import next catalogue batch
         run: python scripts/import_catalogue.py --batch "${{ inputs.batch || 25 }}" --delay 2
       - name: Publish generated catalogue JSON
@@ -58,15 +67,14 @@ jobs:
           report = {}
           for name in ('import-report.json', 'discovery-report.json'):
               path = Path('data') / name
-              if path.exists(): report.update(json.loads(path.read_text()))
+              if path.exists():
+                  report.update(json.loads(path.read_text()))
           print('### Catalogue expansion')
           print(f"- Imported: {report.get('imported_count', 0)}")
           print(f"- Records seen: {report.get('records_seen', 0)}")
           print(f"- Queued for import: {report.get('titles_queued_for_import', 0)}")
-          print(f"- Partitions processed: {report.get('partitions_processed', 0)}")
-          print(f"- Partition index: {report.get('partition_index', 0)}")
-          print(f"- Record offset: {report.get('record_offset', 0)}")
-          print(f"- Duplicates merged: {report.get('duplicate_records_merged', 0)}")
+          print(f"- API fetches: {report.get('fetches', 0)}")
+          print(f"- Cursor queue: {report.get('cursor', {}).get('queue_length', 0)}")
           print(f"- Errors: {len(report.get('errors', []))}")
           PY
       - name: Upload data and diagnostics

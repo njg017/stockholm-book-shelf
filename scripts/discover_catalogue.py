@@ -1,4 +1,4 @@
-"""Discover and queue Stockholm Library book titles using stable filter partitions."""
+"""Discover and queue Stockholm Library book titles using year and genre partitions."""
 import argparse
 import json
 import time
@@ -13,42 +13,66 @@ STATE = DATA / 'ingestion-state.json'
 BOOKS = DATA / 'books.json'
 REPORT = DATA / 'discovery-report.json'
 
+
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     temp = path.with_suffix('.tmp')
     temp.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding='utf-8')
     temp.replace(path)
 
-def build_partitions(years):
-    partitions = []
-    for language in ('Engelska', 'Svenska'):
-        for year in years:
-            for category in ('Skönlitteratur', 'Facklitteratur'):
-                for audience in ('Vuxna', 'Barn och unga'):
-                    partitions.append({'language': language, 'year': year, 'category': category, 'audience': audience})
-    return partitions
 
-def request_partition(client, partition, rows, start):
-    filters = {'query': '', 'rows': rows, 'mediaType': ['BOOK'],
-               'language': [partition['language']],
-               'Utgivningsår': [partition['year']],
-               'Kategori': [partition['category']],
-               'Målgrupp': [partition['audience']]}
-    if start:
-        filters['start'] = start
-    return client.search(filters=filters)
+def year_filters(language, year):
+    return {'language': [language], 'yearPublishedSpan': [str(year), str(year)]}
+
+
+def partition_filters(part):
+    filters = year_filters(part['language'], part['year'])
+    if part.get('genre'):
+        filters['genre'] = [part['genre']]
+    if part.get('subject'):
+        filters['subject'] = [part['subject']]
+    return filters
+
+
+def facet_values(facets, needles):
+    for group in facets or []:
+        name = (group.get('name') or '').lower()
+        if any(needle in name for needle in needles):
+            return [item['name'] for item in group.get('filters') or [] if item.get('name')]
+    return []
+
+
+def process_books(state, books, imported_ids, seen, counters):
+    for book in books:
+        title_id = str(book['title_id'])
+        if title_id in seen:
+            continue
+        seen.add(title_id)
+        record = state.ensure(title_id, book.get('title') or '')
+        record.update({'title': book.get('title'), 'author': book.get('author'), 'language': book.get('language'),
+                       'media_type': book.get('format'), 'discovered_at': datetime.now(timezone.utc).isoformat()})
+        if title_id in imported_ids:
+            if record.get('status') != 'imported':
+                state.mark_imported(title_id)
+                counters['reconciled'] += 1
+        elif record.get('status') in {'discovered', 'failed'}:
+            record['status'] = 'pending'
+            record['priority'] = 'high'
+            counters['queued'] += 1
+
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--page-size', type=int, default=500)
-    parser.add_argument('--max-partitions', type=int, default=10)
+    parser.add_argument('--max-fetches', type=int, default=10)
     parser.add_argument('--delay', type=float, default=2)
-    parser.add_argument('--languages', default='Engelska,Svenska', help='Comma-separated languages to prioritize for ingestion')
+    parser.add_argument('--languages', default='Engelska,Svenska')
     parser.add_argument('--start-year', type=int, default=2026)
     parser.add_argument('--end-year', type=int, default=1900)
+    parser.add_argument('--reset-cursor', action='store_true')
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
-    priority = {value.strip() for value in args.languages.split(',') if value.strip()}
+    languages = [value.strip() for value in args.languages.split(',') if value.strip()]
     state = IngestionState(STATE)
     imported_ids = set()
     if BOOKS.exists():
@@ -57,70 +81,90 @@ def main():
             imported_ids = {str(book.get('title_id')) for book in books if book.get('title_id')}
         except (json.JSONDecodeError, OSError):
             pass
-    years = list(range(args.start_year, args.end_year - 1, -1))
-    partitions = build_partitions(years)
     cursor = state.data.setdefault('discovery', {})
-    partition_index = int(cursor.get('partition_index', 0))
-    record_offset = int(cursor.get('record_offset', 0))
+    if args.reset_cursor:
+        cursor.clear()
+    years = cursor.setdefault('years', {language: args.start_year for language in languages})
+    queue = cursor.setdefault('queue', [])
     client = GraphQLClient(args.delay, DATA / 'raw/graphql')
-    seen, queued, already_imported, processed_partitions = set(), 0, 0, 0
-    errors = []
-    while partition_index < len(partitions) and processed_partitions < args.max_partitions:
-        partition = partitions[partition_index]
-        if partition['language'] not in priority:
-            partition_index += 1
-            record_offset = 0
-            continue
-        try:
-            result = request_partition(client, partition, args.page_size, record_offset)
-            books = result['books']
-            for book in books:
-                title_id = str(book['title_id'])
-                if title_id in seen:
-                    errors.append({'partition': partition, 'error': 'duplicate_title_id:' + title_id})
+    seen, errors = set(), []
+    counters = {'queued': 0, 'reconciled': 0}
+    fetches = 0
+
+    def next_language():
+        active = [(int(years[language]), language) for language in languages if int(years.get(language, args.end_year)) >= args.end_year]
+        return max(active)[1] if active else None
+
+    while fetches < args.max_fetches:
+        if queue:
+            part = queue.pop(0)
+            filters = partition_filters(part)
+            if part.get('needs_probe'):
+                probe = client.search(rows=1, filters=filters)
+                fetches += 1
+                total = probe.get('book_total') or 0
+                if total == 0:
                     continue
-                seen.add(title_id)
-                record = state.ensure(title_id, book.get('title') or '')
-                record.update({'title': book.get('title'), 'author': book.get('author'), 'language': book.get('language'),
-                               'media_type': book.get('format'), 'discovered_at': datetime.now(timezone.utc).isoformat()})
-                if title_id in imported_ids:
-                    if record.get('status') != 'imported':
-                        state.mark_imported(title_id)
-                        already_imported += 1
-                elif record.get('status') in {'discovered', 'failed'}:
-                    record['status'] = 'pending'
-                    record['priority'] = 'high'
-                    queued += 1
-            if not args.dry_run:
-                state.save()
-            processed_partitions += 1
-            returned = len(books)
-            if returned < args.page_size:
-                partition_index += 1
-                record_offset = 0
-            else:
-                record_offset += returned
-        except Exception as exc:
-            errors.append({'partition': partition, 'error': str(exc)})
-            partition_index += 1
-            record_offset = 0
-        time.sleep(args.delay)
+                if total <= args.page_size:
+                    part['total'] = total
+                    part['needs_probe'] = False
+                    queue.insert(0, part)
+                    continue
+                subjects = facet_values(probe.get('facets'), ['ämne', 'subject'])
+                if subjects:
+                    for subject in subjects:
+                        queue.insert(0, {'language': part['language'], 'year': part['year'], 'genre': part.get('genre'),
+                                         'subject': subject, 'total': None, 'needs_probe': True})
+                    continue
+                errors.append({'partition': part, 'error': f'oversized partition with {total} records and no subject facets'})
+                continue
+            result = client.search(rows=min(args.page_size, int(part.get('total') or args.page_size)), filters=filters)
+            fetches += 1
+            process_books(state, result.get('books') or [], imported_ids, seen, counters)
+            continue
+        language = next_language()
+        if language is None:
+            break
+        year = int(years[language])
+        probe = client.search(rows=1, filters=year_filters(language, year))
+        fetches += 1
+        total = probe.get('book_total') or 0
+        if total == 0:
+            years[language] = year - 1
+            continue
+        if total <= args.page_size:
+            result = client.search(rows=total, filters=year_filters(language, year))
+            fetches += 1
+            process_books(state, result.get('books') or [], imported_ids, seen, counters)
+            years[language] = year - 1
+            continue
+        genres = facet_values(probe.get('facets'), ['genre'])
+        if genres:
+            for genre in genres:
+                queue.append({'language': language, 'year': year, 'genre': genre, 'subject': None,
+                              'total': None, 'needs_probe': True})
+        else:
+            errors.append({'partition': {'language': language, 'year': year},
+                           'error': f'oversized year with {total} records and no genre facets'})
+        years[language] = year - 1
+
     if not args.dry_run:
-        cursor['partition_index'] = partition_index
-        cursor['record_offset'] = record_offset
-        cursor['last_run'] = {'at': datetime.now(timezone.utc).isoformat(), 'partitions_processed': processed_partitions,
-                              'records_seen': len(seen), 'queued': queued}
+        cursor['years'] = years
+        cursor['queue'] = queue
+        cursor['last_run'] = {'at': datetime.now(timezone.utc).isoformat(), 'fetches': fetches,
+                              'records_seen': len(seen), 'queued': counters['queued']}
         state.save()
     coverage = state.coverage()
     report = {'generated_at': datetime.now(timezone.utc).isoformat(), 'dry_run': args.dry_run,
-              'priority_languages': sorted(priority), 'page_size': args.page_size,
-              'partitions_processed': processed_partitions, 'records_seen': len(seen),
-              'titles_queued_for_import': queued, 'already_imported_titles_reconciled': already_imported,
-              'partition_index': partition_index, 'record_offset': record_offset,
+              'priority_languages': languages, 'page_size': args.page_size, 'fetches': fetches,
+              'records_seen': len(seen), 'titles_queued_for_import': counters['queued'],
+              'already_imported_titles_reconciled': counters['reconciled'],
+              'cursor': {'years': years, 'queue_length': len(queue)},
               'coverage': coverage, 'errors': errors}
     write_json(REPORT, report)
     write_json(DATA / 'coverage-report.json', coverage)
     print(json.dumps(report, ensure_ascii=False, indent=2))
+
 
 if __name__ == '__main__':
     main()

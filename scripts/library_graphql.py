@@ -80,8 +80,8 @@ class GraphQLClient:
         self.session.headers.update({'User-Agent': 'BokhyllanStockholm/0.2 (+https://github.com/njg017/stockholm-book-shelf)'})
 
     def search(self, author=None, query='', rows=100, start=0, filters=None):
-        if not 1 <= rows <= 500:
-            raise ValueError('rows must be between 1 and 500')
+        if not 1 <= rows <= 900:
+            raise ValueError('rows must be between 1 and 900')
         if start < 0:
             raise ValueError('start must be zero or positive')
         request_filters = {'query': query, 'rows': rows}
@@ -90,7 +90,7 @@ class GraphQLClient:
         if author:
             request_filters['author'] = [author]
         if filters:
-            for key in ('language', 'Utgivningsår', 'Kategori', 'Målgrupp'):
+            for key in ('language', 'yearPublishedSpan', 'genre', 'subject'):
                 value = filters.get(key)
                 if value:
                     request_filters[key] = value if isinstance(value, list) else [value]
