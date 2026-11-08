@@ -19,22 +19,35 @@ function availability(book) {
   }
   return count(book.available_copies) ? book.available_copies : null;
 }
+function rating(book) {
+  const average = Number(book.openlibrary_rating_average);
+  const reviews = Number(book.openlibrary_rating_count);
+  return Number.isFinite(average) && average > 0 && Number.isFinite(reviews) && reviews > 0 ? { average, reviews } : null;
+}
 function filtered() {
   const term = $('search').value.trim().toLocaleLowerCase();
-  return books.filter(b => {
+  const result = books.filter(b => {
     const text = [b.title,b.author,b.isbn,...list(b.isbns),b.description,...list(b.subjects),...list(b.genres)].join(' ').toLocaleLowerCase();
-    return (!term || text.includes(term)) && (!$('branch').value || list(b.holdings).some(h => h.branch === $('branch').value)) && (!$('language').value || b.language === $('language').value) && (!$('genre').value || list(b.genres).includes($('genre').value)) && (!$('available-only').checked || availability(b) > 0);
+    return (!term || text.includes(term)) && (!$('branch').value || list(b.holdings).some(h => h.branch === $('branch').value)) && (!$('language').value || b.language === $('language').value) && (!$('genre').value || list(b.genres).includes($('genre').value)) && (!$('available-only').checked || availability(b) > 0) && (!$('recent-only').checked || b.is_recent_release === true);
   });
+  const sort = $('sort').value;
+  if (sort === 'rating') result.sort((a,b) => (rating(b)?.average || 0) - (rating(a)?.average || 0) || (rating(b)?.reviews || 0) - (rating(a)?.reviews || 0));
+  if (sort === 'recent') result.sort((a,b) => (b.published_year || 0) - (a.published_year || 0));
+  return result;
 }
 function card(book) {
   const button = document.createElement('button'); button.className = 'book-card'; button.type = 'button'; button.setAttribute('aria-label','Details for ' + book.title);
   const cover = image(book), n = availability(book), badge = document.createElement('span');
   badge.className = 'badge ' + (n === null ? 'unknown' : n > 0 ? 'available' : 'waiting');
   badge.textContent = n === null ? 'Availability unknown' : n > 0 ? n + ' available' : 'None available'; cover.append(badge);
+  if (book.is_recent_release) { const recent = document.createElement('span'); recent.className = 'badge recent'; recent.textContent = 'New release'; cover.append(recent); }
   const meta = document.createElement('div'); meta.className = 'book-meta';
   const title = document.createElement('h3'); title.className = 'book-title'; title.textContent = book.title;
   const author = document.createElement('span'); author.className = 'book-author'; author.textContent = [book.author,book.language,book.published_year].filter(Boolean).join(' · ');
-  meta.append(title,author); button.append(cover,meta); button.onclick = () => openModal(book); return button;
+  meta.append(title,author);
+  const score = rating(book);
+  if (score) { const ratingLine = document.createElement('span'); ratingLine.className = 'rating'; ratingLine.textContent = '★ ' + score.average.toFixed(1) + ' · ' + score.reviews.toLocaleString('en-US') + ' Open Library ratings'; meta.append(ratingLine); }
+  button.append(cover,meta); button.onclick = () => openModal(book); return button;
 }
 function render() {
   const found = filtered(); $('shelves').replaceChildren(); $('empty-state').hidden = found.length > 0;
@@ -54,8 +67,13 @@ function openModal(book) {
   previousFocus = document.activeElement; $('modal-media').replaceChildren(image(book));
   $('modal-title').textContent = book.title; $('modal-author').textContent = book.author || '';
   $('modal-genre').textContent = list(book.genres).join(' · ');
-  $('modal-meta').textContent = [book.language,book.format_label,book.published_year,book.isbn && 'ISBN ' + book.isbn,book.page_count].filter(Boolean).join(' · ');
+  $('modal-meta').textContent = [book.language,book.format_label,book.published_year,book.isbn && 'ISBN ' + book.isbn,book.page_count,book.first_published_year && 'First published ' + book.first_published_year].filter(Boolean).join(' · ');
   $('modal-description').textContent = book.description || 'No description supplied.';
+  const quality = $('modal-quality'); quality.replaceChildren();
+  const score = rating(book);
+  if (score) { const item = document.createElement('span'); item.className = 'quality-item'; item.textContent = '★ ' + score.average.toFixed(1) + '/5 · ' + score.reviews.toLocaleString('en-US') + ' Open Library ratings'; quality.append(item); }
+  if (book.is_recent_release) { const item = document.createElement('span'); item.className = 'quality-item recent'; item.textContent = 'Recent release'; quality.append(item); }
+  if (!quality.children.length) quality.hidden = true; else quality.hidden = false;
   const area = $('modal-availability'); area.replaceChildren();
   for (const h of list(book.holdings)) { const tag = document.createElement('span'); tag.className = count(h.available_copies) && h.available_copies > 0 ? 'yes' : 'no'; tag.textContent = h.branch + ': ' + (count(h.available_copies) ? h.available_copies + ' available' : 'availability unknown') + (count(h.total_copies) ? ' / ' + h.total_copies + ' copies' : ''); area.append(tag); }
   if (!list(book.holdings).length) area.textContent = 'Branch availability not supplied.';
@@ -76,7 +94,7 @@ document.addEventListener('keydown',event => {
   }
 });
 $('search').addEventListener('input',render);
-['branch','language','genre','available-only'].forEach(id => $(id).addEventListener('change',render));
+['branch','language','genre','sort','available-only','recent-only'].forEach(id => $(id).addEventListener('change',render));
 async function load() {
   try {
     const response = await fetch('data/books.json',{cache:'no-cache'});
@@ -87,7 +105,9 @@ async function load() {
     fillSelect('branch',books.flatMap(b => list(b.holdings).map(h => h.branch)));
     fillSelect('language',books.map(b => b.language)); fillSelect('genre',books.flatMap(b => list(b.genres)));
     const timestamps = books.map(b => b.availability_checked_at || b.updated_at).filter(Boolean).sort();
-    $('data-status').textContent = books.length + ' imported catalogue records · Partial selection, not the full catalogue · Latest record check: ' + date(timestamps[timestamps.length-1]);
+    const rated = books.filter(b => rating(b)).length;
+    const recent = books.filter(b => b.is_recent_release).length;
+    $('data-status').textContent = books.length + ' imported catalogue records · ' + rated + ' with Open Library ratings · ' + recent + ' recent releases · Latest record check: ' + date(timestamps[timestamps.length-1]);
     render();
   } catch (error) {
     $('data-status').textContent = 'Catalogue data unavailable. Run Update library data with publish enabled to create data/books.json. No mock data is being displayed.';
