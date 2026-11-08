@@ -1,0 +1,57 @@
+name: Test author search
+
+on:
+  workflow_dispatch:
+    inputs:
+      author:
+        description: "Author to search for"
+        required: true
+        default: "Gabrielle Zevin"
+      max_titles:
+        description: "Maximum number of title pages to fetch"
+        required: false
+        default: "3"
+      delay:
+        description: "Delay between requests, in seconds"
+        required: false
+        default: "2.0"
+
+jobs:
+  test-author-search:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run author search test
+        env:
+          AUTHOR: ${{ github.event.inputs.author }}
+          MAX_TITLES: ${{ github.event.inputs.max_titles }}
+          DELAY: ${{ github.event.inputs.delay }}
+        run: |
+          AUTHOR_SLUG=$(echo "$AUTHOR" | tr '[:upper:]' '[:lower:]' | tr -c 'a-z0-9' '-' | sed 's/-\+$//')
+          python scripts/stockholm_library.py \
+            --author "$AUTHOR" \
+            --output "data/test-${AUTHOR_SLUG}.json"
+
+      - name: Upload raw and parsed responses
+        uses: actions/upload-artifact@v4
+        with:
+          name: library-test-responses
+          path: |
+            data/raw/
+            data/test-*.json
+          if-no-files-found: warn
+          retention-days: 14
