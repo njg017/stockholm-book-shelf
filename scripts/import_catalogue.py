@@ -4,6 +4,7 @@ import hashlib
 import json
 import re
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 from enrich_openlibrary import enrich_record
@@ -83,6 +84,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--batch', type=int, default=100)
     parser.add_argument('--delay', type=float, default=2)
+    parser.add_argument('--openlibrary-workers', type=int, default=4)
     parser.add_argument('--limit', type=int, help='Maximum titles to process in this run')
     parser.add_argument('--dry-run', action='store_true')
     parser.add_argument('--no-resume', action='store_true', help='Process pending titles even if previously failed')
@@ -112,17 +114,41 @@ def main():
         else:
             current.setdefault('related_title_ids', []).append(book['title_id'])
             current['quality_flags'] = sorted(set(current.get('quality_flags', []) + ['possible_duplicate_edition']))
+    pending = []
+    records_by_id = {}
     for title_id in selected:
         if args.dry_run:
             imported.append({'title_id': title_id, 'dry_run': True})
             continue
         record = state.data['titles'][title_id]
+        records_by_id[title_id] = record
         book = {'title_id': title_id, 'title': record.get('title') or '', 'shelves': []}
         try:
             enrich_title(client, book)
+            pending.append(book)
+        except Exception as exc:
+            errors.append({'title_id': title_id, 'error': str(exc)})
+            state.mark_failed(title_id, exc)
+        time.sleep(args.delay)
+    if pending and not args.dry_run:
+        with_isbn = [book for book in pending if book.get('isbn')]
+        without_isbn = [book for book in pending if not book.get('isbn')]
+        for book in without_isbn:
+            book.setdefault('quality_flags', []).append('openlibrary_skipped_no_isbn')
+        if with_isbn:
+            with ThreadPoolExecutor(max_workers=max(1, args.openlibrary_workers)) as pool:
+                futures = [pool.submit(cached_open_library_enrichment, book) for book in with_isbn]
+                for future in as_completed(futures):
+                    try:
+                        future.result()
+                    except Exception as exc:
+                        errors.append({'stage': 'openlibrary', 'error': str(exc)})
+    for book in pending:
+        title_id = str(book['title_id'])
+        record = records_by_id[title_id]
+        try:
             if book.get('availability_status') == 'available':
                 book.setdefault('shelves', []).append('available-now')
-            cached_open_library_enrichment(book)
             problems = validate(book)
             if problems:
                 invalid += 1
@@ -144,7 +170,6 @@ def main():
         except Exception as exc:
             errors.append({'title_id': title_id, 'error': str(exc)})
             state.mark_failed(title_id, exc)
-        time.sleep(args.delay)
     if not args.dry_run:
         records = list(works.values())
         availability = {}
