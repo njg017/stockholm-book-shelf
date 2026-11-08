@@ -1,189 +1,97 @@
-const SHELVES = [
-  { id: "available-now", title: "Available now" },
-  { id: "new", title: "New & noteworthy" },
-  { id: "fiction", title: "Fiction to get lost in" },
-  { id: "crime", title: "Crime & thrillers" },
-  { id: "scifi", title: "Sci-fi & fantasy" },
-  { id: "children", title: "For younger readers" },
-  { id: "nonfiction", title: "Ideas & real life" }
-];
-
-const GENRE_LABELS = {
-  fiction: "Fiction",
-  crime: "Crime",
-  scifi: "Sci-fi & fantasy",
-  children: "Children",
-  nonfiction: "Non-fiction"
-};
-
-let books = [];
-let activeGenre = "all";
-let activeBranch = "all";
-let activeShelf = "all";
-
-const shelfElement = document.getElementById("shelves");
-const emptyState = document.getElementById("empty-state");
-const searchInput = document.getElementById("search");
-
-function coverUrl(isbn) {
-  return `https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`;
+const $ = id => document.getElementById(id);
+let books = [], previousFocus = null;
+const list = value => Array.isArray(value) ? value : [];
+const count = value => Number.isInteger(value) && value >= 0;
+function safeUrl(value) {
+  try { const url = new URL(value); return url.protocol === 'https:' ? url.href : null; } catch { return null; }
 }
-
-function availabilityFor(book, branch) {
-  const branches = book.branches || [];
-  if (branch === "all") {
-    return branches.some((item) => item.available);
+function image(book) {
+  const wrap = document.createElement('div'); wrap.className = 'cover-wrap';
+  const fallback = () => { wrap.replaceChildren(); const text = document.createElement('span'); text.className = 'cover-fallback'; text.textContent = book.title + ' — cover unavailable'; wrap.append(text); };
+  const url = safeUrl(book.cover_url);
+  if (!url) { fallback(); return wrap; }
+  const img = document.createElement('img'); img.src = url; img.alt = 'Cover of ' + book.title; img.loading = 'lazy'; img.onerror = fallback; wrap.append(img); return wrap;
+}
+function availability(book) {
+  if ($('branch').value) {
+    const holding = list(book.holdings).find(h => h.branch === $('branch').value);
+    return holding && count(holding.available_copies) ? holding.available_copies : null;
   }
-  return branches.some((item) => item.name === branch && item.available);
+  return count(book.available_copies) ? book.available_copies : null;
 }
-
-function matchesFilters(book) {
-  const genreMatch = activeGenre === "all" || book.genres.includes(activeGenre);
-  const branchMatch = activeBranch === "all" || book.branches.some((item) => item.name === activeBranch);
-  const shelfMatch = activeShelf === "all" || book.shelves.includes(activeShelf);
-  return genreMatch && branchMatch && shelfMatch;
+function filtered() {
+  const term = $('search').value.trim().toLocaleLowerCase();
+  return books.filter(b => {
+    const text = [b.title,b.author,b.isbn,...list(b.isbns),b.description,...list(b.subjects),...list(b.genres)].join(' ').toLocaleLowerCase();
+    return (!term || text.includes(term)) && (!$('branch').value || list(b.holdings).some(h => h.branch === $('branch').value)) && (!$('language').value || b.language === $('language').value) && (!$('genre').value || list(b.genres).includes($('genre').value)) && (!$('available-only').checked || availability(b) > 0);
+  });
 }
-
-function matchesSearch(book, term) {
-  if (!term) return true;
-  const haystack = [
-    book.title,
-    book.author,
-    book.description,
-    ...book.genres,
-    ...book.subjects
-  ].join(" ").toLowerCase();
-  return haystack.includes(term);
+function card(book) {
+  const button = document.createElement('button'); button.className = 'book-card'; button.type = 'button'; button.setAttribute('aria-label','Details for ' + book.title);
+  const cover = image(book), n = availability(book), badge = document.createElement('span');
+  badge.className = 'badge ' + (n === null ? 'unknown' : n > 0 ? 'available' : 'waiting');
+  badge.textContent = n === null ? 'Availability unknown' : n > 0 ? n + ' available' : 'None available'; cover.append(badge);
+  const meta = document.createElement('div'); meta.className = 'book-meta';
+  const title = document.createElement('h3'); title.className = 'book-title'; title.textContent = book.title;
+  const author = document.createElement('span'); author.className = 'book-author'; author.textContent = [book.author,book.language,book.published_year].filter(Boolean).join(' · ');
+  meta.append(title,author); button.append(cover,meta); button.onclick = () => openModal(book); return button;
 }
-
-function createBookCard(book) {
-  const button = document.createElement("button");
-  button.className = "book-card";
-  button.type = "button";
-  button.setAttribute("aria-label", `Show details for ${book.title}`);
-
-  const available = availabilityFor(book, activeBranch);
-  const cover = document.createElement("div");
-  cover.className = "cover-wrap";
-
-  const image = document.createElement("img");
-  image.src = coverUrl(book.isbn);
-  image.alt = `Cover of ${book.title}`;
-  image.loading = "lazy";
-
-  const badge = document.createElement("span");
-  badge.className = `badge ${available ? "available" : "waiting"}`;
-  badge.textContent = available ? "Available" : "Reserve";
-
-  const meta = document.createElement("div");
-  meta.className = "book-meta";
-  meta.innerHTML = `<h3 class="book-title"></h3><span class="book-author"></span>`;
-  meta.querySelector(".book-title").textContent = book.title;
-  meta.querySelector(".book-author").textContent = book.author;
-
-  cover.append(image, badge);
-  button.append(cover, meta);
-  button.addEventListener("click", () => openModal(book));
-  return button;
-}
-
-function renderShelf(shelf) {
-  const shelfBooks = books
-    .filter((book) => book.shelves.includes(shelf.id))
-    .filter(matchesFilters)
-    .filter((book) => matchesSearch(book, searchInput.value.trim().toLowerCase()));
-
-  if (!shelfBooks.length) return;
-
-  const section = document.createElement("section");
-  section.className = "shelf";
-
-  const head = document.createElement("div");
-  head.className = "shelf-head";
-  head.innerHTML = `<h2></h2><span class="shelf-count"></span>`;
-  head.querySelector("h2").textContent = shelf.title;
-  head.querySelector(".shelf-count").textContent = `${shelfBooks.length} books`;
-
-  const row = document.createElement("div");
-  row.className = "shelf-row";
-  shelfBooks.forEach((book) => row.append(createBookCard(book)));
-
-  section.append(head, row);
-  shelfElement.append(section);
-}
-
 function render() {
-  shelfElement.replaceChildren();
-  SHELVES.forEach(renderShelf);
-  emptyState.hidden = shelfElement.children.length > 0;
+  const found = filtered(); $('shelves').replaceChildren(); $('empty-state').hidden = found.length > 0;
+  const groups = [['Available in this selection',found.filter(b => availability(b) > 0)],['All matching books',found]];
+  for (const [name,items] of groups) {
+    if (!items.length) continue;
+    const section = document.createElement('section'); section.className = 'shelf';
+    const heading = document.createElement('h2'); heading.textContent = name + ' (' + items.length + ')';
+    const row = document.createElement('div'); row.className = 'shelf-row'; items.forEach(b => row.append(card(b))); section.append(heading,row); $('shelves').append(section);
+  }
 }
-
+function fillSelect(id, values) {
+  [...new Set(values.filter(v => typeof v === 'string' && v))].sort((a,b) => a.localeCompare(b)).forEach(value => { const option = document.createElement('option'); option.value = value; option.textContent = value; $(id).append(option); });
+}
+function date(value) { const d = new Date(value); return value && !Number.isNaN(d.valueOf()) ? d.toLocaleString() : 'Not recorded'; }
 function openModal(book) {
-  document.getElementById("modal-cover").src = coverUrl(book.isbn);
-  document.getElementById("modal-cover").alt = `Cover of ${book.title}`;
-  document.getElementById("modal-title").textContent = book.title;
-  document.getElementById("modal-author").textContent = book.author;
-  document.getElementById("modal-genre").textContent = GENRE_LABELS[book.genres[0]] || "Book";
-  document.getElementById("modal-rating").textContent = `★ ${book.rating.toFixed(1)}`;
-  document.getElementById("modal-year").textContent = book.year;
-  document.getElementById("modal-description").textContent = book.description;
-
-  const availability = document.getElementById("modal-availability");
-  availability.replaceChildren();
-
-  book.branches.forEach((branch) => {
-    const tag = document.createElement("span");
-    tag.className = branch.available ? "yes" : "no";
-    tag.textContent = branch.available
-      ? `Available · ${branch.name.replace(" bibliotek", "")}`
-      : `Waitlist · ${branch.name.replace(" bibliotek", "")}`;
-    availability.append(tag);
-  });
-
-  const reserve = document.getElementById("modal-reserve");
-  reserve.href = book.reservation_url;
-  document.getElementById("book-modal").hidden = false;
-  document.body.style.overflow = "hidden";
+  previousFocus = document.activeElement; $('modal-media').replaceChildren(image(book));
+  $('modal-title').textContent = book.title; $('modal-author').textContent = book.author || '';
+  $('modal-genre').textContent = list(book.genres).join(' · ');
+  $('modal-meta').textContent = [book.language,book.format_label,book.published_year,book.isbn && 'ISBN ' + book.isbn,book.page_count].filter(Boolean).join(' · ');
+  $('modal-description').textContent = book.description || 'No description supplied.';
+  const area = $('modal-availability'); area.replaceChildren();
+  for (const h of list(book.holdings)) { const tag = document.createElement('span'); tag.className = count(h.available_copies) && h.available_copies > 0 ? 'yes' : 'no'; tag.textContent = h.branch + ': ' + (count(h.available_copies) ? h.available_copies + ' available' : 'availability unknown') + (count(h.total_copies) ? ' / ' + h.total_copies + ' copies' : ''); area.append(tag); }
+  if (!list(book.holdings).length) area.textContent = 'Branch availability not supplied.';
+  $('modal-updated').textContent = 'Availability checked: ' + date(book.availability_checked_at) + (count(book.reservation_count) ? ' · Reservations: ' + book.reservation_count : '');
+  const url = safeUrl(book.reservation_url); $('modal-reserve').hidden = !url; if (url) $('modal-reserve').href = url;
+  $('book-modal').hidden = false; document.body.style.overflow = 'hidden'; $('book-modal').querySelector('.modal-close').focus();
 }
-
-function closeModal() {
-  document.getElementById("book-modal").hidden = true;
-  document.body.style.overflow = "";
+function closeModal() { $('book-modal').hidden = true; document.body.style.overflow = ''; if (previousFocus && previousFocus.isConnected) previousFocus.focus(); }
+document.querySelectorAll('[data-close]').forEach(el => el.addEventListener('click',closeModal));
+document.addEventListener('keydown',event => {
+  if ($('book-modal').hidden) return;
+  if (event.key === 'Escape') closeModal();
+  if (event.key === 'Tab') {
+    const items = [...$('book-modal').querySelectorAll('button,a[href]')].filter(el => !el.hidden);
+    const first = items[0], last = items[items.length-1];
+    if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+    else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+  }
+});
+$('search').addEventListener('input',render);
+['branch','language','genre','available-only'].forEach(id => $(id).addEventListener('change',render));
+async function load() {
+  try {
+    const response = await fetch('data/books.json',{cache:'no-cache'});
+    if (!response.ok) throw new Error('HTTP ' + response.status);
+    const data = await response.json();
+    if (!Array.isArray(data) || !data.every(b => b && typeof b.title === 'string' && b.title_id)) throw new Error('Invalid books.json schema');
+    books = data;
+    fillSelect('branch',books.flatMap(b => list(b.holdings).map(h => h.branch)));
+    fillSelect('language',books.map(b => b.language)); fillSelect('genre',books.flatMap(b => list(b.genres)));
+    const timestamps = books.map(b => b.availability_checked_at || b.updated_at).filter(Boolean).sort();
+    $('data-status').textContent = books.length + ' imported catalogue records · Partial selection, not the full catalogue · Latest record check: ' + date(timestamps[timestamps.length-1]);
+    render();
+  } catch (error) {
+    $('data-status').textContent = 'Catalogue data unavailable. Run Update library data with publish enabled to create data/books.json. No mock data is being displayed.';
+    $('empty-state').textContent = 'Could not load catalogue: ' + error.message; $('empty-state').hidden = false;
+  }
 }
-
-function bindChips(selector, callback) {
-  document.querySelectorAll(selector).forEach((chip) => {
-    chip.addEventListener("click", () => {
-      document.querySelectorAll(selector).forEach((item) => item.classList.remove("active"));
-      chip.classList.add("active");
-      callback(chip.dataset);
-      render();
-    });
-  });
-}
-
-async function loadMockBooks() {
-  const response = await fetch("data/mock-books.json");
-  books = await response.json();
-  render();
-}
-
-bindChips("[data-genre]", (dataset) => {
-  activeGenre = dataset.genre;
-});
-
-bindChips("[data-branch]", (dataset) => {
-  activeBranch = dataset.branch;
-});
-
-searchInput.addEventListener("input", render);
-
-document.querySelectorAll("[data-close]").forEach((element) => {
-  element.addEventListener("click", closeModal);
-});
-
-document.addEventListener("keydown", (event) => {
-  if (event.key === "Escape") closeModal();
-});
-
-loadMockBooks();
+load();

@@ -3,11 +3,18 @@ on:
   workflow_dispatch:
     inputs:
       author:
-        description: Author to import
+        description: Author to import (publishing replaces the current selection)
         required: true
         default: Gabrielle Zevin
+      publish:
+        description: Commit generated books and shelves to main for the website
+        type: boolean
+        default: false
 permissions:
-  contents: read
+  contents: write
+concurrency:
+  group: library-data-update
+  cancel-in-progress: false
 jobs:
   update-data:
     runs-on: ubuntu-latest
@@ -24,6 +31,16 @@ jobs:
         env:
           AUTHOR: ${{ inputs.author }}
         run: python scripts/import_library.py --author "$AUTHOR" --rows 3 --delay 2
+      - name: Publish generated catalogue JSON
+        if: ${{ success() && inputs.publish }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/books.json data/shelves.json data/import-report.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Publish imported catalogue selection"
+            git push origin HEAD:main
+          fi
       - name: Upload data and diagnostics
         if: always()
         uses: actions/upload-artifact@v4
