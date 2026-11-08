@@ -83,8 +83,9 @@ def cached_open_library_enrichment(book):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--batch', type=int, default=100)
-    parser.add_argument('--delay', type=float, default=2)
-    parser.add_argument('--openlibrary-workers', type=int, default=4)
+    parser.add_argument('--delay', type=float, default=1)
+    parser.add_argument('--openlibrary-workers', type=int, default=6)
+    parser.add_argument('--skip-openlibrary', action='store_true', help='Import library metadata without Open Library enrichment')
     parser.add_argument('--limit', type=int, help='Maximum titles to process in this run')
     parser.add_argument('--dry-run', action='store_true')
     parser.add_argument('--no-resume', action='store_true', help='Process pending titles even if previously failed')
@@ -130,7 +131,7 @@ def main():
             errors.append({'title_id': title_id, 'error': str(exc)})
             state.mark_failed(title_id, exc)
         time.sleep(args.delay)
-    if pending and not args.dry_run:
+    if pending and not args.dry_run and not args.skip_openlibrary:
         with_isbn = [book for book in pending if book.get('isbn')]
         without_isbn = [book for book in pending if not book.get('isbn')]
         for book in without_isbn:
@@ -143,6 +144,9 @@ def main():
                         future.result()
                     except Exception as exc:
                         errors.append({'stage': 'openlibrary', 'error': str(exc)})
+    elif pending and args.skip_openlibrary:
+        for book in pending:
+            book.setdefault('quality_flags', []).append('openlibrary_skipped_fast_mode')
     for book in pending:
         title_id = str(book['title_id'])
         record = records_by_id[title_id]
@@ -162,8 +166,8 @@ def main():
                 state.mark_skipped(title_id, 'duplicate_edition')
             else:
                 works[key] = book
-                imported.append(book)
                 state.mark_imported(title_id)
+                imported.append(book)
             index_entry = index.setdefault('titles', {}).setdefault(title_id, {'title': record.get('title') or ''})
             index_entry['imported'] = True
             index_entry['imported_at'] = datetime.now(timezone.utc).isoformat()
