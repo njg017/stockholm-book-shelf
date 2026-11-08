@@ -36,17 +36,75 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run author search test
+        id: search
         env:
           AUTHOR: ${{ github.event.inputs.author }}
           MAX_TITLES: ${{ github.event.inputs.max_titles }}
           DELAY: ${{ github.event.inputs.delay }}
         run: |
           AUTHOR_SLUG=$(echo "$AUTHOR" | tr '[:upper:]' '[:lower:]' | tr -c 'a-z0-9' '-' | sed 's/-\+$//')
+          set +e
           python scripts/stockholm_library.py \
             --author "$AUTHOR" \
             --output "data/test-${AUTHOR_SLUG}.json"
+          exit_code=$?
+          set -e
+
+          echo "exit_code=$exit_code" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Print response diagnostics
+        if: always()
+        run: |
+          echo "## Search response diagnostics" >> "$GITHUB_STEP_SUMMARY"
+          newest=$(ls -t data/raw/search/*.json 2>/dev/null | head -1 || true)
+
+          if [ -z "$newest" ]; then
+            echo "No cached search response was created." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = sorted(Path('data/raw/search').glob('*.json'), key=lambda p: p.stat().st_mtime)[-1]
+          payload = json.loads(path.read_text(encoding='utf-8'))
+          body = payload['body']
+
+          print('Cached response:', path)
+          print('Final URL:', payload['url'])
+          print('Status:', payload['status_code'])
+          print('Content type:', payload['content_type'])
+          print('Body length:', len(body))
+          print('Contains /titel/:', '/titel/' in body)
+          print('Contains escaped /titel/:', '\\titel\\' in body)
+          print('Contains __NEXT_DATA__:', '__NEXT_DATA__' in body)
+          print('Contains __NUXT__:', '__NUXT__' in body)
+          print('Contains application/json:', 'application/json' in body)
+          print('Contains maintenance notice:', 'Underhåll pågår' in body)
+
+          print('\n## First 3000 characters of response body\n')
+          print(body[:3000])
+
+          matches = []
+          for needle in ('/titel/', '\\titel\\', '__NEXT_DATA__', 'application/json'):
+              index = body.find(needle)
+              if index != -1:
+                  matches.append((needle, index))
+
+          if matches:
+              print('\n## Context around first structural markers\n')
+              for needle, index in matches[:4]:
+                  start = max(0, index - 400)
+                  end = min(len(body), index + 1200)
+                  print(f'### {needle} at {index}\n')
+                  print(body[start:end])
+                  print('\n---\n')
+          PY
 
       - name: Upload raw and parsed responses
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: library-test-responses

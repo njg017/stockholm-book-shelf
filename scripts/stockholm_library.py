@@ -43,6 +43,7 @@ DEFAULT_HEADERS = {
 }
 
 TITLE_ID_PATTERN = re.compile(r"/titel/(\d+)")
+ESCAPED_TITLE_ID_PATTERN = re.compile(r"\\/titel\\/(\d+)")
 
 
 class LibrarySearchError(RuntimeError):
@@ -71,12 +72,7 @@ class LibraryClient:
         branch: str | None = None,
         start: int = 0,
     ) -> list[dict[str, Any]]:
-        """Search the catalogue and return normalised title references.
-
-        Stockholm's search interface uses URL parameters such as `text`,
-        `author`, `library` and `start`. This method builds the appropriate
-        query and extracts `/titel/<id>` links from the response.
-        """
+        """Search the catalogue and return normalised title references."""
         params: dict[str, str] = {}
 
         if query:
@@ -101,6 +97,79 @@ class LibraryClient:
         )
 
         soup = BeautifulSoup(response.text, "html.parser")
+        records = self._extract_anchor_records(soup, str(response.url))
+
+        if not records:
+            records = self._extract_raw_text_records(response.text)
+
+        if not records:
+            raise LibrarySearchError(self._diagnostic_error(response))
+
+        return records
+
+    def get_title(self, title_id: str | int) -> dict[str, Any]:
+        """Fetch and parse the detailed record for one library title."""
+        title_id = str(title_id).strip()
+        if not title_id.isdigit():
+            raise ValueError(f"Invalid title ID: {title_id}")
+
+        url = f"{TITLE_URL}/{title_id}"
+        response = self._get(url, params={})
+        self._cache_response("title", title_id, response)
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        title = self._text(soup.select_one("h1"), fallback="")
+
+        if not title:
+            raise LibrarySearchError(
+                f"Could not identify a title on title page {title_id}. "
+                "Inspect the cached response and update the parser."
+            )
+
+        record: dict[str, Any] = {
+            "title_id": title_id,
+            "title": title,
+            "title_url": url,
+            "author": self._text(
+                soup.select_one("[class*='author' i], [data-field*='author' i]"),
+                fallback="",
+            ),
+            "isbn": self._find_labelled_value(soup, ("isbn", "isbn-13", "isbn13")),
+            "language": self._find_labelled_value(soup, ("språk", "sprak", "language")),
+            "format": self._find_labelled_value(soup, ("mediatyp", "format", "materialtyp")),
+            "published_year": self._find_year(soup),
+            "description": self._text(
+                soup.select_one(
+                    "[class*='description' i], [class*='beskrivning' i], meta[name='description']"
+                ),
+                fallback="",
+            ),
+            "cover_url": self._cover_url(soup),
+            "subjects": self._subjects(soup),
+            "holdings": self._holdings(soup),
+            "source_url": str(response.url),
+        }
+
+        record["available_branches"] = sorted(
+            {
+                holding["branch"]
+                for holding in record["holdings"]
+                if holding.get("available")
+            }
+        )
+        record["available_copies"] = sum(
+            1 for holding in record["holdings"] if holding.get("available")
+        )
+        record["total_copies"] = len(record["holdings"])
+        record["reservation_url"] = url
+
+        return record
+
+    def _extract_anchor_records(
+        self,
+        soup: BeautifulSoup,
+        source_url: str,
+    ) -> list[dict[str, Any]]:
         records: list[dict[str, Any]] = []
         seen_ids: set[str] = set()
 
@@ -126,76 +195,61 @@ class LibraryClient:
                     "title_id": title_id,
                     "title_url": urljoin(BASE_URL, f"/titel/{title_id}"),
                     "search_text": text,
-                    "source_url": str(response.url),
+                    "source_url": source_url,
                 }
-            )
-
-        if not records:
-            raise LibrarySearchError(
-                "No /titel/ links found in the search response. "
-                "Inspect the newest cached search response and update the parser."
             )
 
         return records
 
-    def get_title(self, title_id: str | int) -> dict[str, Any]:
-        """Fetch and parse the detailed record for one library title."""
-        title_id = str(title_id).strip()
-        if not title_id.isdigit():
-            raise ValueError(f"Invalid title ID: {title_id}")
+    def _extract_raw_text_records(self, html: str) -> list[dict[str, Any]]:
+        """Find title IDs in raw HTML, JSON, escaped JSON and JavaScript.
 
-        url = f"{TITLE_URL}/{title_id}"
-        response = self._get(url, params={})
-        self._cache_response("title", title_id, response)
+        Some client-rendered catalogues embed links as escaped JSON, for
+        example `\/titel\/8487743`. This fallback finds those IDs without
+        assuming that they occur inside an anchor tag.
+        """
+        ids: list[str] = []
 
-        soup = BeautifulSoup(response.text, "html.parser")
-        title = self._text(
-            soup.select_one("h1"),
-            fallback="",
-        )
+        for pattern in (TITLE_ID_PATTERN, ESCAPED_TITLE_ID_PATTERN):
+            ids.extend(match.group(1) for match in pattern.finditer(html))
 
-        if not title:
-            raise LibrarySearchError(
-                f"Could not identify a title on title page {title_id}. "
-                "Inspect the cached response and update the parser."
-            )
+        # Preserve first-appearance order while removing duplicates.
+        unique_ids = list(dict.fromkeys(ids))
 
-        record: dict[str, Any] = {
-            "title_id": title_id,
-            "title": title,
-            "title_url": url,
-            "author": self._text(
-                soup.select_one("[class*='author' i], [data-field*='author' i]"),
-                fallback="",
-            ),
-            "isbn": self._find_labelled_value(soup, ("isbn", "isbn-13", "isbn13")),
-            "language": self._find_labelled_value(soup, ("språk", "sprak", "language")),
-            "format": self._find_labelled_value(soup, ("mediatyp", "format", "materialtyp")),
-            "published_year": self._find_year(soup),
-            "description": self._text(
-                soup.select_one("[class*='description' i], [class*='beskrivning' i], meta[name='description']"),
-                fallback="",
-            ),
-            "cover_url": self._cover_url(soup),
-            "subjects": self._subjects(soup),
-            "holdings": self._holdings(soup),
-            "source_url": str(response.url),
+        return [
+            {
+                "title_id": title_id,
+                "title_url": f"{TITLE_URL}/{title_id}",
+                "search_text": "",
+                "source_url": SEARCH_URL,
+            }
+            for title_id in unique_ids
+        ]
+
+    def _diagnostic_error(self, response: requests.Response) -> str:
+        body = response.text
+        markers = {
+            "maintenance": "Underhåll pågår" in body,
+            "next_data": "__NEXT_DATA__" in body,
+            "nuxt_data": "__NUXT__" in body,
+            "json_ld": "application/ld+json" in body,
+            "escaped_title": bool(ESCAPED_TITLE_ID_PATTERN.search(body)),
+            "plain_title": bool(TITLE_ID_PATTERN.search(body)),
         }
 
-        record["available_branches"] = sorted(
-            {
-                holding["branch"]
-                for holding in record["holdings"]
-                if holding.get("available")
-            }
+        marker_text = ", ".join(
+            f"{name}={value}" for name, value in markers.items()
         )
-        record["available_copies"] = sum(
-            1 for holding in record["holdings"] if holding.get("available")
-        )
-        record["total_copies"] = len(record["holdings"])
-        record["reservation_url"] = url
 
-        return record
+        return (
+            "No title references could be extracted from the search response. "
+            f"status={response.status_code}; "
+            f"final_url={response.url}; "
+            f"content_type={response.headers.get('Content-Type', '')}; "
+            f"body_length={len(body)}; "
+            f"markers: {marker_text}. "
+            "Inspect the newest cached response in data/raw/search/."
+        )
 
     def _get(self, url: str, params: dict[str, str]) -> requests.Response:
         elapsed = time.monotonic() - self._last_request_at
@@ -263,7 +317,10 @@ class LibraryClient:
         return ""
 
     def _find_year(self, soup: BeautifulSoup) -> int | None:
-        value = self._find_labelled_value(soup, ("utgiven", "utgivningsår", "year", "publicerad"))
+        value = self._find_labelled_value(
+            soup,
+            ("utgiven", "utgivningsår", "year", "publicerad"),
+        )
         match = re.search(r"\b(18\d{2}|19\d{2}|20\d{2})\b", value)
         return int(match.group(1)) if match else None
 
@@ -285,18 +342,13 @@ class LibraryClient:
         return sorted({subject for subject in subjects if subject})
 
     def _holdings(self, soup: BeautifulSoup) -> list[dict[str, Any]]:
-        """Extract holdings conservatively.
-
-        The real HTML structure must be validated from a cached title response.
-        This implementation looks for repeated holding blocks and identifies
-        branch names and availability indicators without assuming a fixed class
-        name.
-        """
+        """Extract holdings conservatively."""
         holdings: list[dict[str, Any]] = []
         seen: set[tuple[str, str]] = set()
 
         candidates = soup.select(
-            "li, tr, article, [class*='holding' i], [class*='exemplar' i], [class*='availability' i]"
+            "li, tr, article, [class*='holding' i], [class*='exemplar' i], "
+            "[class*='availability' i]"
         )
 
         for element in candidates:
@@ -337,7 +389,10 @@ class LibraryClient:
             return self._text(branch_element)
 
         text = self._text(element)
-        match = re.search(r"([A-ZÅÄÖ][\wåäöéèü\- ]+(?:bibliotek|Stadsbiblioteket))", text)
+        match = re.search(
+            r"([A-ZÅÄÖ][\wåäöéèü\- ]+(?:bibliotek|Stadsbiblioteket))",
+            text,
+        )
         return match.group(1).strip() if match else ""
 
     def _is_available(self, element: Any, text: str) -> bool:
@@ -367,7 +422,9 @@ class LibraryClient:
         return match.group(1) if match else ""
 
     def _item_id(self, element: Any) -> str:
-        item_element = element.select_one("[data-item-id], [data-id], [class*='item' i]")
+        item_element = element.select_one(
+            "[data-item-id], [data-id], [class*='item' i]"
+        )
         if item_element:
             return item_element.get("data-item-id") or item_element.get("data-id") or ""
 
