@@ -1,0 +1,22 @@
+.thumbnail-controls {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.thumbnail-controls button {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  background: #fff;
+  cursor: pointer;
+}
+
+.thumbnail-controls button.active {
+  background: #0078d4;
+  color: #fff;
+  border-color: #0078d4;
+}
+
+#book-grid.thumb-small .book-cover img { width: 60px; }
+#book-grid.thumb-medium .book-cover img { width: 100px; }
+#book-grid.thumb-large .book-cover img { width: 160px; }
