@@ -1,8 +1,9 @@
-"""Import search records and enrich from title-page embedded state."""
+"""Import search records and enrich from title pages and Open Library."""
 import argparse
 import json
 from datetime import datetime, timezone
 from pathlib import Path
+from enrich_openlibrary import enrich_record
 from library_graphql import GraphQLClient
 from title_metadata import enrich_title
 
@@ -40,10 +41,15 @@ def main():
                 book['shelves'].append('available-now')
         except Exception as exc:
             errors.append({'stage': 'title', 'title_id': key, 'error': str(exc)})
+        try:
+            enrich_record(book)
+        except Exception as exc:
+            errors.append({'stage': 'openlibrary', 'title_id': key, 'error': str(exc)})
     publish = bool(books) and not errors
     report = {'generated_at': datetime.now(timezone.utc).isoformat(), 'published': publish,
               'book_count': len(books), 'errors': errors, 'searches': searches,
-              'pagination_verified': False, 'availability_source': 'title-page branch counts'}
+              'pagination_verified': False, 'availability_source': 'title-page branch counts',
+              'openlibrary_enrichment': 'ratings, first publication year, work ID and recent-release flag'}
     write_json(DATA / 'import-report.json', report)
     print(json.dumps(report, ensure_ascii=False, indent=2))
     if not publish:
