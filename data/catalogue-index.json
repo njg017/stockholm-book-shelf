@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "discovered_at": "2026-11-08T11:17:04.575949+00:00",
+  "discovered_at": "2026-11-08T11:34:31.585621+00:00",
   "titles": {
     "8477559": {
       "title": "Beröring",
@@ -99,7 +99,8 @@
       "published_year": 2024,
       "discovered_query": "svenska romaner",
       "discovered_at": "2026-11-08T10:52:25.647920+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:28.684945+00:00"
     },
     "8425964": {
       "title": "Konturer ; Transit ; Kudos",
@@ -108,7 +109,8 @@
       "published_year": 2021,
       "discovered_query": "svenska romaner",
       "discovered_at": "2026-11-08T10:52:25.647922+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:07.775085+00:00"
     },
     "8456937": {
       "title": "Konturer ; Transit ; Kudos",
@@ -117,7 +119,8 @@
       "published_year": 2020,
       "discovered_query": "svenska romaner",
       "discovered_at": "2026-11-08T10:52:25.647923+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:54.338384+00:00"
     },
     "8501594": {
       "title": "Krigsförluster",
@@ -171,7 +174,8 @@
       "published_year": 2022,
       "discovered_query": "svenska romaner",
       "discovered_at": "2026-11-08T10:52:25.647932+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:45.126651+00:00"
     },
     "8463094": {
       "title": "Argentinas galenskap",
@@ -207,7 +211,8 @@
       "published_year": 2018,
       "discovered_query": "svenska romaner",
       "discovered_at": "2026-11-08T10:52:25.647939+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:00.620860+00:00"
     },
     "8514307": {
       "title": "Neuromancer-trilogin",
@@ -261,7 +266,8 @@
       "published_year": 2026,
       "discovered_query": "svenska romaner",
       "discovered_at": "2026-11-08T10:52:25.647948+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:24.623648+00:00"
     },
     "8557820": {
       "title": "Människors mörker",
@@ -403,7 +409,8 @@
       "published_year": 2023,
       "discovered_query": "svenska romaner",
       "discovered_at": "2026-11-08T10:52:25.647970+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:10.274050+00:00"
     },
     "8445878": {
       "title": "Nådastöt & Den grymmaste månaden",
@@ -412,7 +419,8 @@
       "published_year": 2023,
       "discovered_query": "svenska romaner",
       "discovered_at": "2026-11-08T10:52:25.647971+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:12.382618+00:00"
     },
     "8499593": {
       "title": "Edenbrooke ; & Blackmoore",
@@ -430,7 +438,8 @@
       "published_year": 2025,
       "discovered_query": "svenska romaner",
       "discovered_at": "2026-11-08T10:52:25.647974+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:46:01.216229+00:00"
     },
     "8542614": {
       "title": "Barndom ; Ungdom",
@@ -457,7 +466,8 @@
       "published_year": 2018,
       "discovered_query": "svenska romaner",
       "discovered_at": "2026-11-08T10:52:25.647978+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:31.136084+00:00"
     },
     "8076241": {
       "title": "Vald samling af Walter Scotts romaner Bd 15, Det farliga slottet ; Den svarta dvärgen",
@@ -476,7 +486,8 @@
       "published_year": 1861,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.419995+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:19.841171+00:00"
     },
     "8320354": {
       "title": "F. Coopers romaner i svensk öfversättning. 8, Sjötrollet eller Ströfvaren på hafven : en berättelse",
@@ -485,7 +496,8 @@
       "published_year": 1859,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.419998+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:32.600228+00:00"
     },
     "8391956": {
       "title": "Chin Ping Mei",
@@ -494,7 +506,8 @@
       "published_year": 1950,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420000+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:03.049937+00:00"
     },
     "8427980": {
       "title": "Den engelska agenten",
@@ -503,7 +516,8 @@
       "published_year": 2025,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420001+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:14.726100+00:00"
     },
     "8464150": {
       "title": "Den engelska agenten",
@@ -521,7 +535,8 @@
       "published_year": null,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420005+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:40.171760+00:00"
     },
     "8522669": {
       "title": "En engelsk romans",
@@ -539,7 +554,8 @@
       "published_year": 2021,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420008+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:47.453152+00:00"
     },
     "8201818": {
       "title": "En engelsk gentleman",
@@ -576,7 +592,8 @@
       "published_year": null,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420014+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:52.780302+00:00"
     },
     "8479872": {
       "title": "Mord i en engelsk trädgård",
@@ -632,7 +649,8 @@
       "published_year": null,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420037+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:47.678258+00:00"
     },
     "8536616": {
       "title": "Om alla katter i världen försvann",
@@ -696,7 +714,8 @@
       "published_year": 2019,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420048+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:52.142212+00:00"
     },
     "8455047": {
       "title": "Villebråd",
@@ -705,7 +724,8 @@
       "published_year": 2021,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420050+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:49.703485+00:00"
     },
     "8473652": {
       "title": "Villebråd",
@@ -723,7 +743,8 @@
       "published_year": 2019,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420053+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:35.897214+00:00"
     },
     "8465161": {
       "title": "Bragden",
@@ -741,7 +762,8 @@
       "published_year": 2020,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420056+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:38.097302+00:00"
     },
     "8451608": {
       "title": "Vad vi kan veta",
@@ -750,7 +772,8 @@
       "published_year": 2026,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420058+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:29.009480+00:00"
     },
     "8934957": {
       "title": "Vad vi kan veta",
@@ -787,7 +810,8 @@
       "published_year": 2025,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420064+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:49.494502+00:00"
     },
     "8524427": {
       "title": "Stolen",
@@ -805,7 +829,8 @@
       "published_year": 2022,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420069+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:21.582090+00:00"
     },
     "8414937": {
       "title": "October child",
@@ -814,7 +839,8 @@
       "published_year": 2021,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420070+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:44.876048+00:00"
     },
     "8387646": {
       "title": "City of light",
@@ -823,7 +849,8 @@
       "published_year": 2021,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420072+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:56.621283+00:00"
     },
     "8546586": {
       "title": "Beartown",
@@ -841,7 +868,8 @@
       "published_year": 2018,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420075+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:42.538518+00:00"
     },
     "8441951": {
       "title": "My friends",
@@ -850,7 +878,8 @@
       "published_year": 2025,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420077+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:05.529609+00:00"
     },
     "8384167": {
       "title": "Witches' rings",
@@ -859,7 +888,8 @@
       "published_year": 2021,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420079+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:40.836478+00:00"
     },
     "8384559": {
       "title": "The spring",
@@ -868,7 +898,8 @@
       "published_year": 2021,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420080+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:45.323671+00:00"
     },
     "8387644": {
       "title": "The angel house",
@@ -877,7 +908,8 @@
       "published_year": 2021,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420082+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:54.428942+00:00"
     },
     "8393072": {
       "title": "Kacʻi, saxelad Uve",
@@ -886,7 +918,8 @@
       "published_year": 2017,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420083+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:05.691485+00:00"
     },
     "8381140": {
       "title": "Ena vima piso",
@@ -895,7 +928,8 @@
       "published_year": 2008,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420085+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:33.847915+00:00"
     },
     "8421145": {
       "title": "Debesų atlasas",
@@ -904,7 +938,8 @@
       "published_year": 2014,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420087+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:56.184997+00:00"
     },
     "8433147": {
       "title": "Peresliduvač",
@@ -913,7 +948,8 @@
       "published_year": 2022,
       "discovered_query": "engelska romaner",
       "discovered_at": "2026-11-08T10:52:30.420088+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:35.589513+00:00"
     },
     "8338378": {
       "title": "Deckare och dilemman",
@@ -922,7 +958,8 @@
       "published_year": null,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390324+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:20.840614+00:00"
     },
     "8521289": {
       "title": "Krisläge",
@@ -988,7 +1025,8 @@
       "published_year": null,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390343+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:34:38.141196+00:00"
     },
     "8115957": {
       "title": "Daniel Deckare letar paket",
@@ -1007,7 +1045,8 @@
       "published_year": null,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390346+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:34:40.640188+00:00"
     },
     "8115915": {
       "title": "Daniel Deckare spelar fotboll",
@@ -1026,7 +1065,8 @@
       "published_year": null,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390349+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:04.925812+00:00"
     },
     "8391668": {
       "title": "Dödligt dubbelspel",
@@ -1035,7 +1075,8 @@
       "published_year": 2016,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390351+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:01.170255+00:00"
     },
     "8059762": {
       "title": "Dödlig åtrå",
@@ -1064,7 +1105,8 @@
       "published_year": null,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390355+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:05.170900+00:00"
     },
     "8139401": {
       "title": "Fyren",
@@ -1093,7 +1135,8 @@
       "published_year": null,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390361+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:57.486600+00:00"
     },
     "8047619": {
       "title": "Hallonfallet",
@@ -1230,7 +1273,8 @@
       "published_year": 1999,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390386+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:28.841969+00:00"
     },
     "8099854": {
       "title": "Mord på apotek",
@@ -1249,7 +1293,8 @@
       "published_year": null,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390390+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:24.761844+00:00"
     },
     "8321453": {
       "title": "Som daggen stilla kysst",
@@ -1258,7 +1303,8 @@
       "published_year": null,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390391+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:35.450613+00:00"
     },
     "8278066": {
       "title": "Mord i blått D. 1",
@@ -1267,7 +1313,8 @@
       "published_year": null,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390393+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:32.215435+00:00"
     },
     "8165033": {
       "title": "Löjtnanten som inte kom hem",
@@ -1286,7 +1333,8 @@
       "published_year": null,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390396+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:34.001204+00:00"
     },
     "8318671": {
       "title": "Kvinnor & deckare",
@@ -1295,7 +1343,8 @@
       "published_year": 2000,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390397+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:14.733859+00:00"
     },
     "8126924": {
       "title": "Ostindiefararen",
@@ -1369,7 +1418,8 @@
       "published_year": null,
       "discovered_query": "deckare",
       "discovered_at": "2026-11-08T10:52:35.390410+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:13.993724+00:00"
     },
     "8129123": {
       "title": "Diagnos: strypt",
@@ -1538,7 +1588,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557495+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:26.207972+00:00"
     },
     "8310590": {
       "title": "Saknad",
@@ -1556,7 +1607,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557498+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:36.372259+00:00"
     },
     "8312557": {
       "title": "Låt mig",
@@ -1565,7 +1617,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557499+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:37.843801+00:00"
     },
     "8310591": {
       "title": "Pesetas",
@@ -1574,7 +1627,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557501+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:26.535819+00:00"
     },
     "8243889": {
       "title": "Göteborgsmorden",
@@ -1593,7 +1647,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557504+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:45.876014+00:00"
     },
     "8297620": {
       "title": "De otrogna",
@@ -1602,7 +1657,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557508+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:40.948204+00:00"
     },
     "8276265": {
       "title": "Saeculum",
@@ -1611,7 +1667,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557509+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:27.756160+00:00"
     },
     "8284370": {
       "title": "Råttfångerskan",
@@ -1620,7 +1677,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557511+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:06.630500+00:00"
     },
     "8426908": {
       "title": "Svart sol",
@@ -1629,7 +1687,8 @@
       "published_year": 2021,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557512+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:10.235050+00:00"
     },
     "8469218": {
       "title": "Offer 55",
@@ -1677,7 +1736,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557521+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:57.318993+00:00"
     },
     "8234862": {
       "title": "Norr om paradiset",
@@ -1726,7 +1786,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557529+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:11.873922+00:00"
     },
     "8297871": {
       "title": "Öster om avgrunden",
@@ -1735,7 +1796,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557531+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:43.118399+00:00"
     },
     "8280897": {
       "title": "Söder om helvetet",
@@ -1744,7 +1806,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557532+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:59.901988+00:00"
     },
     "8306327": {
       "title": "För kärlekens skull",
@@ -1753,7 +1816,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557533+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:06.013079+00:00"
     },
     "8229348": {
       "title": "Den sjätte natten",
@@ -1812,7 +1876,8 @@
       "published_year": null,
       "discovered_query": "thriller",
       "discovered_at": "2026-11-08T10:52:40.557543+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:58.106767+00:00"
     },
     "8128138": {
       "title": "Skuggpojken",
@@ -1888,7 +1953,8 @@
       "published_year": 1995,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999379+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:18.964639+00:00"
     },
     "8157779": {
       "title": "Sagomåne",
@@ -1907,7 +1973,8 @@
       "published_year": null,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999384+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:13.540016+00:00"
     },
     "8259069": {
       "title": "Fantasy",
@@ -1916,7 +1983,8 @@
       "published_year": 1995,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999386+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:21.437359+00:00"
     },
     "8266354": {
       "title": "Fantasy!",
@@ -1925,7 +1993,8 @@
       "published_year": 2015,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999388+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:46.910636+00:00"
     },
     "8192684": {
       "title": "Fantasy!",
@@ -1944,7 +2013,8 @@
       "published_year": 2008,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999391+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:59.773827+00:00"
     },
     "8032908": {
       "title": "Teckna fantasy",
@@ -1963,7 +2033,8 @@
       "published_year": 2022,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999394+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:56.535362+00:00"
     },
     "8319024": {
       "title": "En guide till fantasy",
@@ -1972,7 +2043,8 @@
       "published_year": 2000,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999396+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:23.795573+00:00"
     },
     "8218311": {
       "title": "Bortom portalen 1",
@@ -2011,7 +2083,8 @@
       "published_year": 1997,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999402+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:29.958173+00:00"
     },
     "8313259": {
       "title": "Världar av ljus, världar av mörker",
@@ -2020,7 +2093,8 @@
       "published_year": 2000,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999404+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:42.470356+00:00"
     },
     "8268677": {
       "title": "Världar av ljus, världar av mörker",
@@ -2029,7 +2103,8 @@
       "published_year": 1996,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999405+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:57.994752+00:00"
     },
     "8244998": {
       "title": "På fantasins vingar",
@@ -2077,7 +2152,8 @@
       "published_year": 2013,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999416+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:34:47.135520+00:00"
     },
     "8068489": {
       "title": "Lär dig teckna fantasy",
@@ -2096,7 +2172,8 @@
       "published_year": 2012,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999420+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:34:49.298513+00:00"
     },
     "8150728": {
       "title": "Bibliografi över science fiction & fantasy 1974-1983",
@@ -2125,7 +2202,8 @@
       "published_year": 2016,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999425+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:51.186801+00:00"
     },
     "8273955": {
       "title": "Bibliografi över science fiction och fantasy 1741-1996",
@@ -2134,7 +2212,8 @@
       "published_year": 1997,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999426+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:16.413557+00:00"
     },
     "8465959": {
       "title": "Japanese tales of fantasy and folklore",
@@ -2192,7 +2271,8 @@
       "published_year": 2017,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999437+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:53.507524+00:00"
     },
     "8230246": {
       "title": "Drakviskaren",
@@ -2211,7 +2291,8 @@
       "published_year": null,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999440+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:42.191500+00:00"
     },
     "8341952": {
       "title": "Artemis Fowl - de försvunna demonerna",
@@ -2220,7 +2301,8 @@
       "published_year": null,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999443+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:29.998560+00:00"
     },
     "8348895": {
       "title": "Nattpatrullen",
@@ -2229,7 +2311,8 @@
       "published_year": null,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999445+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:02.128634+00:00"
     },
     "8109656": {
       "title": "Isen kommer",
@@ -2288,7 +2371,8 @@
       "published_year": null,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999453+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:28.469016+00:00"
     },
     "8261022": {
       "title": "Safirrosen",
@@ -2297,7 +2381,8 @@
       "published_year": null,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999455+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:30.677164+00:00"
     },
     "8273930": {
       "title": "Anna klädd i blod",
@@ -2306,7 +2391,8 @@
       "published_year": null,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999456+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:14.108077+00:00"
     },
     "8554207": {
       "title": "Demonviskaren",
@@ -2344,7 +2430,8 @@
       "published_year": 2001,
       "discovered_query": "fantasy",
       "discovered_at": "2026-11-08T10:52:45.999462+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:00.362052+00:00"
     },
     "8385588": {
       "title": "Ljuset från Alfa Centauri",
@@ -2353,7 +2440,8 @@
       "published_year": 1977,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360338+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:48.107800+00:00"
     },
     "8238512": {
       "title": "Science fiction",
@@ -2392,7 +2480,8 @@
       "published_year": null,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360351+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:08.232290+00:00"
     },
     "8353356": {
       "title": "När allt förändrades",
@@ -2401,7 +2490,8 @@
       "published_year": 2010,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360353+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:08.954026+00:00"
     },
     "8159995": {
       "title": "Den eviga grodan",
@@ -2430,7 +2520,8 @@
       "published_year": 2023,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360359+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:51.981397+00:00"
     },
     "8036596": {
       "title": "Science fiction, från begynnelsen till våra dagar",
@@ -2449,7 +2540,8 @@
       "published_year": 1979,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360362+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:40.291011+00:00"
     },
     "8058678": {
       "title": "Raketmännen från jorden och andra science fiction historier",
@@ -2468,7 +2560,8 @@
       "published_year": 1974,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360365+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:35.740070+00:00"
     },
     "8112451": {
       "title": "Kvinnor i science fiction",
@@ -2527,7 +2620,8 @@
       "published_year": 2022,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360375+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:17.428363+00:00"
     },
     "8408588": {
       "title": "Skördad",
@@ -2536,7 +2630,8 @@
       "published_year": 2022,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360377+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:24.352059+00:00"
     },
     "8122706": {
       "title": "Häpna!",
@@ -2555,7 +2650,8 @@
       "published_year": 1994,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360380+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:34:35.780400+00:00"
     },
     "8067644": {
       "title": "Drömmar om evigheten",
@@ -2614,7 +2710,8 @@
       "published_year": 2003,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360392+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:50.117007+00:00"
     },
     "8362957": {
       "title": "Inre landskap och yttre rymd 1, Från H. G. Wells till Brian W. Aldiss",
@@ -2623,7 +2720,8 @@
       "published_year": 2002,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360394+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:45.557089+00:00"
     },
     "8126189": {
       "title": "Raketsommar",
@@ -2652,7 +2750,8 @@
       "published_year": 2021,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360399+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:12.413718+00:00"
     },
     "8461225": {
       "title": "Spektakulärt",
@@ -2670,7 +2769,8 @@
       "published_year": 2020,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360403+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:51.688641+00:00"
     },
     "8537375": {
       "title": "Faktasin Band III, Från 70-talet till millenniets början",
@@ -2688,7 +2788,8 @@
       "published_year": 2020,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360406+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:19.333553+00:00"
     },
     "8482449": {
       "title": "Modus operandi",
@@ -2706,7 +2807,8 @@
       "published_year": 2003,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360410+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:00.929787+00:00"
     },
     "8107165": {
       "title": "Tagning: Framtid",
@@ -2745,7 +2847,8 @@
       "published_year": 2014,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360416+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:26.924440+00:00"
     },
     "8268300": {
       "title": "Den lille fule pojken",
@@ -2754,7 +2857,8 @@
       "published_year": null,
       "discovered_query": "science fiction",
       "discovered_at": "2026-11-08T10:52:51.360418+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:55.814651+00:00"
     },
     "8458585": {
       "title": "Aviatrisen",
@@ -2763,7 +2867,8 @@
       "published_year": 2025,
       "discovered_query": "historisk roman",
       "discovered_at": "2026-11-08T10:52:56.324774+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:58.897555+00:00"
     },
     "8503599": {
       "title": "Sparven",
@@ -2781,7 +2886,8 @@
       "published_year": 2024,
       "discovered_query": "historisk roman",
       "discovered_at": "2026-11-08T10:52:56.324783+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:54.043639+00:00"
     },
     "8506474": {
       "title": "Blodsjärn",
@@ -2919,7 +3025,8 @@
       "published_year": null,
       "discovered_query": "historisk roman",
       "discovered_at": "2026-11-08T10:52:56.324805+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:16.982768+00:00"
     },
     "8260759": {
       "title": "Azincourt",
@@ -2928,7 +3035,8 @@
       "published_year": null,
       "discovered_query": "historisk roman",
       "discovered_at": "2026-11-08T10:52:56.324807+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:28.368564+00:00"
     },
     "8347110": {
       "title": "Niding",
@@ -2937,7 +3045,8 @@
       "published_year": null,
       "discovered_query": "historisk roman",
       "discovered_at": "2026-11-08T10:52:56.324809+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:50.588855+00:00"
     },
     "8502733": {
       "title": "Nytt land",
@@ -2964,7 +3073,8 @@
       "published_year": 2018,
       "discovered_query": "historisk roman",
       "discovered_at": "2026-11-08T10:52:56.324814+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:03.175516+00:00"
     },
     "8531890": {
       "title": "Stormens krigare",
@@ -3311,7 +3421,8 @@
       "published_year": 1994,
       "discovered_query": "romantik",
       "discovered_at": "2026-11-08T10:53:01.258667+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:34:58.643935+00:00"
     },
     "8090573": {
       "title": "Kärlek i maskinernas tid",
@@ -3496,7 +3607,8 @@
       "published_year": 2008,
       "discovered_query": "romantik",
       "discovered_at": "2026-11-08T10:53:01.258696+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:43.708167+00:00"
     },
     "8498212": {
       "title": "Kristens omvägar",
@@ -3544,7 +3656,8 @@
       "published_year": 1983,
       "discovered_query": "romantik",
       "discovered_at": "2026-11-08T10:53:01.258703+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:53.580330+00:00"
     },
     "8542139": {
       "title": "Östermalmskarusellen",
@@ -3562,7 +3675,8 @@
       "published_year": 1995,
       "discovered_query": "romantik",
       "discovered_at": "2026-11-08T10:53:01.258706+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:35.229077+00:00"
     },
     "8194509": {
       "title": "Dagen faller mot natten",
@@ -3601,7 +3715,8 @@
       "published_year": 2004,
       "discovered_query": "romantik",
       "discovered_at": "2026-11-08T10:53:01.258712+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:48.962737+00:00"
     },
     "8169257": {
       "title": "Spader Dame och andra prosaberättelser ur svensk romantik",
@@ -3620,7 +3735,8 @@
       "published_year": null,
       "discovered_query": "romantik",
       "discovered_at": "2026-11-08T10:53:01.258715+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:19.248067+00:00"
     },
     "8065070": {
       "title": "Litteraturens klassiker i urval och översättning 15, Svensk romantik",
@@ -3668,7 +3784,8 @@
       "published_year": 1993,
       "discovered_query": "romantik",
       "discovered_at": "2026-11-08T10:53:01.258723+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:34:44.724502+00:00"
     },
     "8074735": {
       "title": "Den franska romantiken",
@@ -3697,7 +3814,8 @@
       "published_year": 2000,
       "discovered_query": "romantik",
       "discovered_at": "2026-11-08T10:53:01.258727+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:33.283708+00:00"
     },
     "8109860": {
       "title": "Romantikens samhälle",
@@ -3735,7 +3853,8 @@
       "published_year": 2010,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379298+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:23.130836+00:00"
     },
     "8578786": {
       "title": "Skånska biografier 1",
@@ -3780,7 +3899,8 @@
       "published_year": null,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379314+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:24.163605+00:00"
     },
     "8096897": {
       "title": "Det var inte jag!",
@@ -3819,7 +3939,8 @@
       "published_year": 1894,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379320+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:04.541671+00:00"
     },
     "8355632": {
       "title": "Levnadsteckningar",
@@ -3828,7 +3949,8 @@
       "published_year": 2013,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379322+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:18.331444+00:00"
     },
     "8107893": {
       "title": "Dagar ur biografin",
@@ -3867,7 +3989,8 @@
       "published_year": null,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379329+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:00.900428+00:00"
     },
     "8130424": {
       "title": "Jönköpings studenter jämte rektorer åren 1864-1920",
@@ -3952,7 +4075,8 @@
       "published_year": 1996,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379344+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:15.789140+00:00"
     },
     "8467637": {
       "title": "Allmogemålaren Gustaf Reuter",
@@ -3998,7 +4122,8 @@
       "published_year": 2025,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379352+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:10.563699+00:00"
     },
     "8473451": {
       "title": "Sibylla",
@@ -4044,7 +4169,8 @@
       "published_year": 2018,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379361+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:21.601767+00:00"
     },
     "8122269": {
       "title": "Hans Järta",
@@ -4082,7 +4208,8 @@
       "published_year": 2025,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379367+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:26.369204+00:00"
     },
     "8493455": {
       "title": "Sarek",
@@ -4100,7 +4227,8 @@
       "published_year": 2023,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379370+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:33.343526+00:00"
     },
     "8409700": {
       "title": "Augustus",
@@ -4109,7 +4237,8 @@
       "published_year": 2019,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379372+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:26.571990+00:00"
     },
     "8495862": {
       "title": "Bellman",
@@ -4146,7 +4275,8 @@
       "published_year": 2014,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379378+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:29.648881+00:00"
     },
     "8253901": {
       "title": "Messi",
@@ -4155,7 +4285,8 @@
       "published_year": 2014,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379380+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:03.677983+00:00"
     },
     "8207439": {
       "title": "Augustus",
@@ -4174,7 +4305,8 @@
       "published_year": 2012,
       "discovered_query": "biografier",
       "discovered_at": "2026-11-08T10:53:06.379383+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:26.032301+00:00"
     },
     "8093827": {
       "title": "Beethoven",
@@ -4203,7 +4335,8 @@
       "published_year": 2001,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833538+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:37.576954+00:00"
     },
     "8220809": {
       "title": "Brott mot mänskligheten under kommunistiska regimer",
@@ -4252,7 +4385,8 @@
       "published_year": 1993,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833555+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:22.598683+00:00"
     },
     "8543389": {
       "title": "En sann historia",
@@ -4290,7 +4424,8 @@
       "published_year": 2002,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833562+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:43.222023+00:00"
     },
     "8243499": {
       "title": "Snobbarnas bok",
@@ -4309,7 +4444,8 @@
       "published_year": 2006,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833566+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:20.552933+00:00"
     },
     "8219195": {
       "title": "Enhistoria",
@@ -4338,7 +4474,8 @@
       "published_year": 2019,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833571+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:23.992355+00:00"
     },
     "8050739": {
       "title": "Historia",
@@ -4387,7 +4524,8 @@
       "published_year": 2019,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833579+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:49.802045+00:00"
     },
     "8163702": {
       "title": "Den sanna berättelsen om kamrat Mayta",
@@ -4435,7 +4573,8 @@
       "published_year": 1887,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833588+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:03.828017+00:00"
     },
     "8406089": {
       "title": "Vår historia",
@@ -4444,7 +4583,8 @@
       "published_year": 2016,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833590+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:15.182324+00:00"
     },
     "8109874": {
       "title": "En historia",
@@ -4463,7 +4603,8 @@
       "published_year": 2024,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833593+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:26.221641+00:00"
     },
     "8425708": {
       "title": "Historier",
@@ -4472,7 +4613,8 @@
       "published_year": 2020,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833595+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:05.499643+00:00"
     },
     "8285807": {
       "title": "Historier",
@@ -4481,7 +4623,8 @@
       "published_year": 1997,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833596+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:08.880526+00:00"
     },
     "8170925": {
       "title": "Historien, som nedan skall berättas och andra dikter",
@@ -4510,7 +4653,8 @@
       "published_year": 1899,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833601+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:49.593714+00:00"
     },
     "8071370": {
       "title": "Historier",
@@ -4569,7 +4713,8 @@
       "published_year": null,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833612+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:48.918632+00:00"
     },
     "8609619": {
       "title": "Percys historia",
@@ -4587,7 +4732,8 @@
       "published_year": 2021,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833615+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:40.672136+00:00"
     },
     "8475677": {
       "title": "Våldets historia",
@@ -4665,7 +4811,8 @@
       "published_year": null,
       "discovered_query": "historia",
       "discovered_at": "2026-11-08T10:53:11.833628+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:05.722353+00:00"
     },
     "8033676": {
       "title": "Kärlekens historia",
@@ -4694,7 +4841,8 @@
       "published_year": 2001,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194331+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:07.188902+00:00"
     },
     "8260009": {
       "title": "Upprepningen",
@@ -4703,7 +4851,8 @@
       "published_year": 1995,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194333+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:23.721868+00:00"
     },
     "8201081": {
       "title": "Psykologi 2b",
@@ -4722,7 +4871,8 @@
       "published_year": 2001,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194337+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:53.611792+00:00"
     },
     "8265191": {
       "title": "Psykologi @ jobbet",
@@ -4731,7 +4881,8 @@
       "published_year": 2014,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194339+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:39.741442+00:00"
     },
     "8155535": {
       "title": "Tankar, känslor och beteenden 1",
@@ -4813,7 +4964,8 @@
       "published_year": 2000,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194355+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:52.701785+00:00"
     },
     "8546751": {
       "title": "Psykologi 1",
@@ -4895,7 +5047,8 @@
       "published_year": 2012,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194370+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:48.147090+00:00"
     },
     "8368904": {
       "title": "Psykologi AB",
@@ -4904,7 +5057,8 @@
       "published_year": 2003,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194372+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:56.921443+00:00"
     },
     "8345876": {
       "title": "Psykologi",
@@ -4913,7 +5067,8 @@
       "published_year": 2008,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194373+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:45.929979+00:00"
     },
     "8204647": {
       "title": "Drömmen påverkar ditt liv",
@@ -4942,7 +5097,8 @@
       "published_year": 2025,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194378+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:38.004096+00:00"
     },
     "8316072": {
       "title": "Grafologi",
@@ -4951,7 +5107,8 @@
       "published_year": 1991,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194380+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:08.084016+00:00"
     },
     "8152201": {
       "title": "Grafologi",
@@ -4999,7 +5156,8 @@
       "published_year": 2020,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194388+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:44.955048+00:00"
     },
     "8310697": {
       "title": "Existensens psykologi",
@@ -5008,7 +5166,8 @@
       "published_year": 2000,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194390+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:28.751080+00:00"
     },
     "8200115": {
       "title": "Lärobok i psykologi",
@@ -5047,7 +5206,8 @@
       "published_year": 2015,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194397+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:08.167276+00:00"
     },
     "8208102": {
       "title": "Kognitiv psykologi",
@@ -5096,7 +5256,8 @@
       "published_year": 2011,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194405+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:27.144914+00:00"
     },
     "8483634": {
       "title": "Totalitarismens psykologi",
@@ -5123,7 +5284,8 @@
       "published_year": 2021,
       "discovered_query": "psykologi",
       "discovered_at": "2026-11-08T10:53:17.194409+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:33.426359+00:00"
     },
     "8491789": {
       "title": "Livsutvecklingens psykologi",
@@ -5191,7 +5353,8 @@
       "published_year": 2013,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299545+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:34:54.000752+00:00"
     },
     "8313431": {
       "title": "Filosofi",
@@ -5200,7 +5363,8 @@
       "published_year": 2000,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299547+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:44.696563+00:00"
     },
     "8070567": {
       "title": "Filosofi",
@@ -5219,7 +5383,8 @@
       "published_year": 2000,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299550+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:10.240519+00:00"
     },
     "8142048": {
       "title": "Filosofi",
@@ -5248,7 +5413,8 @@
       "published_year": 2007,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299555+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:34.565869+00:00"
     },
     "8216507": {
       "title": "Sofies värld",
@@ -5276,7 +5442,8 @@
       "published_year": 1994,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299560+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:38.436266+00:00"
     },
     "8415547": {
       "title": "Vad är filosofi?",
@@ -5285,7 +5452,8 @@
       "published_year": 2024,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299562+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:47.128545+00:00"
     },
     "8154442": {
       "title": "Filosofi, vetenskapsteori och planering",
@@ -5304,7 +5472,8 @@
       "published_year": 2000,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299566+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:46.941771+00:00"
     },
     "8279190": {
       "title": "Kinesisk filosofi",
@@ -5313,7 +5482,8 @@
       "published_year": 1997,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299568+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:43.584517+00:00"
     },
     "8180463": {
       "title": "Ondskans filosofi",
@@ -5332,7 +5502,8 @@
       "published_year": 2003,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299571+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:54.603631+00:00"
     },
     "8276181": {
       "title": "Den asiatiska köksträdgården",
@@ -5341,7 +5512,8 @@
       "published_year": 2016,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299572+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:25.371547+00:00"
     },
     "8416633": {
       "title": "Katter och meningen med livet",
@@ -5350,7 +5522,8 @@
       "published_year": 2024,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299574+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:49.407045+00:00"
     },
     "8086328": {
       "title": "Europas filosofi",
@@ -5369,7 +5542,8 @@
       "published_year": 2009,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299577+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:11.354188+00:00"
     },
     "8210187": {
       "title": "Medicinens filosofi",
@@ -5388,7 +5562,8 @@
       "published_year": 2025,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299581+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:40.261721+00:00"
     },
     "8247854": {
       "title": "Feministisk filosofi",
@@ -5397,7 +5572,8 @@
       "published_year": 1994,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299582+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:34:51.753968+00:00"
     },
     "8093008": {
       "title": "Kreativitetens filosofi",
@@ -5436,7 +5612,8 @@
       "published_year": 2004,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299589+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:19.907181+00:00"
     },
     "8328020": {
       "title": "Kreativitetens filosofi",
@@ -5445,7 +5622,8 @@
       "published_year": 2001,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299591+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:02.798715+00:00"
     },
     "8245409": {
       "title": "Freges filosofi",
@@ -5454,7 +5632,8 @@
       "published_year": 1994,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299592+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:34:42.832704+00:00"
     },
     "8060804": {
       "title": "Forsskåls filosofi",
@@ -5503,7 +5682,8 @@
       "published_year": 2021,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299600+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:07.890474+00:00"
     },
     "8086768": {
       "title": "Indisk filosofi",
@@ -5531,7 +5711,8 @@
       "published_year": 1999,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299604+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:45.415306+00:00"
     },
     "8166427": {
       "title": "Romantikens filosofi",
@@ -5559,7 +5740,8 @@
       "published_year": 2014,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299609+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:11.819550+00:00"
     },
     "8057796": {
       "title": "Forskande filosofi",
@@ -5578,7 +5760,8 @@
       "published_year": 1930,
       "discovered_query": "filosofi",
       "discovered_at": "2026-11-08T10:53:22.299612+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:12.754717+00:00"
     },
     "8142795": {
       "title": "Datautvecklingens filosofi",
@@ -5627,7 +5810,8 @@
       "published_year": 2013,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.439970+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:31.538165+00:00"
     },
     "8191161": {
       "title": "Hälsofrämjande omvårdnad",
@@ -5665,7 +5849,8 @@
       "published_year": null,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.439983+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:09.941322+00:00"
     },
     "8087935": {
       "title": "Förnedringens anatomi",
@@ -5684,7 +5869,8 @@
       "published_year": 2019,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.439987+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:51.724647+00:00"
     },
     "8341931": {
       "title": "Vad är vetenskap?",
@@ -5693,7 +5879,8 @@
       "published_year": 2006,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.439988+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:28.739459+00:00"
     },
     "8463330": {
       "title": "Läkekonst & vetenskap",
@@ -5751,7 +5938,8 @@
       "published_year": 2003,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.439998+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:17.606926+00:00"
     },
     "8273559": {
       "title": "God vetenskap",
@@ -5760,7 +5948,8 @@
       "published_year": 2009,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.440000+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:09.498928+00:00"
     },
     "8313764": {
       "title": "Aktivt liv",
@@ -5769,7 +5958,8 @@
       "published_year": 2000,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.440001+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:54.983094+00:00"
     },
     "8146530": {
       "title": "Kungl. Tekniska högskolan Stockholm",
@@ -5827,7 +6017,8 @@
       "published_year": 2005,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.440011+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:18.036349+00:00"
     },
     "8486841": {
       "title": "Vetenskap och demokrati",
@@ -5845,7 +6036,8 @@
       "published_year": 2005,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.440015+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:12.480872+00:00"
     },
     "8359251": {
       "title": "Vetenskap och moral",
@@ -5854,7 +6046,8 @@
       "published_year": 2002,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.440016+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:33.909830+00:00"
     },
     "8104826": {
       "title": "Liv eller vetenskap",
@@ -5943,7 +6136,8 @@
       "published_year": 2002,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.440041+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:38.678661+00:00"
     },
     "8067575": {
       "title": "Anklagelser mot vetenskapen",
@@ -5971,7 +6165,8 @@
       "published_year": 2022,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.440046+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:31.269946+00:00"
     },
     "8307871": {
       "title": "Vetenskapens mening",
@@ -5980,7 +6175,8 @@
       "published_year": 2017,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.440048+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:10.439941+00:00"
     },
     "8270637": {
       "title": "Den glada vetenskapen",
@@ -5989,7 +6185,8 @@
       "published_year": 2016,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.440049+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:00.295631+00:00"
     },
     "8274183": {
       "title": "Soluppgång över vetenskapen",
@@ -5998,7 +6195,8 @@
       "published_year": 2009,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.440051+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:18.647267+00:00"
     },
     "8069451": {
       "title": "Hur går det till inom vetenskapen?",
@@ -6066,7 +6264,8 @@
       "published_year": 2017,
       "discovered_query": "vetenskap",
       "discovered_at": "2026-11-08T10:53:27.440062+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:11.980358+00:00"
     },
     "8100124": {
       "title": "Förbättra din tarmflora",
@@ -6105,7 +6304,8 @@
       "published_year": 2010,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534747+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:41.426646+00:00"
     },
     "8278717": {
       "title": "Matlagning 1",
@@ -6114,7 +6314,8 @@
       "published_year": 2013,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534750+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:39.063524+00:00"
     },
     "8297555": {
       "title": "Judisk matlagning",
@@ -6123,7 +6324,8 @@
       "published_year": 1998,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534752+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:38.712488+00:00"
     },
     "8158966": {
       "title": "Tio lektioner i matlagning",
@@ -6142,7 +6344,8 @@
       "published_year": 2003,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534756+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:06.343719+00:00"
     },
     "8301390": {
       "title": "Matlagning i Harlem",
@@ -6151,7 +6354,8 @@
       "published_year": 2017,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534757+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:56.783706+00:00"
     },
     "8172455": {
       "title": "Molekylär matlagning i ditt eget kök",
@@ -6170,7 +6374,8 @@
       "published_year": 2001,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534761+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:36.488643+00:00"
     },
     "8244907": {
       "title": "Vegansk street food",
@@ -6209,7 +6414,8 @@
       "published_year": 2017,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534767+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:59.150075+00:00"
     },
     "8325934": {
       "title": "Aromaköket",
@@ -6218,7 +6424,8 @@
       "published_year": 2001,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534769+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:51.300929+00:00"
     },
     "8243994": {
       "title": "Smaklexikon",
@@ -6265,7 +6472,8 @@
       "published_year": 2000,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534778+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:30.958084+00:00"
     },
     "8113089": {
       "title": "Skrovmål",
@@ -6293,7 +6501,8 @@
       "published_year": 1997,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534783+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:41.388835+00:00"
     },
     "8215294": {
       "title": "Assars kokbok",
@@ -6332,7 +6541,8 @@
       "published_year": null,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534790+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:42.041421+00:00"
     },
     "8341216": {
       "title": "Kafkas soppa",
@@ -6341,7 +6551,8 @@
       "published_year": null,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534791+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:25.389161+00:00"
     },
     "8361594": {
       "title": "La cucina",
@@ -6350,7 +6561,8 @@
       "published_year": null,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534793+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:41.037679+00:00"
     },
     "8421847": {
       "title": "Champagnekorkar & cateringkaos",
@@ -6359,7 +6571,8 @@
       "published_year": 2022,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534795+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:03.210096+00:00"
     },
     "8553437": {
       "title": "Champagnekorkar & cateringkaos",
@@ -6387,7 +6600,8 @@
       "published_year": null,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534799+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:07.184640+00:00"
     },
     "8384524": {
       "title": "Dagoberts bästa",
@@ -6396,7 +6610,8 @@
       "published_year": 1977,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534801+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:42.655164+00:00"
     },
     "8136283": {
       "title": "Kockskola för ensamma hjärtan",
@@ -6425,7 +6640,8 @@
       "published_year": null,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534806+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:02.674194+00:00"
     },
     "8467756": {
       "title": "Kärlekens ingredienser",
@@ -6452,7 +6668,8 @@
       "published_year": 2018,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534811+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:38.218048+00:00"
     },
     "8097788": {
       "title": "Vänskap mellan sill & falafel",
@@ -6471,7 +6688,8 @@
       "published_year": null,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534814+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:22.161499+00:00"
     },
     "8120743": {
       "title": "Tannie Marias stora utmaning",
@@ -6508,7 +6726,8 @@
       "published_year": 2020,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534828+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:56.589990+00:00"
     },
     "8279886": {
       "title": "Tisdagsklubben",
@@ -6517,7 +6736,8 @@
       "published_year": null,
       "discovered_query": "matlagning",
       "discovered_at": "2026-11-08T10:53:32.534830+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:50.578443+00:00"
     },
     "8234947": {
       "title": "Tisdagsklubben",
@@ -6555,7 +6775,8 @@
       "published_year": 2010,
       "discovered_query": "barnböcker",
       "discovered_at": "2026-11-08T10:53:37.489157+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:06.592837+00:00"
     },
     "8407883": {
       "title": "Konsten att skriva barnböcker",
@@ -6564,7 +6785,8 @@
       "published_year": 2025,
       "discovered_query": "barnböcker",
       "discovered_at": "2026-11-08T10:53:37.489163+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:22.058238+00:00"
     },
     "8543722": {
       "title": "Den hemliga trädgården 4, Afrika",
@@ -6612,7 +6834,8 @@
       "published_year": 2006,
       "discovered_query": "barnböcker",
       "discovered_at": "2026-11-08T10:53:37.489173+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:14.503774+00:00"
     },
     "8510042": {
       "title": "Temaskafferiet",
@@ -6659,7 +6882,8 @@
       "published_year": 1996,
       "discovered_query": "barnböcker",
       "discovered_at": "2026-11-08T10:53:37.489182+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:23.180482+00:00"
     },
     "8524887": {
       "title": "Mariagripelikt",
@@ -7043,7 +7267,8 @@
       "published_year": 2002,
       "discovered_query": "ungdomsböcker",
       "discovered_at": "2026-11-08T10:53:42.437006+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:52.438405+00:00"
     },
     "8138318": {
       "title": "Individ, våld och klassamhälle",
@@ -7062,7 +7287,8 @@
       "published_year": 2003,
       "discovered_query": "ungdomsböcker",
       "discovered_at": "2026-11-08T10:53:42.437014+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:15.454670+00:00"
     },
     "8245245": {
       "title": "Länder i när och fjärran D. 1, Med barn och ungdomsböcker genom Europa",
@@ -7081,7 +7307,8 @@
       "published_year": 2009,
       "discovered_query": "ungdomsböcker",
       "discovered_at": "2026-11-08T10:53:42.437018+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:34:33.932389+00:00"
     },
     "8095222": {
       "title": "Tusentipset 2, L-Ö",
@@ -7110,7 +7337,8 @@
       "published_year": 2003,
       "discovered_query": "ungdomsböcker",
       "discovered_at": "2026-11-08T10:53:42.437034+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:08.628284+00:00"
     },
     "8300939": {
       "title": "Tusentipset 1, A-K",
@@ -7119,7 +7347,8 @@
       "published_year": 1999,
       "discovered_query": "ungdomsböcker",
       "discovered_at": "2026-11-08T10:53:42.437036+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:52.271291+00:00"
     },
     "8300940": {
       "title": "Tusentipset 2, L-Ö",
@@ -7128,7 +7357,8 @@
       "published_year": 1999,
       "discovered_query": "ungdomsböcker",
       "discovered_at": "2026-11-08T10:53:42.437038+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:54.521668+00:00"
     },
     "8095991": {
       "title": "Tusentipset 1, A-K",
@@ -7157,7 +7387,8 @@
       "published_year": 2011,
       "discovered_query": "ungdomsböcker",
       "discovered_at": "2026-11-08T10:53:42.437044+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:29.337405+00:00"
     },
     "8363389": {
       "title": "Resan genom historien",
@@ -7166,7 +7397,8 @@
       "published_year": 2002,
       "discovered_query": "ungdomsböcker",
       "discovered_at": "2026-11-08T10:53:42.437046+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:47.793690+00:00"
     },
     "8275731": {
       "title": "Resan genom historien",
@@ -7175,7 +7407,8 @@
       "published_year": 1997,
       "discovered_query": "ungdomsböcker",
       "discovered_at": "2026-11-08T10:53:42.437047+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:20.865181+00:00"
     },
     "8324079": {
       "title": "Rött eller grönt?",
@@ -7184,7 +7417,8 @@
       "published_year": 2001,
       "discovered_query": "ungdomsböcker",
       "discovered_at": "2026-11-08T10:53:42.437049+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:39.879573+00:00"
     },
     "8452238": {
       "title": "Vinterviken",
@@ -7193,7 +7427,8 @@
       "published_year": 2025,
       "discovered_query": "ungdomsböcker",
       "discovered_at": "2026-11-08T10:53:42.437050+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:33.643114+00:00"
     },
     "8536035": {
       "title": "Vinterviken",
@@ -7221,7 +7456,8 @@
       "published_year": 2007,
       "discovered_query": "ungdomsböcker",
       "discovered_at": "2026-11-08T10:53:42.437055+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:32.329828+00:00"
     },
     "8153855": {
       "title": "En spökhistoria vid jul",
@@ -7539,7 +7775,8 @@
       "published_year": 2025,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381521+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:46:06.109783+00:00"
     },
     "8280243": {
       "title": "Att teckna sitt jag",
@@ -7548,7 +7785,8 @@
       "published_year": 2017,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381523+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:52.962593+00:00"
     },
     "8041182": {
       "title": "Den fantastiska romanen 3, Viktorianska framtidsdrömmar från Claës Lundin till H.G. Wells",
@@ -7587,7 +7825,8 @@
       "published_year": null,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381531+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:22.640668+00:00"
     },
     "8085209": {
       "title": "En fantastisk upptäckt av Hugo Cabret",
@@ -7666,7 +7905,8 @@
       "published_year": null,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381544+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:48.268107+00:00"
     },
     "8095963": {
       "title": "Låt mig gå",
@@ -7705,7 +7945,8 @@
       "published_year": null,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381550+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:19.339556+00:00"
     },
     "8428589": {
       "title": "Språkrådets svensk-romska skolordlista (arli)",
@@ -7714,7 +7955,8 @@
       "published_year": null,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381551+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:17.025253+00:00"
     },
     "8162088": {
       "title": "Den röda vintern",
@@ -7733,7 +7975,8 @@
       "published_year": null,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381555+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:37.529620+00:00"
     },
     "8109580": {
       "title": "David Copperfield",
@@ -7761,7 +8004,8 @@
       "published_year": 2017,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381560+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:19.244244+00:00"
     },
     "8205162": {
       "title": "Pyongyang",
@@ -7780,7 +8024,8 @@
       "published_year": null,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381563+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:44.496955+00:00"
     },
     "8262092": {
       "title": "Paying for it",
@@ -7789,7 +8034,8 @@
       "published_year": null,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381565+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:33.193337+00:00"
     },
     "8358189": {
       "title": "A.D. New Orleans after the deluge",
@@ -7798,7 +8044,8 @@
       "published_year": 2010,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381567+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:24.893063+00:00"
     },
     "8207067": {
       "title": "Sisters",
@@ -7857,7 +8104,8 @@
       "published_year": null,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381576+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:13.494324+00:00"
     },
     "8389593": {
       "title": "Silas Corey",
@@ -7866,7 +8114,8 @@
       "published_year": 2013,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381577+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:58.913472+00:00"
     },
     "8197565": {
       "title": "The Canterbury tales",
@@ -7885,7 +8134,8 @@
       "published_year": 2011,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381580+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:35.764516+00:00"
     },
     "8347875": {
       "title": "Haarmann",
@@ -7894,7 +8144,8 @@
       "published_year": null,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381582+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:57.440736+00:00"
     },
     "8407881": {
       "title": "Comics and language",
@@ -7903,7 +8154,8 @@
       "published_year": 2013,
       "discovered_query": "grafiska romaner",
       "discovered_at": "2026-11-08T10:53:47.381583+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:19.775618+00:00"
     },
     "8757797": {
       "title": "Vaarallinen uni",
@@ -7948,7 +8200,8 @@
       "published_year": 2005,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322684+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:36.860048+00:00"
     },
     "8172882": {
       "title": "Poesi",
@@ -8025,7 +8278,8 @@
       "published_year": 2021,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322704+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:31.016390+00:00"
     },
     "8497782": {
       "title": "Taberg",
@@ -8043,7 +8297,8 @@
       "published_year": null,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322707+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:55.860763+00:00"
     },
     "8768655": {
       "title": "Kalven",
@@ -8061,7 +8316,8 @@
       "published_year": null,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322711+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:15.867523+00:00"
     },
     "8067560": {
       "title": "Premiär",
@@ -8120,7 +8376,8 @@
       "published_year": null,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322722+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:17.330250+00:00"
     },
     "8428971": {
       "title": "Kåta blommor",
@@ -8129,7 +8386,8 @@
       "published_year": 2024,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322724+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:23.965361+00:00"
     },
     "8459075": {
       "title": "Vinterrit 20/21",
@@ -8138,7 +8396,8 @@
       "published_year": 2024,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322726+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:46:03.620455+00:00"
     },
     "8499079": {
       "title": "Om det fanns en plats som var min",
@@ -8183,7 +8442,8 @@
       "published_year": 2019,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322735+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:42.847965+00:00"
     },
     "8462960": {
       "title": "Du är som poesi",
@@ -8201,7 +8461,8 @@
       "published_year": 1999,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322738+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:03.683724+00:00"
     },
     "8059475": {
       "title": "Kärlekens ögon",
@@ -8240,7 +8501,8 @@
       "published_year": null,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322745+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:01.415261+00:00"
     },
     "8406065": {
       "title": "Ta emot en ängel",
@@ -8249,7 +8511,8 @@
       "published_year": 2025,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322747+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:12.889893+00:00"
     },
     "8435332": {
       "title": "Mullvadens kärlek till buffeln",
@@ -8258,7 +8521,8 @@
       "published_year": 2025,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322749+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:42.644058+00:00"
     },
     "8448333": {
       "title": "Musik för de döda och återuppståndna",
@@ -8267,7 +8531,8 @@
       "published_year": 2021,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322750+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:17.214037+00:00"
     },
     "8512604": {
       "title": "Den sista människans leende",
@@ -8295,7 +8560,8 @@
       "published_year": null,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322755+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:41:31.749117+00:00"
     },
     "8378846": {
       "title": "Poesie",
@@ -8304,7 +8570,8 @@
       "published_year": 1999,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322757+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:29.146932+00:00"
     },
     "8108471": {
       "title": "Poesie",
@@ -8363,7 +8630,8 @@
       "published_year": 2010,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322766+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:16.524236+00:00"
     },
     "8498816": {
       "title": "Blodig poesi",
@@ -8409,7 +8677,8 @@
       "published_year": 2005,
       "discovered_query": "poesi",
       "discovered_at": "2026-11-08T10:53:52.322774+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:18.470380+00:00"
     },
     "8174154": {
       "title": "Resor",
@@ -8428,7 +8697,8 @@
       "published_year": null,
       "discovered_query": "resor",
       "discovered_at": "2026-11-08T10:53:57.697070+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:44.229598+00:00"
     },
     "8089397": {
       "title": "Resor till flera avlägset belägna länder i världen",
@@ -8467,7 +8737,8 @@
       "published_year": 2024,
       "discovered_query": "resor",
       "discovered_at": "2026-11-08T10:53:57.697079+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:21.589388+00:00"
     },
     "8487811": {
       "title": "Gullivers resor",
@@ -8553,7 +8824,8 @@
       "published_year": null,
       "discovered_query": "resor",
       "discovered_at": "2026-11-08T10:53:57.697095+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:02.110853+00:00"
     },
     "8249197": {
       "title": "Sällsamma resor",
@@ -8562,7 +8834,8 @@
       "published_year": 2018,
       "discovered_query": "resor",
       "discovered_at": "2026-11-08T10:53:57.697096+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:34:56.184766+00:00"
     },
     "8035389": {
       "title": "Fridas resor",
@@ -8591,7 +8864,8 @@
       "published_year": null,
       "discovered_query": "resor",
       "discovered_at": "2026-11-08T10:53:57.697101+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:15.885201+00:00"
     },
     "8578376": {
       "title": "Saga. 10, Gullivers underbara resor",
@@ -8648,7 +8922,8 @@
       "published_year": null,
       "discovered_query": "resor",
       "discovered_at": "2026-11-08T10:53:57.697111+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:01.559474+00:00"
     },
     "8157320": {
       "title": "I det gula",
@@ -8697,7 +8972,8 @@
       "published_year": null,
       "discovered_query": "resor",
       "discovered_at": "2026-11-08T10:53:57.697119+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:27.061340+00:00"
     },
     "8177321": {
       "title": "Gullivers underbara resor",
@@ -8756,7 +9032,8 @@
       "published_year": null,
       "discovered_query": "resor",
       "discovered_at": "2026-11-08T10:53:57.697129+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:21.905207+00:00"
     },
     "8052734": {
       "title": "Resor i världen",
@@ -8785,7 +9062,8 @@
       "published_year": 2024,
       "discovered_query": "resor",
       "discovered_at": "2026-11-08T10:53:57.697133+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:31.589077+00:00"
     },
     "8106555": {
       "title": "Casanovas senare resor",
@@ -8814,7 +9092,8 @@
       "published_year": 2022,
       "discovered_query": "resor",
       "discovered_at": "2026-11-08T10:53:57.697138+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:45:14.767369+00:00"
     },
     "8309399": {
       "title": "Överallt främling",
@@ -8823,7 +9102,8 @@
       "published_year": 2017,
       "discovered_query": "resor",
       "discovered_at": "2026-11-08T10:53:57.697140+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:15.102332+00:00"
     },
     "8155506": {
       "title": "Innan trottoarerna torkat",
@@ -8862,7 +9142,8 @@
       "published_year": 2017,
       "discovered_query": "resor",
       "discovered_at": "2026-11-08T10:53:57.697146+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:47.150769+00:00"
     },
     "8100959": {
       "title": "Barn på denna jord",
@@ -8920,7 +9201,8 @@
       "published_year": null,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010344+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:00.990847+00:00"
     },
     "8314953": {
       "title": "Nedfrysningens konst",
@@ -8929,7 +9211,8 @@
       "published_year": null,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010347+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:03.507048+00:00"
     },
     "8159423": {
       "title": "Spelets konst",
@@ -8978,7 +9261,8 @@
       "published_year": 2025,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010355+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:43:58.543401+00:00"
     },
     "8521637": {
       "title": "Ingen konst att falla för dig",
@@ -9015,7 +9299,8 @@
       "published_year": null,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010362+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:09.445355+00:00"
     },
     "8308504": {
       "title": "Tacksamhetens bortglömda konst",
@@ -9024,7 +9309,8 @@
       "published_year": null,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010363+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:12.707961+00:00"
     },
     "8347739": {
       "title": "Dödens sköna konst",
@@ -9033,7 +9319,8 @@
       "published_year": null,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010365+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:55.525340+00:00"
     },
     "8254370": {
       "title": "Linda tycker om konst",
@@ -9042,7 +9329,8 @@
       "published_year": null,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010366+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:07.409956+00:00"
     },
     "8278432": {
       "title": "Konst och litteratur",
@@ -9051,7 +9339,8 @@
       "published_year": 1946,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010368+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:36.401921+00:00"
     },
     "8081764": {
       "title": "Konst och liv",
@@ -9080,7 +9369,8 @@
       "published_year": 2005,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010373+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:46.681650+00:00"
     },
     "8102018": {
       "title": "Östgötaspegel D. 2",
@@ -9129,7 +9419,8 @@
       "published_year": null,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010382+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:42:10.867259+00:00"
     },
     "8163258": {
       "title": "Finlands natur i dikt och konst",
@@ -9148,7 +9439,8 @@
       "published_year": 2018,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010385+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:38:35.689307+00:00"
     },
     "8477824": {
       "title": "Tinis konst-iga sagor",
@@ -9224,7 +9516,8 @@
       "published_year": 1995,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010397+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:35:05.256751+00:00"
     },
     "8285853": {
       "title": "Signums svenska konsthistoria. Frihetstidens konst",
@@ -9233,7 +9526,8 @@
       "published_year": 1997,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010399+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:37:11.271114+00:00"
     },
     "8280335": {
       "title": "Signums svenska konsthistoria. Barockens konst",
@@ -9242,7 +9536,8 @@
       "published_year": 1997,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010400+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:55.336029+00:00"
     },
     "8271474": {
       "title": "Signums svenska konsthistoria. Renässansens konst",
@@ -9251,7 +9546,8 @@
       "published_year": 1996,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010402+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:05.187971+00:00"
     },
     "8421839": {
       "title": "Fisken i skyn",
@@ -9260,7 +9556,8 @@
       "published_year": 2024,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010404+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:44:00.774966+00:00"
     },
     "8278392": {
       "title": "Om konst",
@@ -9269,7 +9566,8 @@
       "published_year": 1997,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010405+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:36:34.512539+00:00"
     },
     "8053132": {
       "title": "Konst, kännare, köpmän",
@@ -9288,7 +9586,8 @@
       "published_year": 2007,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010409+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:40:39.092456+00:00"
     },
     "8139469": {
       "title": "Konst, musik, litteratur i Ådalen",
@@ -9326,7 +9625,8 @@
       "published_year": null,
       "discovered_query": "konst",
       "discovered_at": "2026-11-08T10:54:03.010415+00:00",
-      "imported": false
+      "imported": true,
+      "imported_at": "2026-11-08T11:39:30.717658+00:00"
     },
     "8189483": {
       "title": "Vår konst - er konst",
@@ -9370,6 +9670,6 @@
   },
   "cursor": {
     "query_index": 0,
-    "page": 20
+    "page": 40
   }
 }
