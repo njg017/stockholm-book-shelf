@@ -20,8 +20,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Run offline parser and pagination tests
         run: python scripts/test_discovery.py
-      - name: Run one-page live discovery dry run
-        run: python scripts/discover_catalogue.py --max-pages 1 --page-size 3 --delay 2 --dry-run
+      - name: Run one-partition live discovery dry run
+        run: python scripts/discover_catalogue.py --max-partitions 1 --page-size 3 --delay 2 --dry-run
       - name: Show discovery report
         run: |
           python - <<'PY'
