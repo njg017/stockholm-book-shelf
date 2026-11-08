@@ -12,7 +12,7 @@
 <label class="search-wrap"><span class="visually-hidden">Search imported books</span><input id="search" type="search" placeholder="Search title, author, ISBN or subject"></label>
 </div></header>
 <main>
-<section class="hero"><div class="container"><p class="eyebrow">Independent catalogue browser</p><h1>Find your next<br><em>great read</em></h1><p class="lede">Explore imported books from Stockholms stadsbibliotek. Check the official catalogue before travelling or reserving.</p><a class="button primary" href="#shelves">Browse books</a><p id="data-status" class="prototype-note" role="status">Loading catalogue data…</p></div></section>
+<section class="hero"><div class="container"><p class="eyebrow">Independent catalogue browser</p><h1>Find your next<br><em>great read</em></h1><p class="lede">Explore imported books from Stockholms stadsbibliotek. Star books you like to get local recommendations based on genres, subjects, author and ratings.</p><a class="button primary" href="#shelves">Browse books</a><p id="data-status" class="prototype-note" role="status">Loading catalogue data…</p></div></section>
 <section class="container" aria-label="Filters"><div class="filter-bar">
 <label>Branch <select id="branch"><option value="">All branches</option></select></label>
 <label>Language <select id="language"><option value="">All languages</option></select></label>
@@ -20,10 +20,12 @@
 <label>Sort by <select id="sort"><option value="relevance">Relevance</option><option value="rating">Highest rated</option><option value="recent">Most recently published</option></select></label>
 <label><input id="available-only" type="checkbox"> Available at selected branch</label>
 <label><input id="recent-only" type="checkbox"> Recent releases</label>
+<label><input id="starred-only" type="checkbox"> Starred only</label>
+<button id="clear-stars" type="button" class="button subtle">Clear stars</button>
 </div></section>
-<section class="shelves container"><div id="shelves" aria-live="polite"></div><p id="empty-state" class="empty-state" hidden>No imported books match these filters.</p></section>
+<section class="shelves container"><div id="recommendations" aria-live="polite"></div><div id="shelves" aria-live="polite"></div><p id="empty-state" class="empty-state" hidden>No imported books match these filters.</p></section>
 </main>
-<footer class="site-footer container">Independent project, not an official library service. Availability is a timestamped snapshot, not live stock. Search covers only the imported selection.</footer>
+<footer class="site-footer container">Independent project, not an official library service. Availability is a timestamped snapshot, not live stock. Search covers only the imported selection. Stars are stored only in this browser.</footer>
 <div class="modal" id="book-modal" hidden><div class="modal-backdrop" data-close></div><article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
-<button class="modal-close" data-close aria-label="Close details">×</button><div id="modal-media" class="modal-media"></div><div class="modal-body"><p id="modal-genre" class="eyebrow"></p><h2 id="modal-title"></h2><p id="modal-author" class="modal-author"></p><p id="modal-meta" class="status"></p><p id="modal-description" class="description"></p><div id="modal-quality" class="quality"></div><div id="modal-availability" class="availability"></div><p id="modal-updated" class="status"></p><a id="modal-reserve" class="button primary" target="_blank" rel="noopener noreferrer">View and reserve at library</a></div></article></div>
+<button class="modal-close" data-close aria-label="Close details">×</button><div id="modal-media" class="modal-media"></div><div class="modal-body"><p id="modal-genre" class="eyebrow"></p><h2 id="modal-title"></h2><p id="modal-author" class="modal-author"></p><p id="modal-meta" class="status"></p><p id="modal-description" class="description"></p><div id="modal-quality" class="quality"></div><div id="modal-availability" class="availability"></div><p id="modal-updated" class="status"></p><button id="modal-star" class="button star-button" type="button">Star this book</button><a id="modal-reserve" class="button primary" target="_blank" rel="noopener noreferrer">View and reserve at library</a></div></article></div>
 <script src="assets/js/app.js"></script></body></html>
