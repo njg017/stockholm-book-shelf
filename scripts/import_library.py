@@ -37,26 +37,28 @@ def main():
     for key, book in books.items():
         try:
             enrich_title(client, book)
-            if book['availability_status'] == 'available':
-                book['shelves'].append('available-now')
+            if book.get('availability_status') == 'available':
+                book.setdefault('shelves', []).append('available-now')
         except Exception as exc:
             errors.append({'stage': 'title', 'title_id': key, 'error': str(exc)})
         try:
             enrich_record(book)
         except Exception as exc:
             errors.append({'stage': 'openlibrary', 'title_id': key, 'error': str(exc)})
-    publish = bool(books) and not errors
+    publish = bool(books)
+    failed_seeds = sum(1 for error in errors if error['stage'] == 'search')
     report = {'generated_at': datetime.now(timezone.utc).isoformat(), 'published': publish,
               'book_count': len(books), 'errors': errors, 'searches': searches,
+              'failed_seed_count': failed_seeds,
               'pagination_verified': False, 'availability_source': 'title-page branch counts',
               'openlibrary_enrichment': 'ratings, first publication year, work ID and recent-release flag'}
     write_json(DATA / 'import-report.json', report)
     print(json.dumps(report, ensure_ascii=False, indent=2))
     if not publish:
-        raise SystemExit('Previous books and shelves retained; inspect import-report.json')
+        raise SystemExit('No books were imported; previous books and shelves retained. Inspect import-report.json.')
     records, shelves = list(books.values()), {}
     for book in records:
-        for shelf in book['shelves']:
+        for shelf in book.get('shelves', []):
             shelves.setdefault(shelf, []).append(book)
     write_json(DATA / 'books.json', records)
     write_json(DATA / 'shelves.json', shelves)

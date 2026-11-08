@@ -1,5 +1,7 @@
 name: Update library data
 on:
+  schedule:
+    - cron: "17 3 * * *"
   workflow_dispatch:
     inputs:
       publish:
@@ -26,13 +28,13 @@ jobs:
       - name: Import all configured seeds
         run: python scripts/import_library.py --rows 20 --delay 2
       - name: Publish generated catalogue JSON
-        if: ${{ success() && inputs.publish }}
+        if: ${{ success() && (github.event_name == 'schedule' || inputs.publish == true) }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/books.json data/shelves.json data/import-report.json
           if ! git diff --cached --quiet; then
-            git commit -m "Publish imported catalogue selection"
+            git commit -m "Refresh catalogue data"
             git push origin HEAD:main
           fi
       - name: Upload data and diagnostics
