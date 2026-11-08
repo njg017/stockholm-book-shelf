@@ -1,41 +1,32 @@
 {
   "max_titles_per_seed": 20,
   "seeds": [
-    {
-      "author": "Gabrielle Zevin",
-      "shelf": "english-fiction"
-    },
-    {
-      "author": "Kazuo Ishiguro",
-      "shelf": "english-fiction"
-    },
-    {
-      "author": "Sally Rooney",
-      "shelf": "english-fiction"
-    },
-    {
-      "author": "Stieg Larsson",
-      "shelf": "crime"
-    },
-    {
-      "author": "Camilla Läckberg",
-      "shelf": "crime"
-    },
-    {
-      "author": "Andy Weir",
-      "shelf": "scifi-fantasy"
-    },
-    {
-      "author": "Terry Pratchett",
-      "shelf": "scifi-fantasy"
-    },
-    {
-      "author": "Julia Donaldson",
-      "shelf": "children"
-    },
-    {
-      "author": "Sven Nordqvist",
-      "shelf": "children"
-    }
+    {"author": "Gabrielle Zevin", "shelf": "english-fiction"},
+    {"author": "Kazuo Ishiguro", "shelf": "english-fiction"},
+    {"author": "Sally Rooney", "shelf": "english-fiction"},
+    {"author": "Stieg Larsson", "shelf": "crime"},
+    {"author": "Camilla Läckberg", "shelf": "crime"},
+    {"author": "Andy Weir", "shelf": "scifi-fantasy"},
+    {"author": "Terry Pratchett", "shelf": "scifi-fantasy"},
+    {"author": "Julia Donaldson", "shelf": "children"},
+    {"author": "Sven Nordqvist", "shelf": "children"},
+    {"author": "Fredrik Backman", "shelf": "swedish-fiction"},
+    {"author": "Jonas Jonasson", "shelf": "swedish-fiction"},
+    {"author": "Karin Alvtegen", "shelf": "swedish-fiction"},
+    {"author": "Chimamanda Ngozi Adichie", "shelf": "english-fiction"},
+    {"author": "Elena Ferrante", "shelf": "english-fiction"},
+    {"author": "Haruki Murakami", "shelf": "english-fiction"},
+    {"author": "Jo Nesbø", "shelf": "crime"},
+    {"author": "Arne Dahl", "shelf": "crime"},
+    {"author": "Lisa Jewell", "shelf": "crime"},
+    {"author": "N. K. Jemisin", "shelf": "scifi-fantasy"},
+    {"author": "Ursula K. Le Guin", "shelf": "scifi-fantasy"},
+    {"author": "Brandon Sanderson", "shelf": "scifi-fantasy"},
+    {"author": "Astrid Lindgren", "shelf": "children"},
+    {"author": "Tove Jansson", "shelf": "children"},
+    {"author": "Rainbow Rowell", "shelf": "children"},
+    {"author": "Yuval Noah Harari", "shelf": "nonfiction"},
+    {"author": "Rutger Bregman", "shelf": "nonfiction"},
+    {"author": "Bill Bryson", "shelf": "nonfiction"}
   ]
 }
