@@ -1,0 +1,87 @@
+{
+  "generated_at": "2026-11-08T08:27:38.465683+00:00",
+  "published": true,
+  "book_count": 3,
+  "errors": [],
+  "searches": [
+    {
+      "author": "Gabrielle Zevin",
+      "total_hits": 11,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 10,
+          "returned": 3
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 1,
+          "returned": 1
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    }
+  ],
+  "pagination_verified": false,
+  "availability_source": "title-page branch counts"
+}
