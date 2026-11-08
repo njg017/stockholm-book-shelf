@@ -33,11 +33,13 @@ def parse_response(payload):
     if not isinstance(result, dict) or not isinstance(result.get('groupedMedia'), list):
         raise CatalogueError('Missing searchWithFilter result groups')
     books, groups = [], []
+    book_total = None
     for group in result['groupedMedia']:
         records = group.get('mediaList') or []
         groups.append({'format': group.get('mediaTypeEnum'), 'total': group.get('numFound'), 'returned': len(records)})
         if group.get('mediaTypeEnum') != 'BOOK':
             continue
+        book_total = group.get('numFound')
         for media in records:
             key = str(media.get('key') or '')
             if not key.isdigit() or not media.get('title'):
@@ -65,7 +67,7 @@ def parse_response(payload):
                 'available_branches': None, 'availability_status': 'unknown',
                 'shelves': shelves,
             })
-    return {'books': books, 'total_hits': result.get('totalHits'), 'start': result.get('start'),
+    return {'books': books, 'total_hits': result.get('totalHits'), 'book_total': book_total, 'start': result.get('start'),
             'groups': groups, 'facets': result.get('availableFilterGroups') or [],
             'partial': any(isinstance(g['total'], int) and g['returned'] < g['total'] for g in groups)}
 
@@ -82,7 +84,9 @@ class GraphQLClient:
             raise ValueError('rows must be between 1 and 100')
         if start < 0:
             raise ValueError('start must be zero or positive')
-        filters = {'query': query, 'rows': rows, 'start': start}
+        filters = {'query': query, 'rows': rows}
+        if start:
+            filters['start'] = start
         if author:
             filters['author'] = [author]
         request = {'query': QUERY, 'variables': {'filterQuery': filters, '__operation': 'search'}, 'operationName': 'searchWithFilter'}

@@ -31,7 +31,7 @@ def main():
     client = GraphQLClient(args.delay, DATA / 'raw/graphql')
     seen, queued, pages = set(), 0, 0
     start = 0
-    total_hits = None
+    total_hits = book_total = None
     errors = []
     while pages < args.max_pages:
         try:
@@ -42,9 +42,11 @@ def main():
         pages += 1
         books = result['books']
         total_hits = result['total_hits']
+        book_total = result['book_total'] if book_total is None else book_total
         for book in books:
             title_id = str(book['title_id'])
             if title_id in seen:
+                errors.append({'page': pages, 'start': start, 'error': 'duplicate_title_id:' + title_id})
                 continue
             seen.add(title_id)
             record = state.ensure(title_id, book.get('title') or '')
@@ -57,15 +59,16 @@ def main():
         if not args.dry_run:
             state.save()
         returned = len(books)
-        if returned < args.page_size or start + returned >= (total_hits or 0):
+        if returned < args.page_size or (book_total is not None and start + returned >= book_total):
             break
         start += returned
         time.sleep(args.delay)
     coverage = state.coverage()
+    pagination_verified = bool(book_total is not None and pages and not errors and len(seen) <= book_total and (len(seen) == book_total or pages < args.max_pages))
     report = {'generated_at': datetime.now(timezone.utc).isoformat(), 'dry_run': args.dry_run,
               'priority_languages': sorted(priority), 'page_size': args.page_size, 'pages_fetched': pages,
               'records_seen': len(seen), 'titles_queued_for_import': queued, 'total_hits': total_hits,
-              'pagination_verified': bool(total_hits is not None and pages and len(seen) <= total_hits),
+              'book_total': book_total, 'pagination_verified': pagination_verified,
               'coverage': coverage, 'errors': errors}
     write_json(REPORT, report)
     write_json(DATA / 'coverage-report.json', coverage)

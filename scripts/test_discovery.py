@@ -29,6 +29,7 @@ SAMPLE = {
 def test_parse_response():
     result = parse_response(SAMPLE)
     assert result['total_hits'] == 11
+    assert result['book_total'] == 10
     assert len(result['books']) == 2
     assert result['groups'][0]['returned'] == 2
     assert result['groups'][0]['total'] == 10
@@ -43,7 +44,7 @@ def test_parse_response():
     assert swedish['published_year'] == 2024
 
 def test_pagination_plan():
-    page_size, total = 3, 11
+    page_size, total = 3, 10
     pages, start, seen = 0, 0, 0
     while pages < 10:
         returned = min(page_size, total - start)
@@ -53,14 +54,14 @@ def test_pagination_plan():
             break
         start += returned
     assert pages == 4
-    assert seen == 11
+    assert seen == 10
     assert start == 9
 
 def test_report_shape():
-    report = {'pages_fetched': 1, 'records_seen': 3, 'total_hits': 11, 'titles_queued_for_import': 3,
-              'pagination_verified': True, 'errors': []}
+    report = {'pages_fetched': 1, 'records_seen': 3, 'total_hits': 11, 'book_total': 10,
+              'titles_queued_for_import': 3, 'pagination_verified': True, 'errors': []}
     assert report['pagination_verified'] is True
-    assert report['records_seen'] <= report['total_hits']
+    assert report['records_seen'] <= report['book_total']
     assert not report['errors']
 
 if __name__ == '__main__':
