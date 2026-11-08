@@ -11,14 +11,16 @@ permissions:
 jobs:
   update-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Import GraphQL search records
+      - name: Test title parser offline
+        run: python scripts/test_title_metadata.py
+      - name: Import search and title metadata
         env:
           AUTHOR: ${{ inputs.author }}
         run: python scripts/import_library.py --author "$AUTHOR" --rows 3 --delay 2
@@ -32,4 +34,5 @@ jobs:
             data/shelves.json
             data/import-report.json
             data/raw/graphql/
+            data/raw/title-html/
           retention-days: 14

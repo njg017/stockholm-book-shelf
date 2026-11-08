@@ -1,18 +1,19 @@
-"""Import verified GraphQL search fields; availability remains unknown."""
+"""Import search records and enrich from title-page embedded state."""
 import argparse
 import json
 from datetime import datetime, timezone
 from pathlib import Path
 from library_graphql import GraphQLClient
+from title_metadata import enrich_title
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
 
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
-    temporary = path.with_suffix('.tmp')
-    temporary.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding='utf-8')
-    temporary.replace(path)
+    temp = path.with_suffix('.tmp')
+    temp.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding='utf-8')
+    temp.replace(path)
 
 def main():
     parser = argparse.ArgumentParser()
@@ -27,22 +28,27 @@ def main():
     for seed in seeds:
         try:
             result = client.search(author=seed.get('author'), query=seed.get('query', ''), rows=args.rows)
-            searches.append({'author': seed.get('author'), 'query': seed.get('query', ''),
-                             **{key: result[key] for key in ('total_hits', 'groups', 'partial', 'facets')}})
+            searches.append({'author': seed.get('author'), **{k: result[k] for k in ('total_hits', 'groups', 'partial')}})
             for book in result['books']:
                 books[book['title_id']] = book
         except Exception as exc:
-            errors.append({'seed': seed, 'error': str(exc)})
+            errors.append({'stage': 'search', 'seed': seed, 'error': str(exc)})
+    for key, book in books.items():
+        try:
+            enrich_title(client, book)
+            if book['availability_status'] == 'available':
+                book['shelves'].append('available-now')
+        except Exception as exc:
+            errors.append({'stage': 'title', 'title_id': key, 'error': str(exc)})
     publish = bool(books) and not errors
     report = {'generated_at': datetime.now(timezone.utc).isoformat(), 'published': publish,
               'book_count': len(books), 'errors': errors, 'searches': searches,
-              'pagination_verified': False, 'availability_verified': False}
+              'pagination_verified': False, 'availability_source': 'title-page branch counts'}
     write_json(DATA / 'import-report.json', report)
     print(json.dumps(report, ensure_ascii=False, indent=2))
     if not publish:
-        raise SystemExit('No data published; previous books and shelves retained. Inspect import-report.json.')
-    records = list(books.values())
-    shelves = {}
+        raise SystemExit('Previous books and shelves retained; inspect import-report.json')
+    records, shelves = list(books.values()), {}
     for book in records:
         for shelf in book['shelves']:
             shelves.setdefault(shelf, []).append(book)
