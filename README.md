@@ -24,16 +24,50 @@ Core features:
 ## Architecture
 
 ```text
-Library catalogue → importer → normalised JSON → static front end
-                        ↓
-              Open Library enrichment
+Library catalogue → search client → raw cache → normalised JSON → static front end
+                                        ↓
+                             Open Library enrichment
 ```
 
-- `scripts/fetch_library.py` fetches and normalises library records
+- `scripts/stockholm_library.py` searches and normalises library records
 - `scripts/enrich_openlibrary.py` adds covers, descriptions and subjects
 - `scripts/build_site_data.py` produces the JSON consumed by the site
 - `index.html` and `assets/` provide the initial static front end
 - GitHub Pages can serve the static site
+
+## Search client
+
+Install dependencies:
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Run a search:
+
+```bash
+python scripts/stockholm_library.py "9780571364886"
+python scripts/stockholm_library.py "Gabrielle Zevin"
+python scripts/stockholm_library.py "Gabrielle Zevin" --page 2
+```
+
+The client requests:
+
+```text
+https://biblioteket.stockholm.se/sok?text=<query>
+```
+
+It saves every raw response beneath `data/raw/search/` before attempting to parse it. This makes it possible to inspect the real response format and refine the parser without repeatedly requesting the live site.
+
+The parser first looks for embedded JSON, JSON-LD and common Next.js/Nuxt state blocks. If none is found, it falls back to result links. The parser is intentionally conservative: it raises an error rather than inventing fields when the response cannot be understood.
+
+Run offline tests:
+
+```bash
+python scripts/test_search_client.py
+```
 
 ## Data model
 
@@ -41,13 +75,21 @@ See [`data/books.sample.json`](data/books.sample.json).
 
 ## Roadmap
 
-1. Validate the library catalogue data fields
-2. Build a small importer for a 200-book test set
-3. Enrich records with Open Library metadata
-4. Build shelf UI, filters and book detail pages
-5. Automate data refresh with GitHub Actions
-6. Add read-alikes, branch pages and personalised shelves
+1. Run the search client once the library site is available
+2. Inspect the saved raw response in `data/raw/search/`
+3. Replace the generic parser with selectors matched to the real response
+4. Add holdings, branch and availability extraction
+5. Enrich records with Open Library metadata
+6. Build shelf UI, filters and book detail pages
+7. Automate data refresh with GitHub Actions
+
+## Responsible use
+
+- Cache responses; do not make high-volume repeated requests.
+- Use a descriptive User-Agent.
+- Show a data-updated timestamp in the eventual UI.
+- Treat availability as approximate and direct users to the official library catalogue for reservations.
 
 ## Status
 
-**Initial scaffold.** The importer and front end are intentionally lightweight starting points; the next milestone is to inspect the library catalogue response format and implement a real fetcher.
+**Search client scaffold complete.** The next step is to run it against the live catalogue once maintenance ends, inspect the cached response, and tailor the parser to its actual structure.
