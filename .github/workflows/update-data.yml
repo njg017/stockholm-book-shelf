@@ -10,7 +10,17 @@ on:
         default: false
       batch:
         description: Number of new titles to import per run
-        default: '300'
+        default: '25'
+      discovery_pages:
+        description: Number of catalogue pages to discover
+        default: '5'
+      discovery_start:
+        description: Optional discovery start offset; leave blank to resume the saved cursor
+        default: ''
+      reset_cursor:
+        description: Restart discovery from record 0
+        type: boolean
+        default: false
 permissions:
   contents: write
 concurrency:
@@ -31,9 +41,17 @@ jobs:
       - name: Test title parser offline
         run: python scripts/test_title_metadata.py
       - name: Discover additional catalogue titles
-        run: python scripts/discover_catalogue.py --max-pages 10 --page-size 50 --delay 2
+        run: |
+          ARGS=(--max-pages "${{ inputs.discovery_pages || 5 }}" --page-size 50 --delay 2)
+          if [ -n "${{ inputs.discovery_start }}" ]; then
+            ARGS+=(--start "${{ inputs.discovery_start }}")
+          fi
+          if [ "${{ inputs.reset_cursor }}" = "true" ]; then
+            ARGS+=(--reset-cursor)
+          fi
+          python scripts/discover_catalogue.py "${ARGS[@]}"
       - name: Import next catalogue batch
-        run: python scripts/import_catalogue.py --batch ${{ inputs.batch || 300 }} --delay 2
+        run: python scripts/import_catalogue.py --batch ${{ inputs.batch || 25 }} --delay 2
       - name: Publish generated catalogue JSON
         if: ${{ success() && (github.event_name == 'schedule' || inputs.publish == true) }}
         run: |
@@ -62,7 +80,9 @@ jobs:
           print(f"- Queued for import: {report.get('titles_queued_for_import', 0)}")
           print(f"- Pages fetched: {report.get('pages_fetched', 0)}")
           print(f"- Effective page size: {report.get('effective_page_size', 0)}")
-          print(f"- Catalogue works: {report.get('total_catalogue_works', 0)}")
+          print(f"- Discovery start: {report.get('start', 0)}")
+          print(f"- Next discovery start: {report.get('next_start', 0)}")
+          print(f"- Catalogue works: {report.get('book_total', 0)}")
           print(f"- Duplicates merged: {report.get('duplicate_records_merged', 0)}")
           print(f"- Errors: {len(report.get('errors', []))}")
           PY

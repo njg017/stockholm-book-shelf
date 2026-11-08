@@ -34,12 +34,18 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--page-size', type=int, default=50)
     parser.add_argument('--max-pages', type=int, default=10)
+    parser.add_argument('--start', type=int, default=None, help='Override the persisted discovery cursor')
+    parser.add_argument('--reset-cursor', action='store_true', help='Restart discovery from record 0')
     parser.add_argument('--delay', type=float, default=2)
     parser.add_argument('--languages', default='Engelska,Svenska', help='Comma-separated languages to prioritize for ingestion')
     parser.add_argument('--dry-run', action='store_true')
     args = parser.parse_args()
     priority = {value.strip() for value in args.languages.split(',') if value.strip()}
     state = IngestionState(STATE)
+    if args.reset_cursor:
+        state.data['discovery'] = {'next_start': 0}
+    discovery = state.data.setdefault('discovery', {'next_start': 0})
+    start = args.start if args.start is not None else int(discovery.get('next_start', 0))
     imported_ids = set()
     if BOOKS.exists():
         try:
@@ -49,10 +55,10 @@ def main():
             pass
     client = GraphQLClient(args.delay, DATA / 'raw/graphql')
     seen, queued, already_imported, pages = set(), 0, 0, 0
-    start = 0
     effective_size = args.page_size
     total_hits = book_total = None
     errors = []
+    next_start = start
     while pages < args.max_pages:
         result, used_size, page_errors = search_page(client, effective_size, start)
         errors.extend(page_errors)
@@ -83,15 +89,23 @@ def main():
         if not args.dry_run:
             state.save()
         returned = len(books)
-        if returned < effective_size or (book_total is not None and start + returned >= book_total):
+        next_start = start + returned
+        if returned < effective_size or (book_total is not None and next_start >= book_total):
+            next_start = 0
             break
-        start += returned
+        start = next_start
         time.sleep(args.delay)
+    if not args.dry_run:
+        discovery['next_start'] = next_start
+        discovery['last_run'] = {'started_at': datetime.now(timezone.utc).isoformat(), 'start': next_start - (effective_size * pages) if pages else next_start,
+                                 'pages': pages, 'records_seen': len(seen), 'queued': queued}
+        state.save()
     coverage = state.coverage()
     pagination_verified = bool(book_total is not None and pages and not errors and len(seen) <= book_total and (len(seen) == book_total or pages < args.max_pages))
     report = {'generated_at': datetime.now(timezone.utc).isoformat(), 'dry_run': args.dry_run,
               'priority_languages': sorted(priority), 'requested_page_size': args.page_size,
-              'effective_page_size': effective_size, 'pages_fetched': pages, 'records_seen': len(seen),
+              'effective_page_size': effective_size, 'pages_fetched': pages, 'start': next_start - (effective_size * pages) if pages else next_start,
+              'next_start': next_start, 'records_seen': len(seen),
               'titles_queued_for_import': queued, 'already_imported_titles_reconciled': already_imported,
               'total_hits': total_hits, 'book_total': book_total,
               'pagination_verified': pagination_verified, 'coverage': coverage, 'errors': errors}
