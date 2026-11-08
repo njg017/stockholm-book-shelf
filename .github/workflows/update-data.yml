@@ -2,10 +2,6 @@ name: Update library data
 on:
   workflow_dispatch:
     inputs:
-      author:
-        description: Author to import (publishing replaces the current selection)
-        required: true
-        default: Gabrielle Zevin
       publish:
         description: Commit generated books and shelves to main for the website
         type: boolean
@@ -18,7 +14,7 @@ concurrency:
 jobs:
   update-data:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -27,10 +23,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Test title parser offline
         run: python scripts/test_title_metadata.py
-      - name: Import search and title metadata
-        env:
-          AUTHOR: ${{ inputs.author }}
-        run: python scripts/import_library.py --author "$AUTHOR" --rows 3 --delay 2
+      - name: Import all configured seeds
+        run: python scripts/import_library.py --rows 20 --delay 2
       - name: Publish generated catalogue JSON
         if: ${{ success() && inputs.publish }}
         run: |
