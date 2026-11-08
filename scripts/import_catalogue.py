@@ -138,8 +138,9 @@ def main():
                 works[key] = book
                 imported.append(book)
                 state.mark_imported(title_id)
-            index['titles'][title_id]['imported'] = True
-            index['titles'][title_id]['imported_at'] = datetime.now(timezone.utc).isoformat()
+            index_entry = index.setdefault('titles', {}).setdefault(title_id, {'title': record.get('title') or ''})
+            index_entry['imported'] = True
+            index_entry['imported_at'] = datetime.now(timezone.utc).isoformat()
         except Exception as exc:
             errors.append({'title_id': title_id, 'error': str(exc)})
             state.mark_failed(title_id, exc)
