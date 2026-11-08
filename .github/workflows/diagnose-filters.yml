@@ -1,0 +1,31 @@
+name: Diagnose catalogue filters
+on:
+  workflow_dispatch:
+    inputs:
+      rows:
+        description: Page size to test
+        default: '100'
+      delay:
+        description: Delay between API requests in seconds
+        default: '2'
+permissions:
+  contents: read
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Inspect filters and language partitions
+        run: python scripts/diagnose_filters.py --rows "${{ inputs.rows || 100 }}" --delay "${{ inputs.delay || 2 }}"
+      - name: Upload diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: filter-diagnostics
+          path: diagnostics/
+          retention-days: 14
