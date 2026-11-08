@@ -77,10 +77,12 @@ class GraphQLClient:
         self.session = requests.Session()
         self.session.headers.update({'User-Agent': 'BokhyllanStockholm/0.2 (+https://github.com/njg017/stockholm-book-shelf)'})
 
-    def search(self, author=None, query='', rows=3):
+    def search(self, author=None, query='', rows=100, start=0):
         if not 1 <= rows <= 100:
-            raise ValueError('rows must be between 1 and 100; pagination is not yet verified')
-        filters = {'query': query, 'rows': rows}
+            raise ValueError('rows must be between 1 and 100')
+        if start < 0:
+            raise ValueError('start must be zero or positive')
+        filters = {'query': query, 'rows': rows, 'start': start}
         if author:
             filters['author'] = [author]
         request = {'query': QUERY, 'variables': {'filterQuery': filters, '__operation': 'search'}, 'operationName': 'searchWithFilter'}

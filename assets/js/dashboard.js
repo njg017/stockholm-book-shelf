@@ -22,8 +22,8 @@
     if (coverage) {
       values.push(
         ['Discovered catalogue titles', coverage.discovered],
+        ['Queued for ingestion', coverage.pending],
         ['Successfully imported', coverage.imported],
-        ['Pending ingestion', coverage.pending],
         ['Failed and awaiting retry', coverage.failed],
         ['Catalogue coverage', coverage.coverage_percent + '%']
       );
@@ -33,6 +33,6 @@
       dt.textContent = label; dd.textContent = typeof value === 'number' ? value.toLocaleString() : value;
       metrics.append(dt, dd);
     }
-    status.textContent = coverage ? 'Resumable ingestion coverage: ' + coverage.coverage_percent + '%. Published snapshot, not live stock.' : 'Published catalogue snapshot, not live stock. Run the importer to create coverage data.';
+    status.textContent = coverage ? 'Resumable ingestion coverage: ' + coverage.coverage_percent + '%. Published snapshot, not live stock.' : 'Published catalogue snapshot, not live stock. Run catalogue discovery to create coverage data.';
   } catch (error) { status.textContent = 'Could not load dashboard: ' + error.message; }
 })();

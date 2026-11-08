@@ -85,7 +85,7 @@ def main():
     parser.add_argument('--delay', type=float, default=2)
     parser.add_argument('--limit', type=int, help='Maximum titles to process in this run')
     parser.add_argument('--dry-run', action='store_true')
-    parser.add_argument('--no-resume', action='store_true', help='Process discovered titles even if previously failed')
+    parser.add_argument('--no-resume', action='store_true', help='Process pending titles even if previously failed')
     args = parser.parse_args()
     index = json.loads(INDEX.read_text(encoding='utf-8')) if INDEX.exists() else {'titles': {}}
     books = json.loads(BOOKS.read_text(encoding='utf-8')) if BOOKS.exists() else []
@@ -97,9 +97,7 @@ def main():
             state.mark_imported(title_id)
     state.save()
     limit = args.batch if args.limit is None else min(args.batch, args.limit)
-    selected = [] if args.no_resume else state.pending(limit)
-    if args.no_resume:
-        selected = [title_id for title_id in sorted(index.get('titles', {})) if title_id not in imported_ids][:limit]
+    selected = [title_id for title_id in state.pending(limit) if title_id not in imported_ids]
     client = GraphQLClient(args.delay, DATA / 'raw/graphql')
     imported, errors, duplicates, invalid = [], [], 0, 0
     works = {}
@@ -115,7 +113,8 @@ def main():
         if args.dry_run:
             imported.append({'title_id': title_id, 'dry_run': True})
             continue
-        book = {'title_id': title_id, 'title': index['titles'][title_id].get('title') or '', 'shelves': []}
+        record = state.data['titles'][title_id]
+        book = {'title_id': title_id, 'title': record.get('title') or '', 'shelves': []}
         try:
             enrich_title(client, book)
             if book.get('availability_status') == 'available':

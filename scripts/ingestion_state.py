@@ -40,16 +40,19 @@ class IngestionState:
         now = time.time()
         items = []
         for title_id, record in self.data['titles'].items():
-            if record.get('status') != 'failed':
-                continue
-            next_retry = record.get('next_retry_at', 0)
-            if next_retry and now < next_retry:
-                continue
-            items.append((int(title_id), title_id, record))
-        items.sort()
+            status = record.get('status')
+            if status == 'pending':
+                priority = 0 if record.get('priority') == 'high' else 1
+                items.append((priority, int(title_id), title_id, record))
+            elif status == 'failed':
+                next_retry = record.get('next_retry_at', 0)
+                if next_retry and now < next_retry:
+                    continue
+                items.append((2, int(title_id), title_id, record))
+        items.sort(key=lambda item: (item[0], item[1]))
         if limit is not None:
             items = items[:limit]
-        return [title_id for _, title_id, _ in items]
+        return [title_id for _, _, title_id, _ in items]
 
     def mark_imported(self, title_id):
         record = self.ensure(title_id)
@@ -74,7 +77,7 @@ class IngestionState:
         counts = {status: 0 for status in STATUSES}
         for record in self.data['titles'].values():
             counts[record.get('status', 'discovered')] += 1
-        discovered = counts['discovered'] + counts['pending'] + counts['imported'] + counts['failed'] + counts['skipped']
+        discovered = sum(counts.values())
         return {'generated_at': datetime.now(timezone.utc).isoformat(), 'discovered': discovered,
                 'imported': counts['imported'], 'pending': counts['pending'], 'failed': counts['failed'],
                 'skipped': counts['skipped'], 'coverage_percent': round(counts['imported'] / discovered * 100, 2) if discovered else 0}
