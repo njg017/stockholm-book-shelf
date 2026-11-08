@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install -r requirements.txt
-      - name: Test pagination fields
+      - name: Introspect and test pagination fields
         run: python scripts/diagnose_pagination.py --rows "${{ inputs.rows || 50 }}" --delay "${{ inputs.delay || 2 }}"
       - name: Upload diagnostics
         if: always()
