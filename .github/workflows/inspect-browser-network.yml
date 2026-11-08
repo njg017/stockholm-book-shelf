@@ -1,0 +1,33 @@
+name: Inspect browser network
+on:
+  workflow_dispatch:
+    inputs:
+      author:
+        description: Author to search
+        required: true
+        default: Gabrielle Zevin
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install playwright==1.56.0
+      - run: python -m playwright install --with-deps chromium
+      - name: Capture public catalogue traffic
+        env:
+          AUTHOR: ${{ inputs.author }}
+        run: python scripts/inspect_browser_network.py
+      - name: Upload browser evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-network
+          path: diagnostics/browser/
+          retention-days: 7
+          if-no-files-found: warn
