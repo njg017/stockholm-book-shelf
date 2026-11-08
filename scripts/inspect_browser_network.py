@@ -56,7 +56,7 @@ async def main():
         page.on('requestfailed', lambda request: failures.append({'url': request.url, 'failure': request.failure}))
         url = 'https://biblioteket.stockholm.se/sok?' + urlencode({'text': ''})
         links = []
-        pagination = {'clicked': False, 'control': None, 'final_url': None}
+        pagination = {'clicked': False, 'control': None, 'candidates': [], 'final_url': None}
         problem = None
         try:
             await page.goto(url, wait_until='domcontentloaded', timeout=60000)
@@ -65,19 +65,41 @@ async def main():
             except PlaywrightTimeout:
                 errors.append('No /titel/ anchor appeared within 30 seconds')
             await page.wait_for_timeout(5000)
+            await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+            await page.wait_for_timeout(3000)
             links = await page.locator('a[href*="/titel/"]').evaluate_all('(elements) => elements.map(a => ({href:a.href,text:a.textContent}))')
-            candidates = page.locator("button, a[role='button'], a").filter(has_text='Nästa')
-            count = await candidates.count()
-            if count:
-                control = candidates.first
-                pagination['control'] = await control.evaluate('element => ({tag: element.tagName, text: element.textContent?.trim(), href: element.href || null, aria: element.getAttribute("aria-label")})')
+            candidates = await page.evaluate('''() => {
+              const terms = ['nästa', 'fler', 'visa fler', 'vidare', 'next'];
+              const nodes = Array.from(document.querySelectorAll('button, a[role="button"], a, nav button, nav a'));
+              return nodes.map((element, index) => {
+                const text = (element.textContent || '').trim();
+                const aria = element.getAttribute('aria-label') || '';
+                const title = element.getAttribute('title') || '';
+                const lower = (text + ' ' + aria + ' ' + title).toLowerCase();
+                const matches = terms.some(term => lower.includes(term));
+                const inNav = !!element.closest('nav');
+                if (!matches && !inNav) return null;
+                const rect = element.getBoundingClientRect();
+                return {index, tag: element.tagName, text, aria, title, href: element.href || null,
+                        disabled: element.disabled || element.getAttribute('aria-disabled') === 'true',
+                        visible: rect.width > 0 && rect.height > 0,
+                        selector: element.tagName.toLowerCase() + (element.id ? '#' + element.id : '') + (element.className ? '.' + String(element.className).trim().split(/\s+/).join('.') : '')};
+              }).filter(Boolean);
+            }''')
+            pagination['candidates'] = candidates
+            clickable = [item for item in candidates if item.get('visible') and not item.get('disabled')]
+            preferred = [item for item in clickable if any(term in ((item.get('text') or '') + ' ' + (item.get('aria') or '')).lower() for term in ('nästa', 'next', 'fler', 'vidare'))]
+            chosen = preferred[0] if preferred else (clickable[0] if clickable else None)
+            if chosen:
+                control = page.locator(chosen['selector']).first
+                pagination['control'] = chosen
                 before = len(traffic)
                 await control.click()
                 await page.wait_for_timeout(8000)
                 pagination['clicked'] = True
                 pagination['requests_after_click'] = len(traffic) - before
             else:
-                errors.append('No pagination control containing Nästa was found')
+                errors.append('No clickable pagination candidate was found')
             pagination['final_url'] = page.url
         except Exception as exc:
             problem = str(exc)
