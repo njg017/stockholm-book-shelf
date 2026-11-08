@@ -2083,7 +2083,7 @@
       "Bagarmossens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:07:31.967728+00:00"
+    "availability_checked_at": "2026-11-08T19:30:30.609562+00:00"
   },
   "8519119": {
     "holdings": [
@@ -4428,7 +4428,7 @@
       "Blackebergs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:07:48.241914+00:00"
+    "availability_checked_at": "2026-11-08T19:29:36.798423+00:00"
   },
   "8081639": {
     "holdings": [
@@ -7718,7 +7718,7 @@
       "Gröndals bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:08:00.723321+00:00"
+    "availability_checked_at": "2026-11-08T19:36:59.261314+00:00"
   },
   "8316093": {
     "holdings": [
@@ -8174,7 +8174,7 @@
       "Årsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:08:03.138449+00:00"
+    "availability_checked_at": "2026-11-08T19:34:07.789236+00:00"
   },
   "8318423": {
     "holdings": [
@@ -8363,33 +8363,6 @@
             "nofOrdered": 0,
             "nofReference": 0,
             "nofAvailableForLoan": 1,
-            "note": null
-          }
-        ]
-      },
-      {
-        "branch_id": "CSE-7018008",
-        "branch": "Bredängs bibliotek",
-        "slug": "bredangs-bibliotek",
-        "loan_status": "CHECKED_OUT",
-        "total_copies": 1,
-        "available_copies": 0,
-        "reservable": true,
-        "reference_only": false,
-        "locations": [
-          {
-            "department": "Vuxen",
-            "section": null,
-            "location": "Klassiker",
-            "sublocation": null,
-            "firstLoanDueDate": "2026-11-18",
-            "shelfMark": null,
-            "periodical": null,
-            "loanStatus": "CHECKED_OUT",
-            "nofTotal": 1,
-            "nofOrdered": 0,
-            "nofReference": 0,
-            "nofAvailableForLoan": 0,
             "note": null
           }
         ]
@@ -8908,6 +8881,33 @@
         ]
       },
       {
+        "branch_id": "CSE-7018008",
+        "branch": "Bredängs bibliotek",
+        "slug": "bredangs-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-18",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
         "branch_id": "CSE-7018018",
         "branch": "Hässelby gårds bibliotek",
         "slug": "hasselby-gards-bibliotek",
@@ -8991,7 +8991,7 @@
       "Örby bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:08:05.651322+00:00"
+    "availability_checked_at": "2026-11-08T19:34:17.423754+00:00"
   },
   "8994024": {
     "holdings": [
@@ -13280,7 +13280,7 @@
       "Blackebergs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:08:39.953108+00:00"
+    "availability_checked_at": "2026-11-08T19:28:19.568048+00:00"
   },
   "8378745": {
     "holdings": [
@@ -13397,7 +13397,7 @@
     "total_copies": 6,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T09:08:42.239674+00:00"
+    "availability_checked_at": "2026-11-08T19:38:58.470016+00:00"
   },
   "8428847": {
     "holdings": [
@@ -16332,7 +16332,7 @@
             "section": null,
             "location": "Deckare & thrillers",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-19",
+            "firstLoanDueDate": "2026-12-06",
             "shelfMark": null,
             "periodical": null,
             "loanStatus": "CHECKED_OUT",
@@ -16405,7 +16405,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:09:23.853736+00:00"
+    "availability_checked_at": "2026-11-08T19:26:59.706615+00:00"
   },
   "8351019": {
     "holdings": [
@@ -16443,7 +16443,7 @@
       "Bokhotellet, Frihamnen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:09:26.117962+00:00"
+    "availability_checked_at": "2026-11-08T19:36:48.759118+00:00"
   },
   "8350995": {
     "holdings": [
@@ -16481,7 +16481,7 @@
       "Bokhotellet, Frihamnen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:09:28.387090+00:00"
+    "availability_checked_at": "2026-11-08T19:36:43.708612+00:00"
   },
   "8350992": {
     "holdings": [
@@ -16519,7 +16519,7 @@
       "Bokhotellet, Frihamnen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:09:30.663053+00:00"
+    "availability_checked_at": "2026-11-08T19:36:41.393297+00:00"
   },
   "8341065": {
     "holdings": [
@@ -16764,7 +16764,7 @@
       "Tellus fritidscenters bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:09:32.981020+00:00"
+    "availability_checked_at": "2026-11-08T19:35:45.312827+00:00"
   },
   "8350996": {
     "holdings": [
@@ -16802,7 +16802,7 @@
       "Bokhotellet, Frihamnen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:09:35.305181+00:00"
+    "availability_checked_at": "2026-11-08T19:36:46.065744+00:00"
   },
   "8290433": {
     "holdings": [
@@ -16975,7 +16975,7 @@
       "Hässelby villastads bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:09:37.642731+00:00"
+    "availability_checked_at": "2026-11-08T19:31:47.776333+00:00"
   },
   "8351023": {
     "holdings": [
@@ -17041,7 +17041,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:09:39.957226+00:00"
+    "availability_checked_at": "2026-11-08T19:36:53.753184+00:00"
   },
   "8351022": {
     "holdings": [
@@ -17107,7 +17107,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:09:42.394454+00:00"
+    "availability_checked_at": "2026-11-08T19:36:51.133783+00:00"
   },
   "8226722": {
     "holdings": [
@@ -17173,7 +17173,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:09:44.652663+00:00"
+    "availability_checked_at": "2026-11-08T19:26:41.046304+00:00"
   },
   "8189849": {
     "holdings": [
@@ -17305,7 +17305,7 @@
       "Alviks bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:09:49.203276+00:00"
+    "availability_checked_at": "2026-11-08T19:35:20.734782+00:00"
   },
   "8394096": {
     "holdings": [
@@ -25039,7 +25039,7 @@
             "section": null,
             "location": "SF",
             "sublocation": null,
-            "firstLoanDueDate": null,
+            "firstLoanDueDate": "2026-12-06",
             "shelfMark": null,
             "periodical": null,
             "loanStatus": "AVAILABLE_FOR_LOAN",
@@ -25144,7 +25144,7 @@
       "Högdalens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:10:53.248335+00:00"
+    "availability_checked_at": "2026-11-08T19:23:49.062166+00:00"
   },
   "8308586": {
     "holdings": [
@@ -25179,7 +25179,7 @@
         "branch_id": "CSE-7018043",
         "branch": "Vällingby bibliotek",
         "slug": "vallingby-bibliotek",
-        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "loan_status": "CHECKED_OUT",
         "total_copies": 1,
         "available_copies": 0,
         "reservable": true,
@@ -25190,10 +25190,10 @@
             "section": null,
             "location": "SF",
             "sublocation": null,
-            "firstLoanDueDate": null,
+            "firstLoanDueDate": "2026-12-06",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "loanStatus": "CHECKED_OUT",
             "nofTotal": 1,
             "nofOrdered": 0,
             "nofReference": 0,
@@ -25264,7 +25264,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:10:55.534720+00:00"
+    "availability_checked_at": "2026-11-08T19:33:07.006584+00:00"
   },
   "8768857": {
     "holdings": [
@@ -26108,7 +26108,7 @@
       "Kungsholmens bibliotek Internationella biblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:09.250371+00:00"
+    "availability_checked_at": "2026-11-08T19:39:38.673355+00:00"
   },
   "8384854": {
     "holdings": [
@@ -26174,7 +26174,7 @@
       "Kungsholmens bibliotek Internationella biblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:11.564669+00:00"
+    "availability_checked_at": "2026-11-08T19:41:19.425485+00:00"
   },
   "8120345": {
     "holdings": [
@@ -26496,7 +26496,7 @@
     "total_copies": 3,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T09:11:16.148711+00:00"
+    "availability_checked_at": "2026-11-08T19:25:22.825089+00:00"
   },
   "9228646": {
     "holdings": [],
@@ -26593,7 +26593,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:22.916030+00:00"
+    "availability_checked_at": "2026-11-08T19:23:46.630614+00:00"
   },
   "8249628": {
     "holdings": [
@@ -26656,7 +26656,7 @@
     "total_copies": 2,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T09:11:25.159765+00:00"
+    "availability_checked_at": "2026-11-08T19:28:28.878300+00:00"
   },
   "8220354": {
     "holdings": [
@@ -26776,7 +26776,7 @@
       "Telefonplans bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:27.458219+00:00"
+    "availability_checked_at": "2026-11-08T19:26:10.327489+00:00"
   },
   "8220352": {
     "holdings": [
@@ -26870,7 +26870,7 @@
       "Telefonplans bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:29.841423+00:00"
+    "availability_checked_at": "2026-11-08T19:26:05.612524+00:00"
   },
   "8279493": {
     "holdings": [
@@ -26962,7 +26962,7 @@
       "Älvsjö bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:32.118278+00:00"
+    "availability_checked_at": "2026-11-08T19:31:03.513555+00:00"
   },
   "8243528": {
     "holdings": [
@@ -27000,7 +27000,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:34.405071+00:00"
+    "availability_checked_at": "2026-11-08T19:27:42.074477+00:00"
   },
   "8211288": {
     "holdings": [
@@ -27038,7 +27038,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:36.655807+00:00"
+    "availability_checked_at": "2026-11-08T19:25:13.344642+00:00"
   },
   "8072264": {
     "holdings": [
@@ -27198,7 +27198,7 @@
       "Telefonplans bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:41.264164+00:00"
+    "availability_checked_at": "2026-11-08T19:26:07.915480+00:00"
   },
   "8299738": {
     "holdings": [
@@ -27292,7 +27292,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:43.517006+00:00"
+    "availability_checked_at": "2026-11-08T19:32:32.263923+00:00"
   },
   "8292041": {
     "holdings": [
@@ -27385,7 +27385,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:45.903533+00:00"
+    "availability_checked_at": "2026-11-08T19:31:59.421705+00:00"
   },
   "8299282": {
     "holdings": [
@@ -27421,7 +27421,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T09:11:48.161941+00:00"
+    "availability_checked_at": "2026-11-08T19:32:27.638018+00:00"
   },
   "8301760": {
     "holdings": [
@@ -27487,7 +27487,7 @@
       "Telefonplans bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:50.476298+00:00"
+    "availability_checked_at": "2026-11-08T19:32:46.204623+00:00"
   },
   "8311728": {
     "holdings": [
@@ -27580,7 +27580,7 @@
       "Älvsjö bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:52.769165+00:00"
+    "availability_checked_at": "2026-11-08T19:33:30.429026+00:00"
   },
   "8332727": {
     "holdings": [
@@ -27674,7 +27674,7 @@
       "Älvsjö bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:55.097282+00:00"
+    "availability_checked_at": "2026-11-08T19:35:25.310933+00:00"
   },
   "8347476": {
     "holdings": [
@@ -27712,7 +27712,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:57.434615+00:00"
+    "availability_checked_at": "2026-11-08T19:36:27.472431+00:00"
   },
   "8344147": {
     "holdings": [
@@ -27750,7 +27750,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:11:59.705885+00:00"
+    "availability_checked_at": "2026-11-08T19:36:04.116302+00:00"
   },
   "8271328": {
     "holdings": [
@@ -27815,7 +27815,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:12:02.058798+00:00"
+    "availability_checked_at": "2026-11-08T19:30:12.104682+00:00"
   },
   "8292038": {
     "holdings": [
@@ -27851,7 +27851,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T09:12:04.331036+00:00"
+    "availability_checked_at": "2026-11-08T19:31:57.110525+00:00"
   },
   "8975418": {
     "holdings": [
@@ -40107,7 +40107,7 @@
       "Telefonplans bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:12:43.922583+00:00"
+    "availability_checked_at": "2026-11-08T19:42:57.041739+00:00"
   },
   "8438578": {
     "holdings": [
@@ -48204,7 +48204,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:13:18.540964+00:00"
+    "availability_checked_at": "2026-11-08T19:32:13.733543+00:00"
   },
   "8308107": {
     "holdings": [
@@ -48242,7 +48242,7 @@
       "Älvsjö bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:13:20.814128+00:00"
+    "availability_checked_at": "2026-11-08T19:33:02.250679+00:00"
   },
   "8044024": {
     "holdings": [
@@ -49414,9 +49414,9 @@
         "branch_id": "CSE-7018036",
         "branch": "Stadsbiblioteket Spelbomskan",
         "slug": "stadsbiblioteket-spelbomskan",
-        "loan_status": "CHECKED_OUT",
+        "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 5,
-        "available_copies": 0,
+        "available_copies": 1,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -49428,11 +49428,11 @@
             "firstLoanDueDate": "2026-09-30",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "CHECKED_OUT",
+            "loanStatus": "AVAILABLE_FOR_LOAN",
             "nofTotal": 5,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 0,
+            "nofAvailableForLoan": 1,
             "note": null
           }
         ]
@@ -49495,9 +49495,9 @@
         "branch_id": "CSE-7018021",
         "branch": "Kista bibliotek",
         "slug": "kista-bibliotek",
-        "loan_status": "AVAILABLE_FOR_LOAN",
+        "loan_status": "CHECKED_OUT",
         "total_copies": 3,
-        "available_copies": 1,
+        "available_copies": 0,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -49509,11 +49509,11 @@
             "firstLoanDueDate": "2026-11-14",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "loanStatus": "CHECKED_OUT",
             "nofTotal": 3,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 1,
+            "nofAvailableForLoan": 0,
             "note": null
           }
         ]
@@ -49603,27 +49603,12 @@
         "branch_id": "CSE-7018030",
         "branch": "Rum för Barn, Kulturhuset",
         "slug": "rum-for-barn",
-        "loan_status": "AVAILABLE_FOR_LOAN",
+        "loan_status": "CHECKED_OUT",
         "total_copies": 5,
-        "available_copies": 1,
+        "available_copies": 0,
         "reservable": true,
         "reference_only": false,
         "locations": [
-          {
-            "department": "Barn",
-            "section": null,
-            "location": "Bilderböcker",
-            "sublocation": "Illustratörer",
-            "firstLoanDueDate": "2026-11-11",
-            "shelfMark": null,
-            "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
-            "nofTotal": 2,
-            "nofOrdered": 0,
-            "nofReference": 0,
-            "nofAvailableForLoan": 1,
-            "note": null
-          },
           {
             "department": "Barn",
             "section": null,
@@ -49634,6 +49619,21 @@
             "periodical": null,
             "loanStatus": "CHECKED_OUT",
             "nofTotal": 3,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Bilderböcker",
+            "sublocation": "Illustratörer",
+            "firstLoanDueDate": "2026-11-11",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
             "nofOrdered": 0,
             "nofReference": 0,
             "nofAvailableForLoan": 0,
@@ -49753,9 +49753,9 @@
         "branch_id": "CSE-7018042",
         "branch": "Tranströmerbiblioteket",
         "slug": "transtromerbiblioteket",
-        "loan_status": "AVAILABLE_FOR_LOAN",
+        "loan_status": "CHECKED_OUT",
         "total_copies": 10,
-        "available_copies": 2,
+        "available_copies": 0,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -49767,11 +49767,11 @@
             "firstLoanDueDate": "2026-11-12",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "loanStatus": "CHECKED_OUT",
             "nofTotal": 10,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 2,
+            "nofAvailableForLoan": 0,
             "note": null
           }
         ]
@@ -49858,21 +49858,19 @@
         ]
       }
     ],
-    "available_copies": 12,
+    "available_copies": 9,
     "total_copies": 64,
     "available_branches": [
       "Gröndals bibliotek",
       "Bibliotekslabbet",
       "Luma bibliotek",
       "Husby bibliotek",
-      "Kista bibliotek",
+      "Stadsbiblioteket Spelbomskan",
       "Tensta bibliotek",
-      "Rum för Barn, Kulturhuset",
-      "Stora Essingens bibliotek",
-      "Tranströmerbiblioteket"
+      "Stora Essingens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:13:25.770316+00:00"
+    "availability_checked_at": "2026-11-08T19:29:58.117894+00:00"
   },
   "8288960": {
     "holdings": [
@@ -50057,7 +50055,7 @@
         "branch_id": "CSE-7018047",
         "branch": "Östberga bibliotek",
         "slug": "ostberga-bibliotek",
-        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "loan_status": "CHECKED_OUT",
         "total_copies": 1,
         "available_copies": 0,
         "reservable": true,
@@ -50068,10 +50066,10 @@
             "section": null,
             "location": "Småbarnsböcker",
             "sublocation": null,
-            "firstLoanDueDate": null,
+            "firstLoanDueDate": "2026-12-06",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "loanStatus": "CHECKED_OUT",
             "nofTotal": 1,
             "nofOrdered": 0,
             "nofReference": 0,
@@ -50138,9 +50136,9 @@
         "branch_id": "CSE-7018042",
         "branch": "Tranströmerbiblioteket",
         "slug": "transtromerbiblioteket",
-        "loan_status": "AVAILABLE_FOR_LOAN",
+        "loan_status": "CHECKED_OUT",
         "total_copies": 5,
-        "available_copies": 1,
+        "available_copies": 0,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -50152,11 +50150,11 @@
             "firstLoanDueDate": "2026-11-13",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "loanStatus": "CHECKED_OUT",
             "nofTotal": 5,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 1,
+            "nofAvailableForLoan": 0,
             "note": null
           }
         ]
@@ -50243,13 +50241,11 @@
         ]
       }
     ],
-    "available_copies": 1,
+    "available_copies": 0,
     "total_copies": 21,
-    "available_branches": [
-      "Tranströmerbiblioteket"
-    ],
-    "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:13:28.185685+00:00"
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "availability_checked_at": "2026-11-08T19:31:45.228830+00:00"
   },
   "8121837": {
     "holdings": [
@@ -52109,7 +52105,7 @@
         "slug": "skarholmens-bibliotek",
         "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 2,
-        "available_copies": 2,
+        "available_copies": 1,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -52118,14 +52114,14 @@
             "section": null,
             "location": "Högtider & traditioner",
             "sublocation": "Julen",
-            "firstLoanDueDate": null,
+            "firstLoanDueDate": "2026-12-06",
             "shelfMark": null,
             "periodical": null,
             "loanStatus": "AVAILABLE_FOR_LOAN",
             "nofTotal": 2,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 2,
+            "nofAvailableForLoan": 1,
             "note": null
           }
         ]
@@ -52217,7 +52213,7 @@
         "slug": "hogdalens-bibliotek",
         "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 2,
-        "available_copies": 2,
+        "available_copies": 1,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -52233,7 +52229,7 @@
             "nofTotal": 2,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 2,
+            "nofAvailableForLoan": 1,
             "note": null
           }
         ]
@@ -52593,9 +52589,9 @@
         "branch_id": "CSE-7018015",
         "branch": "Hagsätra bibliotek",
         "slug": "hagsatra-bibliotek",
-        "loan_status": "AVAILABLE_FOR_LOAN",
+        "loan_status": "CHECKED_OUT",
         "total_copies": 2,
-        "available_copies": 1,
+        "available_copies": 0,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -52607,11 +52603,11 @@
             "firstLoanDueDate": "2026-11-24",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "loanStatus": "CHECKED_OUT",
             "nofTotal": 2,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 1,
+            "nofAvailableForLoan": 0,
             "note": null
           }
         ]
@@ -52703,25 +52699,10 @@
         "slug": "norra-djurgardsstadens-bibliotek",
         "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 2,
-        "available_copies": 2,
+        "available_copies": 1,
         "reservable": true,
         "reference_only": false,
         "locations": [
-          {
-            "department": "Barn",
-            "section": null,
-            "location": "Högtider & traditioner",
-            "sublocation": "Julen",
-            "firstLoanDueDate": null,
-            "shelfMark": null,
-            "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
-            "nofTotal": 1,
-            "nofOrdered": 0,
-            "nofReference": 0,
-            "nofAvailableForLoan": 1,
-            "note": null
-          },
           {
             "department": "Barn",
             "section": null,
@@ -52735,6 +52716,21 @@
             "nofOrdered": 0,
             "nofReference": 0,
             "nofAvailableForLoan": 1,
+            "note": null
+          },
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Högtider & traditioner",
+            "sublocation": "Julen",
+            "firstLoanDueDate": "2026-12-06",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
             "note": null
           }
         ]
@@ -52916,7 +52912,7 @@
             "section": null,
             "location": "Högtider & traditioner",
             "sublocation": "Julen",
-            "firstLoanDueDate": "2026-11-07",
+            "firstLoanDueDate": "2026-12-06",
             "shelfMark": null,
             "periodical": null,
             "loanStatus": "CHECKED_OUT",
@@ -52929,7 +52925,7 @@
         ]
       }
     ],
-    "available_copies": 78,
+    "available_copies": 74,
     "total_copies": 90,
     "available_branches": [
       "Alviks bibliotek",
@@ -52954,7 +52950,6 @@
       "Kista bibliotek",
       "Björkhagens bibliotek",
       "Hässelby gårds bibliotek",
-      "Hagsätra bibliotek",
       "Spånga bibliotek",
       "Vällingby bibliotek",
       "Norra Djurgårdsstadens bibliotek",
@@ -52965,7 +52960,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:13:35.764346+00:00"
+    "availability_checked_at": "2026-11-08T19:25:46.635324+00:00"
   },
   "8220932": {
     "holdings": [
@@ -53000,9 +52995,9 @@
         "branch_id": "CSE-7018032",
         "branch": "Skärholmens bibliotek",
         "slug": "skarholmens-bibliotek",
-        "loan_status": "AVAILABLE_FOR_LOAN",
+        "loan_status": "CHECKED_OUT",
         "total_copies": 2,
-        "available_copies": 1,
+        "available_copies": 0,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -53014,11 +53009,11 @@
             "firstLoanDueDate": "2026-11-21",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "loanStatus": "CHECKED_OUT",
             "nofTotal": 2,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 1,
+            "nofAvailableForLoan": 0,
             "note": null
           }
         ]
@@ -53324,9 +53319,9 @@
         "branch_id": "CSE-7018012",
         "branch": "Fruängens bibliotek",
         "slug": "fruangens-bibliotek",
-        "loan_status": "AVAILABLE_FOR_LOAN",
+        "loan_status": "CHECKED_OUT",
         "total_copies": 3,
-        "available_copies": 1,
+        "available_copies": 0,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -53338,11 +53333,11 @@
             "firstLoanDueDate": "2026-11-09",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "loanStatus": "CHECKED_OUT",
             "nofTotal": 3,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 1,
+            "nofAvailableForLoan": 0,
             "note": null
           }
         ]
@@ -53432,9 +53427,9 @@
         "branch_id": "CSE-7018043",
         "branch": "Vällingby bibliotek",
         "slug": "vallingby-bibliotek",
-        "loan_status": "CHECKED_OUT",
+        "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 2,
-        "available_copies": 0,
+        "available_copies": 1,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -53443,14 +53438,14 @@
             "section": null,
             "location": "Bilderböcker",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-14",
+            "firstLoanDueDate": "2026-12-05",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "CHECKED_OUT",
+            "loanStatus": "AVAILABLE_FOR_LOAN",
             "nofTotal": 2,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 0,
+            "nofAvailableForLoan": 1,
             "note": null
           }
         ]
@@ -53861,18 +53856,17 @@
         ]
       }
     ],
-    "available_copies": 6,
+    "available_copies": 5,
     "total_copies": 66,
     "available_branches": [
-      "Skärholmens bibliotek",
       "Bibliotekslabbet",
       "Husby bibliotek",
-      "Fruängens bibliotek",
+      "Vällingby bibliotek",
       "Stora Essingens bibliotek",
       "Hässelby gårds bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:13:38.215199+00:00"
+    "availability_checked_at": "2026-11-08T19:26:17.759809+00:00"
   },
   "8127060": {
     "holdings": [
@@ -57232,7 +57226,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T09:14:01.715302+00:00"
+    "availability_checked_at": "2026-11-08T19:41:45.164150+00:00"
   },
   "8420288": {
     "holdings": [
@@ -59081,7 +59075,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:14:13.742114+00:00"
+    "availability_checked_at": "2026-11-08T19:26:45.635312+00:00"
   },
   "8139589": {
     "holdings": [
@@ -59359,7 +59353,7 @@
     "total_copies": 3,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T09:14:20.564119+00:00"
+    "availability_checked_at": "2026-11-08T19:25:06.372772+00:00"
   },
   "8185298": {
     "holdings": [
@@ -59979,7 +59973,7 @@
       "Gröndals bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:14:25.248582+00:00"
+    "availability_checked_at": "2026-11-08T19:23:53.892618+00:00"
   },
   "8186138": {
     "holdings": [
@@ -60707,7 +60701,7 @@
       "Bokhotellet, Frihamnen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:14:30.004232+00:00"
+    "availability_checked_at": "2026-11-08T19:24:40.756487+00:00"
   },
   "8394478": {
     "holdings": [
@@ -62813,7 +62807,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:15:04.402947+00:00"
+    "availability_checked_at": "2026-11-08T19:42:04.416146+00:00"
   },
   "8490662": {
     "holdings": [
@@ -64440,7 +64434,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:15:45.629331+00:00"
+    "availability_checked_at": "2026-11-08T19:35:35.733761+00:00"
   },
   "8291078": {
     "holdings": [
@@ -64532,7 +64526,7 @@
       "Årsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:15:47.954496+00:00"
+    "availability_checked_at": "2026-11-08T19:31:52.504401+00:00"
   },
   "8310590": {
     "holdings": [
@@ -64651,7 +64645,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:15:50.248255+00:00"
+    "availability_checked_at": "2026-11-08T19:33:21.181176+00:00"
   },
   "8371696": {
     "holdings": [
@@ -64743,7 +64737,7 @@
       "Bokhotellet, Frihamnen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:15:52.499121+00:00"
+    "availability_checked_at": "2026-11-08T19:38:09.453583+00:00"
   },
   "8466864": {
     "holdings": [
@@ -65050,7 +65044,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T09:15:59.416848+00:00"
+    "availability_checked_at": "2026-11-08T19:24:14.650659+00:00"
   },
   "8136014": {
     "holdings": [
@@ -69329,7 +69323,7 @@
       "Skärholmens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:16:28.560922+00:00"
+    "availability_checked_at": "2026-11-08T19:26:27.025425+00:00"
   },
   "8276291": {
     "holdings": [
@@ -69391,27 +69385,12 @@
         "branch_id": "CSE-7018022",
         "branch": "Kulturbiblioteket, Kulturhuset",
         "slug": "kulturbiblioteket",
-        "loan_status": "AVAILABLE_FOR_LOAN",
+        "loan_status": "CHECKED_OUT",
         "total_copies": 3,
-        "available_copies": 1,
+        "available_copies": 0,
         "reservable": true,
         "reference_only": false,
         "locations": [
-          {
-            "department": null,
-            "section": null,
-            "location": "Klassiker",
-            "sublocation": null,
-            "firstLoanDueDate": "2026-11-25",
-            "shelfMark": null,
-            "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
-            "nofTotal": 2,
-            "nofOrdered": 0,
-            "nofReference": 0,
-            "nofAvailableForLoan": 1,
-            "note": null
-          },
           {
             "department": null,
             "section": null,
@@ -69422,6 +69401,21 @@
             "periodical": null,
             "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
             "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": null,
+            "section": null,
+            "location": "Klassiker",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-25",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
             "nofOrdered": 0,
             "nofReference": 0,
             "nofAvailableForLoan": 0,
@@ -69838,12 +69832,11 @@
         ]
       }
     ],
-    "available_copies": 16,
+    "available_copies": 15,
     "total_copies": 21,
     "available_branches": [
       "Älvsjö bibliotek",
       "Stora Essingens bibliotek",
-      "Kulturbiblioteket, Kulturhuset",
       "Tranströmerbiblioteket",
       "Rinkeby bibliotek",
       "Brommaplans bibliotek",
@@ -69858,7 +69851,7 @@
       "Blackebergs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:16:30.893302+00:00"
+    "availability_checked_at": "2026-11-08T19:30:42.338747+00:00"
   },
   "8356048": {
     "holdings": [
@@ -69973,7 +69966,7 @@
             "section": null,
             "location": "Klassiker",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-29",
+            "firstLoanDueDate": "2026-12-06",
             "shelfMark": null,
             "periodical": null,
             "loanStatus": "CHECKED_OUT",
@@ -70077,7 +70070,7 @@
       "Skärholmens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:16:33.202843+00:00"
+    "availability_checked_at": "2026-11-08T19:37:13.399583+00:00"
   },
   "8522196": {
     "holdings": [
@@ -71347,7 +71340,7 @@
       "Gubbängens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:16:42.015661+00:00"
+    "availability_checked_at": "2026-11-08T19:31:50.198741+00:00"
   },
   "8243313": {
     "holdings": [
@@ -71889,7 +71882,7 @@
       "Bredängs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:16:44.615706+00:00"
+    "availability_checked_at": "2026-11-08T19:27:37.490105+00:00"
   },
   "8497745": {
     "holdings": [
@@ -72621,7 +72614,7 @@
       "Skärholmens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:16:49.251539+00:00"
+    "availability_checked_at": "2026-11-08T19:38:42.200772+00:00"
   },
   "8503505": {
     "holdings": [
@@ -78268,7 +78261,7 @@
       "Gröndals bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:17:27.354903+00:00"
+    "availability_checked_at": "2026-11-08T19:32:06.795588+00:00"
   },
   "8276698": {
     "holdings": [
@@ -78852,7 +78845,7 @@
       "Blackebergs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:17:29.845895+00:00"
+    "availability_checked_at": "2026-11-08T19:30:45.004824+00:00"
   },
   "8270018": {
     "holdings": [
@@ -79365,7 +79358,7 @@
       "Stora Essingens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:17:32.298818+00:00"
+    "availability_checked_at": "2026-11-08T19:30:05.090501+00:00"
   },
   "8416960": {
     "holdings": [
@@ -84111,7 +84104,7 @@
       "Gröndals bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:18:39.067965+00:00"
+    "availability_checked_at": "2026-11-08T19:24:36.052034+00:00"
   },
   "8264322": {
     "holdings": [
@@ -84201,7 +84194,7 @@
     "total_copies": 3,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T09:18:41.486391+00:00"
+    "availability_checked_at": "2026-11-08T19:29:34.286688+00:00"
   },
   "8368657": {
     "holdings": [
@@ -84376,7 +84369,7 @@
       "Blackebergs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:18:43.772234+00:00"
+    "availability_checked_at": "2026-11-08T19:37:52.993242+00:00"
   },
   "8499038": {
     "holdings": [
@@ -88020,7 +88013,7 @@
       "Stora Essingens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:19:24.324940+00:00"
+    "availability_checked_at": "2026-11-08T19:34:14.790016+00:00"
   },
   "8255221": {
     "holdings": [
@@ -88142,7 +88135,7 @@
       "Alviks bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:19:26.590884+00:00"
+    "availability_checked_at": "2026-11-08T19:28:56.915783+00:00"
   },
   "8250701": {
     "holdings": [
@@ -88223,7 +88216,7 @@
       "Tellus fritidscenters bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:19:33.050169+00:00"
+    "availability_checked_at": "2026-11-08T19:28:33.515739+00:00"
   },
   "8255042": {
     "holdings": [
@@ -88289,7 +88282,7 @@
       "Östermalms bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:19:35.337448+00:00"
+    "availability_checked_at": "2026-11-08T19:28:51.974465+00:00"
   },
   "8115354": {
     "holdings": [
@@ -92465,7 +92458,7 @@
       "Hagsätra bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:20:24.046203+00:00"
+    "availability_checked_at": "2026-11-08T19:38:49.166505+00:00"
   },
   "8399206": {
     "holdings": [
@@ -93520,7 +93513,7 @@
       "Alviks bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:20:44.824986+00:00"
+    "availability_checked_at": "2026-11-08T19:28:54.383784+00:00"
   },
   "8642673": {
     "holdings": [
@@ -97004,7 +96997,7 @@
       "Hagsätra bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:21:32.644928+00:00"
+    "availability_checked_at": "2026-11-08T19:31:35.949538+00:00"
   },
   "8249891": {
     "holdings": [
@@ -97126,7 +97119,7 @@
       "Hässelby villastads bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:21:34.926733+00:00"
+    "availability_checked_at": "2026-11-08T19:28:31.202214+00:00"
   },
   "8263707": {
     "holdings": [
@@ -97248,7 +97241,7 @@
       "Hässelby villastads bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:21:37.227447+00:00"
+    "availability_checked_at": "2026-11-08T19:29:31.985051+00:00"
   },
   "8365623": {
     "holdings": [],
@@ -97256,7 +97249,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T09:21:39.527288+00:00"
+    "availability_checked_at": "2026-11-08T19:37:50.617455+00:00"
   },
   "8507891": {
     "holdings": [
@@ -98579,7 +98572,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:22:09.237579+00:00"
+    "availability_checked_at": "2026-11-08T19:27:28.180910+00:00"
   },
   "8112359": {
     "holdings": [
@@ -98755,7 +98748,7 @@
             "section": null,
             "location": "Fantasy",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-14",
+            "firstLoanDueDate": "2026-12-06",
             "shelfMark": null,
             "periodical": null,
             "loanStatus": "CHECKED_OUT",
@@ -98802,7 +98795,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:22:16.107264+00:00"
+    "availability_checked_at": "2026-11-08T19:26:22.380686+00:00"
   },
   "8737406": {
     "holdings": [
@@ -102836,9 +102829,9 @@
         "branch_id": "CSE-7018011",
         "branch": "Farsta bibliotek",
         "slug": "farsta-bibliotek",
-        "loan_status": "CHECKED_OUT",
+        "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 1,
-        "available_copies": 0,
+        "available_copies": 1,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -102847,14 +102840,14 @@
             "section": null,
             "location": "Skönlitteratur",
             "sublocation": "Ficknoveller",
-            "firstLoanDueDate": "2026-10-29",
+            "firstLoanDueDate": null,
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "CHECKED_OUT",
+            "loanStatus": "AVAILABLE_FOR_LOAN",
             "nofTotal": 1,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 0,
+            "nofAvailableForLoan": 1,
             "note": null
           }
         ]
@@ -102887,7 +102880,7 @@
         ]
       }
     ],
-    "available_copies": 14,
+    "available_copies": 15,
     "total_copies": 17,
     "available_branches": [
       "Högdalens bibliotek",
@@ -102901,10 +102894,11 @@
       "Gröndals bibliotek",
       "Brommaplans bibliotek",
       "Hässelby gårds bibliotek",
-      "Lava, Kulturhuset"
+      "Lava, Kulturhuset",
+      "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:22:37.776980+00:00"
+    "availability_checked_at": "2026-11-08T19:26:31.735701+00:00"
   },
   "8106418": {
     "holdings": [
@@ -103079,7 +103073,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:22:46.858626+00:00"
+    "availability_checked_at": "2026-11-08T19:25:04.040760+00:00"
   },
   "8215571": {
     "holdings": [
@@ -103171,7 +103165,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:22:49.169820+00:00"
+    "availability_checked_at": "2026-11-08T19:25:29.796058+00:00"
   },
   "8103608": {
     "holdings": [
@@ -103653,7 +103647,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T09:23:00.678847+00:00"
+    "availability_checked_at": "2026-11-08T19:29:01.496991+00:00"
   },
   "8104428": {
     "holdings": [],
@@ -105319,7 +105313,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:23:32.136801+00:00"
+    "availability_checked_at": "2026-11-08T19:39:29.185115+00:00"
   },
   "8412735": {
     "holdings": [
@@ -115430,9 +115424,9 @@
         "branch_id": "CSE-7018005",
         "branch": "Björkhagens bibliotek",
         "slug": "bjorkhagens-bibliotek",
-        "loan_status": "CHECKED_OUT",
+        "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 2,
-        "available_copies": 0,
+        "available_copies": 1,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -115444,11 +115438,11 @@
             "firstLoanDueDate": "2026-11-12",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "CHECKED_OUT",
+            "loanStatus": "AVAILABLE_FOR_LOAN",
             "nofTotal": 2,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 0,
+            "nofAvailableForLoan": 1,
             "note": null
           }
         ]
@@ -116009,17 +116003,18 @@
         ]
       }
     ],
-    "available_copies": 6,
+    "available_copies": 7,
     "total_copies": 93,
     "available_branches": [
       "Tensta bibliotek",
       "Fruängens bibliotek",
       "Örby bibliotek",
       "Kista bibliotek",
+      "Björkhagens bibliotek",
       "Rum för Barn, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:24:16.972945+00:00"
+    "availability_checked_at": "2026-11-08T19:42:11.709678+00:00"
   },
   "8462055": {
     "holdings": [
@@ -117445,7 +117440,7 @@
             "section": null,
             "location": "Bilderböcker",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-08",
+            "firstLoanDueDate": "2026-12-06",
             "shelfMark": null,
             "periodical": null,
             "loanStatus": "CHECKED_OUT",
@@ -117984,7 +117979,7 @@
       "Norra Djurgårdsstadens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:24:22.136311+00:00"
+    "availability_checked_at": "2026-11-08T19:42:33.276574+00:00"
   },
   "8387372": {
     "holdings": [
@@ -118439,9 +118434,9 @@
         "branch_id": "CSE-7018011",
         "branch": "Farsta bibliotek",
         "slug": "farsta-bibliotek",
-        "loan_status": "AVAILABLE_FOR_LOAN",
+        "loan_status": "CHECKED_OUT",
         "total_copies": 2,
-        "available_copies": 1,
+        "available_copies": 0,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -118453,11 +118448,11 @@
             "firstLoanDueDate": "2026-11-14",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "loanStatus": "CHECKED_OUT",
             "nofTotal": 2,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 1,
+            "nofAvailableForLoan": 0,
             "note": null
           }
         ]
@@ -118531,7 +118526,7 @@
             "section": null,
             "location": "Småbarnsböcker",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-08",
+            "firstLoanDueDate": "2026-12-03",
             "shelfMark": null,
             "periodical": null,
             "loanStatus": "CHECKED_OUT",
@@ -118612,7 +118607,7 @@
             "section": null,
             "location": "Småbarnsböcker",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-11",
+            "firstLoanDueDate": "2026-11-24",
             "shelfMark": null,
             "periodical": null,
             "loanStatus": "CHECKED_OUT",
@@ -118682,9 +118677,9 @@
         "branch_id": "CSE-7018001",
         "branch": "Aspuddens bibliotek",
         "slug": "aspuddens-bibliotek",
-        "loan_status": "CHECKED_OUT",
+        "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 3,
-        "available_copies": 0,
+        "available_copies": 1,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -118696,11 +118691,11 @@
             "firstLoanDueDate": "2026-11-09",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "CHECKED_OUT",
+            "loanStatus": "AVAILABLE_FOR_LOAN",
             "nofTotal": 3,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 0,
+            "nofAvailableForLoan": 1,
             "note": null
           }
         ]
@@ -119048,12 +119043,12 @@
     "available_copies": 4,
     "total_copies": 91,
     "available_branches": [
-      "Farsta bibliotek",
       "Östermalms bibliotek",
+      "Aspuddens bibliotek",
       "Älvsjö bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:24:24.763656+00:00"
+    "availability_checked_at": "2026-11-08T19:42:14.525269+00:00"
   },
   "8506060": {
     "holdings": [
@@ -121204,7 +121199,7 @@
       "Luma bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:24:29.912140+00:00"
+    "availability_checked_at": "2026-11-08T19:42:35.964247+00:00"
   },
   "8427796": {
     "holdings": [
@@ -123368,9 +123363,9 @@
         "branch_id": "CSE-7018030",
         "branch": "Rum för Barn, Kulturhuset",
         "slug": "rum-for-barn",
-        "loan_status": "AVAILABLE_FOR_LOAN",
+        "loan_status": "CHECKED_OUT",
         "total_copies": 2,
-        "available_copies": 1,
+        "available_copies": 0,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -123382,11 +123377,11 @@
             "firstLoanDueDate": "2026-11-08",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "loanStatus": "CHECKED_OUT",
             "nofTotal": 2,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 1,
+            "nofAvailableForLoan": 0,
             "note": null
           }
         ]
@@ -123532,29 +123527,29 @@
         "slug": "aspuddens-bibliotek",
         "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 2,
-        "available_copies": 1,
+        "available_copies": 2,
         "reservable": true,
         "reference_only": false,
         "locations": [
           {
             "department": "Barn",
             "section": null,
-            "location": "Skönlitteratur",
+            "location": "Bilderböcker",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-09",
+            "firstLoanDueDate": null,
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "CHECKED_OUT",
+            "loanStatus": "AVAILABLE_FOR_LOAN",
             "nofTotal": 1,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 0,
+            "nofAvailableForLoan": 1,
             "note": null
           },
           {
             "department": "Barn",
             "section": null,
-            "location": "Bilderböcker",
+            "location": "Skönlitteratur",
             "sublocation": null,
             "firstLoanDueDate": null,
             "shelfMark": null,
@@ -123583,7 +123578,7 @@
             "section": null,
             "location": "Bilderböcker",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-08",
+            "firstLoanDueDate": "2026-11-15",
             "shelfMark": null,
             "periodical": null,
             "loanStatus": "CHECKED_OUT",
@@ -124058,9 +124053,9 @@
         "branch_id": "CSE-7018011",
         "branch": "Farsta bibliotek",
         "slug": "farsta-bibliotek",
-        "loan_status": "AVAILABLE_FOR_LOAN",
+        "loan_status": "CHECKED_OUT",
         "total_copies": 3,
-        "available_copies": 1,
+        "available_copies": 0,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -124072,11 +124067,11 @@
             "firstLoanDueDate": "2026-09-13",
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "loanStatus": "CHECKED_OUT",
             "nofTotal": 3,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 1,
+            "nofAvailableForLoan": 0,
             "note": null
           }
         ]
@@ -124222,7 +124217,7 @@
         "slug": "transtromerbiblioteket",
         "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 5,
-        "available_copies": 2,
+        "available_copies": 1,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -124238,7 +124233,7 @@
             "nofTotal": 5,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 2,
+            "nofAvailableForLoan": 1,
             "note": null
           }
         ]
@@ -124382,9 +124377,9 @@
         "branch_id": "CSE-7018038",
         "branch": "Telefonplans bibliotek",
         "slug": "telefonplans-bibliotek",
-        "loan_status": "CHECKED_OUT",
+        "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 2,
-        "available_copies": 0,
+        "available_copies": 2,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -124393,14 +124388,14 @@
             "section": null,
             "location": "Bilderböcker",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-02",
+            "firstLoanDueDate": null,
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "CHECKED_OUT",
+            "loanStatus": "AVAILABLE_FOR_LOAN",
             "nofTotal": 2,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 0,
+            "nofAvailableForLoan": 2,
             "note": null
           }
         ]
@@ -124410,7 +124405,6 @@
     "total_copies": 78,
     "available_branches": [
       "Enskede bibliotek",
-      "Rum för Barn, Kulturhuset",
       "Gröndals bibliotek",
       "Barnens bokbuss",
       "Rinkeby bibliotek",
@@ -124421,12 +124415,12 @@
       "Vällingby bibliotek",
       "Tensta bibliotek",
       "Hagsätra bibliotek",
-      "Farsta bibliotek",
       "Hässelby gårds bibliotek",
-      "Tranströmerbiblioteket"
+      "Tranströmerbiblioteket",
+      "Telefonplans bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:24:37.702322+00:00"
+    "availability_checked_at": "2026-11-08T19:40:58.525677+00:00"
   },
   "8382110": {
     "holdings": [
@@ -124545,7 +124539,7 @@
       "Hornstulls bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:24:40.022739+00:00"
+    "availability_checked_at": "2026-11-08T19:39:50.528596+00:00"
   },
   "8441616": {
     "holdings": [
@@ -135818,7 +135812,7 @@
       "Enskede bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:25:42.546688+00:00"
+    "availability_checked_at": "2026-11-08T19:25:20.443213+00:00"
   },
   "8151755": {
     "holdings": [
@@ -136850,7 +136844,7 @@
       "Årsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:25:47.290329+00:00"
+    "availability_checked_at": "2026-11-08T19:29:08.504339+00:00"
   },
   "8090369": {
     "holdings": [
@@ -139292,7 +139286,7 @@
       "Östermalms bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:26:21.968227+00:00"
+    "availability_checked_at": "2026-11-08T19:34:46.030462+00:00"
   },
   "8114962": {
     "holdings": [
@@ -140132,7 +140126,7 @@
       "Kungsholmens bibliotek Internationella biblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:26:38.027010+00:00"
+    "availability_checked_at": "2026-11-08T19:42:06.750738+00:00"
   },
   "8378114": {
     "holdings": [
@@ -140197,7 +140191,7 @@
       "Mångspråkiga lånecentralen (ej besök)"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:26:40.320000+00:00"
+    "availability_checked_at": "2026-11-08T19:38:46.828536+00:00"
   },
   "8386295": {
     "holdings": [
@@ -140318,7 +140312,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:26:42.614273+00:00"
+    "availability_checked_at": "2026-11-08T19:41:49.919779+00:00"
   },
   "8402606": {
     "holdings": [
@@ -140450,7 +140444,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:26:47.255388+00:00"
+    "availability_checked_at": "2026-11-08T19:25:43.780859+00:00"
   },
   "8195253": {
     "holdings": [
@@ -140488,7 +140482,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:26:49.551453+00:00"
+    "availability_checked_at": "2026-11-08T19:24:00.825630+00:00"
   },
   "8410234": {
     "holdings": [
@@ -140761,7 +140755,7 @@
       "Kungsholmens bibliotek Internationella biblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:27:00.991233+00:00"
+    "availability_checked_at": "2026-11-08T19:42:49.963338+00:00"
   },
   "8379152": {
     "holdings": [
@@ -140827,7 +140821,7 @@
       "Mångspråkiga lånecentralen (ej besök)"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:27:03.239401+00:00"
+    "availability_checked_at": "2026-11-08T19:39:08.102719+00:00"
   },
   "8262135": {
     "holdings": [
@@ -140865,7 +140859,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:27:05.552583+00:00"
+    "availability_checked_at": "2026-11-08T19:29:24.682480+00:00"
   },
   "8484680": {
     "holdings": [
@@ -143256,7 +143250,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:27:22.461701+00:00"
+    "availability_checked_at": "2026-11-08T19:25:15.682223+00:00"
   },
   "8522883": {
     "holdings": [
@@ -143702,7 +143696,7 @@
       "Bagarmossens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:27:29.299527+00:00"
+    "availability_checked_at": "2026-11-08T19:29:39.127703+00:00"
   },
   "8321203": {
     "holdings": [
@@ -143740,7 +143734,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:27:31.564055+00:00"
+    "availability_checked_at": "2026-11-08T19:34:40.922183+00:00"
   },
   "8221606": {
     "holdings": [
@@ -143776,7 +143770,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T09:27:33.830974+00:00"
+    "availability_checked_at": "2026-11-08T19:26:20.080363+00:00"
   },
   "8206752": {
     "holdings": [
@@ -143839,7 +143833,7 @@
     "total_copies": 2,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T09:27:36.086907+00:00"
+    "availability_checked_at": "2026-11-08T19:24:47.729638+00:00"
   },
   "8315595": {
     "holdings": [
@@ -143877,7 +143871,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T09:27:38.328253+00:00"
+    "availability_checked_at": "2026-11-08T19:34:02.943845+00:00"
   },
   "8945856": {
     "holdings": [
@@ -168752,7 +168746,7 @@
       "Bagarmossens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:29:15.686819+00:00"
+    "availability_checked_at": "2026-11-08T19:23:32.666596+00:00"
   },
   "8191161": {
     "holdings": [
@@ -168788,7 +168782,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:29:17.942043+00:00"
+    "availability_checked_at": "2026-11-08T19:23:34.998056+00:00"
   },
   "8192033": {
     "holdings": [],
@@ -168796,7 +168790,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:29:20.205126+00:00"
+    "availability_checked_at": "2026-11-08T19:23:37.325823+00:00"
   },
   "8192529": {
     "holdings": [
@@ -168834,7 +168828,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:29:22.464046+00:00"
+    "availability_checked_at": "2026-11-08T19:23:39.635173+00:00"
   },
   "8192625": {
     "holdings": [
@@ -168900,7 +168894,7 @@
       "Luma bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:29:24.726721+00:00"
+    "availability_checked_at": "2026-11-08T19:23:41.996725+00:00"
   },
   "8192684": {
     "holdings": [
@@ -168966,7 +168960,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:29:27.052958+00:00"
+    "availability_checked_at": "2026-11-08T19:23:44.316213+00:00"
   },
   "8194162": {
     "holdings": [
@@ -169004,7 +168998,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:29:29.329395+00:00"
+    "availability_checked_at": "2026-11-08T19:23:51.450048+00:00"
   },
   "8194509": {
     "holdings": [
@@ -169042,7 +169036,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:29:31.587910+00:00"
+    "availability_checked_at": "2026-11-08T19:23:56.229120+00:00"
   },
   "8195210": {
     "holdings": [],
@@ -169050,7 +169044,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:29:33.953465+00:00"
+    "availability_checked_at": "2026-11-08T19:23:58.517533+00:00"
   },
   "8195778": {
     "holdings": [
@@ -169144,7 +169138,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:29:36.237996+00:00"
+    "availability_checked_at": "2026-11-08T19:24:03.242748+00:00"
   },
   "8196161": {
     "holdings": [
@@ -169182,7 +169176,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:29:38.638388+00:00"
+    "availability_checked_at": "2026-11-08T19:24:05.507637+00:00"
   },
   "8197565": {
     "holdings": [
@@ -169220,7 +169214,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:29:40.901075+00:00"
+    "availability_checked_at": "2026-11-08T19:24:07.789014+00:00"
   },
   "8198948": {
     "holdings": [],
@@ -169228,7 +169222,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:29:43.199614+00:00"
+    "availability_checked_at": "2026-11-08T19:24:10.072773+00:00"
   },
   "8199141": {
     "holdings": [
@@ -169266,7 +169260,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:29:45.457724+00:00"
+    "availability_checked_at": "2026-11-08T19:24:12.386508+00:00"
   },
   "8200115": {
     "holdings": [],
@@ -169274,7 +169268,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:29:47.717890+00:00"
+    "availability_checked_at": "2026-11-08T19:24:17.048524+00:00"
   },
   "8200139": {
     "holdings": [
@@ -169312,7 +169306,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:29:50.022010+00:00"
+    "availability_checked_at": "2026-11-08T19:24:19.367245+00:00"
   },
   "8201081": {
     "holdings": [
@@ -169348,7 +169342,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:29:52.374316+00:00"
+    "availability_checked_at": "2026-11-08T19:24:21.678193+00:00"
   },
   "8201818": {
     "holdings": [
@@ -169892,7 +169886,7 @@
       "Gröndals bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:29:54.831707+00:00"
+    "availability_checked_at": "2026-11-08T19:24:24.154666+00:00"
   },
   "8201859": {
     "holdings": [],
@@ -169900,7 +169894,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:29:57.067032+00:00"
+    "availability_checked_at": "2026-11-08T19:24:26.462930+00:00"
   },
   "8202035": {
     "holdings": [
@@ -169992,7 +169986,7 @@
       "Årsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:29:59.333388+00:00"
+    "availability_checked_at": "2026-11-08T19:24:28.807350+00:00"
   },
   "8202865": {
     "holdings": [
@@ -170058,7 +170052,7 @@
       "Hagsätra bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:01.625674+00:00"
+    "availability_checked_at": "2026-11-08T19:24:31.119810+00:00"
   },
   "8204647": {
     "holdings": [],
@@ -170066,7 +170060,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:30:03.874750+00:00"
+    "availability_checked_at": "2026-11-08T19:24:33.431203+00:00"
   },
   "8205162": {
     "holdings": [
@@ -170231,7 +170225,7 @@
       "Aspuddens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:06.198240+00:00"
+    "availability_checked_at": "2026-11-08T19:24:38.407120+00:00"
   },
   "8205831": {
     "holdings": [
@@ -170269,7 +170263,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:08.461482+00:00"
+    "availability_checked_at": "2026-11-08T19:24:43.074626+00:00"
   },
   "8205928": {
     "holdings": [
@@ -170307,7 +170301,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:10.795612+00:00"
+    "availability_checked_at": "2026-11-08T19:24:45.417339+00:00"
   },
   "8207067": {
     "holdings": [
@@ -170398,7 +170392,7 @@
         "slug": "bredangs-bibliotek",
         "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 2,
-        "available_copies": 1,
+        "available_copies": 2,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -170422,20 +170416,20 @@
             "section": null,
             "location": "Serier",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-14",
+            "firstLoanDueDate": null,
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "CHECKED_OUT",
+            "loanStatus": "AVAILABLE_FOR_LOAN",
             "nofTotal": 1,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 0,
+            "nofAvailableForLoan": 1,
             "note": null
           }
         ]
       }
     ],
-    "available_copies": 4,
+    "available_copies": 5,
     "total_copies": 5,
     "available_branches": [
       "Lava, Kulturhuset",
@@ -170444,7 +170438,7 @@
       "Bredängs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:13.081472+00:00"
+    "availability_checked_at": "2026-11-08T19:24:50.047464+00:00"
   },
   "8207217": {
     "holdings": [
@@ -170506,9 +170500,9 @@
         "branch_id": "CSE-7018042",
         "branch": "Tranströmerbiblioteket",
         "slug": "transtromerbiblioteket",
-        "loan_status": "AVAILABLE_FOR_LOAN",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
         "total_copies": 1,
-        "available_copies": 1,
+        "available_copies": 0,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -170520,11 +170514,11 @@
             "firstLoanDueDate": null,
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
             "nofTotal": 1,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 1,
+            "nofAvailableForLoan": 0,
             "note": null
           }
         ]
@@ -170557,15 +170551,14 @@
         ]
       }
     ],
-    "available_copies": 4,
+    "available_copies": 3,
     "total_copies": 5,
     "available_branches": [
       "Kista bibliotek",
-      "Tranströmerbiblioteket",
       "Skärholmens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:15.408833+00:00"
+    "availability_checked_at": "2026-11-08T19:24:52.375134+00:00"
   },
   "8207439": {
     "holdings": [
@@ -170687,7 +170680,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:17.734416+00:00"
+    "availability_checked_at": "2026-11-08T19:24:54.748361+00:00"
   },
   "8207877": {
     "holdings": [
@@ -170781,7 +170774,7 @@
       "Alviks bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:20.027542+00:00"
+    "availability_checked_at": "2026-11-08T19:24:57.092345+00:00"
   },
   "8208059": {
     "holdings": [],
@@ -170789,7 +170782,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:30:22.298141+00:00"
+    "availability_checked_at": "2026-11-08T19:24:59.407098+00:00"
   },
   "8208102": {
     "holdings": [
@@ -170827,7 +170820,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:24.630926+00:00"
+    "availability_checked_at": "2026-11-08T19:25:01.721544+00:00"
   },
   "8210187": {
     "holdings": [
@@ -170865,7 +170858,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:26.890405+00:00"
+    "availability_checked_at": "2026-11-08T19:25:08.684758+00:00"
   },
   "8210253": {
     "holdings": [
@@ -170903,7 +170896,7 @@
       "Hässelby villastads bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:29.164173+00:00"
+    "availability_checked_at": "2026-11-08T19:25:11.019052+00:00"
   },
   "8211739": {
     "holdings": [
@@ -171658,7 +171651,7 @@
       "Blackebergs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:31.555732+00:00"
+    "availability_checked_at": "2026-11-08T19:25:18.139040+00:00"
   },
   "8215294": {
     "holdings": [
@@ -171723,7 +171716,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:34.138515+00:00"
+    "availability_checked_at": "2026-11-08T19:25:25.102971+00:00"
   },
   "8215307": {
     "holdings": [
@@ -171761,7 +171754,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:36.407181+00:00"
+    "availability_checked_at": "2026-11-08T19:25:27.416044+00:00"
   },
   "8216124": {
     "holdings": [
@@ -171799,7 +171792,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:38.695202+00:00"
+    "availability_checked_at": "2026-11-08T19:25:32.080919+00:00"
   },
   "8216160": {
     "holdings": [
@@ -171837,7 +171830,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:40.997930+00:00"
+    "availability_checked_at": "2026-11-08T19:25:34.400175+00:00"
   },
   "8216411": {
     "holdings": [],
@@ -171845,7 +171838,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:30:43.259831+00:00"
+    "availability_checked_at": "2026-11-08T19:25:36.701176+00:00"
   },
   "8216434": {
     "holdings": [
@@ -171883,7 +171876,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:45.575599+00:00"
+    "availability_checked_at": "2026-11-08T19:25:39.022401+00:00"
   },
   "8216507": {
     "holdings": [
@@ -172371,7 +172364,7 @@
       "Örby bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:47.941238+00:00"
+    "availability_checked_at": "2026-11-08T19:25:41.409199+00:00"
   },
   "8217995": {
     "holdings": [
@@ -172409,7 +172402,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:50.247164+00:00"
+    "availability_checked_at": "2026-11-08T19:25:48.925305+00:00"
   },
   "8218003": {
     "holdings": [],
@@ -172417,7 +172410,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:30:52.599880+00:00"
+    "availability_checked_at": "2026-11-08T19:25:51.343030+00:00"
   },
   "8218311": {
     "holdings": [
@@ -172455,7 +172448,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:54.857834+00:00"
+    "availability_checked_at": "2026-11-08T19:25:53.644703+00:00"
   },
   "8218369": {
     "holdings": [
@@ -172941,7 +172934,7 @@
       "Telefonplans bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:57.210214+00:00"
+    "availability_checked_at": "2026-11-08T19:25:56.219486+00:00"
   },
   "8219195": {
     "holdings": [
@@ -172994,7 +172987,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:30:59.513846+00:00"
+    "availability_checked_at": "2026-11-08T19:25:58.517869+00:00"
   },
   "8219322": {
     "holdings": [
@@ -173059,7 +173052,7 @@
       "Björkhagens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:01.815514+00:00"
+    "availability_checked_at": "2026-11-08T19:26:00.956224+00:00"
   },
   "8220288": {
     "holdings": [
@@ -173097,7 +173090,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:04.099525+00:00"
+    "availability_checked_at": "2026-11-08T19:26:03.278082+00:00"
   },
   "8220470": {
     "holdings": [
@@ -173135,7 +173128,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:06.380096+00:00"
+    "availability_checked_at": "2026-11-08T19:26:12.628771+00:00"
   },
   "8220809": {
     "holdings": [
@@ -173173,7 +173166,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:08.692450+00:00"
+    "availability_checked_at": "2026-11-08T19:26:14.949277+00:00"
   },
   "8221831": {
     "holdings": [
@@ -173211,7 +173204,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:10.972573+00:00"
+    "availability_checked_at": "2026-11-08T19:26:24.689507+00:00"
   },
   "8222286": {
     "holdings": [],
@@ -173219,7 +173212,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:31:13.301881+00:00"
+    "availability_checked_at": "2026-11-08T19:26:29.358940+00:00"
   },
   "8224001": {
     "holdings": [
@@ -173536,7 +173529,7 @@
       "Aspuddens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:15.646030+00:00"
+    "availability_checked_at": "2026-11-08T19:26:34.062337+00:00"
   },
   "8225040": {
     "holdings": [
@@ -173574,7 +173567,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:17.927255+00:00"
+    "availability_checked_at": "2026-11-08T19:26:36.365919+00:00"
   },
   "8225813": {
     "holdings": [
@@ -173612,7 +173605,7 @@
       "Luma bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:20.190678+00:00"
+    "availability_checked_at": "2026-11-08T19:26:38.658326+00:00"
   },
   "8226743": {
     "holdings": [
@@ -173702,7 +173695,7 @@
     "total_copies": 3,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:31:22.461966+00:00"
+    "availability_checked_at": "2026-11-08T19:26:43.297040+00:00"
   },
   "8228377": {
     "holdings": [
@@ -174074,7 +174067,7 @@
       "Bagarmossens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:24.822043+00:00"
+    "availability_checked_at": "2026-11-08T19:26:48.026779+00:00"
   },
   "8228730": {
     "holdings": [
@@ -174112,7 +174105,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:27.093091+00:00"
+    "availability_checked_at": "2026-11-08T19:26:50.345801+00:00"
   },
   "8229348": {
     "holdings": [
@@ -174148,7 +174141,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:31:29.350870+00:00"
+    "availability_checked_at": "2026-11-08T19:26:52.687483+00:00"
   },
   "8230246": {
     "holdings": [
@@ -174241,7 +174234,7 @@
       "Hässelby villastads bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:31.659134+00:00"
+    "availability_checked_at": "2026-11-08T19:26:55.048995+00:00"
   },
   "8233065": {
     "holdings": [
@@ -174279,7 +174272,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:33.947010+00:00"
+    "availability_checked_at": "2026-11-08T19:26:57.344021+00:00"
   },
   "8233909": {
     "holdings": [
@@ -174398,7 +174391,7 @@
       "Luma bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:36.282934+00:00"
+    "availability_checked_at": "2026-11-08T19:27:02.200732+00:00"
   },
   "8234405": {
     "holdings": [
@@ -174548,7 +174541,7 @@
       "Spånga bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:38.610624+00:00"
+    "availability_checked_at": "2026-11-08T19:27:04.576351+00:00"
   },
   "8234499": {
     "holdings": [],
@@ -174556,7 +174549,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:31:40.898581+00:00"
+    "availability_checked_at": "2026-11-08T19:27:06.865751+00:00"
   },
   "8234535": {
     "holdings": [
@@ -174733,7 +174726,7 @@
       "Luma bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:43.192247+00:00"
+    "availability_checked_at": "2026-11-08T19:27:09.209422+00:00"
   },
   "8234790": {
     "holdings": [
@@ -174798,7 +174791,7 @@
       "Skärholmens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:45.471503+00:00"
+    "availability_checked_at": "2026-11-08T19:27:11.868051+00:00"
   },
   "8234862": {
     "holdings": [
@@ -174836,7 +174829,7 @@
       "Hagsätra bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:47.755436+00:00"
+    "availability_checked_at": "2026-11-08T19:27:14.174590+00:00"
   },
   "8234947": {
     "holdings": [
@@ -175153,7 +175146,7 @@
       "Hässelby villastads bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:50.178165+00:00"
+    "availability_checked_at": "2026-11-08T19:27:16.521460+00:00"
   },
   "8235060": {
     "holdings": [
@@ -175219,7 +175212,7 @@
       "Vällingby bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:52.502884+00:00"
+    "availability_checked_at": "2026-11-08T19:27:18.837088+00:00"
   },
   "8235075": {
     "holdings": [
@@ -175255,7 +175248,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:31:54.883926+00:00"
+    "availability_checked_at": "2026-11-08T19:27:21.122263+00:00"
   },
   "8235506": {
     "holdings": [
@@ -175291,7 +175284,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:31:57.242547+00:00"
+    "availability_checked_at": "2026-11-08T19:27:23.413996+00:00"
   },
   "8235555": {
     "holdings": [
@@ -175456,7 +175449,7 @@
       "Stora Essingens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:31:59.574005+00:00"
+    "availability_checked_at": "2026-11-08T19:27:25.746171+00:00"
   },
   "8238512": {
     "holdings": [
@@ -175548,7 +175541,7 @@
       "Hornstulls bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:32:02.010956+00:00"
+    "availability_checked_at": "2026-11-08T19:27:30.485758+00:00"
   },
   "8240080": {
     "holdings": [
@@ -175584,7 +175577,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:32:04.337867+00:00"
+    "availability_checked_at": "2026-11-08T19:27:32.793815+00:00"
   },
   "8240094": {
     "holdings": [],
@@ -175592,7 +175585,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:32:06.646691+00:00"
+    "availability_checked_at": "2026-11-08T19:27:35.101099+00:00"
   },
   "8243499": {
     "holdings": [],
@@ -175600,7 +175593,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:32:08.986004+00:00"
+    "availability_checked_at": "2026-11-08T19:27:39.771713+00:00"
   },
   "8243678": {
     "holdings": [
@@ -175797,7 +175790,7 @@
         "branch_id": "CSE-7018034",
         "branch": "Spånga bibliotek",
         "slug": "spanga-bibliotek",
-        "loan_status": "CHECKED_OUT",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
         "total_copies": 1,
         "available_copies": 0,
         "reservable": true,
@@ -175808,10 +175801,10 @@
             "section": null,
             "location": "Facklitteratur",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-02",
+            "firstLoanDueDate": null,
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "CHECKED_OUT",
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
             "nofTotal": 1,
             "nofOrdered": 0,
             "nofReference": 0,
@@ -175852,7 +175845,7 @@
     "total_copies": 9,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:32:11.334184+00:00"
+    "availability_checked_at": "2026-11-08T19:27:44.413825+00:00"
   },
   "8243889": {
     "holdings": [
@@ -175890,7 +175883,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:32:13.619521+00:00"
+    "availability_checked_at": "2026-11-08T19:27:46.709231+00:00"
   },
   "8243994": {
     "holdings": [
@@ -175928,7 +175921,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:32:15.914877+00:00"
+    "availability_checked_at": "2026-11-08T19:27:49.004178+00:00"
   },
   "8244084": {
     "holdings": [
@@ -175966,7 +175959,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:32:18.275664+00:00"
+    "availability_checked_at": "2026-11-08T19:27:51.326115+00:00"
   },
   "8244907": {
     "holdings": [
@@ -176088,7 +176081,7 @@
       "Aspuddens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:32:20.574150+00:00"
+    "availability_checked_at": "2026-11-08T19:27:53.664103+00:00"
   },
   "8244998": {
     "holdings": [
@@ -176126,7 +176119,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:32:22.882744+00:00"
+    "availability_checked_at": "2026-11-08T19:27:55.939061+00:00"
   },
   "8245245": {
     "holdings": [
@@ -176164,7 +176157,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:32:25.143300+00:00"
+    "availability_checked_at": "2026-11-08T19:27:58.306386+00:00"
   },
   "8245251": {
     "holdings": [
@@ -176202,7 +176195,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:34:32.834643+00:00"
+    "availability_checked_at": "2026-11-08T19:28:00.567548+00:00"
   },
   "8245359": {
     "holdings": [],
@@ -176210,7 +176203,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:34:35.119053+00:00"
+    "availability_checked_at": "2026-11-08T19:28:02.922019+00:00"
   },
   "8245388": {
     "holdings": [
@@ -176638,7 +176631,7 @@
       "Blackebergs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:34:37.410765+00:00"
+    "availability_checked_at": "2026-11-08T19:28:05.408148+00:00"
   },
   "8245390": {
     "holdings": [
@@ -176871,7 +176864,7 @@
       "Stora Essingens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:34:39.693481+00:00"
+    "availability_checked_at": "2026-11-08T19:28:07.804710+00:00"
   },
   "8245409": {
     "holdings": [
@@ -176909,7 +176902,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:34:41.933201+00:00"
+    "availability_checked_at": "2026-11-08T19:28:10.122453+00:00"
   },
   "8245823": {
     "holdings": [
@@ -176947,7 +176940,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:34:44.182097+00:00"
+    "availability_checked_at": "2026-11-08T19:28:12.505689+00:00"
   },
   "8246693": {
     "holdings": [
@@ -176985,7 +176978,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:34:46.441183+00:00"
+    "availability_checked_at": "2026-11-08T19:28:14.846293+00:00"
   },
   "8246716": {
     "holdings": [
@@ -177051,7 +177044,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:34:48.742054+00:00"
+    "availability_checked_at": "2026-11-08T19:28:17.155533+00:00"
   },
   "8247854": {
     "holdings": [
@@ -177089,7 +177082,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:34:50.985475+00:00"
+    "availability_checked_at": "2026-11-08T19:28:21.862657+00:00"
   },
   "8248138": {
     "holdings": [
@@ -177208,7 +177201,7 @@
       "Rinkeby bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:34:53.287888+00:00"
+    "availability_checked_at": "2026-11-08T19:28:24.214172+00:00"
   },
   "8249197": {
     "holdings": [
@@ -177274,7 +177267,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:34:55.545625+00:00"
+    "availability_checked_at": "2026-11-08T19:28:26.577502+00:00"
   },
   "8252186": {
     "holdings": [],
@@ -177282,7 +177275,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:34:57.782781+00:00"
+    "availability_checked_at": "2026-11-08T19:28:35.778587+00:00"
   },
   "8253864": {
     "holdings": [
@@ -177347,7 +177340,7 @@
       "Östermalms bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:00.040992+00:00"
+    "availability_checked_at": "2026-11-08T19:28:38.114896+00:00"
   },
   "8253901": {
     "holdings": [
@@ -177468,7 +177461,7 @@
       "Tensta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:02.360077+00:00"
+    "availability_checked_at": "2026-11-08T19:28:40.412806+00:00"
   },
   "8254098": {
     "holdings": [],
@@ -177476,7 +177469,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:35:04.612822+00:00"
+    "availability_checked_at": "2026-11-08T19:28:42.684761+00:00"
   },
   "8254370": {
     "holdings": [
@@ -177514,7 +177507,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:06.887318+00:00"
+    "availability_checked_at": "2026-11-08T19:28:44.989223+00:00"
   },
   "8254519": {
     "holdings": [],
@@ -177522,7 +177515,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:35:09.141296+00:00"
+    "availability_checked_at": "2026-11-08T19:28:47.327453+00:00"
   },
   "8254525": {
     "holdings": [
@@ -177666,7 +177659,7 @@
     "total_copies": 5,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:35:11.413672+00:00"
+    "availability_checked_at": "2026-11-08T19:28:49.646863+00:00"
   },
   "8256133": {
     "holdings": [
@@ -177732,7 +177725,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:13.707050+00:00"
+    "availability_checked_at": "2026-11-08T19:28:59.210059+00:00"
   },
   "8256676": {
     "holdings": [
@@ -177770,7 +177763,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:15.975964+00:00"
+    "availability_checked_at": "2026-11-08T19:29:03.775110+00:00"
   },
   "8257912": {
     "holdings": [
@@ -177808,7 +177801,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:18.296269+00:00"
+    "availability_checked_at": "2026-11-08T19:29:06.088810+00:00"
   },
   "8259069": {
     "holdings": [
@@ -177846,7 +177839,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:20.852473+00:00"
+    "availability_checked_at": "2026-11-08T19:29:10.798300+00:00"
   },
   "8260009": {
     "holdings": [
@@ -177909,7 +177902,7 @@
     "total_copies": 2,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:35:23.162822+00:00"
+    "availability_checked_at": "2026-11-08T19:29:13.098749+00:00"
   },
   "8260152": {
     "holdings": [
@@ -178003,7 +177996,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:25.463547+00:00"
+    "availability_checked_at": "2026-11-08T19:29:15.430804+00:00"
   },
   "8260759": {
     "holdings": [
@@ -178069,7 +178062,7 @@
       "Skärholmens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:27.826020+00:00"
+    "availability_checked_at": "2026-11-08T19:29:17.803605+00:00"
   },
   "8261022": {
     "holdings": [
@@ -178163,7 +178156,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:30.100713+00:00"
+    "availability_checked_at": "2026-11-08T19:29:20.055910+00:00"
   },
   "8262092": {
     "holdings": [
@@ -178171,9 +178164,9 @@
         "branch_id": "CSE-7018022",
         "branch": "Kulturbiblioteket, Kulturhuset",
         "slug": "kulturbiblioteket",
-        "loan_status": "AVAILABLE_FOR_LOAN",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
         "total_copies": 1,
-        "available_copies": 1,
+        "available_copies": 0,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -178185,23 +178178,21 @@
             "firstLoanDueDate": null,
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
             "nofTotal": 1,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 1,
+            "nofAvailableForLoan": 0,
             "note": null
           }
         ]
       }
     ],
-    "available_copies": 1,
+    "available_copies": 0,
     "total_copies": 1,
-    "available_branches": [
-      "Kulturbiblioteket, Kulturhuset"
-    ],
-    "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:32.372656+00:00"
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "availability_checked_at": "2026-11-08T19:29:22.369194+00:00"
   },
   "8262147": {
     "holdings": [
@@ -178462,7 +178453,7 @@
       "Fruängens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:34.651529+00:00"
+    "availability_checked_at": "2026-11-08T19:29:27.052425+00:00"
   },
   "8263628": {
     "holdings": [
@@ -178655,7 +178646,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:36.932447+00:00"
+    "availability_checked_at": "2026-11-08T19:29:29.534216+00:00"
   },
   "8265191": {
     "holdings": [
@@ -178674,7 +178665,7 @@
             "section": "Facksal 4",
             "location": "Facklitteratur",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-20",
+            "firstLoanDueDate": "2026-12-06",
             "shelfMark": null,
             "periodical": null,
             "loanStatus": "CHECKED_OUT",
@@ -178691,7 +178682,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:35:39.184648+00:00"
+    "availability_checked_at": "2026-11-08T19:29:41.432093+00:00"
   },
   "8265986": {
     "holdings": [
@@ -178729,7 +178720,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:41.442297+00:00"
+    "availability_checked_at": "2026-11-08T19:29:43.768806+00:00"
   },
   "8266080": {
     "holdings": [
@@ -178767,7 +178758,7 @@
       "Blackebergs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:43.701195+00:00"
+    "availability_checked_at": "2026-11-08T19:29:46.324828+00:00"
   },
   "8266354": {
     "holdings": [
@@ -178805,7 +178796,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:46.032538+00:00"
+    "availability_checked_at": "2026-11-08T19:29:48.639632+00:00"
   },
   "8266518": {
     "holdings": [
@@ -178927,7 +178918,7 @@
       "Kungsholmens bibliotek Internationella biblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:48.365328+00:00"
+    "availability_checked_at": "2026-11-08T19:29:50.955315+00:00"
   },
   "8266664": {
     "holdings": [
@@ -178965,7 +178956,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:50.632144+00:00"
+    "availability_checked_at": "2026-11-08T19:29:53.256709+00:00"
   },
   "8267261": {
     "holdings": [
@@ -179143,7 +179134,7 @@
       "Aspuddens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:52.953832+00:00"
+    "availability_checked_at": "2026-11-08T19:29:55.606869+00:00"
   },
   "8268300": {
     "holdings": [
@@ -179209,7 +179200,7 @@
       "Örby bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:55.232359+00:00"
+    "availability_checked_at": "2026-11-08T19:30:00.447819+00:00"
   },
   "8268677": {
     "holdings": [
@@ -179247,7 +179238,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:35:57.478502+00:00"
+    "availability_checked_at": "2026-11-08T19:30:02.739663+00:00"
   },
   "8270637": {
     "holdings": [
@@ -179364,7 +179355,7 @@
     "total_copies": 4,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:35:59.755778+00:00"
+    "availability_checked_at": "2026-11-08T19:30:07.454846+00:00"
   },
   "8271202": {
     "holdings": [
@@ -179430,7 +179421,7 @@
       "Hagsätra bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:02.068171+00:00"
+    "availability_checked_at": "2026-11-08T19:30:09.793425+00:00"
   },
   "8271474": {
     "holdings": [],
@@ -179438,7 +179429,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:36:04.325084+00:00"
+    "availability_checked_at": "2026-11-08T19:30:14.414482+00:00"
   },
   "8272041": {
     "holdings": [
@@ -179476,7 +179467,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:06.636034+00:00"
+    "availability_checked_at": "2026-11-08T19:30:16.711956+00:00"
   },
   "8273559": {
     "holdings": [],
@@ -179484,7 +179475,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:36:08.934058+00:00"
+    "availability_checked_at": "2026-11-08T19:30:19.010744+00:00"
   },
   "8273565": {
     "holdings": [
@@ -179522,7 +179513,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:11.233238+00:00"
+    "availability_checked_at": "2026-11-08T19:30:21.377491+00:00"
   },
   "8273930": {
     "holdings": [
@@ -179558,7 +179549,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:36:13.565077+00:00"
+    "availability_checked_at": "2026-11-08T19:30:23.688603+00:00"
   },
   "8273955": {
     "holdings": [],
@@ -179566,7 +179557,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:36:15.792551+00:00"
+    "availability_checked_at": "2026-11-08T19:30:25.981531+00:00"
   },
   "8274183": {
     "holdings": [
@@ -179604,7 +179595,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:18.040575+00:00"
+    "availability_checked_at": "2026-11-08T19:30:28.288917+00:00"
   },
   "8275731": {
     "holdings": [
@@ -179640,7 +179631,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:36:20.312033+00:00"
+    "availability_checked_at": "2026-11-08T19:30:32.922878+00:00"
   },
   "8275911": {
     "holdings": [],
@@ -179648,7 +179639,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:36:22.590026+00:00"
+    "availability_checked_at": "2026-11-08T19:30:35.228676+00:00"
   },
   "8276181": {
     "holdings": [
@@ -179770,7 +179761,7 @@
       "Brommaplans bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:24.834244+00:00"
+    "availability_checked_at": "2026-11-08T19:30:37.590916+00:00"
   },
   "8276265": {
     "holdings": [
@@ -179948,7 +179939,7 @@
       "Östberga bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:27.126840+00:00"
+    "availability_checked_at": "2026-11-08T19:30:39.895831+00:00"
   },
   "8277728": {
     "holdings": [
@@ -179986,7 +179977,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:29.395764+00:00"
+    "availability_checked_at": "2026-11-08T19:30:47.287832+00:00"
   },
   "8278066": {
     "holdings": [
@@ -180052,7 +180043,7 @@
       "Bokhotellet, Frihamnen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:31.657667+00:00"
+    "availability_checked_at": "2026-11-08T19:30:49.597581+00:00"
   },
   "8278392": {
     "holdings": [
@@ -180090,7 +180081,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:33.937126+00:00"
+    "availability_checked_at": "2026-11-08T19:30:51.890464+00:00"
   },
   "8278432": {
     "holdings": [
@@ -180128,7 +180119,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:36.201713+00:00"
+    "availability_checked_at": "2026-11-08T19:30:54.227570+00:00"
   },
   "8278717": {
     "holdings": [
@@ -180262,7 +180253,7 @@
       "Rinkeby bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:38.530951+00:00"
+    "availability_checked_at": "2026-11-08T19:30:56.546288+00:00"
   },
   "8278958": {
     "holdings": [
@@ -180355,7 +180346,7 @@
       "Kungsholmens bibliotek Internationella biblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:40.813389+00:00"
+    "availability_checked_at": "2026-11-08T19:30:58.853679+00:00"
   },
   "8279190": {
     "holdings": [],
@@ -180363,7 +180354,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:36:43.037265+00:00"
+    "availability_checked_at": "2026-11-08T19:31:01.150716+00:00"
   },
   "8279539": {
     "holdings": [
@@ -180401,7 +180392,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:45.288103+00:00"
+    "availability_checked_at": "2026-11-08T19:31:05.806942+00:00"
   },
   "8279559": {
     "holdings": [
@@ -180523,7 +180514,7 @@
       "Husby bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:47.598014+00:00"
+    "availability_checked_at": "2026-11-08T19:31:08.170264+00:00"
   },
   "8279886": {
     "holdings": [
@@ -180588,7 +180579,7 @@
       "Bokhotellet, Frihamnen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:49.901568+00:00"
+    "availability_checked_at": "2026-11-08T19:31:10.455832+00:00"
   },
   "8280243": {
     "holdings": [
@@ -180668,7 +180659,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:52.176574+00:00"
+    "availability_checked_at": "2026-11-08T19:31:12.765368+00:00"
   },
   "8280335": {
     "holdings": [],
@@ -180676,7 +180667,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:36:54.458357+00:00"
+    "availability_checked_at": "2026-11-08T19:31:15.063581+00:00"
   },
   "8280754": {
     "holdings": [
@@ -180742,7 +180733,7 @@
       "Bokhotellet, Frihamnen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:56.723948+00:00"
+    "availability_checked_at": "2026-11-08T19:31:17.354892+00:00"
   },
   "8280897": {
     "holdings": [
@@ -180780,7 +180771,7 @@
       "Hornstulls bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:36:59.020011+00:00"
+    "availability_checked_at": "2026-11-08T19:31:19.632943+00:00"
   },
   "8282223": {
     "holdings": [
@@ -181139,9 +181130,9 @@
         "branch_id": "CSE-7018035",
         "branch": "Alviks bibliotek",
         "slug": "alviks-bibliotek",
-        "loan_status": "CHECKED_OUT",
+        "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 1,
-        "available_copies": 0,
+        "available_copies": 1,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -181150,14 +181141,14 @@
             "section": null,
             "location": "Klassiker",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-29",
+            "firstLoanDueDate": null,
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "CHECKED_OUT",
+            "loanStatus": "AVAILABLE_FOR_LOAN",
             "nofTotal": 1,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 0,
+            "nofAvailableForLoan": 1,
             "note": null
           }
         ]
@@ -181190,7 +181181,7 @@
         ]
       }
     ],
-    "available_copies": 13,
+    "available_copies": 14,
     "total_copies": 18,
     "available_branches": [
       "Stadsbiblioteket Spelbomskan",
@@ -181203,10 +181194,11 @@
       "Älvsjö bibliotek",
       "Örby bibliotek",
       "Bagarmossens bibliotek",
+      "Alviks bibliotek",
       "Blackebergs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:01.374653+00:00"
+    "availability_checked_at": "2026-11-08T19:31:22.106487+00:00"
   },
   "8282327": {
     "holdings": [
@@ -181244,7 +181236,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:03.627809+00:00"
+    "availability_checked_at": "2026-11-08T19:31:24.417030+00:00"
   },
   "8284370": {
     "holdings": [
@@ -181282,7 +181274,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:05.901513+00:00"
+    "availability_checked_at": "2026-11-08T19:31:26.732329+00:00"
   },
   "8285807": {
     "holdings": [
@@ -181362,7 +181354,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:08.261980+00:00"
+    "availability_checked_at": "2026-11-08T19:31:29.018259+00:00"
   },
   "8285853": {
     "holdings": [
@@ -181400,7 +181392,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:10.570223+00:00"
+    "availability_checked_at": "2026-11-08T19:31:31.311031+00:00"
   },
   "8286213": {
     "holdings": [],
@@ -181408,7 +181400,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:37:12.833243+00:00"
+    "availability_checked_at": "2026-11-08T19:31:33.587527+00:00"
   },
   "8287122": {
     "holdings": [],
@@ -181416,7 +181408,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:37:15.136155+00:00"
+    "availability_checked_at": "2026-11-08T19:31:38.217119+00:00"
   },
   "8288641": {
     "holdings": [
@@ -181482,7 +181474,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:17.385801+00:00"
+    "availability_checked_at": "2026-11-08T19:31:40.548048+00:00"
   },
   "8288707": {
     "holdings": [],
@@ -181490,7 +181482,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:37:19.640989+00:00"
+    "availability_checked_at": "2026-11-08T19:31:42.818379+00:00"
   },
   "8291253": {
     "holdings": [
@@ -181526,7 +181518,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:37:21.882329+00:00"
+    "availability_checked_at": "2026-11-08T19:31:54.777770+00:00"
   },
   "8293190": {
     "holdings": [
@@ -181592,7 +181584,7 @@
       "Bokhotellet, Frihamnen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:24.216894+00:00"
+    "availability_checked_at": "2026-11-08T19:32:01.813705+00:00"
   },
   "8293192": {
     "holdings": [
@@ -181630,7 +181622,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:26.474224+00:00"
+    "availability_checked_at": "2026-11-08T19:32:04.097094+00:00"
   },
   "8296114": {
     "holdings": [
@@ -181724,7 +181716,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:28.752921+00:00"
+    "availability_checked_at": "2026-11-08T19:32:09.090067+00:00"
   },
   "8296119": {
     "holdings": [
@@ -181818,7 +181810,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:31.008696+00:00"
+    "availability_checked_at": "2026-11-08T19:32:11.414468+00:00"
   },
   "8296443": {
     "holdings": [
@@ -181939,7 +181931,7 @@
       "Hornstulls bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:33.435127+00:00"
+    "availability_checked_at": "2026-11-08T19:32:16.040716+00:00"
   },
   "8296655": {
     "holdings": [
@@ -181975,7 +181967,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:37:35.724940+00:00"
+    "availability_checked_at": "2026-11-08T19:32:18.344017+00:00"
   },
   "8297555": {
     "holdings": [
@@ -182028,7 +182020,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:38.004373+00:00"
+    "availability_checked_at": "2026-11-08T19:32:20.666582+00:00"
   },
   "8297620": {
     "holdings": [
@@ -182066,7 +182058,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:40.322433+00:00"
+    "availability_checked_at": "2026-11-08T19:32:23.007021+00:00"
   },
   "8297871": {
     "holdings": [
@@ -182188,7 +182180,7 @@
       "Fruängens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:42.563600+00:00"
+    "availability_checked_at": "2026-11-08T19:32:25.354745+00:00"
   },
   "8299427": {
     "holdings": [
@@ -182224,7 +182216,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:37:44.821603+00:00"
+    "availability_checked_at": "2026-11-08T19:32:29.943627+00:00"
   },
   "8300737": {
     "holdings": [
@@ -182318,7 +182310,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:47.130937+00:00"
+    "availability_checked_at": "2026-11-08T19:32:34.607138+00:00"
   },
   "8300781": {
     "holdings": [],
@@ -182326,7 +182318,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:37:49.393520+00:00"
+    "availability_checked_at": "2026-11-08T19:32:36.870223+00:00"
   },
   "8300939": {
     "holdings": [
@@ -182364,7 +182356,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:51.661853+00:00"
+    "availability_checked_at": "2026-11-08T19:32:39.176311+00:00"
   },
   "8300940": {
     "holdings": [
@@ -182400,7 +182392,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:37:53.969316+00:00"
+    "availability_checked_at": "2026-11-08T19:32:41.570949+00:00"
   },
   "8301390": {
     "holdings": [
@@ -182438,7 +182430,7 @@
       "TioTretton, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:37:56.223454+00:00"
+    "availability_checked_at": "2026-11-08T19:32:43.887021+00:00"
   },
   "8303157": {
     "holdings": [],
@@ -182446,7 +182438,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:37:58.607398+00:00"
+    "availability_checked_at": "2026-11-08T19:32:48.469212+00:00"
   },
   "8303579": {
     "holdings": [
@@ -182484,7 +182476,7 @@
       "Östermalms bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:00.886507+00:00"
+    "availability_checked_at": "2026-11-08T19:32:50.764486+00:00"
   },
   "8304434": {
     "holdings": [],
@@ -182492,7 +182484,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:38:03.142937+00:00"
+    "availability_checked_at": "2026-11-08T19:32:53.075598+00:00"
   },
   "8306327": {
     "holdings": [],
@@ -182500,7 +182492,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:38:05.399302+00:00"
+    "availability_checked_at": "2026-11-08T19:32:55.355001+00:00"
   },
   "8307016": {
     "holdings": [],
@@ -182508,7 +182500,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:38:07.663427+00:00"
+    "availability_checked_at": "2026-11-08T19:32:57.675349+00:00"
   },
   "8307871": {
     "holdings": [
@@ -182546,7 +182538,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:09.907780+00:00"
+    "availability_checked_at": "2026-11-08T19:32:59.968636+00:00"
   },
   "8308504": {
     "holdings": [
@@ -182584,7 +182576,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:12.187274+00:00"
+    "availability_checked_at": "2026-11-08T19:33:04.629909+00:00"
   },
   "8309399": {
     "holdings": [
@@ -182762,7 +182754,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:14.508515+00:00"
+    "availability_checked_at": "2026-11-08T19:33:09.454859+00:00"
   },
   "8309499": {
     "holdings": [
@@ -182798,7 +182790,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:38:16.773127+00:00"
+    "availability_checked_at": "2026-11-08T19:33:11.798498+00:00"
   },
   "8309670": {
     "holdings": [
@@ -182836,7 +182828,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:19.047888+00:00"
+    "availability_checked_at": "2026-11-08T19:33:14.095573+00:00"
   },
   "8310052": {
     "holdings": [],
@@ -182844,7 +182836,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:38:21.351793+00:00"
+    "availability_checked_at": "2026-11-08T19:33:16.359037+00:00"
   },
   "8310258": {
     "holdings": [
@@ -182910,7 +182902,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:23.637471+00:00"
+    "availability_checked_at": "2026-11-08T19:33:18.752228+00:00"
   },
   "8310591": {
     "holdings": [
@@ -182948,7 +182940,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:25.909829+00:00"
+    "availability_checked_at": "2026-11-08T19:33:23.419284+00:00"
   },
   "8310697": {
     "holdings": [],
@@ -182956,7 +182948,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:38:28.166820+00:00"
+    "availability_checked_at": "2026-11-08T19:33:25.724891+00:00"
   },
   "8310983": {
     "holdings": [
@@ -182994,7 +182986,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:30.430014+00:00"
+    "availability_checked_at": "2026-11-08T19:33:28.073330+00:00"
   },
   "8312361": {
     "holdings": [
@@ -183088,7 +183080,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:32.728983+00:00"
+    "availability_checked_at": "2026-11-08T19:33:32.776384+00:00"
   },
   "8312547": {
     "holdings": [
@@ -183433,7 +183425,7 @@
       "Årsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:35.036215+00:00"
+    "availability_checked_at": "2026-11-08T19:33:35.170454+00:00"
   },
   "8312557": {
     "holdings": [
@@ -183471,7 +183463,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:37.272934+00:00"
+    "availability_checked_at": "2026-11-08T19:33:37.471993+00:00"
   },
   "8312626": {
     "holdings": [
@@ -183565,7 +183557,7 @@
       "Örby bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:39.555674+00:00"
+    "availability_checked_at": "2026-11-08T19:33:39.784044+00:00"
   },
   "8313259": {
     "holdings": [
@@ -183687,7 +183679,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:41.856230+00:00"
+    "availability_checked_at": "2026-11-08T19:33:42.094919+00:00"
   },
   "8313431": {
     "holdings": [
@@ -183809,7 +183801,7 @@
       "Östermalms bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:44.157167+00:00"
+    "availability_checked_at": "2026-11-08T19:33:44.407337+00:00"
   },
   "8313657": {
     "holdings": [
@@ -183845,7 +183837,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:38:46.410733+00:00"
+    "availability_checked_at": "2026-11-08T19:33:46.732330+00:00"
   },
   "8313715": {
     "holdings": [
@@ -183883,7 +183875,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:52.015847+00:00"
+    "availability_checked_at": "2026-11-08T19:33:49.012931+00:00"
   },
   "8313764": {
     "holdings": [
@@ -183921,7 +183913,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:54.360907+00:00"
+    "availability_checked_at": "2026-11-08T19:33:51.326627+00:00"
   },
   "8314057": {
     "holdings": [
@@ -184154,7 +184146,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:38:56.676241+00:00"
+    "availability_checked_at": "2026-11-08T19:33:53.691301+00:00"
   },
   "8314473": {
     "holdings": [
@@ -184286,7 +184278,7 @@
     "total_copies": 5,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:39:00.322731+00:00"
+    "availability_checked_at": "2026-11-08T19:33:55.999660+00:00"
   },
   "8314953": {
     "holdings": [
@@ -184324,7 +184316,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:02.962857+00:00"
+    "availability_checked_at": "2026-11-08T19:33:58.299123+00:00"
   },
   "8315588": {
     "holdings": [
@@ -184360,7 +184352,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:39:05.192941+00:00"
+    "availability_checked_at": "2026-11-08T19:34:00.602313+00:00"
   },
   "8316072": {
     "holdings": [
@@ -184398,7 +184390,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:07.446482+00:00"
+    "availability_checked_at": "2026-11-08T19:34:05.282336+00:00"
   },
   "8317256": {
     "holdings": [],
@@ -184406,7 +184398,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:39:09.674280+00:00"
+    "availability_checked_at": "2026-11-08T19:34:10.085210+00:00"
   },
   "8317520": {
     "holdings": [],
@@ -184414,7 +184406,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:39:11.916041+00:00"
+    "availability_checked_at": "2026-11-08T19:34:12.381466+00:00"
   },
   "8318671": {
     "holdings": [],
@@ -184422,7 +184414,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:39:14.179333+00:00"
+    "availability_checked_at": "2026-11-08T19:34:19.953907+00:00"
   },
   "8318795": {
     "holdings": [
@@ -184460,7 +184452,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:16.423943+00:00"
+    "availability_checked_at": "2026-11-08T19:34:22.353957+00:00"
   },
   "8319005": {
     "holdings": [],
@@ -184468,7 +184460,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:39:18.687224+00:00"
+    "availability_checked_at": "2026-11-08T19:34:24.655330+00:00"
   },
   "8319012": {
     "holdings": [
@@ -184702,7 +184694,7 @@
       "Björkhagens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:20.980671+00:00"
+    "availability_checked_at": "2026-11-08T19:34:26.994537+00:00"
   },
   "8319024": {
     "holdings": [],
@@ -184710,7 +184702,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:39:23.248154+00:00"
+    "availability_checked_at": "2026-11-08T19:34:29.321553+00:00"
   },
   "8319069": {
     "holdings": [
@@ -184860,7 +184852,7 @@
       "Alviks bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:25.552635+00:00"
+    "availability_checked_at": "2026-11-08T19:34:31.631911+00:00"
   },
   "8319830": {
     "holdings": [
@@ -185006,7 +184998,7 @@
       "Hässelby villastads bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:27.901603+00:00"
+    "availability_checked_at": "2026-11-08T19:34:34.060976+00:00"
   },
   "8320070": {
     "holdings": [
@@ -185044,7 +185036,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:30.164483+00:00"
+    "availability_checked_at": "2026-11-08T19:34:36.411563+00:00"
   },
   "8320354": {
     "holdings": [],
@@ -185052,7 +185044,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:39:32.400047+00:00"
+    "availability_checked_at": "2026-11-08T19:34:38.636177+00:00"
   },
   "8321453": {
     "holdings": [
@@ -185330,9 +185322,9 @@
         "branch_id": "CSE-7018015",
         "branch": "Hagsätra bibliotek",
         "slug": "hagsatra-bibliotek",
-        "loan_status": "CHECKED_OUT",
+        "loan_status": "AVAILABLE_FOR_LOAN",
         "total_copies": 1,
-        "available_copies": 0,
+        "available_copies": 1,
         "reservable": true,
         "reference_only": false,
         "locations": [
@@ -185341,20 +185333,20 @@
             "section": null,
             "location": "Deckare & thrillers",
             "sublocation": null,
-            "firstLoanDueDate": "2026-11-27",
+            "firstLoanDueDate": null,
             "shelfMark": null,
             "periodical": null,
-            "loanStatus": "CHECKED_OUT",
+            "loanStatus": "AVAILABLE_FOR_LOAN",
             "nofTotal": 1,
             "nofOrdered": 0,
             "nofReference": 0,
-            "nofAvailableForLoan": 0,
+            "nofAvailableForLoan": 1,
             "note": null
           }
         ]
       }
     ],
-    "available_copies": 8,
+    "available_copies": 9,
     "total_copies": 11,
     "available_branches": [
       "Farsta bibliotek",
@@ -185364,10 +185356,11 @@
       "Luma bibliotek",
       "Skärholmens bibliotek",
       "Spånga bibliotek",
-      "Enskede bibliotek"
+      "Enskede bibliotek",
+      "Hagsätra bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:34.772263+00:00"
+    "availability_checked_at": "2026-11-08T19:34:43.356629+00:00"
   },
   "8323180": {
     "holdings": [],
@@ -185375,7 +185368,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:39:37.033428+00:00"
+    "availability_checked_at": "2026-11-08T19:34:48.326307+00:00"
   },
   "8324079": {
     "holdings": [
@@ -185413,7 +185406,7 @@
       "Östermalms bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:39.277100+00:00"
+    "availability_checked_at": "2026-11-08T19:34:50.697235+00:00"
   },
   "8324097": {
     "holdings": [
@@ -185451,7 +185444,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:41.580814+00:00"
+    "availability_checked_at": "2026-11-08T19:34:52.990974+00:00"
   },
   "8324317": {
     "holdings": [
@@ -185489,7 +185482,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:43.877423+00:00"
+    "availability_checked_at": "2026-11-08T19:34:55.282952+00:00"
   },
   "8325158": {
     "holdings": [
@@ -185583,7 +185576,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:46.126758+00:00"
+    "availability_checked_at": "2026-11-08T19:34:57.592492+00:00"
   },
   "8325610": {
     "holdings": [
@@ -185621,7 +185614,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:48.407158+00:00"
+    "availability_checked_at": "2026-11-08T19:34:59.891820+00:00"
   },
   "8325934": {
     "holdings": [
@@ -185659,7 +185652,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:50.722157+00:00"
+    "availability_checked_at": "2026-11-08T19:35:02.234847+00:00"
   },
   "8327094": {
     "holdings": [
@@ -185725,7 +185718,7 @@
       "Älvsjö bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:53.036977+00:00"
+    "availability_checked_at": "2026-11-08T19:35:04.528157+00:00"
   },
   "8327452": {
     "holdings": [
@@ -185763,7 +185756,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:55.287302+00:00"
+    "availability_checked_at": "2026-11-08T19:35:06.841934+00:00"
   },
   "8327458": {
     "holdings": [
@@ -185829,7 +185822,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:57.555165+00:00"
+    "availability_checked_at": "2026-11-08T19:35:09.178393+00:00"
   },
   "8327584": {
     "holdings": [
@@ -185895,7 +185888,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:39:59.802178+00:00"
+    "availability_checked_at": "2026-11-08T19:35:11.491818+00:00"
   },
   "8328020": {
     "holdings": [],
@@ -185903,7 +185896,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:40:02.089393+00:00"
+    "availability_checked_at": "2026-11-08T19:35:13.816163+00:00"
   },
   "8330938": {
     "holdings": [],
@@ -185911,7 +185904,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:40:04.341373+00:00"
+    "availability_checked_at": "2026-11-08T19:35:16.105730+00:00"
   },
   "8331295": {
     "holdings": [
@@ -185949,7 +185942,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:06.606832+00:00"
+    "availability_checked_at": "2026-11-08T19:35:18.412464+00:00"
   },
   "8332557": {
     "holdings": [],
@@ -185957,7 +185950,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:40:08.866372+00:00"
+    "availability_checked_at": "2026-11-08T19:35:23.003039+00:00"
   },
   "8333861": {
     "holdings": [
@@ -186023,7 +186016,7 @@
       "Alviks bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:11.150851+00:00"
+    "availability_checked_at": "2026-11-08T19:35:27.618581+00:00"
   },
   "8334299": {
     "holdings": [
@@ -186089,7 +186082,7 @@
       "Bagarmossens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:13.430198+00:00"
+    "availability_checked_at": "2026-11-08T19:35:29.993201+00:00"
   },
   "8334990": {
     "holdings": [],
@@ -186097,7 +186090,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:40:15.685012+00:00"
+    "availability_checked_at": "2026-11-08T19:35:33.431957+00:00"
   },
   "8338293": {
     "holdings": [
@@ -186135,7 +186128,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:17.946318+00:00"
+    "availability_checked_at": "2026-11-08T19:35:38.288341+00:00"
   },
   "8338378": {
     "holdings": [
@@ -186173,7 +186166,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:20.280610+00:00"
+    "availability_checked_at": "2026-11-08T19:35:40.612507+00:00"
   },
   "8339086": {
     "holdings": [
@@ -186266,7 +186259,7 @@
       "Högdalens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:22.554269+00:00"
+    "availability_checked_at": "2026-11-08T19:35:42.948804+00:00"
   },
   "8341216": {
     "holdings": [
@@ -186304,7 +186297,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:24.822363+00:00"
+    "availability_checked_at": "2026-11-08T19:35:47.609829+00:00"
   },
   "8341931": {
     "holdings": [
@@ -186342,7 +186335,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:27.084052+00:00"
+    "availability_checked_at": "2026-11-08T19:35:49.939173+00:00"
   },
   "8341952": {
     "holdings": [
@@ -186464,7 +186457,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:29.450740+00:00"
+    "availability_checked_at": "2026-11-08T19:35:52.273900+00:00"
   },
   "8342751": {
     "holdings": [
@@ -186614,7 +186607,7 @@
       "TioTretton, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:31.770070+00:00"
+    "availability_checked_at": "2026-11-08T19:35:54.628886+00:00"
   },
   "8342977": {
     "holdings": [
@@ -186680,7 +186673,7 @@
       "Skärholmens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:34.033052+00:00"
+    "availability_checked_at": "2026-11-08T19:35:56.973451+00:00"
   },
   "8343049": {
     "holdings": [
@@ -186718,7 +186711,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:36.289740+00:00"
+    "availability_checked_at": "2026-11-08T19:35:59.335472+00:00"
   },
   "8343785": {
     "holdings": [
@@ -186756,7 +186749,7 @@
       "Tensta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:38.559422+00:00"
+    "availability_checked_at": "2026-11-08T19:36:01.687124+00:00"
   },
   "8344348": {
     "holdings": [
@@ -186792,7 +186785,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:40:40.829762+00:00"
+    "availability_checked_at": "2026-11-08T19:36:06.408233+00:00"
   },
   "8345114": {
     "holdings": [
@@ -186956,7 +186949,7 @@
       "Bagarmossens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:43.117138+00:00"
+    "availability_checked_at": "2026-11-08T19:36:15.795846+00:00"
   },
   "8345876": {
     "holdings": [
@@ -186994,7 +186987,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:45.386327+00:00"
+    "availability_checked_at": "2026-11-08T19:36:18.114415+00:00"
   },
   "8345935": {
     "holdings": [
@@ -187255,7 +187248,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:47.717469+00:00"
+    "availability_checked_at": "2026-11-08T19:36:20.459036+00:00"
   },
   "8347110": {
     "holdings": [
@@ -187376,7 +187369,7 @@
       "Skärholmens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:49.979708+00:00"
+    "availability_checked_at": "2026-11-08T19:36:22.832299+00:00"
   },
   "8347207": {
     "holdings": [
@@ -187414,7 +187407,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:52.252375+00:00"
+    "availability_checked_at": "2026-11-08T19:36:25.157442+00:00"
   },
   "8347739": {
     "holdings": [
@@ -187452,7 +187445,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:54.555506+00:00"
+    "availability_checked_at": "2026-11-08T19:36:29.830118+00:00"
   },
   "8347875": {
     "holdings": [
@@ -187490,7 +187483,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:56.825923+00:00"
+    "availability_checked_at": "2026-11-08T19:36:32.140954+00:00"
   },
   "8348039": {
     "holdings": [
@@ -187543,7 +187536,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:40:59.086305+00:00"
+    "availability_checked_at": "2026-11-08T19:36:34.453629+00:00"
   },
   "8348895": {
     "holdings": [
@@ -187637,7 +187630,7 @@
       "Bagarmossens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:01.390775+00:00"
+    "availability_checked_at": "2026-11-08T19:36:36.798683+00:00"
   },
   "8349503": {
     "holdings": [
@@ -187731,7 +187724,7 @@
       "Luma bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:03.660192+00:00"
+    "availability_checked_at": "2026-11-08T19:36:39.089637+00:00"
   },
   "8351723": {
     "holdings": [
@@ -187993,7 +187986,7 @@
       "Aspuddens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:05.988272+00:00"
+    "availability_checked_at": "2026-11-08T19:36:56.113404+00:00"
   },
   "8353356": {
     "holdings": [
@@ -188142,7 +188135,7 @@
       "Älvsjö bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:08.268008+00:00"
+    "availability_checked_at": "2026-11-08T19:37:01.608715+00:00"
   },
   "8353960": {
     "holdings": [
@@ -188259,7 +188252,7 @@
     "total_copies": 4,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:41:10.583235+00:00"
+    "availability_checked_at": "2026-11-08T19:37:03.967861+00:00"
   },
   "8354741": {
     "holdings": [
@@ -188297,7 +188290,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:12.862797+00:00"
+    "availability_checked_at": "2026-11-08T19:37:06.261554+00:00"
   },
   "8355610": {
     "holdings": [
@@ -188363,7 +188356,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:15.146353+00:00"
+    "availability_checked_at": "2026-11-08T19:37:08.662312+00:00"
   },
   "8355632": {
     "holdings": [
@@ -188401,7 +188394,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:17.437197+00:00"
+    "availability_checked_at": "2026-11-08T19:37:11.000031+00:00"
   },
   "8356137": {
     "holdings": [
@@ -188495,7 +188488,7 @@
       "TioTretton, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:19.730293+00:00"
+    "availability_checked_at": "2026-11-08T19:37:15.736210+00:00"
   },
   "8358188": {
     "holdings": [
@@ -188533,7 +188526,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:22.007537+00:00"
+    "availability_checked_at": "2026-11-08T19:37:18.061455+00:00"
   },
   "8358189": {
     "holdings": [
@@ -188571,7 +188564,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:24.257002+00:00"
+    "availability_checked_at": "2026-11-08T19:37:20.397827+00:00"
   },
   "8358290": {
     "holdings": [
@@ -188637,7 +188630,7 @@
       "Rinkeby bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:26.508653+00:00"
+    "availability_checked_at": "2026-11-08T19:37:22.754679+00:00"
   },
   "8358527": {
     "holdings": [
@@ -188673,7 +188666,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:41:28.762591+00:00"
+    "availability_checked_at": "2026-11-08T19:37:25.058774+00:00"
   },
   "8359088": {
     "holdings": [
@@ -188711,7 +188704,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:31.064842+00:00"
+    "availability_checked_at": "2026-11-08T19:37:27.354353+00:00"
   },
   "8359251": {
     "holdings": [],
@@ -188719,7 +188712,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:41:33.296141+00:00"
+    "availability_checked_at": "2026-11-08T19:37:29.771679+00:00"
   },
   "8360463": {
     "holdings": [
@@ -188757,7 +188750,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:35.848152+00:00"
+    "availability_checked_at": "2026-11-08T19:37:31.995126+00:00"
   },
   "8361139": {
     "holdings": [
@@ -188795,7 +188788,7 @@
       "Älvsjö bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:38.133254+00:00"
+    "availability_checked_at": "2026-11-08T19:37:34.332193+00:00"
   },
   "8361594": {
     "holdings": [
@@ -188833,7 +188826,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:40.404743+00:00"
+    "availability_checked_at": "2026-11-08T19:37:36.629436+00:00"
   },
   "8362873": {
     "holdings": [
@@ -188925,7 +188918,7 @@
       "Östermalms bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:42.674931+00:00"
+    "availability_checked_at": "2026-11-08T19:37:38.944423+00:00"
   },
   "8362957": {
     "holdings": [
@@ -188991,7 +188984,7 @@
       "Mångspråkiga lånecentralen (ej besök)"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:44.957457+00:00"
+    "availability_checked_at": "2026-11-08T19:37:41.254138+00:00"
   },
   "8363389": {
     "holdings": [
@@ -189056,7 +189049,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:47.255853+00:00"
+    "availability_checked_at": "2026-11-08T19:37:43.595880+00:00"
   },
   "8363400": {
     "holdings": [
@@ -189122,7 +189115,7 @@
       "Mångspråkiga lånecentralen (ej besök)"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:49.534113+00:00"
+    "availability_checked_at": "2026-11-08T19:37:45.959181+00:00"
   },
   "8365092": {
     "holdings": [
@@ -189315,7 +189308,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:51.829967+00:00"
+    "availability_checked_at": "2026-11-08T19:37:48.314529+00:00"
   },
   "8368660": {
     "holdings": [
@@ -189353,7 +189346,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:54.081993+00:00"
+    "availability_checked_at": "2026-11-08T19:37:55.327842+00:00"
   },
   "8368904": {
     "holdings": [
@@ -189391,7 +189384,7 @@
       "Rinkeby bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:56.326310+00:00"
+    "availability_checked_at": "2026-11-08T19:37:57.841318+00:00"
   },
   "8370145": {
     "holdings": [
@@ -189429,7 +189422,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:41:58.608993+00:00"
+    "availability_checked_at": "2026-11-08T19:38:00.175080+00:00"
   },
   "8370510": {
     "holdings": [
@@ -189467,7 +189460,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:01.215069+00:00"
+    "availability_checked_at": "2026-11-08T19:38:02.527864+00:00"
   },
   "8370854": {
     "holdings": [
@@ -189505,7 +189498,7 @@
       "Tellus fritidscenters bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:03.491422+00:00"
+    "availability_checked_at": "2026-11-08T19:38:04.822682+00:00"
   },
   "8370982": {
     "holdings": [
@@ -189599,7 +189592,7 @@
       "Östermalms bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:05.770928+00:00"
+    "availability_checked_at": "2026-11-08T19:38:07.157783+00:00"
   },
   "8372250": {
     "holdings": [
@@ -189635,7 +189628,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:42:08.049483+00:00"
+    "availability_checked_at": "2026-11-08T19:38:11.766524+00:00"
   },
   "8372342": {
     "holdings": [
@@ -189673,7 +189666,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:10.304481+00:00"
+    "availability_checked_at": "2026-11-08T19:38:14.084503+00:00"
   },
   "8373960": {
     "holdings": [],
@@ -189681,7 +189674,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:42:12.554536+00:00"
+    "availability_checked_at": "2026-11-08T19:38:16.445989+00:00"
   },
   "8374324": {
     "holdings": [
@@ -189719,7 +189712,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:14.803670+00:00"
+    "availability_checked_at": "2026-11-08T19:38:18.728848+00:00"
   },
   "8374713": {
     "holdings": [
@@ -189755,7 +189748,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:42:17.067390+00:00"
+    "availability_checked_at": "2026-11-08T19:38:21.036524+00:00"
   },
   "8375750": {
     "holdings": [
@@ -189793,7 +189786,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:19.376458+00:00"
+    "availability_checked_at": "2026-11-08T19:38:23.350040+00:00"
   },
   "8376117": {
     "holdings": [
@@ -189831,7 +189824,7 @@
       "Bokhotellet, Frihamnen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:21.633811+00:00"
+    "availability_checked_at": "2026-11-08T19:38:25.777807+00:00"
   },
   "8376924": {
     "holdings": [
@@ -190119,7 +190112,7 @@
       "Hornstulls bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:24.053170+00:00"
+    "availability_checked_at": "2026-11-08T19:38:30.676814+00:00"
   },
   "8377247": {
     "holdings": [
@@ -190185,7 +190178,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:26.349169+00:00"
+    "availability_checked_at": "2026-11-08T19:38:37.576429+00:00"
   },
   "8378846": {
     "holdings": [
@@ -190250,7 +190243,7 @@
       "Mångspråkiga lånecentralen (ej besök)"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:28.606725+00:00"
+    "availability_checked_at": "2026-11-08T19:39:03.095798+00:00"
   },
   "8379011": {
     "holdings": [
@@ -190689,7 +190682,7 @@
             "section": null,
             "location": "Bilderböcker",
             "sublocation": "Ut & åka",
-            "firstLoanDueDate": "2026-11-15",
+            "firstLoanDueDate": "2026-12-06",
             "shelfMark": null,
             "periodical": null,
             "loanStatus": "CHECKED_OUT",
@@ -191260,7 +191253,7 @@
       "Björkhagens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:31.040638+00:00"
+    "availability_checked_at": "2026-11-08T19:39:05.851717+00:00"
   },
   "8381140": {
     "holdings": [
@@ -191326,7 +191319,7 @@
       "Kungsholmens bibliotek Internationella biblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:33.308973+00:00"
+    "availability_checked_at": "2026-11-08T19:39:40.997536+00:00"
   },
   "8382401": {
     "holdings": [
@@ -191364,7 +191357,7 @@
       "Mångspråkiga lånecentralen (ej besök)"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:35.564334+00:00"
+    "availability_checked_at": "2026-11-08T19:39:55.264174+00:00"
   },
   "8382592": {
     "holdings": [
@@ -191402,7 +191395,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:37.843771+00:00"
+    "availability_checked_at": "2026-11-08T19:40:09.395196+00:00"
   },
   "8384167": {
     "holdings": [
@@ -191440,7 +191433,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:40.173011+00:00"
+    "availability_checked_at": "2026-11-08T19:41:03.122351+00:00"
   },
   "8384524": {
     "holdings": [
@@ -191476,7 +191469,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T11:42:42.454977+00:00"
+    "availability_checked_at": "2026-11-08T19:41:07.706629+00:00"
   },
   "8384559": {
     "holdings": [
@@ -191514,7 +191507,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:44.719194+00:00"
+    "availability_checked_at": "2026-11-08T19:41:12.320674+00:00"
   },
   "8385588": {
     "holdings": [
@@ -191552,7 +191545,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:46.982879+00:00"
+    "availability_checked_at": "2026-11-08T19:41:26.593657+00:00"
   },
   "8386259": {
     "holdings": [
@@ -191840,7 +191833,7 @@
       "Alviks bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:49.268791+00:00"
+    "availability_checked_at": "2026-11-08T19:41:47.586759+00:00"
   },
   "8386581": {
     "holdings": [
@@ -192153,7 +192146,7 @@
       "Alviks bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:51.582489+00:00"
+    "availability_checked_at": "2026-11-08T19:41:54.679863+00:00"
   },
   "8387644": {
     "holdings": [],
@@ -192161,7 +192154,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:42:53.841963+00:00"
+    "availability_checked_at": "2026-11-08T19:42:28.319217+00:00"
   },
   "8387646": {
     "holdings": [],
@@ -192169,7 +192162,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T11:42:56.045592+00:00"
+    "availability_checked_at": "2026-11-08T19:42:30.609610+00:00"
   },
   "8389593": {
     "holdings": [
@@ -192207,7 +192200,7 @@
       "Mångspråkiga lånecentralen (ej besök)"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T11:42:58.334976+00:00"
+    "availability_checked_at": "2026-11-08T19:43:01.689051+00:00"
   },
   "8391668": {
     "holdings": [
@@ -206892,7 +206885,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T12:48:38.770107+00:00"
+    "availability_checked_at": "2026-11-08T19:38:28.135599+00:00"
   },
   "8430853": {
     "holdings": [
@@ -281112,7 +281105,7 @@
     "total_copies": 3,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T18:12:51.297669+00:00"
+    "availability_checked_at": "2026-11-08T19:36:08.719707+00:00"
   },
   "8344724": {
     "holdings": [
@@ -281260,7 +281253,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:12:53.074269+00:00"
+    "availability_checked_at": "2026-11-08T19:36:11.083323+00:00"
   },
   "8344726": {
     "holdings": [
@@ -281410,7 +281403,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:12:54.858242+00:00"
+    "availability_checked_at": "2026-11-08T19:36:13.456244+00:00"
   },
   "8377135": {
     "holdings": [
@@ -281448,7 +281441,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:12:56.572960+00:00"
+    "availability_checked_at": "2026-11-08T19:38:32.965746+00:00"
   },
   "8377227": {
     "holdings": [],
@@ -281456,7 +281449,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T18:12:58.393226+00:00"
+    "availability_checked_at": "2026-11-08T19:38:35.267289+00:00"
   },
   "8377876": {
     "holdings": [
@@ -281492,7 +281485,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T18:13:00.178942+00:00"
+    "availability_checked_at": "2026-11-08T19:38:39.881965+00:00"
   },
   "8378081": {
     "holdings": [
@@ -281530,7 +281523,7 @@
       "Hornstulls bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:01.901852+00:00"
+    "availability_checked_at": "2026-11-08T19:38:44.506832+00:00"
   },
   "8378265": {
     "holdings": [
@@ -281566,7 +281559,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T18:13:03.640051+00:00"
+    "availability_checked_at": "2026-11-08T19:38:51.482147+00:00"
   },
   "8378285": {
     "holdings": [
@@ -281604,7 +281597,7 @@
       "TioTretton, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:05.388333+00:00"
+    "availability_checked_at": "2026-11-08T19:38:53.791384+00:00"
   },
   "8378316": {
     "holdings": [
@@ -281642,7 +281635,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:07.156555+00:00"
+    "availability_checked_at": "2026-11-08T19:38:56.104306+00:00"
   },
   "8378815": {
     "holdings": [
@@ -281680,7 +281673,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:08.946181+00:00"
+    "availability_checked_at": "2026-11-08T19:39:00.772148+00:00"
   },
   "8379160": {
     "holdings": [
@@ -281718,7 +281711,7 @@
       "Östermalms bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:10.650397+00:00"
+    "availability_checked_at": "2026-11-08T19:39:10.390776+00:00"
   },
   "8379259": {
     "holdings": [
@@ -281784,7 +281777,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:12.374933+00:00"
+    "availability_checked_at": "2026-11-08T19:39:12.721998+00:00"
   },
   "8379672": {
     "holdings": [
@@ -281822,7 +281815,7 @@
       "Östermalms bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:14.094327+00:00"
+    "availability_checked_at": "2026-11-08T19:39:15.056975+00:00"
   },
   "8379802": {
     "holdings": [],
@@ -281830,7 +281823,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T18:13:15.852158+00:00"
+    "availability_checked_at": "2026-11-08T19:39:17.332567+00:00"
   },
   "8380169": {
     "holdings": [
@@ -281896,7 +281889,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:17.616222+00:00"
+    "availability_checked_at": "2026-11-08T19:39:19.658420+00:00"
   },
   "8380223": {
     "holdings": [
@@ -281949,7 +281942,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:19.353574+00:00"
+    "availability_checked_at": "2026-11-08T19:39:21.983172+00:00"
   },
   "8380331": {
     "holdings": [
@@ -281987,7 +281980,7 @@
       "Årsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:21.079522+00:00"
+    "availability_checked_at": "2026-11-08T19:39:24.282800+00:00"
   },
   "8380541": {
     "holdings": [
@@ -282025,7 +282018,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:22.813805+00:00"
+    "availability_checked_at": "2026-11-08T19:39:26.601850+00:00"
   },
   "8380658": {
     "holdings": [
@@ -282063,7 +282056,7 @@
       "Fruängens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:24.561239+00:00"
+    "availability_checked_at": "2026-11-08T19:39:31.706872+00:00"
   },
   "8380851": {
     "holdings": [
@@ -282101,7 +282094,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:26.350200+00:00"
+    "availability_checked_at": "2026-11-08T19:39:34.073510+00:00"
   },
   "8380927": {
     "holdings": [
@@ -282139,7 +282132,7 @@
       "Alviks bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:28.071412+00:00"
+    "availability_checked_at": "2026-11-08T19:39:36.378119+00:00"
   },
   "8381565": {
     "holdings": [
@@ -282286,7 +282279,7 @@
       "Bredängs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:29.841162+00:00"
+    "availability_checked_at": "2026-11-08T19:39:43.543170+00:00"
   },
   "8381854": {
     "holdings": [
@@ -282351,7 +282344,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:31.622154+00:00"
+    "availability_checked_at": "2026-11-08T19:39:45.850599+00:00"
   },
   "8382103": {
     "holdings": [
@@ -282445,7 +282438,7 @@
       "Enskede bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:33.355498+00:00"
+    "availability_checked_at": "2026-11-08T19:39:48.158935+00:00"
   },
   "8382381": {
     "holdings": [
@@ -282674,7 +282667,7 @@
       "TioTretton, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:35.165049+00:00"
+    "availability_checked_at": "2026-11-08T19:39:52.923360+00:00"
   },
   "8382402": {
     "holdings": [
@@ -282712,7 +282705,7 @@
       "Hornstulls bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:36.914941+00:00"
+    "availability_checked_at": "2026-11-08T19:39:57.601287+00:00"
   },
   "8382410": {
     "holdings": [
@@ -282997,7 +282990,7 @@
       "Bagarmossens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:38.707223+00:00"
+    "availability_checked_at": "2026-11-08T19:39:59.930394+00:00"
   },
   "8382411": {
     "holdings": [
@@ -283283,7 +283276,7 @@
       "Bagarmossens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:40.467373+00:00"
+    "availability_checked_at": "2026-11-08T19:40:02.381136+00:00"
   },
   "8382413": {
     "holdings": [
@@ -283539,7 +283532,7 @@
       "Bagarmossens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:42.228029+00:00"
+    "availability_checked_at": "2026-11-08T19:40:04.734146+00:00"
   },
   "8382421": {
     "holdings": [
@@ -283795,7 +283788,7 @@
       "TioTretton, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:44.000574+00:00"
+    "availability_checked_at": "2026-11-08T19:40:07.107836+00:00"
   },
   "8382673": {
     "holdings": [
@@ -283861,7 +283854,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:45.746638+00:00"
+    "availability_checked_at": "2026-11-08T19:40:11.704030+00:00"
   },
   "8382923": {
     "holdings": [
@@ -283897,7 +283890,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T18:13:47.492631+00:00"
+    "availability_checked_at": "2026-11-08T19:40:14.002350+00:00"
   },
   "8383037": {
     "holdings": [
@@ -283963,7 +283956,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:49.258953+00:00"
+    "availability_checked_at": "2026-11-08T19:40:16.331844+00:00"
   },
   "8383045": {
     "holdings": [
@@ -283999,7 +283992,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T18:13:51.081038+00:00"
+    "availability_checked_at": "2026-11-08T19:40:18.623514+00:00"
   },
   "8383128": {
     "holdings": [
@@ -284120,7 +284113,7 @@
       "Kungsholmens bibliotek Internationella biblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:52.823392+00:00"
+    "availability_checked_at": "2026-11-08T19:40:20.957142+00:00"
   },
   "8383144": {
     "holdings": [
@@ -284183,7 +284176,7 @@
     "total_copies": 2,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T18:13:54.556575+00:00"
+    "availability_checked_at": "2026-11-08T19:40:23.328765+00:00"
   },
   "8383149": {
     "holdings": [
@@ -284221,7 +284214,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:56.289982+00:00"
+    "availability_checked_at": "2026-11-08T19:40:25.584101+00:00"
   },
   "8383175": {
     "holdings": [
@@ -284257,7 +284250,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T18:13:58.056158+00:00"
+    "availability_checked_at": "2026-11-08T19:40:27.957222+00:00"
   },
   "8383182": {
     "holdings": [
@@ -284378,7 +284371,7 @@
       "TioTretton, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:13:59.823088+00:00"
+    "availability_checked_at": "2026-11-08T19:40:30.257887+00:00"
   },
   "8383192": {
     "holdings": [
@@ -284444,7 +284437,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:01.604841+00:00"
+    "availability_checked_at": "2026-11-08T19:40:32.571297+00:00"
   },
   "8383201": {
     "holdings": [
@@ -284510,7 +284503,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:03.342834+00:00"
+    "availability_checked_at": "2026-11-08T19:40:34.883970+00:00"
   },
   "8383203": {
     "holdings": [
@@ -284548,7 +284541,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:05.332790+00:00"
+    "availability_checked_at": "2026-11-08T19:40:37.218976+00:00"
   },
   "8383234": {
     "holdings": [
@@ -284640,7 +284633,7 @@
       "Bredängs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:07.141542+00:00"
+    "availability_checked_at": "2026-11-08T19:40:39.586180+00:00"
   },
   "8383280": {
     "holdings": [
@@ -284678,7 +284671,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:08.819893+00:00"
+    "availability_checked_at": "2026-11-08T19:40:41.913798+00:00"
   },
   "8383282": {
     "holdings": [],
@@ -284686,7 +284679,7 @@
     "total_copies": null,
     "available_branches": [],
     "availability_status": "unknown",
-    "availability_checked_at": "2026-11-08T18:14:10.553638+00:00"
+    "availability_checked_at": "2026-11-08T19:40:44.229960+00:00"
   },
   "8383470": {
     "holdings": [
@@ -284722,7 +284715,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T18:14:12.351227+00:00"
+    "availability_checked_at": "2026-11-08T19:40:46.538094+00:00"
   },
   "8383677": {
     "holdings": [
@@ -284760,7 +284753,7 @@
       "Hornstulls bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:14.075774+00:00"
+    "availability_checked_at": "2026-11-08T19:40:48.821241+00:00"
   },
   "8383732": {
     "holdings": [
@@ -285022,7 +285015,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:15.891190+00:00"
+    "availability_checked_at": "2026-11-08T19:40:51.205041+00:00"
   },
   "8383752": {
     "holdings": [
@@ -285060,7 +285053,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:17.627719+00:00"
+    "availability_checked_at": "2026-11-08T19:40:53.518728+00:00"
   },
   "8383756": {
     "holdings": [
@@ -285236,7 +285229,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:19.373373+00:00"
+    "availability_checked_at": "2026-11-08T19:40:55.862791+00:00"
   },
   "8383961": {
     "holdings": [
@@ -285274,7 +285267,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:21.096956+00:00"
+    "availability_checked_at": "2026-11-08T19:41:00.814576+00:00"
   },
   "8384350": {
     "holdings": [
@@ -285312,7 +285305,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:22.903918+00:00"
+    "availability_checked_at": "2026-11-08T19:41:05.416601+00:00"
   },
   "8384533": {
     "holdings": [
@@ -285377,7 +285370,7 @@
       "TioTretton, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:24.630184+00:00"
+    "availability_checked_at": "2026-11-08T19:41:09.993675+00:00"
   },
   "8384695": {
     "holdings": [
@@ -285415,7 +285408,7 @@
       "Bagarmossens bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:26.392315+00:00"
+    "availability_checked_at": "2026-11-08T19:41:14.592485+00:00"
   },
   "8384705": {
     "holdings": [
@@ -285591,7 +285584,7 @@
       "Stadsbiblioteket Spelbomskan"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:28.180382+00:00"
+    "availability_checked_at": "2026-11-08T19:41:17.137482+00:00"
   },
   "8385122": {
     "holdings": [
@@ -285629,7 +285622,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:29.923643+00:00"
+    "availability_checked_at": "2026-11-08T19:41:21.964988+00:00"
   },
   "8385249": {
     "holdings": [
@@ -285883,7 +285876,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:31.726143+00:00"
+    "availability_checked_at": "2026-11-08T19:41:24.287636+00:00"
   },
   "8385621": {
     "holdings": [
@@ -285921,7 +285914,7 @@
       "Hornstulls bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:33.455240+00:00"
+    "availability_checked_at": "2026-11-08T19:41:28.916590+00:00"
   },
   "8385627": {
     "holdings": [
@@ -285987,7 +285980,7 @@
       "Vällingby bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:35.208246+00:00"
+    "availability_checked_at": "2026-11-08T19:41:31.263744+00:00"
   },
   "8385687": {
     "holdings": [
@@ -286077,7 +286070,7 @@
     "total_copies": 3,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T18:14:36.923605+00:00"
+    "availability_checked_at": "2026-11-08T19:41:33.579251+00:00"
   },
   "8385730": {
     "holdings": [
@@ -286143,7 +286136,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:38.686431+00:00"
+    "availability_checked_at": "2026-11-08T19:41:35.884582+00:00"
   },
   "8385943": {
     "holdings": [
@@ -286511,7 +286504,7 @@
       "Blackebergs bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:40.451878+00:00"
+    "availability_checked_at": "2026-11-08T19:41:38.271775+00:00"
   },
   "8385957": {
     "holdings": [
@@ -286576,7 +286569,7 @@
       "Luma bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:42.175192+00:00"
+    "availability_checked_at": "2026-11-08T19:41:40.642825+00:00"
   },
   "8385975": {
     "holdings": [
@@ -286612,7 +286605,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T18:14:43.938482+00:00"
+    "availability_checked_at": "2026-11-08T19:41:42.864467+00:00"
   },
   "8386311": {
     "holdings": [
@@ -286762,7 +286755,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:45.716478+00:00"
+    "availability_checked_at": "2026-11-08T19:41:52.221384+00:00"
   },
   "8386737": {
     "holdings": [
@@ -286825,7 +286818,7 @@
     "total_copies": 2,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T18:14:47.439476+00:00"
+    "availability_checked_at": "2026-11-08T19:41:57.235410+00:00"
   },
   "8386751": {
     "holdings": [
@@ -287029,7 +287022,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:49.250504+00:00"
+    "availability_checked_at": "2026-11-08T19:41:59.700228+00:00"
   },
   "8386754": {
     "holdings": [
@@ -287335,7 +287328,7 @@
     "total_copies": 13,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T18:14:51.041202+00:00"
+    "availability_checked_at": "2026-11-08T19:42:02.123614+00:00"
   },
   "8387153": {
     "holdings": [
@@ -287373,7 +287366,7 @@
       "Lava, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:52.791919+00:00"
+    "availability_checked_at": "2026-11-08T19:42:09.046748+00:00"
   },
   "8387382": {
     "holdings": [
@@ -287600,7 +287593,7 @@
       "Brommaplans bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:54.584290+00:00"
+    "availability_checked_at": "2026-11-08T19:42:16.850463+00:00"
   },
   "8387437": {
     "holdings": [
@@ -287638,7 +287631,7 @@
       "Vällingby bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:56.290839+00:00"
+    "availability_checked_at": "2026-11-08T19:42:19.130193+00:00"
   },
   "8387438": {
     "holdings": [
@@ -287676,7 +287669,7 @@
       "Hornstulls bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:58.036900+00:00"
+    "availability_checked_at": "2026-11-08T19:42:21.405167+00:00"
   },
   "8387471": {
     "holdings": [
@@ -287714,7 +287707,7 @@
       "Farsta bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:14:59.761095+00:00"
+    "availability_checked_at": "2026-11-08T19:42:23.725502+00:00"
   },
   "8387475": {
     "holdings": [
@@ -287834,7 +287827,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:15:01.602136+00:00"
+    "availability_checked_at": "2026-11-08T19:42:26.037730+00:00"
   },
   "8387852": {
     "holdings": [
@@ -287872,7 +287865,7 @@
       "Kulturbiblioteket, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:15:03.332129+00:00"
+    "availability_checked_at": "2026-11-08T19:42:38.266692+00:00"
   },
   "8388198": {
     "holdings": [
@@ -287910,7 +287903,7 @@
       "TioTretton, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:15:05.120199+00:00"
+    "availability_checked_at": "2026-11-08T19:42:40.624019+00:00"
   },
   "8388430": {
     "holdings": [
@@ -287948,7 +287941,7 @@
       "TioTretton, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:15:06.903085+00:00"
+    "availability_checked_at": "2026-11-08T19:42:42.904869+00:00"
   },
   "8388642": {
     "holdings": [
@@ -287984,7 +287977,7 @@
     "total_copies": 1,
     "available_branches": [],
     "availability_status": "unavailable",
-    "availability_checked_at": "2026-11-08T18:15:08.610968+00:00"
+    "availability_checked_at": "2026-11-08T19:42:45.212625+00:00"
   },
   "8389125": {
     "holdings": [
@@ -288160,7 +288153,7 @@
       "Stadsbiblioteket Spelbomskan"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:15:10.441183+00:00"
+    "availability_checked_at": "2026-11-08T19:42:47.625625+00:00"
   },
   "8389156": {
     "holdings": [
@@ -288198,7 +288191,7 @@
       "Magasin Liljeholmen"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:15:12.214374+00:00"
+    "availability_checked_at": "2026-11-08T19:42:52.275367+00:00"
   },
   "8389228": {
     "holdings": [
@@ -288236,7 +288229,7 @@
       "TioTretton, Kulturhuset"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:15:13.971130+00:00"
+    "availability_checked_at": "2026-11-08T19:42:54.597197+00:00"
   },
   "8389562": {
     "holdings": [
@@ -288383,7 +288376,7 @@
       "Tranströmerbiblioteket"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:15:15.747279+00:00"
+    "availability_checked_at": "2026-11-08T19:42:59.434941+00:00"
   },
   "8389639": {
     "holdings": [
@@ -288421,7 +288414,7 @@
       "Kista bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:15:17.533583+00:00"
+    "availability_checked_at": "2026-11-08T19:43:03.995039+00:00"
   },
   "8389728": {
     "holdings": [
@@ -288459,7 +288452,7 @@
       "Hornstulls bibliotek"
     ],
     "availability_status": "available",
-    "availability_checked_at": "2026-11-08T18:15:19.293002+00:00"
+    "availability_checked_at": "2026-11-08T19:43:06.337375+00:00"
   },
   "8389748": {
     "holdings": [
