@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-08T08:54:12.489188+00:00",
+  "generated_at": "2026-11-08T09:28:07.843278+00:00",
   "published": true,
-  "book_count": 3,
+  "book_count": 509,
   "errors": [],
   "searches": [
     {
@@ -11,7 +11,2009 @@
         {
           "format": "BOOK",
           "total": 10,
+          "returned": 10
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 1,
+          "returned": 1
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": false
+    },
+    {
+      "author": "Kazuo Ishiguro",
+      "total_hits": 137,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 118,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 8,
+          "returned": 8
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 11,
+          "returned": 11
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Sally Rooney",
+      "total_hits": 35,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 32,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 1,
+          "returned": 1
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 2,
+          "returned": 2
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Stieg Larsson",
+      "total_hits": 164,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 152,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 9,
+          "returned": 9
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 3,
           "returned": 3
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Camilla Läckberg",
+      "total_hits": 290,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 261,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 17,
+          "returned": 17
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 11,
+          "returned": 11
+        },
+        {
+          "format": "COMBINED",
+          "total": 1,
+          "returned": 1
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Andy Weir",
+      "total_hits": 17,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 16,
+          "returned": 16
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 1,
+          "returned": 1
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": false
+    },
+    {
+      "author": "Terry Pratchett",
+      "total_hits": 133,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 132,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 1,
+          "returned": 1
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Julia Donaldson",
+      "total_hits": 293,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 290,
+          "returned": 20
+        },
+        {
+          "format": "COMBINED",
+          "total": 3,
+          "returned": 3
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Sven Nordqvist",
+      "total_hits": 409,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 382,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 20,
+          "returned": 20
+        },
+        {
+          "format": "COMBINED",
+          "total": 7,
+          "returned": 7
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Fredrik Backman",
+      "total_hits": 155,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 132,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 15,
+          "returned": 15
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 8,
+          "returned": 8
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Jonas Jonasson",
+      "total_hits": 113,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 97,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 11,
+          "returned": 11
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 4,
+          "returned": 4
+        },
+        {
+          "format": "COMBINED",
+          "total": 1,
+          "returned": 1
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Karin Alvtegen",
+      "total_hits": 62,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 53,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 8,
+          "returned": 8
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 1,
+          "returned": 1
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Chimamanda Ngozi Adichie",
+      "total_hits": 54,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 46,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 2,
+          "returned": 2
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 6,
+          "returned": 6
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Elena Ferrante",
+      "total_hits": 117,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 104,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 5,
+          "returned": 5
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 8,
+          "returned": 8
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Haruki Murakami",
+      "total_hits": 249,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 237,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 2,
+          "returned": 2
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 10,
+          "returned": 10
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Jo Nesbø",
+      "total_hits": 351,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 305,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 30,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 16,
+          "returned": 16
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Arne Dahl",
+      "total_hits": 132,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 101,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 19,
+          "returned": 19
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 12,
+          "returned": 12
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Lisa Jewell",
+      "total_hits": 54,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 43,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 1,
+          "returned": 1
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 10,
+          "returned": 10
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "N. K. Jemisin",
+      "total_hits": 16,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 16,
+          "returned": 16
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": false
+    },
+    {
+      "author": "Ursula K. Le Guin",
+      "total_hits": 97,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 96,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 1,
+          "returned": 1
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Brandon Sanderson",
+      "total_hits": 68,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 68,
+          "returned": 20
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Astrid Lindgren",
+      "total_hits": 1942,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 1833,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 101,
+          "returned": 20
+        },
+        {
+          "format": "MOVIE",
+          "total": 1,
+          "returned": 1
+        },
+        {
+          "format": "COMBINED",
+          "total": 7,
+          "returned": 7
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Tove Jansson",
+      "total_hits": 423,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 413,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 10,
+          "returned": 10
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Rainbow Rowell",
+      "total_hits": 39,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 39,
+          "returned": 20
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Yuval Noah Harari",
+      "total_hits": 25,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 24,
+          "returned": 20
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 1,
+          "returned": 1
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": true
+    },
+    {
+      "author": "Rutger Bregman",
+      "total_hits": 7,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 7,
+          "returned": 7
+        },
+        {
+          "format": "E_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "E_AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "AUDIO_BOOK_DAISY",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "STREAMING_MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MOVIE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MUSIC",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MAGAZINE",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "COMBINED",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "MULTIMEDIA",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "GAME",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OBJECTS",
+          "total": 0,
+          "returned": 0
+        },
+        {
+          "format": "OTHER",
+          "total": 0,
+          "returned": 0
+        }
+      ],
+      "partial": false
+    },
+    {
+      "author": "Bill Bryson",
+      "total_hits": 34,
+      "groups": [
+        {
+          "format": "BOOK",
+          "total": 33,
+          "returned": 20
         },
         {
           "format": "AUDIO_BOOK_DAISY",
