@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T13:05:16.128118+00:00",
+  "generated_at": "2026-11-08T13:08:09.761331+00:00",
   "dry_run": false,
   "priority_languages": [
     "Engelska",
@@ -8,6 +8,8 @@
   "requested_page_size": 50,
   "effective_page_size": 50,
   "pages_fetched": 2,
+  "start": -100,
+  "next_start": 0,
   "records_seen": 50,
   "titles_queued_for_import": 0,
   "already_imported_titles_reconciled": 50,
@@ -15,7 +17,7 @@
   "book_total": 486243,
   "pagination_verified": true,
   "coverage": {
-    "generated_at": "2026-11-08T13:05:16.128101+00:00",
+    "generated_at": "2026-11-08T13:08:09.761307+00:00",
     "discovered": 50,
     "imported": 50,
     "pending": 0,
