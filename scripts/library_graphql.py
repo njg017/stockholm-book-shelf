@@ -79,24 +79,29 @@ class GraphQLClient:
         self.session = requests.Session()
         self.session.headers.update({'User-Agent': 'BokhyllanStockholm/0.2 (+https://github.com/njg017/stockholm-book-shelf)'})
 
-    def search(self, author=None, query='', rows=100, start=0):
-        if not 1 <= rows <= 100:
-            raise ValueError('rows must be between 1 and 100')
+    def search(self, author=None, query='', rows=100, start=0, filters=None):
+        if not 1 <= rows <= 500:
+            raise ValueError('rows must be between 1 and 500')
         if start < 0:
             raise ValueError('start must be zero or positive')
-        filters = {'query': query, 'rows': rows}
+        request_filters = {'query': query, 'rows': rows}
         if start:
-            filters['start'] = start
+            request_filters['start'] = start
         if author:
-            filters['author'] = [author]
-        request = {'query': QUERY, 'variables': {'filterQuery': filters, '__operation': 'search'}, 'operationName': 'searchWithFilter'}
+            request_filters['author'] = [author]
+        if filters:
+            for key in ('language', 'Utgivningsår', 'Kategori', 'Målgrupp'):
+                value = filters.get(key)
+                if value:
+                    request_filters[key] = value if isinstance(value, list) else [value]
+        request = {'query': QUERY, 'variables': {'filterQuery': request_filters, '__operation': 'search'}, 'operationName': 'searchWithFilter'}
         time.sleep(max(0, self.delay - (time.monotonic() - self.last_request)))
         try:
             response = self.session.post(BASE + '/graphql', json=request, timeout=30)
         finally:
             self.last_request = time.monotonic()
         self.cache_dir.mkdir(parents=True, exist_ok=True)
-        digest = hashlib.sha256(json.dumps(filters, sort_keys=True).encode()).hexdigest()[:16]
+        digest = hashlib.sha256(json.dumps(request_filters, sort_keys=True).encode()).hexdigest()[:16]
         cached = {'request': request, 'status': response.status_code, 'url': response.url,
                   'fetched_at': datetime.now(timezone.utc).isoformat(), 'body': response.text}
         (self.cache_dir / f'{digest}.json').write_text(json.dumps(cached, ensure_ascii=False, indent=2), encoding='utf-8')
