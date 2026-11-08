@@ -1,4 +1,4 @@
-"""Discover and queue Stockholm Library book titles using year and genre partitions."""
+"""Discover and queue Stockholm Library book titles using year ranges and branch slices."""
 import argparse
 import json
 import time
@@ -12,6 +12,7 @@ DATA = ROOT / 'data'
 STATE = DATA / 'ingestion-state.json'
 BOOKS = DATA / 'books.json'
 REPORT = DATA / 'discovery-report.json'
+HARD_CAP = 900
 
 
 def write_json(path, value):
@@ -21,24 +22,24 @@ def write_json(path, value):
     temp.replace(path)
 
 
-def year_filters(language, year):
-    return {'language': [language], 'yearPublishedSpan': [str(year), str(year)]}
+def year_filters(language, start, end):
+    return {'language': [language], 'yearPublishedSpan': [str(start), str(end)]}
 
 
-def partition_filters(part):
-    filters = year_filters(part['language'], part['year'])
-    if part.get('genre'):
-        filters['genre'] = [part['genre']]
-    if part.get('subject'):
-        filters['subject'] = [part['subject']]
+def branch_filters(language, branch, year=None):
+    filters = {'language': [language]}
+    if year is not None:
+        filters['yearPublishedSpan'] = [str(year), str(year)]
+    if branch:
+        filters['branch'] = [branch]
     return filters
 
 
-def facet_values(facets, needles):
+def facet_values(facets, needle):
     for group in facets or []:
-        name = (group.get('name') or '').lower()
-        if any(needle in name for needle in needles):
-            return [item['name'] for item in group.get('filters') or [] if item.get('name')]
+        if needle.lower() in (group.get('name') or '').lower():
+            return [{'name': item['name'], 'count': item.get('count') or 0}
+                    for item in group.get('filters') or [] if item.get('name')]
     return []
 
 
@@ -85,71 +86,76 @@ def main():
     if args.reset_cursor:
         cursor.clear()
     years = cursor.setdefault('years', {language: args.start_year for language in languages})
+    phases = cursor.setdefault('phases', {language: 'years' for language in languages})
     queue = cursor.setdefault('queue', [])
+    if not queue:
+        for language in languages:
+            queue.append({'kind': 'years', 'language': language, 'from': args.start_year, 'to': args.end_year})
     client = GraphQLClient(args.delay, DATA / 'raw/graphql')
     seen, errors = set(), []
     counters = {'queued': 0, 'reconciled': 0}
     fetches = 0
 
-    def next_language():
-        active = [(int(years[language]), language) for language in languages if int(years.get(language, args.end_year)) >= args.end_year]
-        return max(active)[1] if active else None
-
-    while fetches < args.max_fetches:
-        if queue:
-            part = queue.pop(0)
-            filters = partition_filters(part)
-            if part.get('needs_probe'):
-                probe = client.search(rows=1, filters=filters)
+    while fetches < args.max_fetches and queue:
+        task = queue.pop(0)
+        kind = task['kind']
+        language = task['language']
+        try:
+            if kind == 'years':
+                start, end = int(task['from']), int(task['to'])
+                probe = client.search(rows=1, filters=year_filters(language, start, end))
                 fetches += 1
                 total = probe.get('book_total') or 0
                 if total == 0:
+                    if start == end:
+                        years[language] = start - 1
                     continue
                 if total <= args.page_size:
-                    part['total'] = total
-                    part['needs_probe'] = False
-                    queue.insert(0, part)
+                    result = client.search(rows=total, filters=year_filters(language, start, end))
+                    fetches += 1
+                    process_books(state, result.get('books') or [], imported_ids, seen, counters)
+                    if start == end:
+                        years[language] = start - 1
                     continue
-                subjects = facet_values(probe.get('facets'), ['ämne', 'subject'])
-                if subjects:
-                    for subject in subjects:
-                        queue.insert(0, {'language': part['language'], 'year': part['year'], 'genre': part.get('genre'),
-                                         'subject': subject, 'total': None, 'needs_probe': True})
+                if start == end:
+                    branches = facet_values(probe.get('facets'), 'bibliotek')
+                    enqueued = 0
+                    for branch in branches:
+                        count = int(branch.get('count') or 0)
+                        if count == 0:
+                            continue
+                        if count <= HARD_CAP:
+                            queue.insert(0, {'kind': 'branch_year', 'language': language, 'year': start,
+                                             'branch': branch['name'], 'total': count})
+                            enqueued += 1
+                        else:
+                            errors.append({'partition': {'language': language, 'year': start, 'branch': branch['name']},
+                                           'error': f'branch slice too large: {count} records'})
+                    if enqueued == 0:
+                        errors.append({'partition': {'language': language, 'year': start},
+                                       'error': f'oversized year with {total} records and no usable branch slices'})
+                    years[language] = start - 1
                     continue
-                errors.append({'partition': part, 'error': f'oversized partition with {total} records and no subject facets'})
-                continue
-            result = client.search(rows=min(args.page_size, int(part.get('total') or args.page_size)), filters=filters)
-            fetches += 1
-            process_books(state, result.get('books') or [], imported_ids, seen, counters)
-            continue
-        language = next_language()
-        if language is None:
-            break
-        year = int(years[language])
-        probe = client.search(rows=1, filters=year_filters(language, year))
-        fetches += 1
-        total = probe.get('book_total') or 0
-        if total == 0:
-            years[language] = year - 1
-            continue
-        if total <= args.page_size:
-            result = client.search(rows=total, filters=year_filters(language, year))
-            fetches += 1
-            process_books(state, result.get('books') or [], imported_ids, seen, counters)
-            years[language] = year - 1
-            continue
-        genres = facet_values(probe.get('facets'), ['genre'])
-        if genres:
-            for genre in genres:
-                queue.append({'language': language, 'year': year, 'genre': genre, 'subject': None,
-                              'total': None, 'needs_probe': True})
-        else:
-            errors.append({'partition': {'language': language, 'year': year},
-                           'error': f'oversized year with {total} records and no genre facets'})
-        years[language] = year - 1
+                mid = (start + end) // 2
+                queue.insert(0, {'kind': 'years', 'language': language, 'from': mid + 1, 'to': end})
+                queue.insert(0, {'kind': 'years', 'language': language, 'from': start, 'to': mid})
+            elif kind == 'branch_year':
+                result = client.search(rows=min(int(task['total']), HARD_CAP),
+                                       filters=branch_filters(language, task['branch'], task['year']))
+                fetches += 1
+                process_books(state, result.get('books') or [], imported_ids, seen, counters)
+            elif kind == 'branch':
+                result = client.search(rows=min(int(task['total']), HARD_CAP),
+                                       filters=branch_filters(language, task['branch']))
+                fetches += 1
+                process_books(state, result.get('books') or [], imported_ids, seen, counters)
+        except Exception as exc:
+            errors.append({'partition': task, 'error': str(exc)})
+        time.sleep(args.delay)
 
     if not args.dry_run:
         cursor['years'] = years
+        cursor['phases'] = phases
         cursor['queue'] = queue
         cursor['last_run'] = {'at': datetime.now(timezone.utc).isoformat(), 'fetches': fetches,
                               'records_seen': len(seen), 'queued': counters['queued']}
@@ -159,7 +165,7 @@ def main():
               'priority_languages': languages, 'page_size': args.page_size, 'fetches': fetches,
               'records_seen': len(seen), 'titles_queued_for_import': counters['queued'],
               'already_imported_titles_reconciled': counters['reconciled'],
-              'cursor': {'years': years, 'queue_length': len(queue)},
+              'cursor': {'years': years, 'phases': phases, 'queue_length': len(queue)},
               'coverage': coverage, 'errors': errors}
     write_json(REPORT, report)
     write_json(DATA / 'coverage-report.json', coverage)

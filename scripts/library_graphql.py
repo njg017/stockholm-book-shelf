@@ -90,7 +90,7 @@ class GraphQLClient:
         if author:
             request_filters['author'] = [author]
         if filters:
-            for key in ('language', 'yearPublishedSpan', 'genre', 'subject'):
+            for key in ('language', 'yearPublishedSpan', 'branch'):
                 value = filters.get(key)
                 if value:
                     request_filters[key] = value if isinstance(value, list) else [value]
