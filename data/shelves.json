@@ -343,7 +343,7 @@
         "swedish-books",
         "available-now"
       ],
-      "updated_at": "2026-11-08T08:27:31.460216+00:00",
+      "updated_at": "2026-11-08T08:54:05.325182+00:00",
       "isbns": [
         "9789100806439",
         "9100806439"
@@ -360,7 +360,7 @@
       ],
       "reservation_count": 1,
       "reservable": true,
-      "availability_checked_at": "2026-11-08T08:27:33.758754+00:00"
+      "availability_checked_at": "2026-11-08T08:54:07.680480+00:00"
     },
     {
       "id": "CIC-8510459",
@@ -987,7 +987,7 @@
         "swedish-books",
         "available-now"
       ],
-      "updated_at": "2026-11-08T08:27:31.460216+00:00",
+      "updated_at": "2026-11-08T08:54:05.325182+00:00",
       "isbns": [
         "9789100801106",
         "9100801100"
@@ -1004,7 +1004,7 @@
       ],
       "reservation_count": 0,
       "reservable": true,
-      "availability_checked_at": "2026-11-08T08:27:36.136615+00:00"
+      "availability_checked_at": "2026-11-08T08:54:10.175688+00:00"
     },
     {
       "id": "CIC-8141234",
@@ -1318,7 +1318,7 @@
         "swedish-books",
         "available-now"
       ],
-      "updated_at": "2026-11-08T08:27:31.460216+00:00",
+      "updated_at": "2026-11-08T08:54:05.325182+00:00",
       "isbns": [
         "9789137141381",
         "9789175034768",
@@ -1337,7 +1337,7 @@
       ],
       "reservation_count": 0,
       "reservable": true,
-      "availability_checked_at": "2026-11-08T08:27:38.465653+00:00"
+      "availability_checked_at": "2026-11-08T08:54:12.489157+00:00"
     }
   ],
   "swedish-books": [
@@ -1684,7 +1684,7 @@
         "swedish-books",
         "available-now"
       ],
-      "updated_at": "2026-11-08T08:27:31.460216+00:00",
+      "updated_at": "2026-11-08T08:54:05.325182+00:00",
       "isbns": [
         "9789100806439",
         "9100806439"
@@ -1701,7 +1701,7 @@
       ],
       "reservation_count": 1,
       "reservable": true,
-      "availability_checked_at": "2026-11-08T08:27:33.758754+00:00"
+      "availability_checked_at": "2026-11-08T08:54:07.680480+00:00"
     },
     {
       "id": "CIC-8510459",
@@ -2328,7 +2328,7 @@
         "swedish-books",
         "available-now"
       ],
-      "updated_at": "2026-11-08T08:27:31.460216+00:00",
+      "updated_at": "2026-11-08T08:54:05.325182+00:00",
       "isbns": [
         "9789100801106",
         "9100801100"
@@ -2345,7 +2345,7 @@
       ],
       "reservation_count": 0,
       "reservable": true,
-      "availability_checked_at": "2026-11-08T08:27:36.136615+00:00"
+      "availability_checked_at": "2026-11-08T08:54:10.175688+00:00"
     },
     {
       "id": "CIC-8141234",
@@ -2659,7 +2659,7 @@
         "swedish-books",
         "available-now"
       ],
-      "updated_at": "2026-11-08T08:27:31.460216+00:00",
+      "updated_at": "2026-11-08T08:54:05.325182+00:00",
       "isbns": [
         "9789137141381",
         "9789175034768",
@@ -2678,7 +2678,7 @@
       ],
       "reservation_count": 0,
       "reservable": true,
-      "availability_checked_at": "2026-11-08T08:27:38.465653+00:00"
+      "availability_checked_at": "2026-11-08T08:54:12.489157+00:00"
     }
   ],
   "available-now": [
@@ -3025,7 +3025,7 @@
         "swedish-books",
         "available-now"
       ],
-      "updated_at": "2026-11-08T08:27:31.460216+00:00",
+      "updated_at": "2026-11-08T08:54:05.325182+00:00",
       "isbns": [
         "9789100806439",
         "9100806439"
@@ -3042,7 +3042,7 @@
       ],
       "reservation_count": 1,
       "reservable": true,
-      "availability_checked_at": "2026-11-08T08:27:33.758754+00:00"
+      "availability_checked_at": "2026-11-08T08:54:07.680480+00:00"
     },
     {
       "id": "CIC-8510459",
@@ -3669,7 +3669,7 @@
         "swedish-books",
         "available-now"
       ],
-      "updated_at": "2026-11-08T08:27:31.460216+00:00",
+      "updated_at": "2026-11-08T08:54:05.325182+00:00",
       "isbns": [
         "9789100801106",
         "9100801100"
@@ -3686,7 +3686,7 @@
       ],
       "reservation_count": 0,
       "reservable": true,
-      "availability_checked_at": "2026-11-08T08:27:36.136615+00:00"
+      "availability_checked_at": "2026-11-08T08:54:10.175688+00:00"
     },
     {
       "id": "CIC-8141234",
@@ -4000,7 +4000,7 @@
         "swedish-books",
         "available-now"
       ],
-      "updated_at": "2026-11-08T08:27:31.460216+00:00",
+      "updated_at": "2026-11-08T08:54:05.325182+00:00",
       "isbns": [
         "9789137141381",
         "9789175034768",
@@ -4019,7 +4019,7 @@
       ],
       "reservation_count": 0,
       "reservable": true,
-      "availability_checked_at": "2026-11-08T08:27:38.465653+00:00"
+      "availability_checked_at": "2026-11-08T08:54:12.489157+00:00"
     }
   ]
 }
