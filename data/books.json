@@ -168783,5 +168783,6840 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-08T09:28:07.843244+00:00"
+  },
+  {
+    "title_id": "8032051",
+    "title": "Jellicoe Road",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Melina Marchetta",
+    "isbn": "9789185763252",
+    "isbns": [
+      "9789185763252",
+      "9789185763368",
+      "9789186634537",
+      "918576325X",
+      "9185763365",
+      "9186634534"
+    ],
+    "description": null,
+    "original_title": "On the Jellicoe Road",
+    "original_language": "Engelska",
+    "translators": [
+      "Katarina Kuick"
+    ],
+    "page_count": null,
+    "genres": [
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "Internatskolor",
+      "Gäng",
+      "Övergiven",
+      "Frånvarande föräldrar",
+      "Döda föräldrar",
+      "Trafikolyckor",
+      "Mor och dotter",
+      "Hemligheter",
+      "Ensamhet",
+      "Drömmar",
+      "Sorg",
+      "Längtan",
+      "Kärlek",
+      "Vänskap",
+      "Identitet",
+      "Seriemördare",
+      "Försvinna",
+      "Eget skrivande",
+      "Australien"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018045",
+        "branch": "Älvsjö bibliotek",
+        "slug": "alvsjo-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 3,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": "Källarmagasin B",
+            "location": "Ung",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-19",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          },
+          {
+            "department": null,
+            "section": null,
+            "location": "Ung",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-04",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018044",
+        "branch": "Årsta bibliotek",
+        "slug": "arsta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018043",
+        "branch": "Vällingby bibliotek",
+        "slug": "vallingby-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018037",
+        "branch": "Stora Essingens bibliotek",
+        "slug": "stora-essingens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018036",
+        "branch": "Stadsbiblioteket Spelbomskan",
+        "slug": "stadsbiblioteket-spelbomskan",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018025",
+        "branch": "Luma bibliotek",
+        "slug": "luma-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018012",
+        "branch": "Fruängens bibliotek",
+        "slug": "fruangens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018008",
+        "branch": "Bredängs bibliotek",
+        "slug": "bredangs-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018041",
+        "branch": "TioTretton, Kulturhuset",
+        "slug": "tio-tretton",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 2,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Livet & döden",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 2,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 11,
+    "total_copies": 13,
+    "available_branches": [
+      "Älvsjö bibliotek",
+      "Kulturbiblioteket, Kulturhuset",
+      "Årsta bibliotek",
+      "Vällingby bibliotek",
+      "Stora Essingens bibliotek",
+      "Stadsbiblioteket Spelbomskan",
+      "Luma bibliotek",
+      "Fruängens bibliotek",
+      "Bredängs bibliotek",
+      "TioTretton, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:06.938908+00:00"
+  },
+  {
+    "title_id": "8032112",
+    "title": "Flyt som en fjäril, stick som ett bi",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Elin Nilsson",
+    "isbn": "9789150115529",
+    "isbns": [
+      "9789150115529",
+      "9150115529"
+    ],
+    "description": "Miranda är fjorton år, tränar simning nio gånger i veckan och ska snart tävla i SM. Hemma går föräldrarnas tid och kraft åt att hjälpa storebror Elias att komma ur sitt tv-spelsberoende och hennes kompis Johanna ägnar sig bara åt sin kille. Simningen blir ett sätt för Miranda att få uppmärksamhet och bekräftelse.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "Malmö",
+      "Flickor",
+      "Simning",
+      "Tävlingar",
+      "Vänskap",
+      "Skolan",
+      "Högstadiet",
+      "Familjen",
+      "Datorspel",
+      "Bloggar",
+      "Sverige",
+      "Sverige--Skåne"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018041",
+        "branch": "TioTretton, Kulturhuset",
+        "slug": "tio-tretton",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Sport",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-02",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018044",
+        "branch": "Årsta bibliotek",
+        "slug": "arsta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018045",
+        "branch": "Älvsjö bibliotek",
+        "slug": "alvsjo-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": "Källarmagasin B",
+            "location": "Ung",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018032",
+        "branch": "Skärholmens bibliotek",
+        "slug": "skarholmens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 5,
+    "total_copies": 6,
+    "available_branches": [
+      "Årsta bibliotek",
+      "Älvsjö bibliotek",
+      "Kulturbiblioteket, Kulturhuset",
+      "Tranströmerbiblioteket",
+      "Skärholmens bibliotek"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:09.278823+00:00"
+  },
+  {
+    "title_id": "8032908",
+    "title": "Teckna fantasy",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Esbjörn Jorsäter",
+    "isbn": "9789163840562",
+    "isbns": [
+      "9789163840562",
+      "9163840561"
+    ],
+    "description": "Handbok om att teckna fantasymotiv, avsedd för barn. Steg för steg visas hur man tecknar de viktigaste fantasykaraktärerna. Även om fantasyns rötter och hur skaparna av fantasyböcker, -filmer och -serier tänker när de skapar sina verk.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "31 s.",
+    "genres": [
+      "Fantasy"
+    ],
+    "subjects": [
+      "Rita"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018025",
+        "branch": "Luma bibliotek",
+        "slug": "luma-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Faktaböcker",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018046",
+        "branch": "Örby bibliotek",
+        "slug": "orby-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Faktaböcker",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Faktaböcker",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-05-28",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018034",
+        "branch": "Spånga bibliotek",
+        "slug": "spanga-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Faktaböcker",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018032",
+        "branch": "Skärholmens bibliotek",
+        "slug": "skarholmens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-01-02",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018035",
+        "branch": "Alviks bibliotek",
+        "slug": "alviks-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Faktaböcker",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 2,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Serieteket",
+            "section": null,
+            "location": "Skapa serier",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 2,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018021",
+        "branch": "Kista bibliotek",
+        "slug": "kista-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Faktaböcker",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018014",
+        "branch": "Gubbängens bibliotek",
+        "slug": "gubbangens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Faktaböcker",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018016",
+        "branch": "Hornstulls bibliotek",
+        "slug": "hornstulls-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Faktaböcker",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018002",
+        "branch": "Bagarmossens bibliotek",
+        "slug": "bagarmossens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Faktaböcker",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 11,
+    "total_copies": 13,
+    "available_branches": [
+      "Luma bibliotek",
+      "Örby bibliotek",
+      "Tranströmerbiblioteket",
+      "Spånga bibliotek",
+      "Alviks bibliotek",
+      "Kulturbiblioteket, Kulturhuset",
+      "Kista bibliotek",
+      "Gubbängens bibliotek",
+      "Hornstulls bibliotek",
+      "Bagarmossens bibliotek"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:11.700428+00:00"
+  },
+  {
+    "title_id": "8033550",
+    "title": "Mannen på tåget",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Sven Wernström",
+    "isbn": "9789197783217",
+    "isbns": [
+      "9789197783217",
+      "9197783218"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "Revolutioner",
+      "Arbetarrörelsen",
+      "Socialism",
+      "Sverige",
+      "Sverige--Stockholm"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": "Magasin",
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 2,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:13.998779+00:00"
+  },
+  {
+    "title_id": "8033635",
+    "title": "Vad Bosse fick se",
+    "shelves": [],
+    "author": "Thomas Tidholm",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "REFERENCE_ONLY",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": false,
+        "reference_only": true,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "REFERENCE_ONLY",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 1,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:16.346545+00:00"
+  },
+  {
+    "title_id": "8033641",
+    "title": "Spikarligan",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Lotta Silfverhielm",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Tranströmerbiblioteket"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:18.624157+00:00"
+  },
+  {
+    "title_id": "8033642",
+    "title": "Oskar Storm på den obebodda ön",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Monica Zak",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": "Magasin",
+            "location": "Bilderböcker",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:20.912750+00:00"
+  },
+  {
+    "title_id": "8033657",
+    "title": "Gratis med Fickteatern",
+    "shelves": [
+      "available-now"
+    ],
+    "author": null,
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": "Magasin",
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:23.188411+00:00"
+  },
+  {
+    "title_id": "8033670",
+    "title": "Spåren i snön",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Guit Idestam-Almquist",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": "Magasin",
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:25.488112+00:00"
+  },
+  {
+    "title_id": "8033676",
+    "title": "Kärlekens historia",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Nicole Krauss",
+    "isbn": "9789036488716",
+    "isbns": [
+      "9789036488716",
+      "9036488710"
+    ],
+    "description": null,
+    "original_title": "The history of love",
+    "original_language": "Engelska",
+    "translators": [
+      "Ulla Danielsson"
+    ],
+    "page_count": null,
+    "genres": [
+      "Skönlitteratur",
+      "Romaner"
+    ],
+    "subjects": [
+      "Äldre",
+      "Författare",
+      "Polacker",
+      "Flickor",
+      "Judar",
+      "Litteratur",
+      "Olycklig kärlek",
+      "Vänskap",
+      "Familjerelationer",
+      "Efterforskningar",
+      "Uppväxten",
+      "Förenta staterna",
+      "Förenta staterna--New York"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018011",
+        "branch": "Farsta bibliotek",
+        "slug": "farsta-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Storstil",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-02",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 2,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Storstil",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 2,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018016",
+        "branch": "Hornstulls bibliotek",
+        "slug": "hornstulls-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Storstil",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 3,
+    "total_copies": 4,
+    "available_branches": [
+      "Bokhotellet, Frihamnen",
+      "Hornstulls bibliotek"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:27.882991+00:00"
+  },
+  {
+    "title_id": "8033720",
+    "title": "Vita Fjäderns äventyr bland blekansikten",
+    "shelves": [],
+    "author": "Stig Ericson",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:30.176932+00:00"
+  },
+  {
+    "title_id": "8033735",
+    "title": "Nicke med luggen",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Gösta Knutsson",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Tranströmerbiblioteket"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:32.598432+00:00"
+  },
+  {
+    "title_id": "8034943",
+    "title": "Min pappa är snäll och min mamma är utlänning",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Emmy Abrahamson",
+    "isbn": "9789129676600",
+    "isbns": [
+      "9789129676600",
+      "9789129680706",
+      "9129676606",
+      "9129680700"
+    ],
+    "description": "Alicja har flyttat till Österlen med sin mamma och pappa. Alicjas mamma kommer från Polen och är inte som svenska mammor. Dessutom flyttar mammas kusin Sylwia in med sin dotter. När påven kommer på Sverigebesök, tvingar Sylwia med Alicja till Vadstena. Det slutar med katastrof.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "Österlen",
+      "Mor och dotter",
+      "Släktingar",
+      "Kulturkrockar",
+      "Sommarlov",
+      "Olycklig kärlek",
+      "Invandrare",
+      "Kärlek",
+      "Vänskap",
+      "Sverige",
+      "Sverige--Skåne",
+      "Polen"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018041",
+        "branch": "TioTretton, Kulturhuset",
+        "slug": "tio-tretton",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 2,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Humor",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          },
+          {
+            "department": null,
+            "section": null,
+            "location": "Livet & döden",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018020",
+        "branch": "Högdalens bibliotek",
+        "slug": "hogdalens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018016",
+        "branch": "Hornstulls bibliotek",
+        "slug": "hornstulls-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018046",
+        "branch": "Örby bibliotek",
+        "slug": "orby-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Skola",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018044",
+        "branch": "Årsta bibliotek",
+        "slug": "arsta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018025",
+        "branch": "Luma bibliotek",
+        "slug": "luma-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018032",
+        "branch": "Skärholmens bibliotek",
+        "slug": "skarholmens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 8,
+    "total_copies": 8,
+    "available_branches": [
+      "TioTretton, Kulturhuset",
+      "Högdalens bibliotek",
+      "Hornstulls bibliotek",
+      "Örby bibliotek",
+      "Årsta bibliotek",
+      "Luma bibliotek",
+      "Skärholmens bibliotek"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:34.935298+00:00"
+  },
+  {
+    "title_id": "8034998",
+    "title": "Berättelsen om Manuel",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "James Branch Cabell",
+    "isbn": "9789170081385",
+    "isbns": [
+      "9789170081385",
+      "9170081387"
+    ],
+    "description": null,
+    "original_title": "Figures of earth",
+    "original_language": "Engelska",
+    "translators": [
+      "Sam J. Lundwall"
+    ],
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Cabell, James Branch ",
+      "Fantasy"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:37.273190+00:00"
+  },
+  {
+    "title_id": "8035103",
+    "title": "Passionerna",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Irving Stone",
+    "isbn": "9789171600547",
+    "isbns": [
+      "9789171600547",
+      "917160054X"
+    ],
+    "description": null,
+    "original_title": "The passions of the mind",
+    "original_language": "Engelska",
+    "translators": [
+      "Roland Adlerberth"
+    ],
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Freud, Sigmund "
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Rotundan",
+            "location": "Galleri 2",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:39.593303+00:00"
+  },
+  {
+    "title_id": "8035389",
+    "title": "Fridas resor",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Frida Ulvegren",
+    "isbn": "9789175150208",
+    "isbns": [
+      "9789175150208",
+      "9175150204"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Självbiografiska tecknade serier",
+      "Skönlitteratur",
+      "Tecknade serier",
+      "Serieromaner"
+    ],
+    "subjects": [
+      "Tonårsflickor",
+      "Fotomodeller",
+      "Resor",
+      "Vuxenblivande"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 2,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Serieteket",
+            "section": "Magasin",
+            "location": "Svenska serier",
+            "sublocation": "Realism",
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          },
+          {
+            "department": "Serieteket",
+            "section": "Källarmagasin",
+            "location": "Svenska serier",
+            "sublocation": "Realism",
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018045",
+        "branch": "Älvsjö bibliotek",
+        "slug": "alvsjo-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Serier",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018044",
+        "branch": "Årsta bibliotek",
+        "slug": "arsta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Serier",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018002",
+        "branch": "Bagarmossens bibliotek",
+        "slug": "bagarmossens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Serier",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-05",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018009",
+        "branch": "Brommaplans bibliotek",
+        "slug": "brommaplans-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Serier",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018047",
+        "branch": "Östberga bibliotek",
+        "slug": "ostberga-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Serier",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 5,
+    "total_copies": 7,
+    "available_branches": [
+      "Kulturbiblioteket, Kulturhuset",
+      "Årsta bibliotek",
+      "Brommaplans bibliotek",
+      "Östberga bibliotek"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:41.944478+00:00"
+  },
+  {
+    "title_id": "8035641",
+    "title": "Nutida svenska romantiker",
+    "shelves": [],
+    "author": null,
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "149 s.",
+    "genres": [
+      "Poesi"
+    ],
+    "subjects": [
+      "Dikter - romantiken"
+    ],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:44.215407+00:00"
+  },
+  {
+    "title_id": "8035736",
+    "title": "Världen är full av vänner",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Ingrid Sjöstrand",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": "Magasin",
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:46.522059+00:00"
+  },
+  {
+    "title_id": "8036596",
+    "title": "Science fiction, från begynnelsen till våra dagar",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Sam J. Lundwall",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "187 s.",
+    "genres": [
+      "Science fiction"
+    ],
+    "subjects": [
+      "\"Science Fiction\" - Historia"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:48.968717+00:00"
+  },
+  {
+    "title_id": "8036612",
+    "title": "Visst kan tjejer-",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Barbro Werkmäster",
+    "isbn": "9789129410655",
+    "isbns": [
+      "9789129410655",
+      "9129410657"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Tranströmerbiblioteket"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:51.279280+00:00"
+  },
+  {
+    "title_id": "8036668",
+    "title": "Dom tiger ihjäl mej!",
+    "shelves": [],
+    "author": "Inger Skote",
+    "isbn": "9789120064987",
+    "isbns": [
+      "9789120064987",
+      "9120064985"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "Skolan",
+      "Mobbning"
+    ],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:53.556497+00:00"
+  },
+  {
+    "title_id": "8036691",
+    "title": "Tuffa",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Camilla Gripe",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": "Magasin",
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:55.841914+00:00"
+  },
+  {
+    "title_id": "8036812",
+    "title": "Historien om någon",
+    "shelves": [],
+    "author": "Egon Möller-Nielsen",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Bilderböcker",
+      "Filmade böcker"
+    ],
+    "subjects": [
+      "Kattungar"
+    ],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:54:58.115053+00:00"
+  },
+  {
+    "title_id": "8036938",
+    "title": "Gullivers underbara resor",
+    "shelves": [],
+    "author": "Jonathan Swift",
+    "isbn": "9789119272225",
+    "isbns": [
+      "9789119272225",
+      "9789120056586",
+      "9789120074214",
+      "9119272227",
+      "9120056583",
+      "9120074212"
+    ],
+    "description": null,
+    "original_title": "Travels into several remote nations of the world by Lemuel Gulliver",
+    "original_language": "Engelska",
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018010",
+        "branch": "Enskede bibliotek",
+        "slug": "enskede-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Klassiker",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-16",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:00.436894+00:00"
+  },
+  {
+    "title_id": "8037521",
+    "title": "Poesie",
+    "shelves": [],
+    "author": "Eugenio Montale",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": "Italienska",
+    "translators": null,
+    "page_count": "87 s.",
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:02.747910+00:00"
+  },
+  {
+    "title_id": "8038430",
+    "title": "Ett nytt liv på köpet",
+    "shelves": [],
+    "author": "Emma Granholm",
+    "isbn": "9789150111552",
+    "isbns": [
+      "9789150111552",
+      "9150111558"
+    ],
+    "description": "Sanna har levt ett liv i total ensamhet, tagit sig igenom skoldagarna utan att växla ett ord med någon annan. När hon börjar gymnasiet för att plugga foto förväntar hon sig att hennes liv ska fortsätta på samma sätt, men hennes nya klass är annorlunda. Hon blir vän med alla. Men kan man verkligen vara det?",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "Skolan",
+      "Gymnasieskolan",
+      "Flickor",
+      "Mobbning",
+      "Vänskap",
+      "Identitet"
+    ],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:05.046220+00:00"
+  },
+  {
+    "title_id": "8039229",
+    "title": "Gullivers resor",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Jonathan Swift",
+    "isbn": "9789137075679",
+    "isbns": [
+      "9789137075679",
+      "9789137101095",
+      "9137075675",
+      "9137101099"
+    ],
+    "description": null,
+    "original_title": "Travels into several remote nations of the world",
+    "original_language": "Engelska",
+    "translators": [
+      "Anna Berg-Mortensen"
+    ],
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018011",
+        "branch": "Farsta bibliotek",
+        "slug": "farsta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Farsta bibliotek"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:07.359546+00:00"
+  },
+  {
+    "title_id": "8039773",
+    "title": "Resor utan mål",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Harry Martinson",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Sjöromaner"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Rotundan",
+            "location": "Galleri 2",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:09.651180+00:00"
+  },
+  {
+    "title_id": "8040023",
+    "title": "Petrus äventyr på ärtsoppsdagen",
+    "shelves": [
+      "available-now"
+    ],
+    "author": " Mio Martinell eg. Ingegerd",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": "Magasin",
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:11.952751+00:00"
+  },
+  {
+    "title_id": "8040368",
+    "title": "Unterzakhn",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Leela Corman",
+    "isbn": "9780805242591",
+    "isbns": [
+      "9780805242591",
+      "0805242597"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Tecknade serier"
+    ],
+    "subjects": [
+      "Bandes dessinées",
+      "Comic books, strips",
+      "Comics & graphic novels, nonfiction, general",
+      "Fiction",
+      "Förenta staterna",
+      "Förenta staterna--New York",
+      "Graphic novels",
+      "Immigrants",
+      "Immigrants, united states",
+      "Invandrare",
+      "Jews",
+      "Jumelles (Personnes)",
+      "Russians",
+      "Sisters",
+      "Systrar",
+      "Tvillingar",
+      "Twin sisters",
+      "Twins"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Serieteket",
+            "section": null,
+            "location": "Historia",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Kulturbiblioteket, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:14.246685+00:00",
+    "openlibrary_work_id": "/works/OL16263365W",
+    "openlibrary_rating_average": 2.0,
+    "openlibrary_rating_count": 1,
+    "first_published_year": 2012
+  },
+  {
+    "title_id": "8040405",
+    "title": "Sagan om Helgehus",
+    "shelves": [],
+    "author": "Carl August Cederborg",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:16.535016+00:00"
+  },
+  {
+    "title_id": "8040649",
+    "title": "Jurgen",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "James Branch Cabell",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": "Jurgen",
+    "original_language": "Engelska",
+    "translators": [
+      "Niels Nielsen"
+    ],
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Cabell, James Branch ",
+      "Fantasy"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:18.799293+00:00"
+  },
+  {
+    "title_id": "8041162",
+    "title": "Grevefejden 1",
+    "shelves": [],
+    "author": "Carl August Cederborg",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Grevefejden "
+    ],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:21.101975+00:00"
+  },
+  {
+    "title_id": "8041163",
+    "title": "Grevefejden 2",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Carl August Cederborg",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Grevefejden "
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:23.404010+00:00"
+  },
+  {
+    "title_id": "8041166",
+    "title": "Snapphaneblod 1",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Carl August Cederborg",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "2 vol.",
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 2,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:25.728871+00:00"
+  },
+  {
+    "title_id": "8041167",
+    "title": "Snapphaneblod 2",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Carl August Cederborg",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "2 vol.",
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Rotundan",
+            "location": "Galleri 2",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:28.220292+00:00"
+  },
+  {
+    "title_id": "8041180",
+    "title": "Den fantastiska romanen 1, Klassisk utopi och rymdfärd från Lukianos till Edward Bellamy",
+    "shelves": [
+      "available-now"
+    ],
+    "author": null,
+    "isbn": "9789171980038",
+    "isbns": [
+      "9789171980038",
+      "9171980032"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": "Flera språk",
+    "translators": [
+      "Jonas Norén...."
+    ],
+    "page_count": "336 s.",
+    "genres": [
+      "Science fiction",
+      "Utopier"
+    ],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "SF",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:30.506963+00:00"
+  },
+  {
+    "title_id": "8041181",
+    "title": "Den fantastiska romanen 2, Gotisk skräckromantik från Horace Walpole till H.P. Lovecraft",
+    "shelves": [
+      "available-now"
+    ],
+    "author": null,
+    "isbn": "9789171980076",
+    "isbns": [
+      "9789171980076",
+      "9171980075"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": "Flera språk",
+    "translators": [
+      "Jonas Norén...."
+    ],
+    "page_count": "335 s.",
+    "genres": [
+      "Fantasy"
+    ],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Facksal 3",
+            "location": "SF",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:32.817798+00:00",
+    "openlibrary_work_id": "/works/OL6405369W",
+    "first_published_year": 1973
+  },
+  {
+    "title_id": "8041182",
+    "title": "Den fantastiska romanen 3, Viktorianska framtidsdrömmar från Claës Lundin till H.G. Wells",
+    "shelves": [
+      "available-now"
+    ],
+    "author": null,
+    "isbn": "9789171980090",
+    "isbns": [
+      "9789171980090",
+      "9171980091"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": "Flera språk",
+    "translators": [
+      "Jonas Norén...."
+    ],
+    "page_count": "354 s.",
+    "genres": [
+      "Science fiction"
+    ],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "SF",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:35.157421+00:00"
+  },
+  {
+    "title_id": "8041802",
+    "title": "Vild",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Boel Werner",
+    "isbn": "9789163847257",
+    "isbns": [
+      "9789163847257",
+      "9163847256"
+    ],
+    "description": "Irma känner sig annorlunda än alla andra. Hon har många funderingar och tänker inte så mycket på smink, kläder och killar. En dag upptäcker hon att det har vuxit ut en svans på henne. Hon flyr ut i skogen i panik. Hennes bror hittar henne, men hur ska hon klara att komma tillbaka och hantera de förmågor som svansen medför?",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "Småstäder",
+      "Vara annorlunda",
+      "Vittror",
+      "Vänskap",
+      "Mobbning",
+      "Skolan",
+      "Förvandlingar",
+      "Sverige--Dalarna"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018044",
+        "branch": "Årsta bibliotek",
+        "slug": "arsta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Årsta bibliotek"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:37.553520+00:00"
+  },
+  {
+    "title_id": "8042043",
+    "title": "Har varit - vad väntar?",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Nils-Magnus Folcke",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Tranströmerbiblioteket"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:39.890398+00:00"
+  },
+  {
+    "title_id": "8042537",
+    "title": "Resor med moster Augusta",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Graham Greene",
+    "isbn": "9789119019615",
+    "isbns": [
+      "9789119019615",
+      "9789176423356",
+      "9119019610",
+      "9176423352"
+    ],
+    "description": null,
+    "original_title": "Travels with my aunt",
+    "original_language": "Engelska",
+    "translators": [
+      "Aida Törnell"
+    ],
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Tranströmerbiblioteket"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:42.182596+00:00"
+  },
+  {
+    "title_id": "8042903",
+    "title": "Filip blir utlänning",
+    "shelves": [],
+    "author": "Chie af Geijerstam",
+    "isbn": "9789129410693",
+    "isbns": [
+      "9789129410693",
+      "912941069X"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:44.476589+00:00"
+  },
+  {
+    "title_id": "8043103",
+    "title": "Ingen konst",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Péter Esterházy",
+    "isbn": "9789185849291",
+    "isbns": [
+      "9789185849291",
+      "9185849294"
+    ],
+    "description": "En berättelse om en mor och en son under femtiotalet i Ungern. Vid den tiden var den ungerska kommunistdiktaturen som hårdast samtidigt som den ungerska fotbollen stod som högst.",
+    "original_title": "Semmi művészet",
+    "original_language": "Ungerska",
+    "translators": [
+      "Ildikó Márky och Ervin Rosenberg"
+    ],
+    "page_count": null,
+    "genres": [
+      "Självbiografiska skildringar",
+      "Skönlitteratur",
+      "Romaner"
+    ],
+    "subjects": [
+      "1950-talet",
+      "Ungern",
+      "Budapest",
+      "Mor-sonrelationer",
+      "Fotboll",
+      "Kommunism",
+      "Diktatur",
+      "Ungern--Budapest"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018016",
+        "branch": "Hornstulls bibliotek",
+        "slug": "hornstulls-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018048",
+        "branch": "Östermalms bibliotek",
+        "slug": "ostermalms-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018002",
+        "branch": "Bagarmossens bibliotek",
+        "slug": "bagarmossens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 2,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": "Magasin",
+            "location": "Berättelser",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          },
+          {
+            "department": null,
+            "section": null,
+            "location": "Berättelser",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 6,
+    "total_copies": 6,
+    "available_branches": [
+      "Hornstulls bibliotek",
+      "Östermalms bibliotek",
+      "Tranströmerbiblioteket",
+      "Bagarmossens bibliotek",
+      "Kulturbiblioteket, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:46.862899+00:00"
+  },
+  {
+    "title_id": "8043127",
+    "title": "Lyckans vetenskap",
+    "shelves": [],
+    "author": "Elsa Nyström",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Aforismer"
+    ],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:49.157056+00:00"
+  },
+  {
+    "title_id": "8043131",
+    "title": "Vid höga Hunneberg",
+    "shelves": [],
+    "author": "John Rumenius",
+    "isbn": "9789185048359",
+    "isbns": [
+      "9789185048359",
+      "9185048356"
+    ],
+    "description": "Sequel to I låga ryttartorpet.\r\nSequel: Wästgöta ryttare rider vidare.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Silverlood, Olov Andersson "
+    ],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:51.446522+00:00",
+    "openlibrary_work_id": "/works/OL3383131W",
+    "first_published_year": 1973
+  },
+  {
+    "title_id": "8044416",
+    "title": "Svenska lantmäteriet 1628-1928 D. 1",
+    "shelves": [],
+    "author": null,
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "3 vol., 629 s.",
+    "genres": [],
+    "subjects": [
+      "Lantmäteri"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-08",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:53.716536+00:00"
+  },
+  {
+    "title_id": "8044591",
+    "title": "Kotten vågar inte gå hem",
+    "shelves": [],
+    "author": "Marita Lindquist",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:56.027592+00:00"
+  },
+  {
+    "title_id": "8044980",
+    "title": "Kärlekens strider",
+    "shelves": [],
+    "author": "Karl Gustav Ossiannilsson",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:55:58.328708+00:00"
+  },
+  {
+    "title_id": "8045145",
+    "title": "Isgrottan",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Cannie Möller",
+    "isbn": "9789172995277",
+    "isbns": [
+      "9789172995277",
+      "9172995270"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "Norrbotten",
+      "Psykiskt sjuka föräldrar",
+      "Försvinna",
+      "Mor och son",
+      "Mormödrar",
+      "Drömmar",
+      "Grottor",
+      "Övernaturligt",
+      "Svek",
+      "Hemligheter",
+      "Dubbelliv",
+      "Fotografer",
+      "Vintern",
+      "Mor- och farföräldrar",
+      "Sverige"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018034",
+        "branch": "Spånga bibliotek",
+        "slug": "spanga-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Spånga bibliotek"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:00.617601+00:00"
+  },
+  {
+    "title_id": "8045401",
+    "title": "\"Min pappa säger att din pappa sitter i fängelse\"",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Kerstin Thorvall",
+    "isbn": "9789129430530",
+    "isbns": [
+      "9789129430530",
+      "9129430534"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Juvenile literature",
+      "Prisoners",
+      "Prisoners' families"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Tranströmerbiblioteket"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:02.978591+00:00",
+    "openlibrary_work_id": "/works/OL2291281W",
+    "first_published_year": 1974
+  },
+  {
+    "title_id": "8045421",
+    "title": "Konst",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Robert Cumming",
+    "isbn": "9789171304216",
+    "isbns": [
+      "9789171304216",
+      "9171304215"
+    ],
+    "description": "Handbok om västerländsk konst. Uppgifter om rörelser och stilar från antiken till idag. Genomgång av sexhundra betydande konstnärer, kända verk presenteras i text och bild tillsammans med uppgifter om hur de skapades och var man kan se dem. Kapitel om material och tekniker samt ordlista över konsttermer.",
+    "original_title": "Art",
+    "original_language": "Engelska",
+    "translators": [
+      "Tove Janson ..."
+    ],
+    "page_count": "512 s.",
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018015",
+        "branch": "Hagsätra bibliotek",
+        "slug": "hagsatra-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Hagsätra bibliotek"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:05.315348+00:00"
+  },
+  {
+    "title_id": "8045970",
+    "title": "Bokgranskaren",
+    "shelves": [],
+    "author": "John Karlzén",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:07.643570+00:00"
+  },
+  {
+    "title_id": "8046573",
+    "title": "Drömmen och verkligheten",
+    "shelves": [],
+    "author": "Karl Gustav Ossiannilsson",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:09.932459+00:00"
+  },
+  {
+    "title_id": "8046806",
+    "title": "Parkinsons lag och andra studier i administrationens konst",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "C. Northcote Parkinson",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": "Parkinson's law and other studies in administration",
+    "original_language": "Engelska",
+    "translators": [
+      "Åke Runnquist"
+    ],
+    "page_count": "127 s.",
+    "genres": [],
+    "subjects": [
+      "Parkinsons lag "
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Facksal 3",
+            "location": "Närmagasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 2,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:12.201849+00:00"
+  },
+  {
+    "title_id": "8047595",
+    "title": "Fantastiska resor",
+    "shelves": [
+      "available-now"
+    ],
+    "author": null,
+    "isbn": "9789187861048",
+    "isbns": [
+      "9789187861048",
+      "9187861046"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": "Engelska",
+    "translators": null,
+    "page_count": "208 s.",
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Serieteket",
+            "section": null,
+            "location": "Klassiker",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Kulturbiblioteket, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:14.510349+00:00"
+  },
+  {
+    "title_id": "8047619",
+    "title": "Hallonfallet",
+    "shelves": [],
+    "author": "Paul Badura Mörk",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:16.815480+00:00"
+  },
+  {
+    "title_id": "8048094",
+    "title": "Romantiken",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Ragnar Josephson",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "262 s.",
+    "genres": [],
+    "subjects": [
+      "Romantik - historia"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:19.121166+00:00"
+  },
+  {
+    "title_id": "8048122",
+    "title": "Peter Schlemihls sällsamma historia",
+    "shelves": [],
+    "author": "Adelbert von Chamisso",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": "Peter Schlemihls wundersame Geschichte",
+    "original_language": "Tyska",
+    "translators": [
+      "Olle Holmberg"
+    ],
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:21.405540+00:00"
+  },
+  {
+    "title_id": "8048476",
+    "title": "Vingklippta",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Annakarin Svedberg",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Homosexualitet"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Rotundan",
+            "location": "Galleri 2",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:23.784921+00:00"
+  },
+  {
+    "title_id": "8048673",
+    "title": "Oppositionspartiet",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Gun-Britt Sundström",
+    "isbn": "9789185763115",
+    "isbns": [
+      "9789185763115",
+      "918576311X"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "1960-talet",
+      "Skolan",
+      "Gymnasieskolan",
+      "Ungdomar",
+      "Flickor",
+      "Gäng",
+      "Lärare",
+      "Vänskap",
+      "Sverige",
+      "Sverige--Stockholm"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018001",
+        "branch": "Aspuddens bibliotek",
+        "slug": "aspuddens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Aspuddens bibliotek"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:26.079019+00:00"
+  },
+  {
+    "title_id": "8048712",
+    "title": "Väck inte Marie",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Sven Sörmark",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:28.413406+00:00"
+  },
+  {
+    "title_id": "8049498",
+    "title": "Ruckelbasta",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Kerstin Niléhn",
+    "isbn": "9789100412302",
+    "isbns": [
+      "9789100412302",
+      "9100412309"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:30.707671+00:00"
+  },
+  {
+    "title_id": "8049842",
+    "title": "Vetenskap och humbug",
+    "shelves": [],
+    "author": "Martin Gardner",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": "In the name of science",
+    "original_language": null,
+    "translators": null,
+    "page_count": "310 s.",
+    "genres": [],
+    "subjects": [
+      "Ufon",
+      "Slagrutor",
+      "Atlantis",
+      "Scientologi"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-04",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:32.981294+00:00"
+  },
+  {
+    "title_id": "8050339",
+    "title": "Domarens historia",
+    "shelves": [],
+    "author": "Charles Morgan",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": "The judge's story",
+    "original_language": "Engelska",
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:35.320894+00:00"
+  },
+  {
+    "title_id": "8050739",
+    "title": "Historia",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Claude Simon",
+    "isbn": "9789120073309",
+    "isbns": [
+      "9789120073309",
+      "9120073305"
+    ],
+    "description": null,
+    "original_title": "Histoire",
+    "original_language": "Franska",
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Rotundan",
+            "location": "Galleri 2",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:37.612701+00:00"
+  },
+  {
+    "title_id": "8050866",
+    "title": "Karin Månsdotter",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Mika Waltari",
+    "isbn": "9789146164289",
+    "isbns": [
+      "9789146164289",
+      "9789146167242",
+      "9146164286",
+      "9146167242"
+    ],
+    "description": null,
+    "original_title": "Kaarina Maununtytär",
+    "original_language": "Finska",
+    "translators": [
+      "Anna Bondestam"
+    ],
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Karin Månsdotter "
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Rotundan",
+            "location": "Galleri 2",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:39.912928+00:00"
+  },
+  {
+    "title_id": "8051147",
+    "title": "Svensk poesi",
+    "shelves": [],
+    "author": null,
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "191 s.",
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:42.196787+00:00"
+  },
+  {
+    "title_id": "8051339",
+    "title": "Lustöra och Hassel",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Birgitta Gedin",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Tranströmerbiblioteket"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:44.557374+00:00"
+  },
+  {
+    "title_id": "8051865",
+    "title": "Studentrevolt",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Torgny T. Segerstedt",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "77 s.",
+    "genres": [],
+    "subjects": [
+      "Studentrevolter ",
+      "Universitetsstudier ",
+      "Vetenskap och samhälle "
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:46.870636+00:00"
+  },
+  {
+    "title_id": "8051979",
+    "title": "Poesie",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Giuseppe Ungaretti",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": "Italienska",
+    "translators": null,
+    "page_count": "100 s",
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Tranströmerbiblioteket"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:49.183727+00:00"
+  },
+  {
+    "title_id": "8052126",
+    "title": "Pedagogisk psykologi",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Torsten Husén",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "345 s.",
+    "genres": [],
+    "subjects": [
+      "Pedagogik",
+      "Pedagogisk psykologi"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:51.537637+00:00"
+  },
+  {
+    "title_id": "8052183",
+    "title": "Soldatnunnan och ; Om mordet som skön konst",
+    "shelves": [],
+    "author": "Thomas De Quincey",
+    "isbn": "9789189538634",
+    "isbns": [
+      "9789189538634",
+      "9189538633"
+    ],
+    "description": "Essäsamling innehållande texterna Om mordet som skön konst samt Soldatnunnan - en pikaresk om en 1500-talskvinna som förklädd till man rymmer från sitt kloster och ger sig ut på äventyr. Inledningsessä av Gunnar Harding.",
+    "original_title": "The Spanish military nun",
+    "original_language": null,
+    "translators": [
+      "Majken Johansson"
+    ],
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:53.812267+00:00"
+  },
+  {
+    "title_id": "8052437",
+    "title": "Guldregn",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Nils Hasselskog",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Tranströmerbiblioteket"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:56.127161+00:00"
+  },
+  {
+    "title_id": "8052734",
+    "title": "Resor i världen",
+    "shelves": [],
+    "author": "Gunnar Falk",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:56:58.439762+00:00"
+  },
+  {
+    "title_id": "8053132",
+    "title": "Konst, kännare, köpmän",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Karl Asplund",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "210 s.",
+    "genres": [],
+    "subjects": [
+      "Konstsamlande"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:00.752147+00:00"
+  },
+  {
+    "title_id": "8053305",
+    "title": "En karolin",
+    "shelves": [],
+    "author": "Carl August Cederborg",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Karl XII "
+    ],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:03.058073+00:00"
+  },
+  {
+    "title_id": "8054529",
+    "title": "Äventyrets konst",
+    "shelves": [],
+    "author": "Eric Linklater",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": "The art of adventure",
+    "original_language": "Engelska",
+    "translators": [
+      "Aida Törnell"
+    ],
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:05.383526+00:00"
+  },
+  {
+    "title_id": "8054586",
+    "title": "Vetenskap och samhälle",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Bertrand Russell",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": "The impact of science on society",
+    "original_language": "Engelska",
+    "translators": null,
+    "page_count": "151 s.",
+    "genres": [],
+    "subjects": [
+      "Naturvetenskap och kultur ",
+      "Filosofi och samhälle "
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:07.714840+00:00"
+  },
+  {
+    "title_id": "8054708",
+    "title": "Nils Dacke",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Karl Gustav Ossiannilsson",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Dacke, Nils "
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Rotundan",
+            "location": "Galleri 2",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:10.069658+00:00"
+  },
+  {
+    "title_id": "8054927",
+    "title": "Måltider ur världslitteraturen",
+    "shelves": [
+      "available-now"
+    ],
+    "author": null,
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "235 s.",
+    "genres": [],
+    "subjects": [
+      "Matlagning"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:12.397266+00:00"
+  },
+  {
+    "title_id": "8055522",
+    "title": "Carl Napoleon Johansson",
+    "shelves": [],
+    "author": "Munro Leaf",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": "Robert Francis Weatherbee",
+    "original_language": "Engelska",
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:14.682744+00:00"
+  },
+  {
+    "title_id": "8056357",
+    "title": "På natten är allt sant",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Lina Stoltz",
+    "isbn": "9789188843050",
+    "isbns": [
+      "9789188843050",
+      "918884305X"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "Invandrare",
+      "Kärlek",
+      "Främlingsfientlighet",
+      "Grupptryck",
+      "Hemligheter"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018002",
+        "branch": "Bagarmossens bibliotek",
+        "slug": "bagarmossens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018023",
+        "branch": "Kungsholmens bibliotek Internationella biblioteket",
+        "slug": "kungsholmens-bibliotek-internationella-biblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018043",
+        "branch": "Vällingby bibliotek",
+        "slug": "vallingby-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 4,
+    "total_copies": 4,
+    "available_branches": [
+      "Tranströmerbiblioteket",
+      "Bagarmossens bibliotek",
+      "Kungsholmens bibliotek Internationella biblioteket",
+      "Vällingby bibliotek"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:17.001832+00:00"
+  },
+  {
+    "title_id": "8056360",
+    "title": "Belägringen",
+    "shelves": [],
+    "author": "Ingeborg Björklund",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Sverige"
+    ],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:19.298010+00:00"
+  },
+  {
+    "title_id": "8056454",
+    "title": "Otroso",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Graciela Montes",
+    "isbn": "9789185133642",
+    "isbns": [
+      "9789185133642",
+      "9185133647"
+    ],
+    "description": null,
+    "original_title": "Otroso",
+    "original_language": "Spanska",
+    "translators": [
+      "Annakarin Thorburn"
+    ],
+    "page_count": null,
+    "genres": [
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "Sydamerika",
+      "Argentina",
+      "Vänskap",
+      "Gäng",
+      "Ungdomsbrottslighet",
+      "Hemligheter",
+      "Svek",
+      "Förorter",
+      "Rykten",
+      "Underjorden",
+      "Konflikter",
+      "Latinamerika"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018005",
+        "branch": "Björkhagens bibliotek",
+        "slug": "bjorkhagens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 2,
+    "total_copies": 2,
+    "available_branches": [
+      "Björkhagens bibliotek",
+      "Tranströmerbiblioteket"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:21.625566+00:00"
+  },
+  {
+    "title_id": "8056775",
+    "title": "En rackarunge",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Ester Blenda Nordström",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "Flickor",
+      "Busiga barn"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018045",
+        "branch": "Älvsjö bibliotek",
+        "slug": "alvsjo-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Älvsjö bibliotek"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:23.930686+00:00"
+  },
+  {
+    "title_id": "8056843",
+    "title": "Den gyllene friheten",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Zofia Kossak",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": "Złota wolność",
+    "original_language": "Polska",
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:26.244247+00:00"
+  },
+  {
+    "title_id": "8057211",
+    "title": "Romantikens kavaljer",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Nils Evert Taube",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [
+      "Dahlqvist, Karl Georg "
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 2,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:28.623131+00:00"
+  },
+  {
+    "title_id": "8057232",
+    "title": "Romantiker",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Jascha Golowanjuk",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:30.882379+00:00"
+  },
+  {
+    "title_id": "8057796",
+    "title": "Forskande filosofi",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Yngve Hagstrand",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "141 s.",
+    "genres": [],
+    "subjects": [
+      "Filosofi och fysik ",
+      "Bergson, Henri "
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:33.201310+00:00"
+  },
+  {
+    "title_id": "8057808",
+    "title": "Svenska lantmäteriet 1628-1928 D. 2",
+    "shelves": [],
+    "author": null,
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "3 vol., 614 s.",
+    "genres": [],
+    "subjects": [
+      "Lantmäteri"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-08",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:35.482212+00:00"
+  },
+  {
+    "title_id": "8058010",
+    "title": "Poesie",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Umberto Saba",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "80 s.",
+    "genres": [],
+    "subjects": [
+      "Saba, Umberto "
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Magasin",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Tranströmerbiblioteket"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:37.749066+00:00"
+  },
+  {
+    "title_id": "8058678",
+    "title": "Raketmännen från jorden och andra science fiction historier",
+    "shelves": [
+      "available-now"
+    ],
+    "author": null,
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Science fiction"
+    ],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "SF",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:40.032553+00:00"
+  },
+  {
+    "title_id": "8058722",
+    "title": "Ruinernas romantik",
+    "shelves": [],
+    "author": "Carl Fehrman",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "187 s.",
+    "genres": [],
+    "subjects": [
+      "Ruiner"
+    ],
+    "holdings": [],
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": [],
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:42.334793+00:00"
+  },
+  {
+    "title_id": "8058814",
+    "title": "Svenska lantmäteriet 1628-1928 D. 3, Kartreproduktioner",
+    "shelves": [],
+    "author": null,
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "3 vol., [41] s., [41] kartbl.",
+    "genres": [],
+    "subjects": [
+      "Lantmäteri"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-08",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:44.628242+00:00"
+  },
+  {
+    "title_id": "8059475",
+    "title": "Kärlekens ögon",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Harald Forss",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:46.896070+00:00"
+  },
+  {
+    "title_id": "8059554",
+    "title": "Sommar för evigt",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Jenny Han",
+    "isbn": "9789132157974",
+    "isbns": [
+      "9789132157974",
+      "9789174751291",
+      "9132157975",
+      "9174751298"
+    ],
+    "description": "Den tredje boken om Belly som har varit tillsammans med Jeremiah i snart två år. Belly är nästan helt säker på att Jeremiah är hennes livs kärlek. Då dyker Conrad upp och plötsligt är de där igen alla tre, i huset vid havet, och Belly börjar tveka. Hon tvingas konfrontera sina känslor för Jeremiah och Conrad.",
+    "original_title": "We'll always have summer",
+    "original_language": "Engelska",
+    "translators": [
+      "Lina Erkelius"
+    ],
+    "page_count": null,
+    "genres": [
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "USA",
+      "Universitet",
+      "College",
+      "Vara ihop",
+      "Bröder",
+      "Syskon",
+      "Vänskap",
+      "Svartsjuka",
+      "Olycklig kärlek",
+      "Otrohet",
+      "Identitet"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018016",
+        "branch": "Hornstulls bibliotek",
+        "slug": "hornstulls-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-27",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018013",
+        "branch": "Gröndals bibliotek",
+        "slug": "grondals-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018035",
+        "branch": "Alviks bibliotek",
+        "slug": "alviks-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018005",
+        "branch": "Björkhagens bibliotek",
+        "slug": "bjorkhagens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-27",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018046",
+        "branch": "Örby bibliotek",
+        "slug": "orby-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Skola",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018012",
+        "branch": "Fruängens bibliotek",
+        "slug": "fruangens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018021",
+        "branch": "Kista bibliotek",
+        "slug": "kista-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018010",
+        "branch": "Enskede bibliotek",
+        "slug": "enskede-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018045",
+        "branch": "Älvsjö bibliotek",
+        "slug": "alvsjo-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-01",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018029",
+        "branch": "Rinkeby bibliotek",
+        "slug": "rinkeby-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018040",
+        "branch": "Tensta bibliotek",
+        "slug": "tensta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018008",
+        "branch": "Bredängs bibliotek",
+        "slug": "bredangs-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-06",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 8,
+    "total_copies": 13,
+    "available_branches": [
+      "Gröndals bibliotek",
+      "Alviks bibliotek",
+      "Örby bibliotek",
+      "Fruängens bibliotek",
+      "Kista bibliotek",
+      "Enskede bibliotek",
+      "Älvsjö bibliotek",
+      "Tensta bibliotek"
+    ],
+    "availability_status": "available",
+    "reservation_count": 1,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:49.551416+00:00"
+  },
+  {
+    "title_id": "8059762",
+    "title": "Dödlig åtrå",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Susanne Ahlenius",
+    "isbn": "9789175579375",
+    "isbns": [
+      "9789175579375",
+      "9175579375"
+    ],
+    "description": "Erotisk deckare, den första delen i en planerad trilogi. Alice är utredare på Rikskriminalen i Stockholm. Hon blir utsedd att hjälpa Scotland Yard i jakten på en seriemördare som lämnar sina offer märkta med en bisarr kärleksförklaring. Livet i London blir komplicerat när hon träffar bartendern med de bärnstensfärgade ögonen.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [
+      "Deckare",
+      "Skönlitteratur",
+      "Romaner"
+    ],
+    "subjects": [
+      "Alice Wiklund",
+      "Erotik"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Sex",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-09-29",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": null,
+            "section": "Källarmagasin",
+            "location": "Sex",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 2,
+    "available_branches": [
+      "Kulturbiblioteket, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:51.843454+00:00"
+  },
+  {
+    "title_id": "8060058",
+    "title": "Religion och vetenskap",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Bertrand Russell",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": "Religion and science",
+    "original_language": "Engelska",
+    "translators": null,
+    "page_count": "168 s.",
+    "genres": [],
+    "subjects": [
+      "Religion och vetenskap"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 3,
+        "available_copies": 2,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": "Facksal 4",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 2,
+    "total_copies": 3,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:54.157139+00:00"
+  },
+  {
+    "title_id": "8060079",
+    "title": "Sannolikhetens filosofi",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Gunnar Oxenstierna",
+    "isbn": null,
+    "isbns": [],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "71 s.",
+    "genres": [],
+    "subjects": [
+      "Sannolikhet"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Magasin",
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-08T10:57:56.499668+00:00"
   }
 ]
