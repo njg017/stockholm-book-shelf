@@ -1,94 +1,189 @@
-const SHELF_TITLES = {
-  "new": "Nya på biblioteket",
-  "popular": "Populära just nu",
-  "english-fiction": "Engelsk skönlitteratur",
-  "swedish-fiction": "Svensk skönlitteratur",
-  "crime": "Crime & thriller",
-  "scifi-fantasy": "Sci-fi & fantasy",
-  "children": "För barn & familjen"
+const SHELVES = [
+  { id: "available-now", title: "Available now" },
+  { id: "new", title: "New & noteworthy" },
+  { id: "fiction", title: "Fiction to get lost in" },
+  { id: "crime", title: "Crime & thrillers" },
+  { id: "scifi", title: "Sci-fi & fantasy" },
+  { id: "children", title: "For younger readers" },
+  { id: "nonfiction", title: "Ideas & real life" }
+];
+
+const GENRE_LABELS = {
+  fiction: "Fiction",
+  crime: "Crime",
+  scifi: "Sci-fi & fantasy",
+  children: "Children",
+  nonfiction: "Non-fiction"
 };
 
 let books = [];
+let activeGenre = "all";
+let activeBranch = "all";
+let activeShelf = "all";
 
-function createCard(book) {
-  const card = document.createElement("a");
-  card.className = "book-card";
-  card.href = book.library?.reservation_url || "#";
-  card.target = "_blank";
-  card.rel = "noopener";
+const shelfElement = document.getElementById("shelves");
+const emptyState = document.getElementById("empty-state");
+const searchInput = document.getElementById("search");
+
+function coverUrl(isbn) {
+  return `https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`;
+}
+
+function availabilityFor(book, branch) {
+  const branches = book.branches || [];
+  if (branch === "all") {
+    return branches.some((item) => item.available);
+  }
+  return branches.some((item) => item.name === branch && item.available);
+}
+
+function matchesFilters(book) {
+  const genreMatch = activeGenre === "all" || book.genres.includes(activeGenre);
+  const branchMatch = activeBranch === "all" || book.branches.some((item) => item.name === activeBranch);
+  const shelfMatch = activeShelf === "all" || book.shelves.includes(activeShelf);
+  return genreMatch && branchMatch && shelfMatch;
+}
+
+function matchesSearch(book, term) {
+  if (!term) return true;
+  const haystack = [
+    book.title,
+    book.author,
+    book.description,
+    ...book.genres,
+    ...book.subjects
+  ].join(" ").toLowerCase();
+  return haystack.includes(term);
+}
+
+function createBookCard(book) {
+  const button = document.createElement("button");
+  button.className = "book-card";
+  button.type = "button";
+  button.setAttribute("aria-label", `Show details for ${book.title}`);
+
+  const available = availabilityFor(book, activeBranch);
+  const cover = document.createElement("div");
+  cover.className = "cover-wrap";
 
   const image = document.createElement("img");
-  image.src = book.cover_url || "";
+  image.src = coverUrl(book.isbn);
   image.alt = `Cover of ${book.title}`;
   image.loading = "lazy";
 
-  const caption = document.createElement("figcaption");
-  caption.innerHTML = `<strong></strong><span></span>`;
-  caption.querySelector("strong").textContent = book.title;
-  caption.querySelector("span").textContent = book.author || "";
+  const badge = document.createElement("span");
+  badge.className = `badge ${available ? "available" : "waiting"}`;
+  badge.textContent = available ? "Available" : "Reserve";
 
-  card.append(image, caption);
-  return card;
+  const meta = document.createElement("div");
+  meta.className = "book-meta";
+  meta.innerHTML = `<h3 class="book-title"></h3><span class="book-author"></span>`;
+  meta.querySelector(".book-title").textContent = book.title;
+  meta.querySelector(".book-author").textContent = book.author;
+
+  cover.append(image, badge);
+  button.append(cover, meta);
+  button.addEventListener("click", () => openModal(book));
+  return button;
 }
 
-function renderShelf(shelfId, shelfBooks) {
+function renderShelf(shelf) {
+  const shelfBooks = books
+    .filter((book) => book.shelves.includes(shelf.id))
+    .filter(matchesFilters)
+    .filter((book) => matchesSearch(book, searchInput.value.trim().toLowerCase()));
+
   if (!shelfBooks.length) return;
 
   const section = document.createElement("section");
   section.className = "shelf";
 
-  const heading = document.createElement("h2");
-  heading.textContent = SHELF_TITLES[shelfId] || shelfId;
+  const head = document.createElement("div");
+  head.className = "shelf-head";
+  head.innerHTML = `<h2></h2><span class="shelf-count"></span>`;
+  head.querySelector("h2").textContent = shelf.title;
+  head.querySelector(".shelf-count").textContent = `${shelfBooks.length} books`;
 
   const row = document.createElement("div");
   row.className = "shelf-row";
-  shelfBooks.forEach((book) => row.append(createCard(book)));
+  shelfBooks.forEach((book) => row.append(createBookCard(book)));
 
-  section.append(heading, row);
-  document.getElementById("shelves").append(section);
+  section.append(head, row);
+  shelfElement.append(section);
 }
 
-function render(booksToShow) {
-  const shelvesElement = document.getElementById("shelves");
-  const emptyState = document.getElementById("empty-state");
-  shelvesElement.replaceChildren();
+function render() {
+  shelfElement.replaceChildren();
+  SHELVES.forEach(renderShelf);
+  emptyState.hidden = shelfElement.children.length > 0;
+}
 
-  const grouped = {};
-  booksToShow.forEach((book) => {
-    (book.shelves || []).forEach((shelf) => {
-      grouped[shelf] ||= [];
-      grouped[shelf].push(book);
-    });
+function openModal(book) {
+  document.getElementById("modal-cover").src = coverUrl(book.isbn);
+  document.getElementById("modal-cover").alt = `Cover of ${book.title}`;
+  document.getElementById("modal-title").textContent = book.title;
+  document.getElementById("modal-author").textContent = book.author;
+  document.getElementById("modal-genre").textContent = GENRE_LABELS[book.genres[0]] || "Book";
+  document.getElementById("modal-rating").textContent = `★ ${book.rating.toFixed(1)}`;
+  document.getElementById("modal-year").textContent = book.year;
+  document.getElementById("modal-description").textContent = book.description;
+
+  const availability = document.getElementById("modal-availability");
+  availability.replaceChildren();
+
+  book.branches.forEach((branch) => {
+    const tag = document.createElement("span");
+    tag.className = branch.available ? "yes" : "no";
+    tag.textContent = branch.available
+      ? `Available · ${branch.name.replace(" bibliotek", "")}`
+      : `Waitlist · ${branch.name.replace(" bibliotek", "")}`;
+    availability.append(tag);
   });
 
-  Object.keys(SHELF_TITLES).forEach((shelfId) => renderShelf(shelfId, grouped[shelfId] || []));
-  emptyState.hidden = booksToShow.length > 0;
+  const reserve = document.getElementById("modal-reserve");
+  reserve.href = book.reservation_url;
+  document.getElementById("book-modal").hidden = false;
+  document.body.style.overflow = "hidden";
 }
 
-function filterBooks(query) {
-  const term = query.trim().toLowerCase();
-  if (!term) return books;
-
-  return books.filter((book) =>
-    [book.title, book.author, ...(book.subjects || [])]
-      .join(" ")
-      .toLowerCase()
-      .includes(term)
-  );
+function closeModal() {
+  document.getElementById("book-modal").hidden = true;
+  document.body.style.overflow = "";
 }
 
-async function loadBooks() {
-  try {
-    const response = await fetch("data/books.sample.json");
-    books = await response.json();
-    render(books);
-  } catch {
-    document.getElementById("empty-state").hidden = false;
-  }
+function bindChips(selector, callback) {
+  document.querySelectorAll(selector).forEach((chip) => {
+    chip.addEventListener("click", () => {
+      document.querySelectorAll(selector).forEach((item) => item.classList.remove("active"));
+      chip.classList.add("active");
+      callback(chip.dataset);
+      render();
+    });
+  });
 }
 
-document.getElementById("search").addEventListener("input", (event) => {
-  render(filterBooks(event.target.value));
+async function loadMockBooks() {
+  const response = await fetch("data/mock-books.json");
+  books = await response.json();
+  render();
+}
+
+bindChips("[data-genre]", (dataset) => {
+  activeGenre = dataset.genre;
 });
 
-loadBooks();
+bindChips("[data-branch]", (dataset) => {
+  activeBranch = dataset.branch;
+});
+
+searchInput.addEventListener("input", render);
+
+document.querySelectorAll("[data-close]").forEach((element) => {
+  element.addEventListener("click", closeModal);
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") closeModal();
+});
+
+loadMockBooks();

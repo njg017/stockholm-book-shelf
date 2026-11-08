@@ -3,28 +3,130 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bokhyllan Stockholm</title>
+  <meta name="description" content="Discover books available through Stockholms stadsbibliotek.">
+  <title>Bokhyllan Stockholm — Discover your next library book</title>
+  <link rel="preconnect" href="https://covers.openlibrary.org">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <h1>Bokhyllan Stockholm</h1>
-      <p>Discover your next book at Stockholms stadsbibliotek.</p>
-      <input id="search" type="search" placeholder="Search title, author or subject…" aria-label="Search books">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <span class="brand-mark">B</span>
+        <span>Bokhyllan<br><small>Stockholm</small></span>
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#shelves">Shelves</a>
+        <a href="#branches">Branches</a>
+        <a href="#about">About</a>
+      </nav>
+
+      <label class="search-wrap">
+        <span class="visually-hidden">Search books</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 4a6 6 0 1 0 3.7 10.7l5.3 5.3 1.4-1.4-5.3-5.3A6 6 0 0 0 10 4Zm0 2a4 4 0 1 1 0 8 4 4 0 0 1 0-8Z"/></svg>
+        <input id="search" type="search" placeholder="Search title, author or subject" autocomplete="off">
+      </label>
     </div>
   </header>
 
-  <main class="container">
-    <section id="shelves" aria-live="polite"></section>
-    <p id="empty-state" hidden>No matching books yet. The data importer has not been connected.</p>
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Stockholms stadsbibliotek</p>
+          <h1>Find your next<br><em>great read</em></h1>
+          <p class="lede">Browse curated shelves from Stockholm’s libraries, see what is available near you, and reserve your next book in a couple of taps.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#shelves">Browse shelves</a>
+            <a class="button ghost" href="#branches">Choose a branch</a>
+          </div>
+          <p class="prototype-note">Design prototype · mock data · not live availability</p>
+        </div>
+
+        <div class="hero-covers" aria-hidden="true">
+          <img src="https://covers.openlibrary.org/b/isbn/9780571364886-L.jpg" alt="">
+          <img src="https://covers.openlibrary.org/b/isbn/9781529034879-L.jpg" alt="">
+          <img src="https://covers.openlibrary.org/b/isbn/9780593135204-L.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section id="branches" class="branch-bar">
+      <div class="container">
+        <div class="branch-scroll" role="group" aria-label="Choose library branch">
+          <button class="chip active" data-branch="all">All branches</button>
+          <button class="chip" data-branch="Rinkeby bibliotek">Rinkeby</button>
+          <button class="chip" data-branch="Tensta bibliotek">Tensta</button>
+          <button class="chip" data-branch="Kista bibliotek">Kista</button>
+          <button class="chip" data-branch="Södermalms bibliotek">Södermalm</button>
+          <button class="chip" data-branch="Vasastans bibliotek">Vasastan</button>
+          <button class="chip" data-branch="Stadsbiblioteket">Stadsbiblioteket</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="shelves" class="shelves">
+      <div class="container">
+        <div class="filter-bar" role="group" aria-label="Filter books">
+          <button class="chip active" data-genre="all">All</button>
+          <button class="chip" data-genre="fiction">Fiction</button>
+          <button class="chip" data-genre="crime">Crime</button>
+          <button class="chip" data-genre="scifi">Sci-fi & fantasy</button>
+          <button class="chip" data-genre="children">Children</button>
+          <button class="chip" data-genre="nonfiction">Non-fiction</button>
+        </div>
+
+        <div id="shelves"></div>
+        <div id="empty-state" class="empty-state" hidden>
+          <h2>No matching books</h2>
+          <p>Try another search term, genre or branch.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container about-inner">
+        <div>
+          <h2>A better way to browse the library</h2>
+          <p>Bokhyllan turns the library catalogue into a visual browsing experience: discover books by mood and genre, check nearby availability, and go straight to the official reservation page.</p>
+        </div>
+        <ul class="feature-list">
+          <li><strong>Visual shelves</strong><span>Browse by mood, genre and collection.</span></li>
+          <li><strong>Local availability</strong><span>See which branches have copies.</span></li>
+          <li><strong>Fast reservations</strong><span>Link directly to the library catalogue.</span></li>
+          <li><strong>Family friendly</strong><span>Find children’s books and read-alouds.</span></li>
+        </ul>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p>Availability can change. Check the library catalogue before travelling.</p>
+    <div class="container footer-inner">
+      <p><strong>Bokhyllan Stockholm</strong> — a design prototype using mock data.</p>
+      <p>Availability changes frequently. Always confirm and reserve through Stockholms stadsbibliotek.</p>
     </div>
   </footer>
+
+  <div class="modal" id="book-modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <article class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" data-close aria-label="Close details">×</button>
+      <div class="modal-media"><img id="modal-cover" alt=""></div>
+      <div class="modal-body">
+        <p class="eyebrow" id="modal-genre"></p>
+        <h2 id="modal-title"></h2>
+        <p class="modal-author" id="modal-author"></p>
+        <div class="meta-row">
+          <span class="rating" id="modal-rating"></span>
+          <span class="year" id="modal-year"></span>
+        </div>
+        <p class="description" id="modal-description"></p>
+        <div class="availability" id="modal-availability"></div>
+        <a class="button primary full-width" id="modal-reserve" target="_blank" rel="noopener">Reserve at the library</a>
+      </div>
+    </article>
+  </div>
 
   <script src="assets/js/app.js"></script>
 </body>

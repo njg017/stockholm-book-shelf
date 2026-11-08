@@ -1,0 +1,387 @@
+[
+  {
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "author": "Gabrielle Zevin",
+    "isbn": "9780571364886",
+    "year": 2022,
+    "rating": 4.2,
+    "genres": ["fiction"],
+    "subjects": ["friendship", "creativity", "video games"],
+    "description": "A moving novel about friendship, ambition and the games we build together.",
+    "shelves": ["new", "fiction", "available-now"],
+    "branches": [
+      { "name": "Rinkeby bibliotek", "available": true },
+      { "name": "Tensta bibliotek", "available": true },
+      { "name": "Södermalms bibliotek", "available": false }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "Klara and the Sun",
+    "author": "Kazuo Ishiguro",
+    "isbn": "9780593318393",
+    "year": 2021,
+    "rating": 4.1,
+    "genres": ["fiction", "scifi"],
+    "subjects": ["artificial intelligence", "friendship", "family"],
+    "description": "A luminous story of an artificial friend observing the human world.",
+    "shelves": ["new", "fiction", "scifi"],
+    "branches": [
+      { "name": "Kista bibliotek", "available": true },
+      { "name": "Vasastans bibliotek", "available": false }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "Normal People",
+    "author": "Sally Rooney",
+    "isbn": "9781984822178",
+    "year": 2018,
+    "rating": 4.0,
+    "genres": ["fiction"],
+    "subjects": ["friendship", "love", "Ireland"],
+    "description": "A sharply observed story of connection, class and growing up.",
+    "shelves": ["fiction", "available-now"],
+    "branches": [
+      { "name": "Södermalms bibliotek", "available": true },
+      { "name": "Stadsbiblioteket", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "isbn": "9780307454546",
+    "year": 2005,
+    "rating": 4.3,
+    "genres": ["crime"],
+    "subjects": ["Sweden", "mystery", "journalism"],
+    "description": "A journalist and a hacker investigate a wealthy family’s darkest secrets.",
+    "shelves": ["crime", "available-now"],
+    "branches": [
+      { "name": "Rinkeby bibliotek", "available": true },
+      { "name": "Tensta bibliotek", "available": false }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "The Project",
+    "author": "Camilla Läckberg",
+    "isbn": "9781542017162",
+    "year": 2021,
+    "rating": 4.0,
+    "genres": ["crime"],
+    "subjects": ["Sweden", "suspense", "investigation"],
+    "description": "A propulsive Swedish thriller about secrets, ambition and betrayal.",
+    "shelves": ["crime"],
+    "branches": [
+      { "name": "Kista bibliotek", "available": false },
+      { "name": "Vasastans bibliotek", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "isbn": "9780593135204",
+    "year": 2021,
+    "rating": 4.5,
+    "genres": ["scifi"],
+    "subjects": ["space", "survival", "science"],
+    "description": "An astronaut wakes alone aboard a spacecraft with humanity’s fate in his hands.",
+    "shelves": ["new", "scifi", "available-now"],
+    "branches": [
+      { "name": "Stadsbiblioteket", "available": true },
+      { "name": "Kista bibliotek", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "The Colour of Magic",
+    "author": "Terry Pratchett",
+    "isbn": "9780060855881",
+    "year": 1983,
+    "rating": 4.1,
+    "genres": ["scifi"],
+    "subjects": ["fantasy", "humour", "discworld"],
+    "description": "The first Discworld adventure: an inept wizard, a tourist, and a world on the move.",
+    "shelves": ["scifi"],
+    "branches": [
+      { "name": "Södermalms bibliotek", "available": true },
+      { "name": "Rinkeby bibliotek", "available": false }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "The Gruffalo",
+    "author": "Julia Donaldson",
+    "isbn": "9780803731097",
+    "year": 1999,
+    "rating": 4.6,
+    "genres": ["children"],
+    "subjects": ["animals", "adventure", "read-aloud"],
+    "description": "A clever mouse outwits the creatures of the deep dark wood.",
+    "shelves": ["children", "available-now"],
+    "branches": [
+      { "name": "Tensta bibliotek", "available": true },
+      { "name": "Rinkeby bibliotek", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "Pettson och Findus: Pannkakstårtan",
+    "author": "Sven Nordqvist",
+    "isbn": "9789129658225",
+    "year": 1984,
+    "rating": 4.7,
+    "genres": ["children"],
+    "subjects": ["Sweden", "humour", "picture book"],
+    "description": "Pettson and Findus plan a pancake feast in a classic Swedish picture-book adventure.",
+    "shelves": ["children", "available-now"],
+    "branches": [
+      { "name": "Tensta bibliotek", "available": true },
+      { "name": "Vasastans bibliotek", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "isbn": "9780062316097",
+    "year": 2011,
+    "rating": 4.4,
+    "genres": ["nonfiction"],
+    "subjects": ["history", "human evolution", "society"],
+    "description": "A sweeping account of how humans came to shape the planet.",
+    "shelves": ["nonfiction", "available-now"],
+    "branches": [
+      { "name": "Stadsbiblioteket", "available": true },
+      { "name": "Södermalms bibliotek", "available": false }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "isbn": "9780735211292",
+    "year": 2018,
+    "rating": 4.3,
+    "genres": ["nonfiction"],
+    "subjects": ["habits", "productivity", "psychology"],
+    "description": "A practical guide to building good habits and breaking unhelpful ones.",
+    "shelves": ["nonfiction", "available-now"],
+    "branches": [
+      { "name": "Kista bibliotek", "available": true },
+      { "name": "Vasastans bibliotek", "available": false }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "isbn": "9780525559474",
+    "year": 2020,
+    "rating": 4.2,
+    "genres": ["fiction"],
+    "subjects": ["hope", "second chances", "life"],
+    "description": "Between life and death, Nora finds a library containing every life she could have lived.",
+    "shelves": ["new", "fiction", "available-now"],
+    "branches": [
+      { "name": "Rinkeby bibliotek", "available": true },
+      { "name": "Tensta bibliotek", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "The Seven Husbands of Evelyn Hugo",
+    "author": "Taylor Jenkins Reid",
+    "isbn": "9781501161933",
+    "year": 2017,
+    "rating": 4.5,
+    "genres": ["fiction"],
+    "subjects": ["Hollywood", "love", "secrets"],
+    "description": "A reclusive movie icon finally tells the story behind her legendary life.",
+    "shelves": ["fiction", "available-now"],
+    "branches": [
+      { "name": "Södermalms bibliotek", "available": true },
+      { "name": "Stadsbiblioteket", "available": false }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "isbn": "9780553418026",
+    "year": 2011,
+    "rating": 4.4,
+    "genres": ["scifi"],
+    "subjects": ["Mars", "survival", "space"],
+    "description": "Stranded alone on Mars, an astronaut must science his way home.",
+    "shelves": ["scifi", "available-now"],
+    "branches": [
+      { "name": "Kista bibliotek", "available": true },
+      { "name": "Rinkeby bibliotek", "available": false }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "The Girl on the Train",
+    "author": "Paula Hawkins",
+    "isbn": "9781594633669",
+    "year": 2015,
+    "rating": 3.9,
+    "genres": ["crime"],
+    "subjects": ["psychological thriller", "mystery", "London"],
+    "description": "A woman becomes entangled in a missing-person investigation she cannot remember.",
+    "shelves": ["crime"],
+    "branches": [
+      { "name": "Tensta bibliotek", "available": false },
+      { "name": "Södermalms bibliotek", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "isbn": "9780547928227",
+    "year": 1937,
+    "rating": 4.6,
+    "genres": ["scifi"],
+    "subjects": ["fantasy", "adventure", "dragons"],
+    "description": "Bilbo Baggins joins a company of dwarves on a journey to reclaim a mountain kingdom.",
+    "shelves": ["scifi", "available-now"],
+    "branches": [
+      { "name": "Stadsbiblioteket", "available": true },
+      { "name": "Vasastans bibliotek", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "Matilda",
+    "author": "Roald Dahl",
+    "isbn": "9780142410370",
+    "year": 1988,
+    "rating": 4.4,
+    "genres": ["children"],
+    "subjects": ["school", "magic", "family"],
+    "description": "A brilliant little girl discovers the power of books, courage and a little magic.",
+    "shelves": ["children", "available-now"],
+    "branches": [
+      { "name": "Rinkeby bibliotek", "available": true },
+      { "name": "Kista bibliotek", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "Educated",
+    "author": "Tara Westover",
+    "isbn": "9780399590504",
+    "year": 2018,
+    "rating": 4.4,
+    "genres": ["nonfiction"],
+    "subjects": ["memoir", "education", "family"],
+    "description": "A memoir about family loyalty, self-invention and the transformative power of education.",
+    "shelves": ["nonfiction"],
+    "branches": [
+      { "name": "Stadsbiblioteket", "available": false },
+      { "name": "Södermalms bibliotek", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "Circe",
+    "author": "Madeline Miller",
+    "isbn": "9780316556347",
+    "year": 2018,
+    "rating": 4.3,
+    "genres": ["fiction", "scifi"],
+    "subjects": ["Greek mythology", "witchcraft", "identity"],
+    "description": "A fresh, fierce retelling centred on the enchantress of Greek myth.",
+    "shelves": ["fiction", "scifi", "available-now"],
+    "branches": [
+      { "name": "Vasastans bibliotek", "available": true },
+      { "name": "Tensta bibliotek", "available": false }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "isbn": "9781250301697",
+    "year": 2019,
+    "rating": 4.1,
+    "genres": ["crime"],
+    "subjects": ["psychological thriller", "mystery", "London"],
+    "description": "A woman stops speaking after a shocking act of violence; her therapist wants to know why.",
+    "shelves": ["crime", "available-now"],
+    "branches": [
+      { "name": "Kista bibliotek", "available": true },
+      { "name": "Södermalms bibliotek", "available": false }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "The Midnight Kingdom",
+    "author": "Tahereh Mafi",
+    "isbn": "9780063215389",
+    "year": 2023,
+    "rating": 4.1,
+    "genres": ["scifi"],
+    "subjects": ["fantasy", "adventure", "magic"],
+    "description": "A sweeping fantasy adventure set in a world of rival kingdoms and hidden magic.",
+    "shelves": ["new", "scifi"],
+    "branches": [
+      { "name": "Rinkeby bibliotek", "available": false },
+      { "name": "Tensta bibliotek", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "The House in the Cerulean Sea",
+    "author": "TJ Klune",
+    "isbn": "9781250217288",
+    "year": 2020,
+    "rating": 4.4,
+    "genres": ["scifi"],
+    "subjects": ["fantasy", "found family", "hope"],
+    "description": "A bureaucratic caseworker discovers an island orphanage full of magical children.",
+    "shelves": ["fiction", "scifi", "available-now"],
+    "branches": [
+      { "name": "Södermalms bibliotek", "available": true },
+      { "name": "Kista bibliotek", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "isbn": "9780553380163",
+    "year": 1988,
+    "rating": 4.2,
+    "genres": ["nonfiction"],
+    "subjects": ["physics", "cosmology", "science"],
+    "description": "An accessible exploration of time, black holes and the universe.",
+    "shelves": ["nonfiction", "available-now"],
+    "branches": [
+      { "name": "Stadsbiblioteket", "available": true },
+      { "name": "Vasastans bibliotek", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  },
+  {
+    "title": "The Very Hungry Caterpillar",
+    "author": "Eric Carle",
+    "isbn": "9780399226908",
+    "year": 1969,
+    "rating": 4.7,
+    "genres": ["children"],
+    "subjects": ["picture book", "nature", "counting"],
+    "description": "A beloved picture-book classic about growth, hunger and transformation.",
+    "shelves": ["children", "available-now"],
+    "branches": [
+      { "name": "Rinkeby bibliotek", "available": true },
+      { "name": "Tensta bibliotek", "available": true }
+    ],
+    "reservation_url": "https://biblioteket.stockholm.se/"
+  }
+]
