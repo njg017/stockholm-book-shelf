@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T13:03:53.074840+00:00",
+  "generated_at": "2026-11-08T13:05:16.128118+00:00",
   "dry_run": false,
   "priority_languages": [
     "Engelska",
@@ -15,7 +15,7 @@
   "book_total": 486243,
   "pagination_verified": true,
   "coverage": {
-    "generated_at": "2026-11-08T13:03:53.074822+00:00",
+    "generated_at": "2026-11-08T13:05:16.128101+00:00",
     "discovered": 50,
     "imported": 50,
     "pending": 0,
