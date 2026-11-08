@@ -31,7 +31,7 @@ jobs:
       - name: Test title parser offline
         run: python scripts/test_title_metadata.py
       - name: Discover additional catalogue titles
-        run: python scripts/discover_catalogue.py --requests 20 --rows 50 --delay 2
+        run: python scripts/discover_catalogue.py --max-pages 10 --page-size 100 --delay 2
       - name: Import next catalogue batch
         run: python scripts/import_catalogue.py --batch ${{ inputs.batch || 300 }} --delay 2
       - name: Publish generated catalogue JSON
@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/books.json data/shelves.json data/import-report.json data/catalogue-index.json data/availability.json
+          git add data/books.json data/shelves.json data/import-report.json data/catalogue-index.json data/availability.json data/discovery-report.json data/coverage-report.json
           if ! git diff --cached --quiet; then
             git commit -m "Expand catalogue metadata"
             git fetch origin main
@@ -53,11 +53,14 @@ jobs:
           import json
           from pathlib import Path
           report = {}
-          for name in ('import-report.json',):
+          for name in ('import-report.json', 'discovery-report.json'):
               path = Path('data') / name
               if path.exists(): report.update(json.loads(path.read_text()))
           print('### Catalogue expansion')
           print(f"- Imported: {report.get('imported_count', 0)}")
+          print(f"- Records seen: {report.get('records_seen', 0)}")
+          print(f"- Queued for import: {report.get('titles_queued_for_import', 0)}")
+          print(f"- Pages fetched: {report.get('pages_fetched', 0)}")
           print(f"- Catalogue works: {report.get('total_catalogue_works', 0)}")
           print(f"- Duplicates merged: {report.get('duplicate_records_merged', 0)}")
           print(f"- Errors: {len(report.get('errors', []))}")
@@ -71,6 +74,7 @@ jobs:
             data/books.json
             data/shelves.json
             data/import-report.json
+            data/discovery-report.json
             data/catalogue-index.json
             data/availability.json
             data/raw/graphql/
