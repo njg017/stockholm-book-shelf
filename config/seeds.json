@@ -1,40 +1,40 @@
 {
-  "max_results_per_seed": 40,
+  "max_titles_per_seed": 20,
   "seeds": [
     {
-      "query": "Gabrielle Zevin",
+      "author": "Gabrielle Zevin",
       "shelf": "english-fiction"
     },
     {
-      "query": "Kazuo Ishiguro",
+      "author": "Kazuo Ishiguro",
       "shelf": "english-fiction"
     },
     {
-      "query": "Sally Rooney",
+      "author": "Sally Rooney",
       "shelf": "english-fiction"
     },
     {
-      "query": "Stieg Larsson",
+      "author": "Stieg Larsson",
       "shelf": "crime"
     },
     {
-      "query": "Camilla Läckberg",
+      "author": "Camilla Läckberg",
       "shelf": "crime"
     },
     {
-      "query": "Andy Weir",
+      "author": "Andy Weir",
       "shelf": "scifi-fantasy"
     },
     {
-      "query": "Terry Pratchett",
+      "author": "Terry Pratchett",
       "shelf": "scifi-fantasy"
     },
     {
-      "query": "Julia Donaldson",
+      "author": "Julia Donaldson",
       "shelf": "children"
     },
     {
-      "query": "Sven Nordqvist",
+      "author": "Sven Nordqvist",
       "shelf": "children"
     }
   ]

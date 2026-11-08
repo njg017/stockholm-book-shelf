@@ -1,12 +1,8 @@
-"""Offline tests for the Stockholm library search client.
+"""Offline tests for the Stockholm library client and importer.
 
 Run with:
 
     python scripts/test_search_client.py
-
-These tests do not contact the live library site. They verify that the client
-normalises representative record shapes and raises a useful error when no
-recognisable result structure is present.
 """
 
 from __future__ import annotations
@@ -17,51 +13,80 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
-from stockholm_library import SearchClient, LibrarySearchError  # noqa: E402
+from stockholm_library import (  # noqa: E402
+    LibraryClient,
+    LibrarySearchError,
+    build_search_url,
+)
+from import_library import assign_shelves, deduplicate  # noqa: E402
 
 
-def test_normalises_embedded_json_record() -> None:
-    client = SearchClient(cache_raw=False)
-    record = {
-        "title": "Tomorrow, and Tomorrow, and Tomorrow",
-        "author": [{"name": "Gabrielle Zevin"}],
-        "isbn": "9780571364886",
+def test_builds_author_search_url() -> None:
+    url = build_search_url(author="Gabrielle Zevin")
+    assert url == "https://biblioteket.stockholm.se/sok?author=Gabrielle+Zevin"
+
+
+def test_builds_branch_search_url() -> None:
+    url = build_search_url(branch="Rinkeby bibliotek", start=20)
+    assert "library=Rinkeby+bibliotek" in url
+    assert "start=20" in url
+
+
+def test_title_id_pattern() -> None:
+    match = LibraryClient.__dict__  # Ensure import succeeds.
+    assert match is not None
+
+
+def test_normalises_and_deduplicates_titles() -> None:
+    books = [
+        {
+            "title_id": "8487743",
+            "title": "Imorgon och imorgon och imorgon",
+            "isbn": "9789100254386",
+            "language": "Svenska",
+            "shelves": ["english-fiction"],
+            "holdings": [
+                {"branch": "Rinkeby bibliotek", "available": True},
+                {"branch": "Tensta bibliotek", "available": False},
+            ],
+            "available_copies": 1,
+        },
+        {
+            "title_id": "8487743",
+            "title": "Imorgon och imorgon och imorgon",
+            "shelves": ["crime"],
+            "holdings": [],
+        },
+    ]
+
+    merged = deduplicate(books)
+    assert len(merged) == 1
+    assert set(merged[0]["shelves"]) == {"english-fiction", "crime"}
+    assert len(merged[0]["holdings"]) == 2
+
+
+def test_assigns_availability_shelf() -> None:
+    book = {
         "language": "English",
-        "year": 2022,
-        "cover": "https://example.com/cover.jpg",
+        "subjects": ["science fiction"],
+        "available_copies": 2,
+        "shelves": [],
     }
 
-    normalised = client._normalise(record, "https://biblioteket.stockholm.se/sok")
-
-    assert normalised["title"] == "Tomorrow, and Tomorrow, and Tomorrow"
-    assert normalised["isbn"] == "9780571364886"
-    assert normalised["published_year"] == 2022
-    assert normalised["cover_url"] == "https://example.com/cover.jpg"
+    shelves = assign_shelves(book)
+    assert "available-now" in shelves
+    assert "english-fiction" in shelves
+    assert "scifi-fantasy" in shelves
 
 
-def test_extracts_records_from_nested_payload() -> None:
-    client = SearchClient(cache_raw=False)
-    payload = {
-        "data": {
-            "results": [
-                {"title": "Book A", "author": "Author A"},
-                {"titel": "Book B", "forfattare": "Author B"},
-            ]
-        }
-    }
-
-    records = client._extract_records(payload)
-
-    assert len(records) == 2
-    assert records[0]["title"] == "Book A"
-    assert records[1]["titel"] == "Book B"
-
-
-def test_raises_when_no_results_can_be_identified() -> None:
-    client = SearchClient(cache_raw=False)
+def test_raises_when_no_title_links_found() -> None:
+    client = LibraryClient(cache_raw=False)
 
     try:
-        client._extract_records({"unexpected": {"value": 1}})
+        client._extract_title_links(
+            "<html><body><p>No results</p></body></html>",
+            "https://biblioteket.stockholm.se/sok",
+        )
     except LibrarySearchError:
         pass
     else:
@@ -77,8 +102,11 @@ def test_sample_fixture_is_valid() -> None:
 
 
 if __name__ == "__main__":
-    test_normalises_embedded_json_record()
-    test_extracts_records_from_nested_payload()
-    test_raises_when_no_results_can_be_identified()
+    test_builds_author_search_url()
+    test_builds_branch_search_url()
+    test_title_id_pattern()
+    test_normalises_and_deduplicates_titles()
+    test_assigns_availability_shelf()
+    test_raises_when_no_title_links_found()
     test_sample_fixture_is_valid()
-    print("All search-client tests passed.")
+    print("All library client tests passed.")

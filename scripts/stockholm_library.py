@@ -1,17 +1,20 @@
-"""Search client for Stockholms stadsbibliotek.
+"""Search and title client for Stockholms stadsbibliotek.
 
-The public search interface is at:
-https://biblioteket.stockholm.se/sok?text=<query>
+The public catalogue uses two useful page types:
 
-This client is deliberately defensive:
+1. Search results:
+   https://biblioteket.stockholm.se/sok?text=&author=Gabrielle%20Zevin
 
-1. It saves the raw response before parsing.
-2. It tries embedded JSON / JSON-LD before relying on HTML selectors.
-3. It normalises records into the project's stable data model.
-4. It rate-limits requests and identifies itself with a descriptive User-Agent.
+2. Title details:
+   https://biblioteket.stockholm.se/titel/8487743
 
-The exact underlying response format must be validated from a saved fixture
-before relying on any selector in production.
+The client follows that two-stage flow:
+
+- `search_titles()` finds title IDs and basic search-result metadata.
+- `get_title()` fetches the detailed record for one title ID.
+
+Every response is cached before parsing. The parser is conservative: it will
+raise an error rather than invent fields it cannot reliably identify.
 """
 
 from __future__ import annotations
@@ -23,14 +26,15 @@ import time
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
-from urllib.parse import quote_plus, urljoin
+from urllib.parse import urljoin, urlencode
 
 import requests
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://biblioteket.stockholm.se"
 SEARCH_URL = f"{BASE_URL}/sok"
-RAW_DIR = Path("data/raw/search")
+TITLE_URL = f"{BASE_URL}/titel"
+RAW_DIR = Path("data/raw")
 
 DEFAULT_HEADERS = {
     "User-Agent": "BokhyllanStockholm/0.1 (+https://github.com/njg017/stockholm-book-shelf)",
@@ -38,14 +42,16 @@ DEFAULT_HEADERS = {
     "Accept-Language": "sv-SE,sv;q=0.9,en;q=0.8",
 }
 
+TITLE_ID_PATTERN = re.compile(r"/titel/(\d+)")
+
 
 class LibrarySearchError(RuntimeError):
-    """Raised when the catalogue response cannot be parsed reliably."""
+    """Raised when a library response cannot be parsed reliably."""
 
 
 @dataclass
-class SearchClient:
-    """Small, cache-first client for the public library search."""
+class LibraryClient:
+    """Cache-first client for search results and title pages."""
 
     session: requests.Session | None = None
     request_delay: float = 1.5
@@ -57,36 +63,139 @@ class SearchClient:
         self.session = self.session or requests.Session()
         self.session.headers.update(DEFAULT_HEADERS)
 
-    def search(self, query: str, page: int = 1) -> list[dict[str, Any]]:
-        """Search by free text, ISBN, title or author.
+    def search_titles(
+        self,
+        query: str | None = None,
+        author: str | None = None,
+        isbn: str | None = None,
+        branch: str | None = None,
+        start: int = 0,
+    ) -> list[dict[str, Any]]:
+        """Search the catalogue and return normalised title references.
 
-        Returns normalised book records. Raw HTML/JSON is cached first so the
-        parser can be developed and debugged without repeated live requests.
+        Stockholm's search interface uses URL parameters such as `text`,
+        `author`, `library` and `start`. This method builds the appropriate
+        query and extracts `/titel/<id>` links from the response.
         """
-        if not query.strip():
-            return []
+        params: dict[str, str] = {}
 
-        params = {"text": query.strip()}
-        if page > 1:
-            params["page"] = str(page)
+        if query:
+            params["text"] = query.strip()
+        if author:
+            params["author"] = author.strip()
+        if isbn:
+            params["text"] = isbn.strip()
+        if branch:
+            params["library"] = branch.strip()
+        if start:
+            params["start"] = str(start)
+
+        if not params:
+            raise ValueError("Provide at least one of query, author, isbn or branch")
 
         response = self._get(SEARCH_URL, params=params)
-        raw_text = response.text
-        content_type = response.headers.get("Content-Type", "")
+        self._cache_response(
+            "search",
+            f"{query or author or isbn or ''}|{branch or ''}|{start}",
+            response,
+        )
 
-        if self.cache_raw:
-            self._save_raw_response(query, page, response.status_code, content_type, raw_text)
+        soup = BeautifulSoup(response.text, "html.parser")
+        records: list[dict[str, Any]] = []
+        seen_ids: set[str] = set()
 
-        if response.status_code >= 400:
-            raise LibrarySearchError(f"Library search returned HTTP {response.status_code}")
+        for anchor in soup.select("a[href*='/titel/']"):
+            href = anchor.get("href", "")
+            match = TITLE_ID_PATTERN.search(href)
+            if not match:
+                continue
 
-        if "application/json" in content_type:
-            payload = self._parse_json(response)
-        else:
-            payload = self._parse_html(raw_text, base_url=str(response.url))
+            title_id = match.group(1)
+            if title_id in seen_ids:
+                continue
+            seen_ids.add(title_id)
 
-        records = self._extract_records(payload)
-        return [self._normalise(record, str(response.url)) for record in records]
+            card = anchor
+            for _ in range(4):
+                if card.parent and card.parent.name != "body":
+                    card = card.parent
+
+            text = " ".join(card.get_text(separator=" ", strip=True).split())
+            records.append(
+                {
+                    "title_id": title_id,
+                    "title_url": urljoin(BASE_URL, f"/titel/{title_id}"),
+                    "search_text": text,
+                    "source_url": str(response.url),
+                }
+            )
+
+        if not records:
+            raise LibrarySearchError(
+                "No /titel/ links found in the search response. "
+                "Inspect the newest cached search response and update the parser."
+            )
+
+        return records
+
+    def get_title(self, title_id: str | int) -> dict[str, Any]:
+        """Fetch and parse the detailed record for one library title."""
+        title_id = str(title_id).strip()
+        if not title_id.isdigit():
+            raise ValueError(f"Invalid title ID: {title_id}")
+
+        url = f"{TITLE_URL}/{title_id}"
+        response = self._get(url, params={})
+        self._cache_response("title", title_id, response)
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        title = self._text(
+            soup.select_one("h1"),
+            fallback="",
+        )
+
+        if not title:
+            raise LibrarySearchError(
+                f"Could not identify a title on title page {title_id}. "
+                "Inspect the cached response and update the parser."
+            )
+
+        record: dict[str, Any] = {
+            "title_id": title_id,
+            "title": title,
+            "title_url": url,
+            "author": self._text(
+                soup.select_one("[class*='author' i], [data-field*='author' i]"),
+                fallback="",
+            ),
+            "isbn": self._find_labelled_value(soup, ("isbn", "isbn-13", "isbn13")),
+            "language": self._find_labelled_value(soup, ("språk", "sprak", "language")),
+            "format": self._find_labelled_value(soup, ("mediatyp", "format", "materialtyp")),
+            "published_year": self._find_year(soup),
+            "description": self._text(
+                soup.select_one("[class*='description' i], [class*='beskrivning' i], meta[name='description']"),
+                fallback="",
+            ),
+            "cover_url": self._cover_url(soup),
+            "subjects": self._subjects(soup),
+            "holdings": self._holdings(soup),
+            "source_url": str(response.url),
+        }
+
+        record["available_branches"] = sorted(
+            {
+                holding["branch"]
+                for holding in record["holdings"]
+                if holding.get("available")
+            }
+        )
+        record["available_copies"] = sum(
+            1 for holding in record["holdings"] if holding.get("available")
+        )
+        record["total_copies"] = len(record["holdings"])
+        record["reservation_url"] = url
+
+        return record
 
     def _get(self, url: str, params: dict[str, str]) -> requests.Response:
         elapsed = time.monotonic() - self._last_request_at
@@ -98,29 +207,22 @@ class SearchClient:
         response.raise_for_status()
         return response
 
-    def _save_raw_response(
-        self,
-        query: str,
-        page: int,
-        status_code: int,
-        content_type: str,
-        body: str,
-    ) -> Path:
-        RAW_DIR.mkdir(parents=True, exist_ok=True)
-        slug = re.sub(r"[^a-z0-9]+", "-", query.lower()).strip("-")[:60] or "search"
-        digest = hashlib.sha1(f"{query}|{page}".encode()).hexdigest()[:10]
-        path = RAW_DIR / f"{slug}-page{page}-{digest}.json"
+    def _cache_response(self, kind: str, key: str, response: requests.Response) -> Path:
+        directory = RAW_DIR / kind
+        directory.mkdir(parents=True, exist_ok=True)
+
+        slug = re.sub(r"[^a-z0-9]+", "-", key.lower()).strip("-")[:80] or "response"
+        digest = hashlib.sha1(f"{kind}|{key}|{response.url}".encode()).hexdigest()[:10]
+        path = directory / f"{slug}-{digest}.json"
 
         path.write_text(
             json.dumps(
                 {
-                    "url": SEARCH_URL,
-                    "query": query,
-                    "page": page,
-                    "status_code": status_code,
-                    "content_type": content_type,
+                    "url": response.url,
+                    "status_code": response.status_code,
+                    "content_type": response.headers.get("Content-Type", ""),
                     "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
-                    "body": body,
+                    "body": response.text,
                 },
                 ensure_ascii=False,
                 indent=2,
@@ -129,131 +231,202 @@ class SearchClient:
         )
         return path
 
-    def _parse_json(self, response: requests.Response) -> dict[str, Any]:
-        try:
-            return response.json()
-        except ValueError as exc:
-            raise LibrarySearchError("Search endpoint returned invalid JSON") from exc
+    def _text(self, element: Any, fallback: str = "") -> str:
+        if element is None:
+            return fallback
 
-    def _parse_html(self, html: str, base_url: str) -> dict[str, Any]:
-        soup = BeautifulSoup(html, "html.parser")
+        if element.name == "meta":
+            return (element.get("content") or fallback).strip()
 
-        # Common Next.js/Nuxt-style embedded state. This is a candidate location,
-        # not an assumption: validate it against a real saved response.
-        for selector in ("script#__NEXT_DATA__", "script#__NUXT__", "script[type='application/json']"):
-            tag = soup.select_one(selector)
-            if tag and tag.string:
-                try:
-                    return json.loads(tag.string)
-                except ValueError:
-                    continue
+        return " ".join(element.get_text(separator=" ", strip=True).split()) or fallback
 
-        # JSON-LD is often present for search-result metadata.
-        json_ld = [
-            json.loads(tag.string)
-            for tag in soup.find_all("script", type="application/ld+json")
-            if tag.string
-        ]
-        if json_ld:
-            return {"json_ld": json_ld}
+    def _find_labelled_value(self, soup: BeautifulSoup, labels: tuple[str, ...]) -> str:
+        normalized_labels = {label.lower() for label in labels}
 
-        # Final fallback: derive records from result links/cards.
-        records: list[dict[str, Any]] = []
-        for link in soup.select("a[href*='/post/'], a[href*='/titel/'], a[href*='/record/']"):
-            href = link.get("href", "")
-            text = " ".join(link.get_text(separator=" ", strip=True).split())
-            if not text:
+        for row in soup.select("dt, th, .label, [class*='label' i]"):
+            label = self._text(row).rstrip(":").lower()
+            if label not in normalized_labels:
                 continue
 
-            records.append(
+            sibling = row.find_next_sibling()
+            value = self._text(sibling)
+            if value:
+                return value
+
+        for row in soup.select("tr"):
+            cells = row.find_all(["th", "td"])
+            if len(cells) >= 2:
+                label = self._text(cells[0]).rstrip(":").lower()
+                if label in normalized_labels:
+                    return self._text(cells[1])
+
+        return ""
+
+    def _find_year(self, soup: BeautifulSoup) -> int | None:
+        value = self._find_labelled_value(soup, ("utgiven", "utgivningsår", "year", "publicerad"))
+        match = re.search(r"\b(18\d{2}|19\d{2}|20\d{2})\b", value)
+        return int(match.group(1)) if match else None
+
+    def _cover_url(self, soup: BeautifulSoup) -> str:
+        image = soup.select_one(
+            "img[src*='cover'], img[src*='omslag'], img[alt*='omslag' i], meta[property='og:image']"
+        )
+        if image is None:
+            return ""
+
+        src = image.get("src") or image.get("content") or ""
+        return urljoin(str(self.session.headers.get("Referer", BASE_URL)), src) if src else ""
+
+    def _subjects(self, soup: BeautifulSoup) -> list[str]:
+        links = soup.select(
+            "a[href*='/sok/topic/'], a[href*='/sok/category/'], a[href*='/sok/classtree/']"
+        )
+        subjects = [self._text(link) for link in links]
+        return sorted({subject for subject in subjects if subject})
+
+    def _holdings(self, soup: BeautifulSoup) -> list[dict[str, Any]]:
+        """Extract holdings conservatively.
+
+        The real HTML structure must be validated from a cached title response.
+        This implementation looks for repeated holding blocks and identifies
+        branch names and availability indicators without assuming a fixed class
+        name.
+        """
+        holdings: list[dict[str, Any]] = []
+        seen: set[tuple[str, str]] = set()
+
+        candidates = soup.select(
+            "li, tr, article, [class*='holding' i], [class*='exemplar' i], [class*='availability' i]"
+        )
+
+        for element in candidates:
+            text = " ".join(element.get_text(separator=" ", strip=True).split())
+            if not text or len(text) > 500:
+                continue
+
+            branch = self._branch_name(element)
+            if not branch:
+                continue
+
+            available = self._is_available(element, text)
+            shelf_mark = self._shelf_mark(element, text)
+            item_id = self._item_id(element)
+            key = (branch, item_id or text)
+
+            if key in seen:
+                continue
+            seen.add(key)
+
+            holdings.append(
                 {
-                    "title": text,
-                    "detail_url": urljoin(base_url, href),
+                    "branch": branch,
+                    "available": available,
+                    "shelf_mark": shelf_mark,
+                    "item_id": item_id,
+                    "raw_text": text,
                 }
             )
 
-        if not records:
-            raise LibrarySearchError(
-                "Could not find embedded JSON, JSON-LD or result links. "
-                "Inspect the newest file in data/raw/search/ and update the parser."
-            )
+        return holdings
 
-        return {"records": records}
-
-    def _extract_records(self, payload: dict[str, Any]) -> list[dict[str, Any]]:
-        """Locate a result array without assuming one fixed API shape."""
-
-        def walk(value: Any) -> list[dict[str, Any]]:
-            found: list[dict[str, Any]] = []
-            if isinstance(value, list):
-                for item in value:
-                    found.extend(walk(item))
-            elif isinstance(value, dict):
-                if any(key in value for key in ("title", "titel", "name")):
-                    found.append(value)
-                for child in value.values():
-                    found.extend(walk(child))
-            return found
-
-        records = walk(payload)
-
-        # Remove obvious duplicates while preserving order.
-        unique: list[dict[str, Any]] = []
-        seen: set[str] = set()
-        for record in records:
-            key = json.dumps(record, sort_keys=True, ensure_ascii=False)
-            if key not in seen:
-                seen.add(key)
-                unique.append(record)
-        return unique
-
-    def _normalise(self, record: dict[str, Any], source_url: str) -> dict[str, Any]:
-        title = self._first(
-            record,
-            ("title", "titel", "name"),
-            default="",
+    def _branch_name(self, element: Any) -> str:
+        branch_element = element.select_one(
+            "[class*='branch' i], [class*='bibliotek' i], [data-field*='branch' i]"
         )
-        author = self._first(
-            record,
-            ("author", "authors", "forfattare", "författare", "creator"),
-            default="",
+        if branch_element:
+            return self._text(branch_element)
+
+        text = self._text(element)
+        match = re.search(r"([A-ZÅÄÖ][\wåäöéèü\- ]+(?:bibliotek|Stadsbiblioteket))", text)
+        return match.group(1).strip() if match else ""
+
+    def _is_available(self, element: Any, text: str) -> bool:
+        classes = " ".join(element.get("class", [])).lower()
+        lower_text = text.lower()
+
+        if any(term in classes for term in ("available", "tillgänglig", "ledig")):
+            return True
+        if any(term in classes for term in ("unavailable", "utlånad", "reserverad")):
+            return False
+
+        if any(term in lower_text for term in ("tillgänglig", "ledig", "finns på hyllan")):
+            return True
+        if any(term in lower_text for term in ("utlånad", "reserverad", "ej tillgänglig")):
+            return False
+
+        return False
+
+    def _shelf_mark(self, element: Any, text: str) -> str:
+        shelf_element = element.select_one(
+            "[class*='shelf' i], [class*='hylla' i], [data-field*='shelf' i]"
         )
-        isbn = self._first(record, ("isbn", "isbn13", "isbn10"), default=None)
+        if shelf_element:
+            return self._text(shelf_element)
 
-        return {
-            "id": isbn or self._first(record, ("id", "record_id", "identifier"), default=None),
-            "title": title,
-            "author": author,
-            "isbn": isbn,
-            "language": self._first(record, ("language", "sprak", "språk"), default=None),
-            "format": self._first(record, ("format", "mediatype", "media_type"), default="book"),
-            "published_year": self._first(record, ("published_year", "year", "ar", "år"), default=None),
-            "cover_url": self._first(record, ("cover_url", "cover", "image", "thumbnail"), default=None),
-            "detail_url": self._first(record, ("detail_url", "url", "link"), default=source_url),
-            "raw_record": record,
-            "source_url": source_url,
-        }
+        match = re.search(r"\b([A-ZÅÄÖ]{1,3}\d{1,4})\b", text)
+        return match.group(1) if match else ""
 
-    @staticmethod
-    def _first(record: dict[str, Any], keys: tuple[str, ...], default: Any = None) -> Any:
-        for key in keys:
-            value = record.get(key)
-            if value not in (None, "", []):
-                return value
-        return default
+    def _item_id(self, element: Any) -> str:
+        item_element = element.select_one("[data-item-id], [data-id], [class*='item' i]")
+        if item_element:
+            return item_element.get("data-item-id") or item_element.get("data-id") or ""
+
+        match = re.search(r"\b(\d{8,14})\b", self._text(element))
+        return match.group(1) if match else ""
+
+
+def build_search_url(
+    query: str | None = None,
+    author: str | None = None,
+    isbn: str | None = None,
+    branch: str | None = None,
+    start: int = 0,
+) -> str:
+    """Build a human-readable search URL for debugging and documentation."""
+    params: dict[str, str] = {}
+
+    if query:
+        params["text"] = query
+    if author:
+        params["author"] = author
+    if isbn:
+        params["text"] = isbn
+    if branch:
+        params["library"] = branch
+    if start:
+        params["start"] = str(start)
+
+    return f"{SEARCH_URL}?{urlencode(params)}"
 
 
 def main() -> None:
     import argparse
 
     parser = argparse.ArgumentParser(description="Search Stockholms stadsbibliotek")
-    parser.add_argument("query", help="Title, author, subject or ISBN")
-    parser.add_argument("--page", type=int, default=1)
+    parser.add_argument("--author")
+    parser.add_argument("--isbn")
+    parser.add_argument("--query")
+    parser.add_argument("--branch")
+    parser.add_argument("--title-id")
+    parser.add_argument("--start", type=int, default=0)
     parser.add_argument("--output", default="data/search-results.json")
     args = parser.parse_args()
 
-    client = SearchClient()
-    results = client.search(args.query, page=args.page)
+    client = LibraryClient()
+
+    if args.title_id:
+        results = [client.get_title(args.title_id)]
+    else:
+        titles = client.search_titles(
+            query=args.query,
+            author=args.author,
+            isbn=args.isbn,
+            branch=args.branch,
+            start=args.start,
+        )
+        results = []
+        for title in titles:
+            results.append(client.get_title(title["title_id"]))
 
     output = Path(args.output)
     output.parent.mkdir(parents=True, exist_ok=True)
@@ -261,7 +434,7 @@ def main() -> None:
         json.dumps(results, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"Saved {len(results)} normalised results to {output}")
+    print(f"Saved {len(results)} records to {output}")
 
 
 if __name__ == "__main__":

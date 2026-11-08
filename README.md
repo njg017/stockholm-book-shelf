@@ -8,36 +8,44 @@ Instead of browsing a long catalogue list, visitors can browse visual book shelv
 
 This project is inspired by [stockholm-film-shelf](https://github.com/kmelkon/stockholm-film-shelf), which presents Stockholms stadsbibliotek’s DVD catalogue as a Netflix-style shelf. This project applies the same discovery pattern to books.
 
-## MVP scope
+## Two-stage catalogue flow
 
-The first version focuses on a curated set of English and Swedish fiction, crime, science fiction/fantasy and children’s books.
-
-Core features:
-
-- Horizontal, scrollable book shelves
-- Filter by genre, language, format and branch
-- Search by title, author, ISBN and subject
-- Book detail view with cover, description and subjects
-- Branch availability and reservation links
-- Locally saved favourites using browser storage
-
-## Architecture
+The importer uses the library’s two-stage structure:
 
 ```text
 config/seeds.json
       ↓
-Stockholms stadsbibliotek search
+Search page: /sok?author=Gabrielle+Zevin
       ↓
-Raw response cache → normalised records → Open Library enrichment
+Extract /titel/<id> links
       ↓
-data/books.json + data/shelves.json → static front end
+Title page: /titel/8487743
+      ↓
+Extract metadata and holdings
+      ↓
+Open Library enrichment → data/books.json + data/shelves.json
 ```
 
-- `scripts/stockholm_library.py` searches and normalises library records
-- `scripts/import_library.py` runs the complete import pipeline
-- `scripts/enrich_openlibrary.py` adds covers, descriptions and subjects
-- `scripts/build_site_data.py` can rebuild shelf files from raw records
-- `index.html` and `assets/` provide the initial static front end
+For example, a search for Gabrielle Zevin can return a title link such as:
+
+```text
+https://biblioteket.stockholm.se/titel/8487743?author=Gabrielle%20Zevin
+```
+
+The importer extracts the stable title ID (`8487743`), then requests the clean title URL:
+
+```text
+https://biblioteket.stockholm.se/titel/8487743
+```
+
+## What each stage extracts
+
+| Stage | Extracted data |
+|---|---|
+| Search page | Title ID, title URL, visible search text and source URL |
+| Title page | Title, author, ISBN, language, format, year, cover, description, subjects, holdings, branches and availability |
+
+A title page can include several editions and formats. The importer treats `title_id` as the library work identifier and preserves holdings in the resulting record.
 
 ## Run the importer
 
@@ -58,58 +66,53 @@ python scripts/import_library.py
 Useful options:
 
 ```bash
-# Limit each seed search to 10 records
-python scripts/import_library.py --max-results 10
+# Fetch up to 5 title pages per seed
+python scripts/import_library.py --max-titles 5
 
-# Import without calling Open Library
+# Import without Open Library enrichment
 python scripts/import_library.py --no-enrich
 
 # Use a longer delay between library requests
 python scripts/import_library.py --delay 3
 ```
 
+## Search a single title
+
+```bash
+python scripts/stockholm_library.py --title-id 8487743
+```
+
+Search by author:
+
+```bash
+python scripts/stockholm_library.py --author "Gabrielle Zevin"
+```
+
+Search by ISBN:
+
+```bash
+python scripts/stockholm_library.py --isbn 9780571364886
+```
+
 ## What the importer produces
 
 | File | Purpose |
 |---|---|
-| `data/books.json` | Deduplicated, enriched book records |
+| `data/books.json` | Deduplicated, enriched title records |
 | `data/shelves.json` | Books grouped by shelf ID |
 | `data/import-report.json` | Run timestamp, counts and errors |
-| `data/raw/search/*.json` | Cached raw search responses for debugging |
-
-The importer does not claim that availability is live. Every generated record includes an `updated_at` value, and the eventual front end should show when the data was last refreshed.
+| `data/raw/search/*.json` | Cached search responses |
+| `data/raw/title/*.json` | Cached title-page responses |
 
 ## Automated refresh
 
 `.github/workflows/update-data.yml` runs at 05:00 and 17:00 UTC each day. It can also be triggered manually from GitHub under **Actions → Update library data → Run workflow**.
-
-The workflow:
-
-1. Installs Python dependencies
-2. Runs the importer
-3. Commits refreshed JSON and raw search caches
-4. Pushes the update to `main`
-
-## Search client
-
-Run a single search directly:
-
-```bash
-python scripts/stockholm_library.py "9780571364886"
-python scripts/stockholm_library.py "Gabrielle Zevin"
-```
-
-The client saves raw responses before parsing and uses a descriptive User-Agent. If the response structure cannot be understood, it raises an error rather than publishing unreliable data.
 
 ## Offline tests
 
 ```bash
 python scripts/test_search_client.py
 ```
-
-## Data model
-
-See [`data/books.sample.json`](data/books.sample.json).
 
 ## Responsible use
 
@@ -120,4 +123,4 @@ See [`data/books.sample.json`](data/books.sample.json).
 
 ## Status
 
-**Importer implemented.** Once the library site is available, run the importer, inspect `data/import-report.json` and the cached raw responses, then refine field extraction for holdings and branch availability.
+**Two-stage importer implemented.** The next calibration step is to run one author search and one title-page fetch, inspect the cached HTML, and refine the selectors for the real result cards and holdings markup.
