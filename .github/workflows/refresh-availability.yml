@@ -1,0 +1,64 @@
+name: Refresh availability
+on:
+  schedule:
+    - cron: "47 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Commit refreshed availability to main for the website
+        type: boolean
+        default: false
+      batch:
+        description: Number of titles to refresh per run
+        default: '500'
+permissions:
+  contents: write
+concurrency:
+  group: availability-refresh
+  cancel-in-progress: false
+jobs:
+  refresh-availability:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Refresh rotating availability subset
+        run: python scripts/refresh_availability.py --batch ${{ inputs.batch || 500 }} --delay 2
+      - name: Publish availability snapshot
+        if: ${{ success() && (github.event_name == 'schedule' || inputs.publish == true) }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/availability.json data/availability-cursor.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Refresh availability snapshot"
+            git fetch origin main
+            git rebase origin/main
+            git push origin HEAD:main
+          fi
+      - name: Summarize run
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path('data/availability-cursor.json')
+          state = json.loads(path.read_text()) if path.exists() else {}
+          print('### Availability refresh')
+          print(f"- Next offset: {state.get('offset', 0)}")
+          PY
+      - name: Upload diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: availability-refresh
+          path: |
+            data/availability.json
+            data/availability-cursor.json
+          retention-days: 7

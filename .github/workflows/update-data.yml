@@ -1,4 +1,4 @@
-name: Update library data
+name: Expand catalogue metadata
 on:
   schedule:
     - cron: "17 3 * * *"
@@ -10,14 +10,14 @@ on:
         default: false
       batch:
         description: Number of new titles to import per run
-        default: '100'
+        default: '300'
 permissions:
   contents: write
 concurrency:
   group: library-data-update
   cancel-in-progress: false
 jobs:
-  update-data:
+  expand-catalogue:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
@@ -31,9 +31,9 @@ jobs:
       - name: Test title parser offline
         run: python scripts/test_title_metadata.py
       - name: Discover additional catalogue titles
-        run: python scripts/discover_catalogue.py --pages-per-query 2 --rows 50 --delay 2
+        run: python scripts/discover_catalogue.py --requests 20 --rows 50 --delay 2
       - name: Import next catalogue batch
-        run: python scripts/import_catalogue.py --batch ${{ inputs.batch || 100 }} --delay 2
+        run: python scripts/import_catalogue.py --batch ${{ inputs.batch || 300 }} --delay 2
       - name: Publish generated catalogue JSON
         if: ${{ success() && (github.event_name == 'schedule' || inputs.publish == true) }}
         run: |
@@ -41,16 +41,32 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/books.json data/shelves.json data/import-report.json data/catalogue-index.json data/availability.json
           if ! git diff --cached --quiet; then
-            git commit -m "Refresh and expand catalogue data"
+            git commit -m "Expand catalogue metadata"
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:main
           fi
+      - name: Summarize run
+        if: always()
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = {}
+          for name in ('import-report.json',):
+              path = Path('data') / name
+              if path.exists(): report.update(json.loads(path.read_text()))
+          print('### Catalogue expansion')
+          print(f"- Imported: {report.get('imported_count', 0)}")
+          print(f"- Catalogue works: {report.get('total_catalogue_works', 0)}")
+          print(f"- Duplicates merged: {report.get('duplicate_records_merged', 0)}")
+          print(f"- Errors: {len(report.get('errors', []))}")
+          PY
       - name: Upload data and diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: graphql-import
+          name: catalogue-metadata
           path: |
             data/books.json
             data/shelves.json
