@@ -1,0 +1,24 @@
+[
+  {
+    "id": "isbn-9780571364886",
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "author": "Gabrielle Zevin",
+    "isbn": "9780571364886",
+    "language": "en",
+    "format": "book",
+    "genres": ["fiction", "contemporary"],
+    "subjects": ["friendship", "video games", "creativity"],
+    "published_year": 2022,
+    "rating": 4.2,
+    "cover_url": "https://covers.openlibrary.org/b/isbn/9780571364886-L.jpg",
+    "description": "A novel about friendship, ambition and creative collaboration.",
+    "library": {
+      "available_branches": ["Rinkeby", "Tensta", "Södermalm"],
+      "total_copies": 12,
+      "available_copies": 4,
+      "reservation_url": "https://biblioteket.stockholm.se/"
+    },
+    "shelves": ["new", "popular", "english-fiction"],
+    "added_at": "2026-11-08"
+  }
+]

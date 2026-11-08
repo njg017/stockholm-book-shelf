@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bokhyllan Stockholm</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Bokhyllan Stockholm</h1>
+      <p>Discover your next book at Stockholms stadsbibliotek.</p>
+      <input id="search" type="search" placeholder="Search title, author or subject…" aria-label="Search books">
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="shelves" aria-live="polite"></section>
+    <p id="empty-state" hidden>No matching books yet. The data importer has not been connected.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Availability can change. Check the library catalogue before travelling.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
