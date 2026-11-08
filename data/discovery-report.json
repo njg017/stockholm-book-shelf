@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T12:40:56.267640+00:00",
+  "generated_at": "2026-11-08T12:45:09.760962+00:00",
   "dry_run": false,
   "priority_languages": [
     "Engelska",
@@ -10,9 +10,10 @@
   "records_seen": 0,
   "titles_queued_for_import": 0,
   "total_hits": null,
+  "book_total": null,
   "pagination_verified": false,
   "coverage": {
-    "generated_at": "2026-11-08T12:40:56.267633+00:00",
+    "generated_at": "2026-11-08T12:45:09.760953+00:00",
     "discovered": 0,
     "imported": 0,
     "pending": 0,
