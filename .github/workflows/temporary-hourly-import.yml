@@ -1,0 +1,36 @@
+name: Temporary hourly imports (8-9 November 2026)
+on:
+  schedule:
+    - cron: '17 19-23 8 11 *'
+    - cron: '17 0-4 9 11 *'
+permissions:
+  actions: write
+  contents: read
+jobs:
+  dispatch-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Dispatch only within the approved ten-hour window
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const now = Date.now();
+            const start = Date.parse('2026-11-08T19:17:00Z');
+            const end = Date.parse('2026-11-09T05:00:00Z');
+            if (now < start || now >= end) {
+              core.info('Temporary import window is closed; no import dispatched.');
+              return;
+            }
+            if (Number(context.runAttempt) !== 1) {
+              core.info('Rerun skipped to avoid duplicate import dispatch.');
+              return;
+            }
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'update-data.yml',
+              ref: 'main',
+              inputs: { publish: 'true', batch: '1000', fetches: '10', thumbnail_size: 'large', reset_cursor: 'false' }
+            });
+            await core.summary.addHeading('Hourly import requested').addRaw('Batch: 1,000; publish: true; discovery fetches: 10; reset cursor: false. Temporary window expires 9 November 2026.').write();
