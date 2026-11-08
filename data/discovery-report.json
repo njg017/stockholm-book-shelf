@@ -1,31 +1,26 @@
 {
-  "generated_at": "2026-11-08T12:45:09.760962+00:00",
+  "generated_at": "2026-11-08T12:48:37.821101+00:00",
   "dry_run": false,
   "priority_languages": [
     "Engelska",
     "Svenska"
   ],
-  "page_size": 100,
-  "pages_fetched": 0,
-  "records_seen": 0,
-  "titles_queued_for_import": 0,
-  "total_hits": null,
-  "book_total": null,
-  "pagination_verified": false,
+  "requested_page_size": 50,
+  "effective_page_size": 50,
+  "pages_fetched": 2,
+  "records_seen": 50,
+  "titles_queued_for_import": 50,
+  "total_hits": 558442,
+  "book_total": 486243,
+  "pagination_verified": true,
   "coverage": {
-    "generated_at": "2026-11-08T12:45:09.760953+00:00",
-    "discovered": 0,
+    "generated_at": "2026-11-08T12:48:37.821084+00:00",
+    "discovered": 50,
     "imported": 0,
-    "pending": 0,
+    "pending": 50,
     "failed": 0,
     "skipped": 0,
-    "coverage_percent": 0
+    "coverage_percent": 0.0
   },
-  "errors": [
-    {
-      "page": 1,
-      "start": 0,
-      "error": "[{\"message\": \"Cannot destructure property 'mediaCount' of 'undefined' as it is undefined.\", \"locations\": [{\"line\": 2, \"column\": 3}], \"path\": [\"searchWithFilter\"], \"extensions\": {\"code\": \"INTERNAL_SERVER_ERROR\"}}]"
-    }
-  ]
+  "errors": []
 }

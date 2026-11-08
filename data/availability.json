@@ -206772,5 +206772,4266 @@
     ],
     "availability_status": "available",
     "availability_checked_at": "2026-11-08T11:46:05.581009+00:00"
+  },
+  "8376921": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Dramatik",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018048",
+        "branch": "Östermalms bibliotek",
+        "slug": "ostermalms-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Dramatik",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-28",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Dramatik",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Rotundan",
+            "location": "Dramatik",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 3,
+    "total_copies": 4,
+    "available_branches": [
+      "Kulturbiblioteket, Kulturhuset",
+      "Tranströmerbiblioteket",
+      "Magasin Liljeholmen"
+    ],
+    "availability_status": "available",
+    "availability_checked_at": "2026-11-08T12:48:38.770107+00:00"
+  },
+  "8430853": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018011",
+        "branch": "Farsta bibliotek",
+        "slug": "farsta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018036",
+        "branch": "Stadsbiblioteket Spelbomskan",
+        "slug": "stadsbiblioteket-spelbomskan",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-05",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018033",
+        "branch": "Sköndals bibliotek",
+        "slug": "skondals-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-30",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018005",
+        "branch": "Björkhagens bibliotek",
+        "slug": "bjorkhagens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-03",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018046",
+        "branch": "Örby bibliotek",
+        "slug": "orby-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-01",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018017",
+        "branch": "Husby bibliotek",
+        "slug": "husby-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-06",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018020",
+        "branch": "Högdalens bibliotek",
+        "slug": "hogdalens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-09-22",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018001",
+        "branch": "Aspuddens bibliotek",
+        "slug": "aspuddens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-06",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018043",
+        "branch": "Vällingby bibliotek",
+        "slug": "vallingby-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-01",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018008",
+        "branch": "Bredängs bibliotek",
+        "slug": "bredangs-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-19",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018048",
+        "branch": "Östermalms bibliotek",
+        "slug": "ostermalms-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-12",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018029",
+        "branch": "Rinkeby bibliotek",
+        "slug": "rinkeby-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-24",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018032",
+        "branch": "Skärholmens bibliotek",
+        "slug": "skarholmens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-23",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018018",
+        "branch": "Hässelby gårds bibliotek",
+        "slug": "hasselby-gards-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-25",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-10",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018009",
+        "branch": "Brommaplans bibliotek",
+        "slug": "brommaplans-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-01",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018023",
+        "branch": "Kungsholmens bibliotek Internationella biblioteket",
+        "slug": "kungsholmens-bibliotek-internationella-biblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-18",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018028",
+        "branch": "Norra Djurgårdsstadens bibliotek",
+        "slug": "norra-djurgardsstadens-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018044",
+        "branch": "Årsta bibliotek",
+        "slug": "arsta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018047",
+        "branch": "Östberga bibliotek",
+        "slug": "ostberga-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-19",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018039",
+        "branch": "Tellus fritidscenters bibliotek",
+        "slug": "tellus-fritidscenter",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-23",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018019",
+        "branch": "Hässelby villastads bibliotek",
+        "slug": "hasselby-villastads-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-27",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018038",
+        "branch": "Telefonplans bibliotek",
+        "slug": "telefonplans-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018025",
+        "branch": "Luma bibliotek",
+        "slug": "luma-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-24",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018013",
+        "branch": "Gröndals bibliotek",
+        "slug": "grondals-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-06",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018006",
+        "branch": "Blackebergs bibliotek",
+        "slug": "blackebergs-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-19",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018010",
+        "branch": "Enskede bibliotek",
+        "slug": "enskede-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-12",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018034",
+        "branch": "Spånga bibliotek",
+        "slug": "spanga-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-25",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018015",
+        "branch": "Hagsätra bibliotek",
+        "slug": "hagsatra-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-25",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018040",
+        "branch": "Tensta bibliotek",
+        "slug": "tensta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018045",
+        "branch": "Älvsjö bibliotek",
+        "slug": "alvsjo-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018002",
+        "branch": "Bagarmossens bibliotek",
+        "slug": "bagarmossens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-21",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018016",
+        "branch": "Hornstulls bibliotek",
+        "slug": "hornstulls-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018021",
+        "branch": "Kista bibliotek",
+        "slug": "kista-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-25",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Poesi",
+            "sublocation": "Skylthylla",
+            "firstLoanDueDate": "2026-11-15",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018035",
+        "branch": "Alviks bibliotek",
+        "slug": "alviks-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Poesi",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-02",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 5,
+    "total_copies": 40,
+    "available_branches": [
+      "Farsta bibliotek",
+      "Östermalms bibliotek",
+      "Årsta bibliotek",
+      "Tensta bibliotek",
+      "Älvsjö bibliotek"
+    ],
+    "availability_status": "available",
+    "availability_checked_at": "2026-11-08T12:48:41.953546+00:00"
+  },
+  "8446285": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 8,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Storstil",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-04-22",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 8,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 8,
+    "available_branches": [
+      "Bokhotellet, Frihamnen"
+    ],
+    "availability_status": "available",
+    "availability_checked_at": "2026-11-08T12:48:44.899523+00:00"
+  },
+  "8451587": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018006",
+        "branch": "Blackebergs bibliotek",
+        "slug": "blackebergs-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 2,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018023",
+        "branch": "Kungsholmens bibliotek Internationella biblioteket",
+        "slug": "kungsholmens-bibliotek-internationella-biblioteket",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Entréplan",
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": "Våning 1",
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018009",
+        "branch": "Brommaplans bibliotek",
+        "slug": "brommaplans-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018015",
+        "branch": "Hagsätra bibliotek",
+        "slug": "hagsatra-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018047",
+        "branch": "Östberga bibliotek",
+        "slug": "ostberga-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-19",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018021",
+        "branch": "Kista bibliotek",
+        "slug": "kista-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-30",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018038",
+        "branch": "Telefonplans bibliotek",
+        "slug": "telefonplans-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-05",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018012",
+        "branch": "Fruängens bibliotek",
+        "slug": "fruangens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-02",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018035",
+        "branch": "Alviks bibliotek",
+        "slug": "alviks-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-02",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018044",
+        "branch": "Årsta bibliotek",
+        "slug": "arsta-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-02",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 3,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-16",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-16",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018014",
+        "branch": "Gubbängens bibliotek",
+        "slug": "gubbangens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-10-11",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-02",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018033",
+        "branch": "Sköndals bibliotek",
+        "slug": "skondals-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-27",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018032",
+        "branch": "Skärholmens bibliotek",
+        "slug": "skarholmens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 2,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 2,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018013",
+        "branch": "Gröndals bibliotek",
+        "slug": "grondals-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-03",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018004",
+        "branch": "Bibliotekslabbet",
+        "slug": "bibliotekslabbet",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018031",
+        "branch": "Skarpnäcks bibliotek",
+        "slug": "skarpnacks-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-29",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018034",
+        "branch": "Spånga bibliotek",
+        "slug": "spanga-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-30",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018037",
+        "branch": "Stora Essingens bibliotek",
+        "slug": "stora-essingens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-10-19",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018028",
+        "branch": "Norra Djurgårdsstadens bibliotek",
+        "slug": "norra-djurgardsstadens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-07",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018043",
+        "branch": "Vällingby bibliotek",
+        "slug": "vallingby-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-22",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018040",
+        "branch": "Tensta bibliotek",
+        "slug": "tensta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018019",
+        "branch": "Hässelby villastads bibliotek",
+        "slug": "hasselby-villastads-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-30",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018016",
+        "branch": "Hornstulls bibliotek",
+        "slug": "hornstulls-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 3,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-04",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-13",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018005",
+        "branch": "Björkhagens bibliotek",
+        "slug": "bjorkhagens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-10-21",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018002",
+        "branch": "Bagarmossens bibliotek",
+        "slug": "bagarmossens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-03",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018010",
+        "branch": "Enskede bibliotek",
+        "slug": "enskede-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-23",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018025",
+        "branch": "Luma bibliotek",
+        "slug": "luma-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-19",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018011",
+        "branch": "Farsta bibliotek",
+        "slug": "farsta-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-10-11",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018045",
+        "branch": "Älvsjö bibliotek",
+        "slug": "alvsjo-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-02",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-10-28",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018020",
+        "branch": "Högdalens bibliotek",
+        "slug": "hogdalens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-01",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-11",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018001",
+        "branch": "Aspuddens bibliotek",
+        "slug": "aspuddens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-09-23",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": null,
+            "sublocation": "Korttidslån",
+            "firstLoanDueDate": "2026-11-04",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018017",
+        "branch": "Husby bibliotek",
+        "slug": "husby-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-22",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018048",
+        "branch": "Östermalms bibliotek",
+        "slug": "ostermalms-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-09",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018029",
+        "branch": "Rinkeby bibliotek",
+        "slug": "rinkeby-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-16",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018008",
+        "branch": "Bredängs bibliotek",
+        "slug": "bredangs-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-29",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018018",
+        "branch": "Hässelby gårds bibliotek",
+        "slug": "hasselby-gards-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-17",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018046",
+        "branch": "Örby bibliotek",
+        "slug": "orby-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-19",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 12,
+    "total_copies": 77,
+    "available_branches": [
+      "Blackebergs bibliotek",
+      "Telefonplans bibliotek",
+      "Fruängens bibliotek",
+      "Skärholmens bibliotek",
+      "Gröndals bibliotek",
+      "Bibliotekslabbet",
+      "Tensta bibliotek",
+      "Hässelby villastads bibliotek",
+      "Rinkeby bibliotek",
+      "Hässelby gårds bibliotek"
+    ],
+    "availability_status": "available",
+    "availability_checked_at": "2026-11-08T12:48:48.435622+00:00"
+  },
+  "8453895": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018047",
+        "branch": "Östberga bibliotek",
+        "slug": "ostberga-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-12",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 2,
+    "available_branches": [
+      "Östberga bibliotek"
+    ],
+    "availability_status": "available",
+    "availability_checked_at": "2026-11-08T12:48:51.368512+00:00"
+  },
+  "8466387": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018016",
+        "branch": "Hornstulls bibliotek",
+        "slug": "hornstulls-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-16",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018020",
+        "branch": "Högdalens bibliotek",
+        "slug": "hogdalens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018048",
+        "branch": "Östermalms bibliotek",
+        "slug": "ostermalms-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-19",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018023",
+        "branch": "Kungsholmens bibliotek Internationella biblioteket",
+        "slug": "kungsholmens-bibliotek-internationella-biblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Våning 1",
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018043",
+        "branch": "Vällingby bibliotek",
+        "slug": "vallingby-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018021",
+        "branch": "Kista bibliotek",
+        "slug": "kista-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018011",
+        "branch": "Farsta bibliotek",
+        "slug": "farsta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Berättelser",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Boken kommer",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018032",
+        "branch": "Skärholmens bibliotek",
+        "slug": "skarholmens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 9,
+    "total_copies": 11,
+    "available_branches": [
+      "Högdalens bibliotek",
+      "Östermalms bibliotek",
+      "Kungsholmens bibliotek Internationella biblioteket",
+      "Vällingby bibliotek",
+      "Kista bibliotek",
+      "Farsta bibliotek",
+      "Kulturbiblioteket, Kulturhuset",
+      "Bokhotellet, Frihamnen",
+      "Skärholmens bibliotek"
+    ],
+    "availability_status": "available",
+    "availability_checked_at": "2026-11-08T12:48:54.127273+00:00"
+  },
+  "8473006": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018011",
+        "branch": "Farsta bibliotek",
+        "slug": "farsta-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-05",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018014",
+        "branch": "Gubbängens bibliotek",
+        "slug": "gubbangens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018005",
+        "branch": "Björkhagens bibliotek",
+        "slug": "bjorkhagens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018020",
+        "branch": "Högdalens bibliotek",
+        "slug": "hogdalens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018017",
+        "branch": "Husby bibliotek",
+        "slug": "husby-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018008",
+        "branch": "Bredängs bibliotek",
+        "slug": "bredangs-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-08",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018001",
+        "branch": "Aspuddens bibliotek",
+        "slug": "aspuddens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018018",
+        "branch": "Hässelby gårds bibliotek",
+        "slug": "hasselby-gards-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018043",
+        "branch": "Vällingby bibliotek",
+        "slug": "vallingby-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-05",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018037",
+        "branch": "Stora Essingens bibliotek",
+        "slug": "stora-essingens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-07",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018032",
+        "branch": "Skärholmens bibliotek",
+        "slug": "skarholmens-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018016",
+        "branch": "Hornstulls bibliotek",
+        "slug": "hornstulls-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 2,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          },
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-20",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-16",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018044",
+        "branch": "Årsta bibliotek",
+        "slug": "arsta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018006",
+        "branch": "Blackebergs bibliotek",
+        "slug": "blackebergs-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018025",
+        "branch": "Luma bibliotek",
+        "slug": "luma-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-06",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018038",
+        "branch": "Telefonplans bibliotek",
+        "slug": "telefonplans-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018036",
+        "branch": "Stadsbiblioteket Spelbomskan",
+        "slug": "stadsbiblioteket-spelbomskan",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Nyheter & aktuellt",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-19",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018010",
+        "branch": "Enskede bibliotek",
+        "slug": "enskede-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-24",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018023",
+        "branch": "Kungsholmens bibliotek Internationella biblioteket",
+        "slug": "kungsholmens-bibliotek-internationella-biblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Våning 1",
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-24",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018015",
+        "branch": "Hagsätra bibliotek",
+        "slug": "hagsatra-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-02",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018045",
+        "branch": "Älvsjö bibliotek",
+        "slug": "alvsjo-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-01",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018021",
+        "branch": "Kista bibliotek",
+        "slug": "kista-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-27",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018002",
+        "branch": "Bagarmossens bibliotek",
+        "slug": "bagarmossens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-04",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 11,
+    "total_copies": 26,
+    "available_branches": [
+      "Gubbängens bibliotek",
+      "Björkhagens bibliotek",
+      "Högdalens bibliotek",
+      "Husby bibliotek",
+      "Aspuddens bibliotek",
+      "Hässelby gårds bibliotek",
+      "Skärholmens bibliotek",
+      "Hornstulls bibliotek",
+      "Årsta bibliotek",
+      "Blackebergs bibliotek",
+      "Telefonplans bibliotek"
+    ],
+    "availability_status": "available",
+    "availability_checked_at": "2026-11-08T12:48:57.177832+00:00"
+  },
+  "8474526": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018016",
+        "branch": "Hornstulls bibliotek",
+        "slug": "hornstulls-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-16",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018020",
+        "branch": "Högdalens bibliotek",
+        "slug": "hogdalens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-02",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Queer",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-20",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018048",
+        "branch": "Östermalms bibliotek",
+        "slug": "ostermalms-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-20",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-20",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018023",
+        "branch": "Kungsholmens bibliotek Internationella biblioteket",
+        "slug": "kungsholmens-bibliotek-internationella-biblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Våning 1",
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-03",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018043",
+        "branch": "Vällingby bibliotek",
+        "slug": "vallingby-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-20",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018021",
+        "branch": "Kista bibliotek",
+        "slug": "kista-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-27",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018011",
+        "branch": "Farsta bibliotek",
+        "slug": "farsta-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-27",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018032",
+        "branch": "Skärholmens bibliotek",
+        "slug": "skarholmens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-03",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 10,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "availability_checked_at": "2026-11-08T12:49:00.180603+00:00"
+  },
+  "8477120": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018016",
+        "branch": "Hornstulls bibliotek",
+        "slug": "hornstulls-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-16",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018023",
+        "branch": "Kungsholmens bibliotek Internationella biblioteket",
+        "slug": "kungsholmens-bibliotek-internationella-biblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-28",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018020",
+        "branch": "Högdalens bibliotek",
+        "slug": "hogdalens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-02",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018048",
+        "branch": "Östermalms bibliotek",
+        "slug": "ostermalms-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-03",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-01",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018026",
+        "branch": "Magasin Liljeholmen",
+        "slug": "magasin-liljeholmen",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Rotundan",
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-27",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018043",
+        "branch": "Vällingby bibliotek",
+        "slug": "vallingby-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018021",
+        "branch": "Kista bibliotek",
+        "slug": "kista-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018011",
+        "branch": "Farsta bibliotek",
+        "slug": "farsta-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Berättelser",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018032",
+        "branch": "Skärholmens bibliotek",
+        "slug": "skarholmens-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-01",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 3,
+    "total_copies": 11,
+    "available_branches": [
+      "Vällingby bibliotek",
+      "Farsta bibliotek",
+      "Kulturbiblioteket, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "availability_checked_at": "2026-11-08T12:49:03.270468+00:00"
+  },
+  "8477270": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018011",
+        "branch": "Farsta bibliotek",
+        "slug": "farsta-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-12-04",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018043",
+        "branch": "Vällingby bibliotek",
+        "slug": "vallingby-bibliotek",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 2,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": "2026-11-30",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 2,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018010",
+        "branch": "Enskede bibliotek",
+        "slug": "enskede-bibliotek",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018001",
+        "branch": "Aspuddens bibliotek",
+        "slug": "aspuddens-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018023",
+        "branch": "Kungsholmens bibliotek Internationella biblioteket",
+        "slug": "kungsholmens-bibliotek-internationella-biblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": "Våning 1",
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Deckare & thrillers",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 3,
+    "total_copies": 7,
+    "available_branches": [
+      "Enskede bibliotek",
+      "Kungsholmens bibliotek Internationella biblioteket",
+      "Tranströmerbiblioteket"
+    ],
+    "availability_status": "available",
+    "availability_checked_at": "2026-11-08T12:49:06.154833+00:00"
   }
 }
