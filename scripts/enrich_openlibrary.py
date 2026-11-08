@@ -19,7 +19,8 @@ def fetch_open_library_record(isbn: str) -> dict | None:
     try:
         with urlopen(OPEN_LIBRARY_API.format(isbn=quote(isbn)), timeout=15) as response:
             payload = json.load(response)
-        return payload.get(f"ISBN:{isbn}") or None
+        record = payload.get(f"ISBN:{isbn}")
+        return record if isinstance(record, dict) else None
     except Exception:
         return None
 
@@ -30,9 +31,18 @@ def fetch_open_library_work(isbn: str) -> dict | None:
     try:
         with urlopen(OPEN_LIBRARY_SEARCH_API.format(isbn=quote(isbn)), timeout=15) as response:
             documents = json.load(response).get("docs") or []
-        return documents[0] if documents else None
+        return documents[0] if documents and isinstance(documents[0], dict) else None
     except Exception:
         return None
+
+
+def text(value) -> str | None:
+    if isinstance(value, str) and value.strip():
+        return value.strip()
+    if isinstance(value, dict):
+        nested = value.get("value")
+        return nested.strip() if isinstance(nested, str) and nested.strip() else None
+    return None
 
 
 def enrich_record(book: dict) -> dict:
@@ -41,9 +51,16 @@ def enrich_record(book: dict) -> dict:
     work = fetch_open_library_work(isbn) if isbn else None
 
     if metadata:
-        book["cover_url"] = book.get("cover_url") or metadata.get("cover", {}).get("large") or metadata.get("cover", {}).get("medium")
-        book["description"] = book.get("description") or metadata.get("notes", {}).get("value") or metadata.get("excerpt", {}).get("value")
-        book["subjects"] = sorted({*(book.get("subjects") or []), *(subject.get("name", "") for subject in metadata.get("subjects", []) if subject.get("name"))})
+        cover = metadata.get("cover")
+        if isinstance(cover, dict):
+            book["cover_url"] = book.get("cover_url") or cover.get("large") or cover.get("medium")
+        book["description"] = book.get("description") or text(metadata.get("notes")) or text(metadata.get("excerpt"))
+        subjects = list(book.get("subjects") or [])
+        for subject in metadata.get("subjects") or []:
+            name = subject.get("name") if isinstance(subject, dict) else subject
+            if isinstance(name, str) and name.strip():
+                subjects.append(name.strip())
+        book["subjects"] = sorted(set(subjects))
 
     if work:
         book["openlibrary_work_id"] = work.get("key")

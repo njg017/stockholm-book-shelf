@@ -19,6 +19,8 @@ jobs:
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -35,6 +37,8 @@ jobs:
           git add data/books.json data/shelves.json data/import-report.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh catalogue data"
+            git fetch origin main
+            git rebase origin/main
             git push origin HEAD:main
           fi
       - name: Upload data and diagnostics
