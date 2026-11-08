@@ -10,7 +10,7 @@ This project is inspired by [stockholm-film-shelf](https://github.com/kmelkon/st
 
 ## MVP scope
 
-The first version will focus on **English-language adult fiction available to borrow** through Stockholms stadsbibliotek.
+The first version focuses on a curated set of English and Swedish fiction, crime, science fiction/fantasy and children’s books.
 
 Core features:
 
@@ -24,18 +24,22 @@ Core features:
 ## Architecture
 
 ```text
-Library catalogue → search client → raw cache → normalised JSON → static front end
-                                        ↓
-                             Open Library enrichment
+config/seeds.json
+      ↓
+Stockholms stadsbibliotek search
+      ↓
+Raw response cache → normalised records → Open Library enrichment
+      ↓
+data/books.json + data/shelves.json → static front end
 ```
 
 - `scripts/stockholm_library.py` searches and normalises library records
+- `scripts/import_library.py` runs the complete import pipeline
 - `scripts/enrich_openlibrary.py` adds covers, descriptions and subjects
-- `scripts/build_site_data.py` produces the JSON consumed by the site
+- `scripts/build_site_data.py` can rebuild shelf files from raw records
 - `index.html` and `assets/` provide the initial static front end
-- GitHub Pages can serve the static site
 
-## Search client
+## Run the importer
 
 Install dependencies:
 
@@ -45,25 +49,59 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Run a search:
+Run a full import:
+
+```bash
+python scripts/import_library.py
+```
+
+Useful options:
+
+```bash
+# Limit each seed search to 10 records
+python scripts/import_library.py --max-results 10
+
+# Import without calling Open Library
+python scripts/import_library.py --no-enrich
+
+# Use a longer delay between library requests
+python scripts/import_library.py --delay 3
+```
+
+## What the importer produces
+
+| File | Purpose |
+|---|---|
+| `data/books.json` | Deduplicated, enriched book records |
+| `data/shelves.json` | Books grouped by shelf ID |
+| `data/import-report.json` | Run timestamp, counts and errors |
+| `data/raw/search/*.json` | Cached raw search responses for debugging |
+
+The importer does not claim that availability is live. Every generated record includes an `updated_at` value, and the eventual front end should show when the data was last refreshed.
+
+## Automated refresh
+
+`.github/workflows/update-data.yml` runs at 05:00 and 17:00 UTC each day. It can also be triggered manually from GitHub under **Actions → Update library data → Run workflow**.
+
+The workflow:
+
+1. Installs Python dependencies
+2. Runs the importer
+3. Commits refreshed JSON and raw search caches
+4. Pushes the update to `main`
+
+## Search client
+
+Run a single search directly:
 
 ```bash
 python scripts/stockholm_library.py "9780571364886"
 python scripts/stockholm_library.py "Gabrielle Zevin"
-python scripts/stockholm_library.py "Gabrielle Zevin" --page 2
 ```
 
-The client requests:
+The client saves raw responses before parsing and uses a descriptive User-Agent. If the response structure cannot be understood, it raises an error rather than publishing unreliable data.
 
-```text
-https://biblioteket.stockholm.se/sok?text=<query>
-```
-
-It saves every raw response beneath `data/raw/search/` before attempting to parse it. This makes it possible to inspect the real response format and refine the parser without repeatedly requesting the live site.
-
-The parser first looks for embedded JSON, JSON-LD and common Next.js/Nuxt state blocks. If none is found, it falls back to result links. The parser is intentionally conservative: it raises an error rather than inventing fields when the response cannot be understood.
-
-Run offline tests:
+## Offline tests
 
 ```bash
 python scripts/test_search_client.py
@@ -72,16 +110,6 @@ python scripts/test_search_client.py
 ## Data model
 
 See [`data/books.sample.json`](data/books.sample.json).
-
-## Roadmap
-
-1. Run the search client once the library site is available
-2. Inspect the saved raw response in `data/raw/search/`
-3. Replace the generic parser with selectors matched to the real response
-4. Add holdings, branch and availability extraction
-5. Enrich records with Open Library metadata
-6. Build shelf UI, filters and book detail pages
-7. Automate data refresh with GitHub Actions
 
 ## Responsible use
 
@@ -92,4 +120,4 @@ See [`data/books.sample.json`](data/books.sample.json).
 
 ## Status
 
-**Search client scaffold complete.** The next step is to run it against the live catalogue once maintenance ends, inspect the cached response, and tailor the parser to its actual structure.
+**Importer implemented.** Once the library site is available, run the importer, inspect `data/import-report.json` and the cached raw responses, then refine field extraction for holdings and branch availability.

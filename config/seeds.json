@@ -1,0 +1,41 @@
+{
+  "max_results_per_seed": 40,
+  "seeds": [
+    {
+      "query": "Gabrielle Zevin",
+      "shelf": "english-fiction"
+    },
+    {
+      "query": "Kazuo Ishiguro",
+      "shelf": "english-fiction"
+    },
+    {
+      "query": "Sally Rooney",
+      "shelf": "english-fiction"
+    },
+    {
+      "query": "Stieg Larsson",
+      "shelf": "crime"
+    },
+    {
+      "query": "Camilla Läckberg",
+      "shelf": "crime"
+    },
+    {
+      "query": "Andy Weir",
+      "shelf": "scifi-fantasy"
+    },
+    {
+      "query": "Terry Pratchett",
+      "shelf": "scifi-fantasy"
+    },
+    {
+      "query": "Julia Donaldson",
+      "shelf": "children"
+    },
+    {
+      "query": "Sven Nordqvist",
+      "shelf": "children"
+    }
+  ]
+}
