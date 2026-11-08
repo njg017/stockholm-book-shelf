@@ -1,4 +1,4 @@
-"""Inspect available catalogue filters and test language partitions."""
+"""Probe candidate catalogue GraphQL filter field names."""
 import argparse
 import json
 import time
@@ -48,24 +48,40 @@ def main():
     args = parser.parse_args()
     session = requests.Session()
     session.headers.update({'User-Agent': 'BokhyllanStockholm/0.2 (+https://github.com/njg017/stockholm-book-shelf)'})
+    base = {'query': '', 'rows': 3, 'mediaType': ['BOOK'], 'language': ['Engelska']}
+    probes = []
+    for key, value in [
+        ('publicationYear', [2024]),
+        ('publishedYear', [2024]),
+        ('year', [2024]),
+        ('Utgivningsår', [2024]),
+        ('category', ['Skönlitteratur']),
+        ('Kategori', ['Skönlitteratur']),
+        ('targetGroup', ['Vuxna']),
+        ('audience', ['Vuxna']),
+        ('Målgrupp', ['Vuxna']),
+    ]:
+        filters = dict(base)
+        filters[key] = value
+        probes.append((key, filters))
     tests = []
-    cases = [('unfiltered-1000', {'query': '', 'rows': 1000, 'mediaType': ['BOOK']})]
-    for rows in (200, 300, 500, 750):
-        for language in ('Engelska', 'Svenska'):
-            cases.append((f'{language.lower()}-{rows}', {'query': '', 'rows': rows, 'mediaType': ['BOOK'], 'language': [language]}))
-    for label, filters in cases:
+    for key, filters in probes:
         response, payload = graphql(session, filters)
         summary = summarize(payload)
-        summary.update({'label': label, 'status': response.status_code, 'request': filters})
+        error = None
+        if payload.get('errors'):
+            error = payload['errors'][0].get('message')
+        elif not response.ok:
+            error = response.text[:500]
+        summary.update({'probe': key, 'status': response.status_code, 'request': filters, 'error': error})
         tests.append(summary)
         print(json.dumps(summary, ensure_ascii=False, indent=2))
         time.sleep(args.delay)
     output = Path('diagnostics') / 'filters.json'
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps({'generated_at': datetime.now(timezone.utc).isoformat(), 'tests': tests}, ensure_ascii=False, indent=2), encoding='utf-8')
-    compact = [{'label': test['label'], 'returned': test['returned'], 'first_id': test['first_id'],
-                'last_id': test['last_id'],
-                'error': test['errors'][0]['message'] if test['errors'] else None} for test in tests]
+    compact = [{'probe': test['probe'], 'status': test['status'], 'returned': test['returned'],
+                'total_hits': test['total_hits'], 'error': test['error']} for test in tests]
     (output.parent / 'filter-summary.json').write_text(json.dumps({'generated_at': datetime.now(timezone.utc).isoformat(), 'tests': compact}, ensure_ascii=False, indent=2), encoding='utf-8')
 
 if __name__ == '__main__':
