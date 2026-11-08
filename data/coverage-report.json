@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-08T12:50:25.549677+00:00",
+  "generated_at": "2026-11-08T12:55:12.665987+00:00",
   "discovered": 1034,
-  "imported": 798,
-  "pending": 49,
-  "failed": 0,
+  "imported": 809,
+  "pending": 28,
+  "failed": 10,
   "skipped": 0,
-  "coverage_percent": 77.18
+  "coverage_percent": 78.24
 }
