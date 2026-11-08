@@ -1,35 +1,40 @@
 {
-  "generated_at": "2026-11-08T16:13:06.998291+00:00",
+  "generated_at": "2026-11-08T16:15:47.047895+00:00",
   "tests": [
     {
-      "label": "svenska-2026-facets",
+      "label": "category-skönlitteratur",
+      "status": 400,
+      "returned": 0,
+      "total_hits": null,
+      "error": "Variable \"$filterQuery\" got invalid value { query: \"\", rows: 3, mediaType: [\"BOOK\"], language: [\"Svenska\"], yearPublishedSpan: [\"2026\", \"2026\"], category: [\"Skönlitteratur\"] }; Field \"category\" is not defined by type \"SearchWithFilterInput\"."
+    },
+    {
+      "label": "targetGroup-vuxna",
       "status": 200,
       "returned": 3,
       "total_hits": 4484,
-      "facet_groups": [
-        "Målgrupp",
-        "Kategori",
-        "Format",
-        "Språk",
-        "Bibliotek",
-        "Utgivningsår"
-      ],
       "error": null
     },
     {
-      "label": "engelska-2025-facets",
-      "status": 200,
-      "returned": 3,
-      "total_hits": 2891,
-      "facet_groups": [
-        "Målgrupp",
-        "Kategori",
-        "Format",
-        "Språk",
-        "Bibliotek",
-        "Utgivningsår"
-      ],
-      "error": null
+      "label": "audience-vuxna",
+      "status": 400,
+      "returned": 0,
+      "total_hits": null,
+      "error": "Variable \"$filterQuery\" got invalid value { query: \"\", rows: 3, mediaType: [\"BOOK\"], language: [\"Svenska\"], yearPublishedSpan: [\"2026\", \"2026\"], audience: [\"Vuxna\"] }; Field \"audience\" is not defined by type \"SearchWithFilterInput\"."
+    },
+    {
+      "label": "Kategori-skönlitteratur",
+      "status": 400,
+      "returned": 0,
+      "total_hits": null,
+      "error": "Variable \"$filterQuery\" got invalid value { query: \"\", rows: 3, mediaType: [\"BOOK\"], language: [\"Svenska\"], yearPublishedSpan: [\"2026\", \"2026\"], Kategori: [\"Skönlitteratur\"] }; Field \"Kategori\" is not defined by type \"SearchWithFilterInput\"."
+    },
+    {
+      "label": "Målgrupp-vuxna",
+      "status": 400,
+      "returned": 0,
+      "total_hits": null,
+      "error": "Variable \"$filterQuery\" got invalid value { query: \"\", rows: 3, mediaType: [\"BOOK\"], language: [\"Svenska\"], yearPublishedSpan: [\"2026\", \"2026\"], Målgrupp: [\"Vuxna\"] }; Field \"Målgrupp\" is not defined by type \"SearchWithFilterInput\"."
     }
   ]
 }
