@@ -31,7 +31,7 @@ jobs:
       - name: Test title parser offline
         run: python scripts/test_title_metadata.py
       - name: Discover additional catalogue titles
-        run: python scripts/discover_catalogue.py --max-pages 10 --page-size 100 --delay 2
+        run: python scripts/discover_catalogue.py --max-pages 10 --page-size 50 --delay 2
       - name: Import next catalogue batch
         run: python scripts/import_catalogue.py --batch ${{ inputs.batch || 300 }} --delay 2
       - name: Publish generated catalogue JSON
@@ -61,6 +61,7 @@ jobs:
           print(f"- Records seen: {report.get('records_seen', 0)}")
           print(f"- Queued for import: {report.get('titles_queued_for_import', 0)}")
           print(f"- Pages fetched: {report.get('pages_fetched', 0)}")
+          print(f"- Effective page size: {report.get('effective_page_size', 0)}")
           print(f"- Catalogue works: {report.get('total_catalogue_works', 0)}")
           print(f"- Duplicates merged: {report.get('duplicate_records_merged', 0)}")
           print(f"- Errors: {len(report.get('errors', []))}")

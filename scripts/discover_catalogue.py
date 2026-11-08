@@ -11,12 +11,24 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
 STATE = DATA / 'ingestion-state.json'
 REPORT = DATA / 'discovery-report.json'
+FALLBACK_SIZES = (100, 50, 20, 3)
 
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
     temp = path.with_suffix('.tmp')
     temp.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding='utf-8')
     temp.replace(path)
+
+def search_page(client, requested_size, start):
+    errors = []
+    sizes = [size for size in FALLBACK_SIZES if size <= requested_size] or [3]
+    for size in sizes:
+        try:
+            result = client.search(query='', rows=size, start=start)
+            return result, size, errors
+        except Exception as exc:
+            errors.append({'requested_page_size': requested_size, 'attempted_page_size': size, 'start': start, 'error': str(exc)})
+    return None, requested_size, errors
 
 def main():
     parser = argparse.ArgumentParser()
@@ -31,14 +43,15 @@ def main():
     client = GraphQLClient(args.delay, DATA / 'raw/graphql')
     seen, queued, pages = set(), 0, 0
     start = 0
+    effective_size = args.page_size
     total_hits = book_total = None
     errors = []
     while pages < args.max_pages:
-        try:
-            result = client.search(query='', rows=args.page_size, start=start)
-        except Exception as exc:
-            errors.append({'page': pages + 1, 'start': start, 'error': str(exc)})
+        result, used_size, page_errors = search_page(client, effective_size, start)
+        errors.extend(page_errors)
+        if result is None:
             break
+        effective_size = used_size
         pages += 1
         books = result['books']
         total_hits = result['total_hits']
@@ -59,17 +72,17 @@ def main():
         if not args.dry_run:
             state.save()
         returned = len(books)
-        if returned < args.page_size or (book_total is not None and start + returned >= book_total):
+        if returned < effective_size or (book_total is not None and start + returned >= book_total):
             break
         start += returned
         time.sleep(args.delay)
     coverage = state.coverage()
     pagination_verified = bool(book_total is not None and pages and not errors and len(seen) <= book_total and (len(seen) == book_total or pages < args.max_pages))
     report = {'generated_at': datetime.now(timezone.utc).isoformat(), 'dry_run': args.dry_run,
-              'priority_languages': sorted(priority), 'page_size': args.page_size, 'pages_fetched': pages,
-              'records_seen': len(seen), 'titles_queued_for_import': queued, 'total_hits': total_hits,
-              'book_total': book_total, 'pagination_verified': pagination_verified,
-              'coverage': coverage, 'errors': errors}
+              'priority_languages': sorted(priority), 'requested_page_size': args.page_size,
+              'effective_page_size': effective_size, 'pages_fetched': pages, 'records_seen': len(seen),
+              'titles_queued_for_import': queued, 'total_hits': total_hits, 'book_total': book_total,
+              'pagination_verified': pagination_verified, 'coverage': coverage, 'errors': errors}
     write_json(REPORT, report)
     write_json(DATA / 'coverage-report.json', coverage)
     print(json.dumps(report, ensure_ascii=False, indent=2))
