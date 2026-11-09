@@ -781317,5 +781317,298 @@
     "cover_url": "https://covers.openlibrary.org/b/id/14728039-L.jpg",
     "openlibrary_work_id": "/works/OL37563762W",
     "first_published_year": 2024
+  },
+  {
+    "title_id": "8783628",
+    "title": "The bottom of the Harbor",
+    "shelves": [],
+    "author": "Joseph Mitchell",
+    "isbn": "9780593594957",
+    "isbns": [
+      "9780593594957",
+      "0593594959"
+    ],
+    "description": "A classic of literary reporting from one of The New Yorker's most iconic writers reveals the vibrant world of old New York and the ordinary people who made it great, now with illustrations by renowned artist Joana Avillez and an introduction by filmmaker and writer Josh Safdie.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "xix, 260 pages",
+    "genres": [
+      "Informational works.",
+      "Ej skönlitteratur"
+    ],
+    "subjects": [
+      "Fiction, general",
+      "Folkseder",
+      "Förenta staterna - New York",
+      "Harbors",
+      "Harbors, united states",
+      "History",
+      "New York (N.Y.) - Social life and customs",
+      "New York Harbor (N.Y. and N.J.)",
+      "New york (n.y.), social life and customs",
+      "New york (state), fiction",
+      "Nonfiction",
+      "Social life and customs",
+      "Sociala förhållanden",
+      "Sociology",
+      "Waterfronts",
+      "Waterfronts - New York (State) - New York"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-09T17:49:08.987738+00:00",
+    "openlibrary_work_id": "/works/OL283188W",
+    "first_published_year": 1959
+  },
+  {
+    "title_id": "9006421",
+    "title": "Nonstop bodies",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Rennie McDougall",
+    "isbn": "9781419771125",
+    "isbns": [
+      "9781419771125",
+      "1419771124"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "371 sidor",
+    "genres": [
+      "Facklitteratur"
+    ],
+    "subjects": [
+      "Dans",
+      "Förenta staterna - New York"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018022",
+        "branch": "Kulturbiblioteket, Kulturhuset",
+        "slug": "kulturbiblioteket",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Dans",
+            "sublocation": "Nyheter",
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Kulturbiblioteket, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-09T17:49:10.844826+00:00"
+  },
+  {
+    "title_id": "9064949",
+    "title": "Murder on a midsummer night",
+    "shelves": [],
+    "author": "Lucy Strange",
+    "isbn": "9780008712792",
+    "isbns": [
+      "9780008712792",
+      "0008712794"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "111 sidor",
+    "genres": [
+      "Skönlitteratur",
+      "Mellanåldersböcker",
+      "Deckare"
+    ],
+    "subjects": [
+      "Midsommar",
+      "Förgiftningar",
+      "Mysterier",
+      "Mord"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018041",
+        "branch": "TioTretton, Kulturhuset",
+        "slug": "tio-tretton",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Språk",
+            "sublocation": "Thriller & mystery",
+            "firstLoanDueDate": "2026-11-21",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018014",
+        "branch": "Gubbängens bibliotek",
+        "slug": "gubbangens-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 2,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-09T17:49:12.635335+00:00"
+  },
+  {
+    "title_id": "9258068",
+    "title": "Lightfall Book 4, A place between",
+    "shelves": [],
+    "author": "Tim Probert",
+    "isbn": "9780063080942",
+    "isbns": [
+      "9780063080942",
+      "006308094X"
+    ],
+    "description": "After surviving a shipwreck, Cad washes ashore on the banks of Pellydir. There, he searches for Lorgon, but instead finds the other Spirits of Irpa, who question if their planet can be saved. One Spirit takes Cad to A Place Between, a strange liminal realm between the living and the dead, where Cad works to uncover the reason Lorgon summoned them to Pellydir in the first place. Meanwhile, Bea awakens as a prisoner in the capital city. She is desperate to reunite with her friends, but Pellydir's king believes Bea to be an omen of doom for his kingdom. When Bea's escape plan also brings her to A Place Between, she is faced with a choice that could change everything.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "244 sidor",
+    "genres": [
+      "Skönlitteratur",
+      "Tecknade serier",
+      "Mellanåldersböcker",
+      "Fantasy"
+    ],
+    "subjects": [
+      "Vänskap",
+      "Fåglar",
+      "Magi",
+      "Trollkarlar"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-09T17:49:14.457777+00:00"
   }
 ]
