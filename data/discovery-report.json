@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-11-09T07:25:51.017467+00:00",
+  "generated_at": "2026-11-09T12:09:06.089870+00:00",
   "dry_run": false,
   "priority_languages": [
     "Engelska",
     "Svenska"
   ],
   "page_size": 500,
-  "fetches": 100,
-  "records_seen": 3655,
-  "titles_queued_for_import": 1016,
-  "already_imported_titles_reconciled": 2639,
+  "fetches": 200,
+  "records_seen": 11877,
+  "titles_queued_for_import": 8193,
+  "already_imported_titles_reconciled": 3684,
   "cursor": {
     "phases": {},
-    "queue_length": 51
+    "queue_length": 41
   },
   "coverage": {
-    "generated_at": "2026-11-09T07:25:51.017451+00:00",
-    "discovered": 3655,
-    "imported": 2639,
-    "pending": 1016,
+    "generated_at": "2026-11-09T12:09:06.089840+00:00",
+    "discovered": 11877,
+    "imported": 3684,
+    "pending": 8193,
     "failed": 0,
     "skipped": 0,
-    "coverage_percent": 72.2
+    "coverage_percent": 31.02
   },
   "errors": [
     {
@@ -41,6 +41,40 @@
         "branch": "Tranströmerbiblioteket"
       },
       "error": "branch slice too large: 1191 records"
+    },
+    {
+      "partition": {
+        "kind": "branch_year",
+        "language": "Engelska",
+        "year": 2024,
+        "branch": "TioTretton, Kulturhuset",
+        "total": 333
+      },
+      "error": "Book missing numeric library key or title"
+    },
+    {
+      "partition": {
+        "language": "Engelska",
+        "year": 2023,
+        "branch": "Tranströmerbiblioteket"
+      },
+      "error": "branch slice too large: 1304 records"
+    },
+    {
+      "partition": {
+        "language": "Engelska",
+        "year": 2022,
+        "branch": "Tranströmerbiblioteket"
+      },
+      "error": "branch slice too large: 1278 records"
+    },
+    {
+      "partition": {
+        "language": "Engelska",
+        "year": 2022,
+        "branch": "Magasin Liljeholmen"
+      },
+      "error": "branch slice too large: 1072 records"
     }
   ]
 }

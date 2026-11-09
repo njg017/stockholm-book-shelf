@@ -1,22 +1,27 @@
 {
-  "generated_at": "2026-11-09T08:07:29.297247+00:00",
+  "generated_at": "2026-11-09T12:51:41.337320+00:00",
   "dry_run": false,
-  "requested_batch": 10000,
+  "requested_batch": 1000,
   "thumbnail_size": "large",
-  "processed": 1016,
-  "imported_count": 1016,
+  "processed": 1000,
+  "imported_count": 999,
   "duplicate_records_merged": 0,
-  "invalid_records_flagged": 27,
-  "remaining_failed": 0,
-  "remaining_pending": 0,
+  "invalid_records_flagged": 66,
+  "remaining_failed": 1,
+  "remaining_pending": 7193,
   "coverage": {
-    "generated_at": "2026-11-09T08:07:29.297225+00:00",
-    "discovered": 4666,
-    "imported": 4479,
-    "pending": 0,
-    "failed": 0,
+    "generated_at": "2026-11-09T12:51:41.337287+00:00",
+    "discovered": 12886,
+    "imported": 5506,
+    "pending": 7193,
+    "failed": 1,
     "skipped": 0,
-    "coverage_percent": 95.99
+    "coverage_percent": 42.73
   },
-  "errors": []
+  "errors": [
+    {
+      "title_id": "8400829",
+      "error": "404 Client Error: Not Found for url: https://biblioteket.stockholm.se/titel/8400829"
+    }
+  ]
 }
