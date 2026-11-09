@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-11-09T07:02:36.323595+00:00",
+  "generated_at": "2026-11-09T08:07:29.297247+00:00",
   "dry_run": false,
-  "requested_batch": 1000,
+  "requested_batch": 10000,
   "thumbnail_size": "large",
-  "processed": 1000,
-  "imported_count": 1000,
+  "processed": 1016,
+  "imported_count": 1016,
   "duplicate_records_merged": 0,
-  "invalid_records_flagged": 26,
+  "invalid_records_flagged": 27,
   "remaining_failed": 0,
-  "remaining_pending": 1016,
+  "remaining_pending": 0,
   "coverage": {
-    "generated_at": "2026-11-09T07:02:36.323570+00:00",
+    "generated_at": "2026-11-09T08:07:29.297225+00:00",
     "discovered": 4666,
-    "imported": 3463,
-    "pending": 1016,
+    "imported": 4479,
+    "pending": 0,
     "failed": 0,
     "skipped": 0,
-    "coverage_percent": 74.22
+    "coverage_percent": 95.99
   },
   "errors": []
 }
