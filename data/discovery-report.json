@@ -1,27 +1,46 @@
 {
-  "generated_at": "2026-11-09T04:05:10.685457+00:00",
+  "generated_at": "2026-11-09T06:21:38.961583+00:00",
   "dry_run": false,
   "priority_languages": [
     "Engelska",
     "Svenska"
   ],
   "page_size": 500,
-  "fetches": 10,
-  "records_seen": 948,
-  "titles_queued_for_import": 421,
-  "already_imported_titles_reconciled": 527,
+  "fetches": 100,
+  "records_seen": 3655,
+  "titles_queued_for_import": 2016,
+  "already_imported_titles_reconciled": 1639,
   "cursor": {
     "phases": {},
-    "queue_length": 49
+    "queue_length": 51
   },
   "coverage": {
-    "generated_at": "2026-11-09T04:05:10.685438+00:00",
-    "discovered": 948,
-    "imported": 527,
-    "pending": 421,
+    "generated_at": "2026-11-09T06:21:38.961562+00:00",
+    "discovered": 3655,
+    "imported": 1639,
+    "pending": 2016,
     "failed": 0,
     "skipped": 0,
-    "coverage_percent": 55.59
+    "coverage_percent": 44.84
   },
-  "errors": []
+  "errors": [
+    {
+      "partition": {
+        "kind": "branch_year",
+        "language": "Engelska",
+        "year": 2025,
+        "branch": "Tranströmerbiblioteket",
+        "total": 847
+      },
+      "error": "[{\"message\": \"Cannot destructure property 'mediaCount' of 'undefined' as it is undefined.\", \"locations\": [{\"line\": 2, \"column\": 3}], \"path\": [\"searchWithFilter\"], \"extensions\": {\"code\": \"INTERNAL_SERVER_ERROR\"}}]"
+    },
+    {
+      "partition": {
+        "language": "Engelska",
+        "year": 2024,
+        "branch": "Tranströmerbiblioteket"
+      },
+      "error": "branch slice too large: 1191 records"
+    }
+  ]
 }
