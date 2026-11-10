@@ -1,4 +1,5 @@
 name: Expand catalogue metadata
+
 on:
   schedule:
     - cron: "17 3 * * *"
@@ -26,11 +27,14 @@ on:
         description: Reset the discovery cursor before running
         type: boolean
         default: false
+
 permissions:
   contents: write
+
 concurrency:
   group: library-data-update
   cancel-in-progress: false
+
 jobs:
   expand-catalogue:
     runs-on: ubuntu-latest
@@ -39,23 +43,72 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
       - run: pip install -r requirements.txt
+
       - name: Test title parser offline
         run: python scripts/test_title_metadata.py
+
+      - name: Check whether catalogue work remains
+        id: gate
+        run: |
+          python - <<'PY'
+          import json
+          import time
+          from pathlib import Path
+
+          state_path = Path('data/ingestion-state.json')
+          state = {'titles': {}}
+          if state_path.exists():
+              state = json.loads(state_path.read_text(encoding='utf-8'))
+
+          now = time.time()
+          pending = 0
+
+          for record in (state.get('titles') or {}).values():
+              status = record.get('status')
+              if status == 'pending':
+                  pending += 1
+              elif status == 'failed':
+                  retry_at = float(record.get('next_retry_at') or 0)
+                  if not retry_at or retry_at <= now:
+                      pending += 1
+
+          queue = 0
+          report_path = Path('data/discovery-report.json')
+          if report_path.exists():
+              report = json.loads(report_path.read_text(encoding='utf-8'))
+              queue = int(report.get('cursor', {}).get('queue_length') or 0)
+
+          print(f'Pending or retryable titles: {pending}')
+          print(f'Discovery queue length: {queue}')
+
+          if pending == 0 and queue == 0:
+              with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
+                  output.write('skip=true\n')
+          PY
+        env:
+          GITHUB_OUTPUT: ${{ github.env }}
+
       - name: Discover additional catalogue titles
+        if: steps.gate.outputs.skip != 'true'
         run: |
           ARGS=""
           if [ "${{ inputs.reset_cursor }}" = "true" ]; then
             ARGS="--reset-cursor"
           fi
           python scripts/discover_catalogue.py --page-size 500 --max-fetches "${{ inputs.fetches || 10 }}" --delay 2 $ARGS
+
       - name: Import next catalogue batch
+        if: steps.gate.outputs.skip != 'true'
         run: python scripts/import_catalogue.py --batch "${{ inputs.batch || 100 }}" --delay 1 --openlibrary-workers 6 --thumbnail-size "${{ inputs.thumbnail_size || 'large' }}"
+
       - name: Publish generated catalogue JSON
-        if: ${{ success() && (github.event_name == 'schedule' || inputs.publish == true) }}
+        if: ${{ success() && steps.gate.outputs.skip != 'true' && (github.event_name == 'schedule' || inputs.publish == true) }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -66,6 +119,7 @@ jobs:
             git rebase origin/main
             git push origin HEAD:main
           fi
+
       - name: Summarize run
         if: always()
         run: |
@@ -85,6 +139,7 @@ jobs:
           print(f"- Cursor queue: {report.get('cursor', {}).get('queue_length', 0)}")
           print(f"- Errors: {len(report.get('errors', []))}")
           PY
+
       - name: Upload data and diagnostics
         if: always()
         uses: actions/upload-artifact@v4
