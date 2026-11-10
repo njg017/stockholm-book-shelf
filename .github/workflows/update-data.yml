@@ -58,6 +58,7 @@ jobs:
         run: |
           python - <<'PY'
           import json
+          import os
           import time
           from pathlib import Path
 
@@ -91,8 +92,6 @@ jobs:
               with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
                   output.write('skip=true\n')
           PY
-        env:
-          GITHUB_OUTPUT: ${{ github.env }}
 
       - name: Discover additional catalogue titles
         if: steps.gate.outputs.skip != 'true'
