@@ -782001,5 +782001,66 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-10T11:57:07.501265+00:00"
+  },
+  {
+    "title_id": "9063159",
+    "title": "Illuminati",
+    "shelves": [],
+    "author": "Michael Taylor",
+    "isbn": "9781847928399",
+    "isbns": [
+      "9781847928399",
+      "1847928390"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "435 sidor",
+    "genres": [
+      "Facklitteratur"
+    ],
+    "subjects": [
+      "Konspirationsteorier",
+      "Conspiracy theories - History",
+      "Illuminati - History",
+      "Konspirationsteorier - historia"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-10T15:55:50.771793+00:00"
   }
 ]
