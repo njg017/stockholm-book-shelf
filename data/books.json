@@ -782147,5 +782147,194 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-11T10:05:04.118444+00:00"
+  },
+  {
+    "title_id": "9047410",
+    "title": "The shadow step",
+    "shelves": [],
+    "author": "Mark Billingham",
+    "isbn": "9781408722022",
+    "isbns": [
+      "9781408722022",
+      "140872202X"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "392 sidor",
+    "genres": [
+      "Thrillers",
+      "Romaner"
+    ],
+    "subjects": [
+      "Detektiver",
+      "Kidnappningar",
+      "Organiserad brottslighet",
+      "Storbritannien - Blackpool",
+      "Declan Miller  "
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 1,
+    "reservable": true,
+    "availability_checked_at": "2026-11-11T13:15:52.430067+00:00"
+  },
+  {
+    "title_id": "9063153",
+    "title": "The dykonic handbook",
+    "shelves": [],
+    "author": "Amy Spalding",
+    "isbn": "9781037202018",
+    "isbns": [
+      "9781037202018",
+      "1037202015"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "191 sidor",
+    "genres": [
+      "Facklitteratur"
+    ],
+    "subjects": [
+      "Hbtqi-personer",
+      "Homosexuella",
+      "Queer",
+      "Sexuell identitet"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-11T13:15:54.152823+00:00",
+    "cover_url": "https://covers.openlibrary.org/b/id/15252232-L.jpg",
+    "openlibrary_work_id": "/works/OL45963148W",
+    "openlibrary_rating_count": 0,
+    "first_published_year": 2026
+  },
+  {
+    "title_id": "9063154",
+    "title": "Make me well",
+    "shelves": [],
+    "author": "Xand van Tulleken",
+    "isbn": "9781529961041",
+    "isbns": [
+      "9781529961041",
+      "1529961041"
+    ],
+    "description": "There has never been a more confusing time to try to be healthy. In the past decade, the healthcare sector has witnessed a remarkable surge in innovation: drug design, genomics and diagnostic technology have all changed almost beyond recognition. Simultaneously, there has been a significant expansion in consumer health services, including the supplement industry, blood testing, consumer genomics and wearable technology, which claim to improve 'wellness' rather than curing or preventing specific disease states. For a typical consumer this is both confusing, as the health and wellness industries are almost indistinguishable, and expensive, as consumer health emphasises personalised products, often sold on a subscription basis. Xand van Tulleken investigates the new Wild West of the wellness industry, demystifying a landscape dominated by three products - supplements, blood testing, and wearable technology.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "390 sidor",
+    "genres": [
+      "Ej skönlitteratur"
+    ],
+    "subjects": [
+      "Hälsa",
+      "Health",
+      "Health promotion industry",
+      "Health and Wellbeing"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-11T13:15:55.900071+00:00"
   }
 ]
