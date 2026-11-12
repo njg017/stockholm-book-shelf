@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T16:08:33.975586+00:00",
+  "generated_at": "2026-11-12T17:09:53.995811+00:00",
   "dry_run": false,
   "priority_languages": [
     "Engelska",
@@ -8,20 +8,20 @@
   "page_size": 500,
   "fetches": 10,
   "records_seen": 970,
-  "titles_queued_for_import": 4,
-  "already_imported_titles_reconciled": 966,
+  "titles_queued_for_import": 0,
+  "already_imported_titles_reconciled": 970,
   "cursor": {
     "phases": {},
     "queue_length": 49
   },
   "coverage": {
-    "generated_at": "2026-11-12T16:08:33.975569+00:00",
+    "generated_at": "2026-11-12T17:09:53.995790+00:00",
     "discovered": 970,
-    "imported": 966,
-    "pending": 4,
+    "imported": 970,
+    "pending": 0,
     "failed": 0,
     "skipped": 0,
-    "coverage_percent": 99.59
+    "coverage_percent": 100.0
   },
   "errors": []
 }
