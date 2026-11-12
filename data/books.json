@@ -783051,5 +783051,276 @@
     "reservable": true,
     "availability_checked_at": "2026-11-12T15:01:10.883716+00:00",
     "openlibrary_work_id": "/works/OL45398002W"
+  },
+  {
+    "title_id": "9047460",
+    "title": "Hibana",
+    "shelves": [],
+    "author": "Asumiko Nakamura",
+    "isbn": "9798895616758",
+    "isbns": [
+      "9798895616758"
+    ],
+    "description": null,
+    "original_title": "Hibana",
+    "original_language": "Japanska",
+    "translators": [
+      "Jocelyne Allen"
+    ],
+    "page_count": "157 sidor",
+    "genres": [
+      "Skönlitteratur",
+      "Manga"
+    ],
+    "subjects": [
+      "Hbtqi-personer",
+      "Queer",
+      "Skolan",
+      "Studenter",
+      "Japan"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Manga",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-12T16:08:35.205414+00:00"
+  },
+  {
+    "title_id": "9050518",
+    "title": "Dinghai fusheng records comic 3",
+    "shelves": [],
+    "author": "Fei Tian Ye Xiang",
+    "isbn": "9798891609679",
+    "isbns": [
+      "9798891609679"
+    ],
+    "description": null,
+    "original_title": "ding hai fu sheng lu",
+    "original_language": "Kinesiska",
+    "translators": [
+      "moon",
+      "Elestrea"
+    ],
+    "page_count": "292 sidor",
+    "genres": [
+      "Skönlitteratur",
+      "Manga"
+    ],
+    "subjects": [
+      "Demoner",
+      "Det övernaturliga",
+      "Exorcism",
+      "Hbtqi-personer",
+      "Homosexualitet",
+      "Magi",
+      "Queer"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Manga",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-12T16:08:37.006943+00:00",
+    "openlibrary_work_id": "/works/OL42426009W",
+    "first_published_year": 2025
+  },
+  {
+    "title_id": "9050522",
+    "title": "A yuri love story that begins wtih getting dumped in a dream 2",
+    "shelves": [],
+    "author": "Hijiki",
+    "isbn": "9798895615362",
+    "isbns": [
+      "9798895615362"
+    ],
+    "description": null,
+    "original_title": "Yume de furarete hajimaru yuri",
+    "original_language": "Japanska",
+    "translators": [
+      "Faye Cozy"
+    ],
+    "page_count": "128 sidor",
+    "genres": [
+      "Skönlitteratur",
+      "Manga",
+      "Tecknade serier",
+      "Ungdomsböcker",
+      "Bildromaner",
+      "Unga vuxna"
+    ],
+    "subjects": [
+      "Queer",
+      "HBTQI",
+      "Kärlek",
+      "High school",
+      "Unga lesbiska",
+      "Lesbiska flickor"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Manga",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-12T16:08:38.823635+00:00"
+  },
+  {
+    "title_id": "9050523",
+    "title": "A yuri love story that begins wtih getting dumped in a dream 3",
+    "shelves": [],
+    "author": "Hijiki",
+    "isbn": "9798895615379",
+    "isbns": [
+      "9798895615379"
+    ],
+    "description": null,
+    "original_title": "Yume de furarete hajimaru yuri",
+    "original_language": "Japanska",
+    "translators": [
+      "Faye Cozy"
+    ],
+    "page_count": "129 sidor",
+    "genres": [
+      "Skönlitteratur",
+      "Manga",
+      "Tecknade serier",
+      "Ungdomsböcker",
+      "Bildromaner",
+      "Unga vuxna"
+    ],
+    "subjects": [
+      "Queer",
+      "HBTQI",
+      "Kärlek",
+      "High school",
+      "Unga lesbiska",
+      "Lesbiska flickor"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Manga",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-12T16:08:40.622043+00:00"
   }
 ]
