@@ -782336,5 +782336,147 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-11T13:15:55.900071+00:00"
+  },
+  {
+    "title_id": "9058214",
+    "title": "The names of the new world",
+    "shelves": [],
+    "author": "Kawai Strong Washburn",
+    "isbn": "9780374619701",
+    "isbns": [
+      "9780374619701",
+      "0374619700"
+    ],
+    "description": "Follows the lives of three Minneapolis residents whose futures become intertwined after a devastating climate-driven superstorm. Over the next twenty-five years, a lawyer and activist, an ambitious investment banker, and a small-business owner confront personal, political, and economic challenges as the effects of climate change reshape their communities and relationships. Spanning locations from the American Midwest to Washington, D.C. and the Pacific islands, the novel explores themes of environmental responsibility, power, ambition, and resilience in a changing world.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "432 sidor",
+    "genres": [
+      "Psykologiska skildringar",
+      "Romaner",
+      "Ecofiction",
+      "Fiction",
+      "Novels."
+    ],
+    "subjects": [
+      "Kvinnliga advokater",
+      "Investeringar",
+      "Bilmekaniker",
+      "Stormar",
+      "Klimatförändringar",
+      "Livshändelser",
+      "Öar",
+      "Vänskap",
+      "Women lawyers - Fiction",
+      "Investment bankers - Fiction",
+      "Automobile mechanics - Fiction",
+      "Severe storms - Fiction",
+      "Climatic changes - Fiction",
+      "Islands - Fiction",
+      "Life change events - Fiction",
+      "Friendship - Fiction",
+      "Minneapolis (Minn.) - Fiction",
+      "Förenta staterna - Minneapolis"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-12T09:08:01.675372+00:00"
+  },
+  {
+    "title_id": "9234173",
+    "title": "Music against the night",
+    "shelves": [],
+    "author": "Yiyun Li",
+    "isbn": "9780008647803",
+    "isbns": [
+      "9780008647803",
+      "0008647801"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "336 sidor",
+    "genres": [
+      "Romaner",
+      "Biografiska skildringar"
+    ],
+    "subjects": [
+      "Sekelskiftet 1800",
+      "Tonsättare",
+      "Pianister",
+      "John Field  1782-1837",
+      "Adelaide Field"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 1,
+    "reservable": true,
+    "availability_checked_at": "2026-11-12T09:08:03.489265+00:00"
   }
 ]
