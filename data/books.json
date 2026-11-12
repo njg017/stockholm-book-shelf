@@ -782677,5 +782677,379 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-12T13:19:59.017040+00:00"
+  },
+  {
+    "title_id": "9264119",
+    "title": "The last contract of Isako",
+    "shelves": [],
+    "author": "Fonda Lee",
+    "isbn": "9780356526713",
+    "isbns": [
+      "9780356526713",
+      "0356526712"
+    ],
+    "description": "Isako is a legendary swordswoman, but every legend has to come to an end. When her long-time client unexpectedly retires, she plans to follow-to walk out into the frozen wasteland of their planet with her head held high and her family enriched by her legacy. But when a competitor offers her a final mission, it's one she can't refuse. Soon, she's thrust deep into a world of corporate espionage, duty-bound duels, and shadowy secrets. What she uncovers will change humanity's existence in the stars forever. The Last Contract of Isako is the sci-fi you didn't know you needed: corporate samurai - in space.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "514 sidor",
+    "genres": [
+      "Romaner",
+      "Rymdopera",
+      "Framtidsskildringar"
+    ],
+    "subjects": [
+      "Industrispionage",
+      "Samurajer",
+      "Äldre kvinnor",
+      "Heder"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018021",
+        "branch": "Kista bibliotek",
+        "slug": "kista-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 2,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-12T15:01:05.498011+00:00"
+  },
+  {
+    "title_id": "9264120",
+    "title": "The winds of Maracaibo",
+    "shelves": [],
+    "author": "Mariá Elena Morán",
+    "isbn": "9780593803936",
+    "isbns": [
+      "9780593803936",
+      "0593803930"
+    ],
+    "description": null,
+    "original_title": "Volver a cuándo",
+    "original_language": "Spanska",
+    "translators": [
+      "Madeline Jones"
+    ],
+    "page_count": "193 sidor",
+    "genres": [
+      "Familjeskildringar",
+      "Romaner"
+    ],
+    "subjects": [
+      "Revolutioner",
+      "Kidnappningar",
+      "Mor-dotterrelationer",
+      "Separation (psykologi)",
+      "Migration",
+      "Venezuela"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-12T15:01:07.275024+00:00"
+  },
+  {
+    "title_id": "9264444",
+    "title": "The unknown",
+    "shelves": [],
+    "author": "Riley Sager",
+    "isbn": "9781399742122",
+    "isbns": [
+      "9781399742122",
+      "1399742124"
+    ],
+    "description": "In 1926, five women disappeared from a remote island in Vermont. Now, 100 years later, it's happening again. Struggling actress Marin Keane is shocked when she lands a role in a major motion picture about the unsolved mystery of New Avalon, an island on sprawling Lake Faraday in Vermont. She's even more surprised when she learns that the role requires a weeklong research trip to that very spot. Because New Avalon isn't your ordinary island. A century ago, it was a commune for spiritual mediums - until they all vanished in 1926. The only trace of them was five dresses hanging from the branches of an old oak tree in the middle of the island, one for each missing woman. Some locals say they simply left. Others think they were murdered. But the prevailing opinion, thanks to a diary left behind by one of the vanished, a young woman named Daisy Rue, is that a séance gone wrong conjured something supernatural that took them all one by one.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "353 pages",
+    "genres": [
+      "Romaner",
+      "Deckare",
+      "Thrillers",
+      "Skräck",
+      "Thriller."
+    ],
+    "subjects": [
+      "Försvunna personer",
+      "Spiritism",
+      "Dagböcker",
+      "Medier (andevärlden)",
+      "Seanser",
+      "Filminspelningar",
+      "Skådespelare",
+      "Öar",
+      "Förenta staterna - Vermont"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018021",
+        "branch": "Kista bibliotek",
+        "slug": "kista-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018023",
+        "branch": "Kungsholmens bibliotek Internationella biblioteket",
+        "slug": "kungsholmens-bibliotek-internationella-biblioteket",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 4,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-12T15:01:09.105357+00:00"
+  },
+  {
+    "title_id": "9264449",
+    "title": "Father material",
+    "shelves": [],
+    "author": "Alexis J. Hall",
+    "isbn": "9781728264295",
+    "isbns": [
+      "9781728264295",
+      "1728264294"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "500 sidor",
+    "genres": [
+      "Kärleksskildringar",
+      "Romaner"
+    ],
+    "subjects": [
+      "Djur och människor",
+      "Fadersrollen",
+      "Fosterbarn",
+      "Homosexuella föräldrar",
+      "Homosexuella män",
+      "Husdjur",
+      "Parrelationer",
+      "Storbritannien - London"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-12T15:01:10.883716+00:00",
+    "openlibrary_work_id": "/works/OL45398002W"
   }
 ]
