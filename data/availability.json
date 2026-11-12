@@ -584454,5 +584454,57 @@
     "available_branches": [],
     "availability_status": "unavailable",
     "availability_checked_at": "2026-11-12T09:08:03.489265+00:00"
+  },
+  "9263905": {
+    "holdings": null,
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": null,
+    "availability_status": "unknown",
+    "availability_checked_at": "2026-11-12T12:05:08.643787+00:00"
+  },
+  "9263990": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "availability_checked_at": "2026-11-12T12:05:25.180426+00:00"
+  },
+  "9263991": {
+    "holdings": null,
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": null,
+    "availability_status": "unknown",
+    "availability_checked_at": "2026-11-12T12:05:28.883296+00:00"
   }
 }

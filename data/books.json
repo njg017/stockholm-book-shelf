@@ -782478,5 +782478,145 @@
     "reservation_count": 1,
     "reservable": true,
     "availability_checked_at": "2026-11-12T09:08:03.489265+00:00"
+  },
+  {
+    "title_id": "9263905",
+    "title": "Crash into me",
+    "shelves": [],
+    "author": "Robinne Lee",
+    "isbn": "9781250412751",
+    "isbns": [
+      "9781250412751",
+      "1250412757"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "384 sidor",
+    "genres": [
+      "Kärleksskildringar",
+      "Familjeskildringar",
+      "Romaner"
+    ],
+    "subjects": [
+      "Identitet (psykologi)",
+      "Fotomodeller",
+      "Otrohet",
+      "Äktenskap",
+      "Skilsmässa",
+      "Kvinnliga fotografer",
+      "Filmregissörer",
+      "Kvinnliga konstnärer",
+      "Förenta staterna - Los Angeles"
+    ],
+    "holdings": null,
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": null,
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-12T12:05:08.643787+00:00"
+  },
+  {
+    "title_id": "9263990",
+    "title": "Not with a bang",
+    "shelves": [],
+    "author": "Temi Oh",
+    "isbn": "9781398533257",
+    "isbns": [
+      "9781398533257",
+      "1398533254"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "417 sidor",
+    "genres": [
+      "Romaner",
+      "Dystopier"
+    ],
+    "subjects": [
+      "Survivalism",
+      "Katastrofer"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-12T12:05:25.180426+00:00"
+  },
+  {
+    "title_id": "9263991",
+    "title": "Our numbered bones",
+    "shelves": [],
+    "author": "Katya Balen",
+    "isbn": "9781837265107",
+    "isbns": [
+      "9781837265107",
+      "1837265100"
+    ],
+    "description": "When her life is unexpectedly upended, Anna escapes London - and her husband - for a remote cottage in the wetlands of rural England. She hopes the solitude might unblock the novel she can't bring herself to write. Out in the marshes, the locals discover something shocking, risen to the surface after many years buried in the silty earth. Anna is drawn to the site, fascinated and shaken by what she finds there. And as researchers descend, her curiosity gives way to obsession.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "224 sidor",
+    "genres": [
+      "Romaner",
+      "Psychological fiction.",
+      "General Fiction."
+    ],
+    "subjects": [
+      "Fiction - 21st century",
+      "Identitet (psykologi)",
+      "Isolering (social)",
+      "Landsbygd",
+      "Mänskliga kvarlevor",
+      "Sorg",
+      "Storbritannien - England",
+      "Våtmarker"
+    ],
+    "holdings": null,
+    "available_copies": null,
+    "total_copies": null,
+    "available_branches": null,
+    "availability_status": "unknown",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-12T12:05:28.883296+00:00",
+    "openlibrary_work_id": "/works/OL45397861W"
   }
 ]
