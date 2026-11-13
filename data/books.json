@@ -783322,5 +783322,133 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-12T16:08:40.622043+00:00"
+  },
+  {
+    "title_id": "9039755",
+    "title": "Centuria 3",
+    "shelves": [],
+    "author": "Tohru Kuramori",
+    "isbn": "9781974765102",
+    "isbns": [
+      "9781974765102",
+      "1974765105"
+    ],
+    "description": "Sold into slavery, Julian has known nothing but pain. All that changes when he experiences kindness for the first time. But fate has plans for Julian when an ancient god bestows extraordinary powers upon him that he uses to protect his charge, the baby Diana. Reeling from a terrifying prophecy about Diana, Julian vows to protect her no matter what, even against their comrade Angvall, who's tasked with killing her. A gut-wrenching battle between friends erupts--and just when it seems things can't get any worse, reinforcements arrive to take baby Diana!",
+    "original_title": null,
+    "original_language": "Japanska",
+    "translators": [
+      "Jan Mitsuko Cash"
+    ],
+    "page_count": "1 volym (opaginerad)",
+    "genres": [
+      "Skräck",
+      "Manga"
+    ],
+    "subjects": [
+      "Slavery - Comic books, strips, etc",
+      "Magic - Comic books, strips, etc",
+      "Monsters - Comic books, strips, etc",
+      "Gods - Comic books, strips, etc",
+      "Deals - Comic books, strips, etc",
+      "Horror comic books, strips, etc. - Japan - Translations into English"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-13T11:07:01.679890+00:00"
+  },
+  {
+    "title_id": "9040908",
+    "title": "To our untamed core",
+    "shelves": [],
+    "author": "Sonido Reyes",
+    "isbn": "9780063358447",
+    "isbns": [
+      "9780063358447",
+      "0063358441"
+    ],
+    "description": "Centuries after the conquistadors claimed the Afueras for their own, Temo spends his life obeying the Holy Order’s decree, undergoing their sacraments to tame his supposedly violent nature. The only rule he breaks: hiding that he’s trans. If that fact is discovered, Temo will face El Torneo, a brutal, fight-to-the-death game pitting the untamed against one another. No Afuereño who enters El Torneo ever escapes with their life. But when Temo’s boyfriend is unexpectedly arrested and thrown into the deadly tournament, he’ll do anything to rescue Ollin from his gruesome fate, even if it means entering El Torneo himself.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "419 sidor",
+    "genres": [
+      "Ungdomsböcker",
+      "Unga vuxna",
+      "Dystopier"
+    ],
+    "subjects": [
+      "Tävlingar",
+      "HBTQI",
+      "Kolonialism"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-13T11:07:03.492809+00:00"
   }
 ]
