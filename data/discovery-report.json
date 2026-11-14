@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T04:00:09.744725+00:00",
+  "generated_at": "2026-11-14T04:59:35.363322+00:00",
   "dry_run": false,
   "priority_languages": [
     "Engelska",
@@ -7,21 +7,66 @@
   ],
   "page_size": 500,
   "fetches": 10,
-  "records_seen": 974,
-  "titles_queued_for_import": 0,
-  "already_imported_titles_reconciled": 974,
+  "records_seen": 407,
+  "titles_queued_for_import": 403,
+  "already_imported_titles_reconciled": 4,
   "cursor": {
     "phases": {},
-    "queue_length": 49
+    "queue_length": 48
   },
   "coverage": {
-    "generated_at": "2026-11-14T04:00:09.744707+00:00",
-    "discovered": 974,
-    "imported": 974,
-    "pending": 0,
+    "generated_at": "2026-11-14T04:59:35.363309+00:00",
+    "discovered": 407,
+    "imported": 4,
+    "pending": 403,
     "failed": 0,
     "skipped": 0,
-    "coverage_percent": 100.0
+    "coverage_percent": 0.98
   },
-  "errors": []
+  "errors": [
+    {
+      "partition": {
+        "kind": "years",
+        "language": "Engelska",
+        "from": 1900,
+        "to": 2026
+      },
+      "error": "502 Server Error: Bad Gateway for url: https://biblioteket.stockholm.se/graphql"
+    },
+    {
+      "partition": {
+        "kind": "years",
+        "language": "Svenska",
+        "from": 2012,
+        "to": 2026
+      },
+      "error": "502 Server Error: Bad Gateway for url: https://biblioteket.stockholm.se/graphql"
+    },
+    {
+      "partition": {
+        "kind": "years",
+        "language": "Svenska",
+        "from": 2004,
+        "to": 2011
+      },
+      "error": "502 Server Error: Bad Gateway for url: https://biblioteket.stockholm.se/graphql"
+    },
+    {
+      "partition": {
+        "kind": "years",
+        "language": "Svenska",
+        "from": 2003,
+        "to": 2003
+      },
+      "error": "502 Server Error: Bad Gateway for url: https://biblioteket.stockholm.se/graphql"
+    },
+    {
+      "partition": {
+        "language": "Svenska",
+        "year": 2002,
+        "branch": "Magasin Liljeholmen"
+      },
+      "error": "branch slice too large: 1842 records"
+    }
+  ]
 }
