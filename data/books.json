@@ -828960,5 +828960,272 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-16T11:31:01.714813+00:00"
+  },
+  {
+    "title_id": "9066212",
+    "title": "A feast for a Tenday",
+    "shelves": [],
+    "author": "Andrew Wheeler",
+    "isbn": "9780593839980",
+    "isbns": [
+      "9780593839980",
+      "0593839986"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "221 sidor",
+    "genres": [
+      "Kokböcker",
+      "Cookbook",
+      "Recipes"
+    ],
+    "subjects": [
+      "Baldur's gate 3 (Video game) - Miscellanea",
+      "Cooking",
+      "Fantasy games - Miscellanea",
+      "Matlagning",
+      "Rollspel"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-16T15:12:41.041217+00:00",
+    "openlibrary_work_id": "/works/OL45345432W"
+  },
+  {
+    "title_id": "9086380",
+    "title": "Once upon a trainwreck",
+    "shelves": [],
+    "author": "Christy Carlson Romano",
+    "isbn": "9781668082218",
+    "isbns": [
+      "9781668082218",
+      "1668082217"
+    ],
+    "description": "For a generation of kids, former Disney Channel star Christy Carlson Romano was their TV big sister. At her peak, she was sixteen years old and starring across the Disney Channel universe in Even Stevens, Kim Possible, and the original movie Cadet Kelly. She was Disney's smart, serious girl next door--polished, dependable, and seemingly in control. Off camera, she was unraveling. Pushed into show business as a child, Christy learned early that achievement was the price of love. From indie movie gigs and Broadway performances in New York to television shoots in Hollywood, Christy battled bullying, exploitation, financial instability, and the crushing pressure to appear perfect. Desperate to please, she carried that hunger for approval into adulthood--dating controlling men, partying to fit in, spiraling into addiction, and handing thousands to a predatory psychic who promised answers. Rock bottom came in an FBI office. What followed was not a fairy-tale rescue, but a hard-won reckoning: Christy pulling her life back together, questioning the script she'd been handed, reparenting herself, and becoming not the princess she was told to play, but a woman learning how to save her own life. Raw and impossible to put down, Once Upon a Trainwreck is more than a celebrity memoir. It is an inspiring account of childhood fame, addiction, motherhood, identity, breaking cycles, rewriting the ending, and choosing your own life. Punctuated by letters from Christy to her two young daughters, this is a powerful testament to resilience, accountability, and the courage to claim your own story\"",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "256 sidor",
+    "genres": [
+      "Självbiografier"
+    ],
+    "subjects": [
+      "Barnskådespelare",
+      "Kvinnliga filmskådespelare",
+      "Drogmissbruk",
+      "Förenta staterna",
+      "Christy Carlsson Romano  1984-"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Biografier",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-16T15:12:43.260481+00:00"
+  },
+  {
+    "title_id": "9267686",
+    "title": "Death of a Pop Star, Vol. 3",
+    "shelves": [],
+    "author": null,
+    "isbn": "9781834110356",
+    "isbns": [
+      "9781834110356",
+      "1834110351"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": null,
+    "genres": [],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-16T15:12:45.074634+00:00",
+    "quality_flags": [
+      "missing_author"
+    ]
+  },
+  {
+    "title_id": "9267956",
+    "title": "A Thief to Die For",
+    "shelves": [],
+    "author": "Melissa Poett",
+    "isbn": "9780008830816",
+    "isbns": [
+      "9780008830816",
+      "0008830819"
+    ],
+    "description": "A stunning reimagining of Robin Hood, set in the same dystopian world woven with magic as The Enemy's Daughter. An incredibly addictive YA enemies-to-lovers dystopian fantasy. [Bokinfo]",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "384 sidor",
+    "genres": [
+      "Skönlitteratur"
+    ],
+    "subjects": [],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018021",
+        "branch": "Kista bibliotek",
+        "slug": "kista-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 2,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-16T15:12:46.863264+00:00"
   }
 ]
