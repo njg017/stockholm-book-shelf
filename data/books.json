@@ -829555,5 +829555,147 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-17T16:02:46.505093+00:00"
+  },
+  {
+    "title_id": "9050495",
+    "title": "The fed-up office lady wants to serve the villainess 4",
+    "shelves": [],
+    "author": "Nekotarou",
+    "isbn": "9798895615294",
+    "isbns": [
+      "9798895615294"
+    ],
+    "description": null,
+    "original_title": "Genkai olsan ha akuyakureijousama ni tsukaetai",
+    "original_language": "Japanska",
+    "translators": [
+      "Caroline Winzenried"
+    ],
+    "page_count": "180 sidor",
+    "genres": [
+      "Skönlitteratur",
+      "Tecknade serier",
+      "Manga"
+    ],
+    "subjects": [
+      "HBTQI",
+      "Homosexualitet",
+      "Parallella världar",
+      "Spel",
+      "Queer",
+      "Unga lesbiska"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Manga",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-17T17:11:27.728621+00:00"
+  },
+  {
+    "title_id": "9050533",
+    "title": "Copper coins 3",
+    "shelves": [],
+    "author": "Su Li Mu",
+    "isbn": "9798895610855",
+    "isbns": [
+      "9798895610855"
+    ],
+    "description": null,
+    "original_title": "Tong qian kan shi",
+    "original_language": "Kinesiska",
+    "translators": [
+      "Faelicy"
+    ],
+    "page_count": "318 sidor",
+    "genres": [
+      "Historiska skildringar",
+      "Fantasy"
+    ],
+    "subjects": [
+      "Kärlek",
+      "Queer",
+      "Hbtqi-personer",
+      "Munkar",
+      "Amnesi",
+      "Drakar",
+      "Homosexuella",
+      "Homosexuella män",
+      "Magi",
+      "Besatthet",
+      "Demoner",
+      "Det övernaturliga",
+      "Hämnd",
+      "Exorcism",
+      "Pappersdockor",
+      "Vänskap",
+      "Kina"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Light novels",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-17T17:11:29.488500+00:00"
   }
 ]
