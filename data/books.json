@@ -829287,5 +829287,207 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-17T11:12:54.751200+00:00"
+  },
+  {
+    "title_id": "9036784",
+    "title": "Korean travel phrasebook & dictionary",
+    "shelves": [],
+    "author": null,
+    "isbn": "9781806531806",
+    "isbns": [
+      "9781806531806",
+      "1806531801"
+    ],
+    "description": "\"Learn essential phrases and vocabulary - from directions to eating out and travelling safely - and get to the heart of the local culture with this on-the-go language guide. Never get stuck for words again with Lonely Planet's Korean Phrasebook & Dictionary and feel at ease with social greetings, manners and tips on local culture during your travels. Use the pull-out fast-phrases card when you need to reference something quickly, and let the 3,500 word two-way dictionary guide you in your conversations\"--Publisher's description.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "271 pages",
+    "genres": [
+      "Parlörer",
+      "Lexikon",
+      "Phrase books.",
+      "Dictionaries."
+    ],
+    "subjects": [
+      "Koreanska språket",
+      "Engelska språket",
+      "English language - Dictionaries - Korean",
+      "Korean language - Conversation and phrase books - English",
+      "Korean language - Dictionaries - English"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-17T13:15:44.530593+00:00",
+    "quality_flags": [
+      "missing_author"
+    ]
+  },
+  {
+    "title_id": "9036786",
+    "title": "Sri Lanka travel phrasebook & dictionary",
+    "shelves": [],
+    "author": null,
+    "isbn": "9781806531486",
+    "isbns": [
+      "9781806531486",
+      "1806531488"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "256 sidor",
+    "genres": [
+      "Parlörer",
+      "Lexikon"
+    ],
+    "subjects": [
+      "Singalesiska språket",
+      "Engelska språket",
+      "Sinhalese language - Spoken Sinhalese",
+      "Sinhalese language - Conversation and phrase books - English"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-17T13:15:46.286061+00:00",
+    "quality_flags": [
+      "missing_author"
+    ]
+  },
+  {
+    "title_id": "9036787",
+    "title": "India travel phrasebook & dictionary",
+    "shelves": [],
+    "author": null,
+    "isbn": "9781806531752",
+    "isbns": [
+      "9781806531752",
+      "1806531755"
+    ],
+    "description": "\"Learn essential phrases and vocabulary - from directions to eating out and travelling safely - and get to the heart of the local culture with this on-the-go language guide. Never get stuck for words again with Lonely Planet's India Phrasebook & Dictionary and feel at ease with social greetings, manners and tips on local culture during your travels. Use the pull-out fast-phrases card when you need to reference something quickly, and let the 3,500 word two-way dictionary guide you in your conversations\"--Publisher's description.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "400 sidor",
+    "genres": [
+      "Parlörer",
+      "Lexikon",
+      "Phrase books."
+    ],
+    "subjects": [
+      "Bengali",
+      "Hindi (språk)",
+      "Urdu",
+      "Engelska språket",
+      "Bengali language - Conversation and phrase books - English",
+      "Hindi language - Conversation and phrase books - English",
+      "Urdu language - Conversation and phrase books - English"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-17T13:15:48.118916+00:00",
+    "quality_flags": [
+      "missing_author"
+    ]
   }
 ]
