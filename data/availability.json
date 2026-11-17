@@ -620769,5 +620769,41 @@
     "available_branches": [],
     "availability_status": "unavailable",
     "availability_checked_at": "2026-11-17T13:15:48.118916+00:00"
+  },
+  "9047458": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Manga",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "availability_checked_at": "2026-11-17T16:02:46.505093+00:00"
   }
 }
