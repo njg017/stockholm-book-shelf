@@ -620949,5 +620949,77 @@
     "available_branches": [],
     "availability_status": "unavailable",
     "availability_checked_at": "2026-11-18T13:22:00.396584+00:00"
+  },
+  "9050516": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "availability_checked_at": "2026-11-18T17:15:13.636871+00:00"
+  },
+  "9050517": {
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "availability_checked_at": "2026-11-18T17:15:15.425153+00:00"
   }
 }

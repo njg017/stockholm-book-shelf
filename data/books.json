@@ -829820,5 +829820,145 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-18T13:22:00.396584+00:00"
+  },
+  {
+    "title_id": "9050516",
+    "title": "Scenes from Awajima 2",
+    "shelves": [],
+    "author": "Takako Shimura",
+    "isbn": "9798855428926",
+    "isbns": [
+      "9798855428926"
+    ],
+    "description": null,
+    "original_title": "Awajima hyakkei",
+    "original_language": "Japanska",
+    "translators": [
+      "Andria McKnight"
+    ],
+    "page_count": "154 sidor",
+    "genres": [
+      "Skönlitteratur",
+      "Barn- och ungdomslitteratur",
+      "Manga"
+    ],
+    "subjects": [
+      "High school",
+      "Musik",
+      "Musikaler",
+      "Opera",
+      "Relationer",
+      "Rivaler",
+      "Teater",
+      "Vänskap"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-18T17:15:13.636871+00:00",
+    "openlibrary_work_id": "/works/OL45987632W",
+    "openlibrary_rating_count": 0
+  },
+  {
+    "title_id": "9050517",
+    "title": "Scenes from Awajima 3",
+    "shelves": [],
+    "author": "Takako Shimura",
+    "isbn": "9798855428940",
+    "isbns": [
+      "9798855428940"
+    ],
+    "description": null,
+    "original_title": "Awajima hyakkei",
+    "original_language": "Japanska",
+    "translators": [
+      "Andria McKnight"
+    ],
+    "page_count": "156 sidor",
+    "genres": [
+      "Skönlitteratur",
+      "Barn- och ungdomslitteratur",
+      "Manga"
+    ],
+    "subjects": [
+      "High school",
+      "Musik",
+      "Musikaler",
+      "Opera",
+      "Relationer",
+      "Rivaler",
+      "Teater",
+      "Vänskap"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-18T17:15:15.425153+00:00",
+    "openlibrary_work_id": "/works/OL45157071W",
+    "first_published_year": 2026
   }
 ]
