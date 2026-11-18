@@ -829697,5 +829697,66 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-17T17:11:29.488500+00:00"
+  },
+  {
+    "title_id": "9063176",
+    "title": "Radical surrender",
+    "shelves": [],
+    "author": "Anna Lembke",
+    "isbn": "9781035425396",
+    "isbns": [
+      "9781035425396",
+      "1035425394"
+    ],
+    "description": "We are a generation addicted to control. In a world where we are constantly fed the idea that we are the architects of our own happiness, what happens when things don’t go our way? We live in constant fear of taking the wrong step, making the wrong choice and missing out on our best lives. The result? An epidemic of anxiety, nihilistic boredom and loneliness. The solution? Embracing the power of letting go. In Radical Surrender, psychiatrist and bestselling author of Dopamine Nation, Dr Anna Lembke, shares inspiring stories and transformative science-led tools to help you let go in a world engineered for control and certainty. By seeking less mastery and more mystery you can experience release from the anxiety that is holding you back. This is your opportunity to discover a newfound joy in the beautiful, unpredictable unfolding of your life.[Bokinfo]",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "257 sidor",
+    "genres": [
+      "Personlig utveckling"
+    ],
+    "subjects": [
+      "Kropp och själ",
+      "Lycka",
+      "Välbefinnande"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 2,
+    "reservable": true,
+    "availability_checked_at": "2026-11-18T12:06:50.757765+00:00",
+    "openlibrary_work_id": "/works/OL45399894W"
   }
 ]
