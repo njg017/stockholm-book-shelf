@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-18T04:02:06.018951+00:00",
+  "generated_at": "2026-11-18T04:05:08.974708+00:00",
   "dry_run": false,
-  "requested_batch": 1000,
+  "requested_batch": 100,
   "thumbnail_size": "large",
   "processed": 0,
   "imported_count": 0,
@@ -10,7 +10,7 @@
   "remaining_failed": 0,
   "remaining_pending": 0,
   "coverage": {
-    "generated_at": "2026-11-18T04:02:06.018925+00:00",
+    "generated_at": "2026-11-18T04:05:08.974670+00:00",
     "discovered": 6104,
     "imported": 5915,
     "pending": 0,
