@@ -829960,5 +829960,129 @@
     "availability_checked_at": "2026-11-18T17:15:15.425153+00:00",
     "openlibrary_work_id": "/works/OL45157071W",
     "first_published_year": 2026
+  },
+  {
+    "title_id": "9063156",
+    "title": "Diversity is not our strength",
+    "shelves": [],
+    "author": "Katharine Birbalsingh",
+    "isbn": "9780349023021",
+    "isbns": [
+      "9780349023021",
+      "0349023026"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "320 sidor",
+    "genres": [
+      "Ej skönlitteratur"
+    ],
+    "subjects": [
+      "Mångfald i skolan",
+      "Kulturell mångfald",
+      "Mångkulturella samhällen",
+      "Interkulturell pedagogik",
+      "Community and school - Great Britain",
+      "Cultural pluralism - Great Britain",
+      "Culturally sustaining pedagogy - Great Britain",
+      "Multicultural education - Great Britain",
+      "Storbritannien"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 1,
+    "reservable": true,
+    "availability_checked_at": "2026-11-19T13:25:22.542461+00:00"
+  },
+  {
+    "title_id": "9225953",
+    "title": "Close protection handbook",
+    "shelves": [],
+    "author": "Pierre Månsson",
+    "isbn": "9781806340330",
+    "isbns": [
+      "9781806340330",
+      "180634033X"
+    ],
+    "description": "Close Protection Handbook – Packed with Field-Tested Tactics and Theory for Today’s Security Demands The Close Protection Handbook is a structured recalibration of high standards—offering real-world tactics and refined thinking. Whether you're starting a new career, enhancing your training programs, staying ahead in your profession, or simply passionate about the subject, this handbook is your essential companion. It’s designed for government, corporate, private, and commercial sectors alike, uniting a diverse audience through a shared commitment to safety and operational excellence in the field of close protection. About the Author Pierre Månsson is a Close Protection Expert and Security Risk Management Specialist, as well as a certified Close Protection Instructor. He has worked as a security training manager and head instructor, and founded Sweden’s first UK SIA-licensed close protection training centre in Stockholm. With over a decade of global operational experience, Pierre's career includes high-risk missions, VIP and corporate protection, and diplomatic security in complex and high-threat environments. Backed by a military background from the Swedish Army and extensive executive protection work, he bridges the gap between theory and field application—offering readers practical tools shaped by real-world demands. What’s Inside The Close Protection Handbook makes it clear: success in close protection is not just about strength or tactics—it’s about strategy, preparation, and seeing the bigger picture. In today’s increasingly complex security landscape, this book brings clarity. Inside, you'll find 15 instructor-backed chapters filled with practical strategies, refined insights, and operational truths. No filler. No theory without application. Just essential, tested knowledge—supported by over 70 illustrations depicting training scenarios and tactical procedures for close protection operations. Explore chapters that guide you through the essentials of creating and maintaining secure environments, travel security, reconnaissance, surveillance, threat and risk assessments, foot formation techniques, embus and debus procedures, evacuation tactics, team setup and management, as well as operational planning and orders. Your Professional Edge The Close Protection Handbook gives you a professional edge—shaped by field operations across Europe, Africa, and the Middle East.[Bokinfo]",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "702 sidor",
+    "genres": [
+      "Ej skönlitteratur"
+    ],
+    "subjects": [
+      "Livvakter"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Facklitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-19T13:25:24.299738+00:00"
   }
 ]
