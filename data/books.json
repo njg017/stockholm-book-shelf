@@ -830084,5 +830084,76 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-19T13:25:24.299738+00:00"
+  },
+  {
+    "title_id": "9050526",
+    "title": "Ballad of sword & wine 7",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Tang Jiu Qing",
+    "isbn": "9798891605855",
+    "isbns": [
+      "9798891605855"
+    ],
+    "description": null,
+    "original_title": "将进酒 (Qiang jin jiu)",
+    "original_language": "Kinesiska",
+    "translators": [
+      "XiA",
+      "Jia",
+      "amixy"
+    ],
+    "page_count": "467 sidor",
+    "genres": [
+      "Fantasy",
+      "Historiska skildringar"
+    ],
+    "subjects": [
+      "Prinsar",
+      "Fiender",
+      "Homosexuella män",
+      "Queer",
+      "Hbtqi-personer",
+      "Kina"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Light novels",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Lava, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-20T11:11:24.223690+00:00"
   }
 ]
