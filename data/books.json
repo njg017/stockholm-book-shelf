@@ -830580,5 +830580,145 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-20T13:20:31.569870+00:00"
+  },
+  {
+    "title_id": "9050498",
+    "title": "Case file compendium 9",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Roubaobuchirou",
+    "isbn": "9798891600768",
+    "isbns": [
+      "9798891600768"
+    ],
+    "description": null,
+    "original_title": "Bing an Ben",
+    "original_language": "Kinesiska",
+    "translators": [
+      "Ben Bingham"
+    ],
+    "page_count": "363 sidor",
+    "genres": [
+      "Romaner",
+      "Science fiction",
+      "Kärleksskildringar"
+    ],
+    "subjects": [
+      "Läkare-patientrelationer",
+      "Homosexuella män",
+      "Läkare",
+      "Psykiska störningar",
+      "Queer",
+      "Hbtqi-personer"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Light novels",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Lava, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-20T15:02:29.965886+00:00"
+  },
+  {
+    "title_id": "9050530",
+    "title": "Case file compendium 8",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Roubaobuchirou",
+    "isbn": "9798888434581",
+    "isbns": [
+      "9798888434581"
+    ],
+    "description": null,
+    "original_title": "Bing an Ben",
+    "original_language": "Kinesiska",
+    "translators": [
+      "Ben Bingham"
+    ],
+    "page_count": "363 sidor",
+    "genres": [
+      "Romaner",
+      "Science fiction",
+      "Kärleksskildringar"
+    ],
+    "subjects": [
+      "Läkare-patientrelationer",
+      "Homosexuella män",
+      "Läkare",
+      "Psykiska störningar",
+      "Queer",
+      "Hbtqi-personer"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Light novels",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Lava, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-20T15:02:31.736983+00:00"
   }
 ]
