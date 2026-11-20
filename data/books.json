@@ -830155,5 +830155,64 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-20T11:11:24.223690+00:00"
+  },
+  {
+    "title_id": "9028326",
+    "title": "The secret history of language",
+    "shelves": [],
+    "author": "Lyle Campbell",
+    "isbn": "9781009757997",
+    "isbns": [
+      "9781009757997",
+      "1009757997"
+    ],
+    "description": "\"From ancient writing systems to the newest words, this engaging book unravels the marvels and mysteries of language change and language history, showing how and why languages change. It is written in a lively and accessible manner, making it ideal for anyone interested in how languages change over time\"-- Provided by publisher.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "xix, 219 sidor",
+    "genres": [
+      "Facklitteratur"
+    ],
+    "subjects": [
+      "Språkförändringar",
+      "Linguistic change"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-20T12:05:04.160939+00:00"
   }
 ]
