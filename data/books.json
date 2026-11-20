@@ -830720,5 +830720,166 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-20T15:02:31.736983+00:00"
+  },
+  {
+    "title_id": "9026124",
+    "title": "School bus graveyard 1",
+    "shelves": [],
+    "author": "Red",
+    "isbn": "9780241821053",
+    "isbns": [
+      "9780241821053",
+      "0241821053"
+    ],
+    "description": "Discover the action-packed high-school thriller, School Bus Graveyard! Volume 1 collects episodes 1-32 of the hit WEBTOON series in full colour, along with additional character art from the author - a must-have for 13+ fans of Five Nights at Freddy's and Stranger Things.High school is a nightmare. Literally.Ashlyn likes being a loner. She alwa[Bokinfo]",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "253 sidor",
+    "genres": [
+      "Tecknade serier",
+      "Bildromaner",
+      "Rysare",
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "Skolresor",
+      "Spöken",
+      "Vänskap",
+      "Överlevnad"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018041",
+        "branch": "TioTretton, Kulturhuset",
+        "slug": "tio-tretton",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Språk",
+            "sublocation": "Graphic novels",
+            "firstLoanDueDate": "2026-11-08",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "CHECKED_OUT",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Serier",
+            "sublocation": "Fantasy",
+            "firstLoanDueDate": "2026-11-27",
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "CHECKED_OUT",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 2,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-20T16:02:46.291085+00:00"
+  },
+  {
+    "title_id": "9050529",
+    "title": "Case file compendium 7",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Roubaobuchirou",
+    "isbn": "9798888434574",
+    "isbns": [
+      "9798888434574"
+    ],
+    "description": null,
+    "original_title": "Bing an Ben",
+    "original_language": "Kinesiska",
+    "translators": [
+      "Ben Bingham"
+    ],
+    "page_count": "378 sidor",
+    "genres": [
+      "Romaner",
+      "Science fiction",
+      "Kärleksskildringar"
+    ],
+    "subjects": [
+      "Läkare-patientrelationer",
+      "Homosexuella män",
+      "Läkare",
+      "Psykiska störningar",
+      "Queer",
+      "Hbtqi-personer"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Light novels",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Lava, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-20T16:02:48.089488+00:00"
   }
 ]
