@@ -830214,5 +830214,371 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-20T12:05:04.160939+00:00"
+  },
+  {
+    "title_id": "8605246",
+    "title": "There's something wrong with the chief 2",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Yang Su",
+    "isbn": "9798893734423",
+    "isbns": [
+      "9798893734423"
+    ],
+    "description": null,
+    "original_title": "Du zhu you bing",
+    "original_language": "Kinesiska",
+    "translators": [
+      "Faelicy"
+    ],
+    "page_count": "394 sidor",
+    "genres": [
+      "Fantasy",
+      "Romaner",
+      "Historiska skildringar"
+    ],
+    "subjects": [
+      "Queer",
+      "Hbtqi-personer",
+      "Homosexualitet",
+      "Kärlek",
+      "Samkönade relationer",
+      "Politik",
+      "Yrkesmördare",
+      "Kina"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Light novels",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Lava, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-20T13:20:24.477610+00:00"
+  },
+  {
+    "title_id": "9050500",
+    "title": "There's something wrong with the chief 4",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Yang Su",
+    "isbn": "9798893734447",
+    "isbns": [
+      "9798893734447"
+    ],
+    "description": null,
+    "original_title": "Du zhu you bing",
+    "original_language": "Kinesiska",
+    "translators": [
+      "Faelicy"
+    ],
+    "page_count": "419 sidor",
+    "genres": [
+      "Fantasy",
+      "Romaner",
+      "Historiska skildringar"
+    ],
+    "subjects": [
+      "Queer",
+      "Hbtqi-personer",
+      "Homosexualitet",
+      "Kärlek",
+      "Samkönade relationer",
+      "Politik",
+      "Yrkesmördare",
+      "Kina"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Light novels",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Lava, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-20T13:20:26.252390+00:00"
+  },
+  {
+    "title_id": "9050531",
+    "title": "Three hundred years of longing 2",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Su Li Mu",
+    "isbn": "9798895611265",
+    "isbns": [
+      "9798895611265"
+    ],
+    "description": null,
+    "original_title": "Bu jian shang xian san bai nian",
+    "original_language": "Kinesiska",
+    "translators": [
+      "Foxghost"
+    ],
+    "page_count": "375 sidor",
+    "genres": [
+      "Historiska skildringar",
+      "Romaner"
+    ],
+    "subjects": [
+      "Queer",
+      "Hbtqi-personer",
+      "Samkönade relationer",
+      "Homosexuella",
+      "Homosexuella män",
+      "Fantasi",
+      "Kärlek",
+      "Demoner",
+      "Odödlighet",
+      "Mysterier",
+      "Ont och gott",
+      "Kina"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Light novels",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Lava, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-20T13:20:28.015892+00:00"
+  },
+  {
+    "title_id": "9050532",
+    "title": "Three hundred years of longing 3",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Su Li Mu",
+    "isbn": "9798895611272",
+    "isbns": [
+      "9798895611272"
+    ],
+    "description": null,
+    "original_title": "Bu jian shang xian san bai nian",
+    "original_language": "Kinesiska",
+    "translators": [
+      "Foxghost"
+    ],
+    "page_count": "372 sidor",
+    "genres": [
+      "Historiska skildringar",
+      "Romaner"
+    ],
+    "subjects": [
+      "Queer",
+      "Hbtqi-personer",
+      "Samkönade relationer",
+      "Homosexuella",
+      "Homosexuella män",
+      "Fantasi",
+      "Kärlek",
+      "Demoner",
+      "Odödlighet",
+      "Mysterier",
+      "Ont och gott",
+      "Kina"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Light novels",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Lava, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-20T13:20:29.798271+00:00"
+  },
+  {
+    "title_id": "9050534",
+    "title": "There's something wrong with the chief 3",
+    "shelves": [
+      "available-now"
+    ],
+    "author": "Yang Su",
+    "isbn": "9798893734430",
+    "isbns": [
+      "9798893734430"
+    ],
+    "description": null,
+    "original_title": "Du zhu you bing",
+    "original_language": "Kinesiska",
+    "translators": [
+      "Faelicy"
+    ],
+    "page_count": "401 sidor",
+    "genres": [
+      "Fantasy",
+      "Romaner",
+      "Historiska skildringar"
+    ],
+    "subjects": [
+      "Queer",
+      "Hbtqi-personer",
+      "Homosexualitet",
+      "Kärlek",
+      "Samkönade relationer",
+      "Politik",
+      "Yrkesmördare",
+      "Kina"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 1,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Light novels",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 1,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 1,
+    "total_copies": 1,
+    "available_branches": [
+      "Lava, Kulturhuset"
+    ],
+    "availability_status": "available",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-20T13:20:31.569870+00:00"
   }
 ]
