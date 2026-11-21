@@ -830881,5 +830881,246 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-20T16:02:48.089488+00:00"
+  },
+  {
+    "title_id": "9263344",
+    "title": "O Now!",
+    "shelves": [],
+    "author": "Niall Williams",
+    "isbn": "9781037203534",
+    "isbns": [
+      "9781037203534",
+      "1037203534"
+    ],
+    "description": "Mossie Crowe, known as \"Ganga,\" is that rare man who is beloved by everyone who knows him and is particularly cherished by his best friend, Bat. On one ordinary October day, Bat interrupts their usual evening tea to ask Ganga why God created the earth. But when Ganga passes away that night, Bat finds himself at a loss, without his friend and without an answer to his question. Over the next days, as all of Faha comes to care for and honor the body of the man they loved, Bat begins a new journey towards understanding life, death, and love.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "96 sidor",
+    "genres": [
+      "Romaner"
+    ],
+    "subjects": [
+      "Äldre män",
+      "Vänskap",
+      "Livets mening",
+      "Döden",
+      "Sorg",
+      "Byar",
+      "Irland"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018021",
+        "branch": "Kista bibliotek",
+        "slug": "kista-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018043",
+        "branch": "Vällingby bibliotek",
+        "slug": "vallingby-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018023",
+        "branch": "Kungsholmens bibliotek Internationella biblioteket",
+        "slug": "kungsholmens-bibliotek-internationella-biblioteket",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 3,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-21T04:00:51.764294+00:00"
+  },
+  {
+    "title_id": "9263578",
+    "title": "Luna, phoenix, queen",
+    "shelves": [],
+    "author": "Julie Orringer",
+    "isbn": "9798217207886",
+    "isbns": [
+      "9798217207886"
+    ],
+    "description": null,
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "271 sidor",
+    "genres": [
+      "Romaner",
+      "Psykologiska skildringar"
+    ],
+    "subjects": [
+      "Alzheimers sjukdom",
+      "Författarskap",
+      "Hemligheter",
+      "Kärlek",
+      "Makar",
+      "Otrohet",
+      "Professorer",
+      "Svek",
+      "Triangeldramer"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018020",
+        "branch": "Högdalens bibliotek",
+        "slug": "hogdalens-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018021",
+        "branch": "Kista bibliotek",
+        "slug": "kista-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018023",
+        "branch": "Kungsholmens bibliotek Internationella biblioteket",
+        "slug": "kungsholmens-bibliotek-internationella-biblioteket",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 3,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-21T04:00:53.543271+00:00",
+    "cover_url": "https://covers.openlibrary.org/b/id/15270744-L.jpg",
+    "openlibrary_work_id": "/works/OL46153091W",
+    "first_published_year": 2026
   }
 ]
