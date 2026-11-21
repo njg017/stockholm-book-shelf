@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T04:00:48.899383+00:00",
+  "generated_at": "2026-11-21T05:01:01.506978+00:00",
   "dry_run": false,
   "priority_languages": [
     "Engelska",
@@ -7,32 +7,21 @@
   ],
   "page_size": 500,
   "fetches": 10,
-  "records_seen": 862,
-  "titles_queued_for_import": 2,
-  "already_imported_titles_reconciled": 860,
+  "records_seen": 993,
+  "titles_queued_for_import": 0,
+  "already_imported_titles_reconciled": 993,
   "cursor": {
     "phases": {},
-    "queue_length": 48
+    "queue_length": 49
   },
   "coverage": {
-    "generated_at": "2026-11-21T04:00:48.899358+00:00",
-    "discovered": 862,
-    "imported": 860,
-    "pending": 2,
+    "generated_at": "2026-11-21T05:01:01.506958+00:00",
+    "discovered": 993,
+    "imported": 993,
+    "pending": 0,
     "failed": 0,
     "skipped": 0,
-    "coverage_percent": 99.77
+    "coverage_percent": 100.0
   },
-  "errors": [
-    {
-      "partition": {
-        "kind": "branch_year",
-        "language": "Engelska",
-        "year": 2026,
-        "branch": "Tranströmerbiblioteket",
-        "total": 347
-      },
-      "error": "502 Server Error: Bad Gateway for url: https://biblioteket.stockholm.se/graphql"
-    }
-  ]
+  "errors": []
 }
