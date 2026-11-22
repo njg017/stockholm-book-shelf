@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T07:17:55.927014+00:00",
+  "generated_at": "2026-11-22T08:56:12.453228+00:00",
   "dry_run": false,
   "priority_languages": [
     "Engelska",
@@ -15,7 +15,7 @@
     "queue_length": 49
   },
   "coverage": {
-    "generated_at": "2026-11-22T07:17:55.926994+00:00",
+    "generated_at": "2026-11-22T08:56:12.453196+00:00",
     "discovered": 993,
     "imported": 993,
     "pending": 0,
