@@ -831122,5 +831122,200 @@
     "cover_url": "https://covers.openlibrary.org/b/id/15270744-L.jpg",
     "openlibrary_work_id": "/works/OL46153091W",
     "first_published_year": 2026
+  },
+  {
+    "title_id": "9050499",
+    "title": "Can you kiss me first? 1",
+    "shelves": [],
+    "author": "Yamayade",
+    "isbn": "9798898630652",
+    "isbns": [
+      "9798898630652"
+    ],
+    "description": null,
+    "original_title": "Omae no ho kara kiss shite kureyo",
+    "original_language": "Japanska",
+    "translators": [
+      "Elina Ishikawa"
+    ],
+    "page_count": "230 sidor",
+    "genres": [
+      "Skönlitteratur",
+      "Manga"
+    ],
+    "subjects": [
+      "Queer",
+      "Homosexuella män",
+      "Kärlek",
+      "Samkönade relationer",
+      "Kontor"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-24T12:05:29.574374+00:00"
+  },
+  {
+    "title_id": "9326183",
+    "title": "The cheat book vol. 3, can Kamal take down the robots?",
+    "shelves": [],
+    "author": "Ramzee",
+    "isbn": "9781444973440",
+    "isbns": [
+      "9781444973440",
+      "1444973444"
+    ],
+    "description": "NOT FOR GROWN-UPS! Wish your school was a SMART SCHOOL? With shiny, TALKING SCOOTERS to take you to your classes? And vending machines full of delicious SNACKS? When a new Smart School opens up, Kamal and his friends are part of the lucky first test group. With robot teachers, vending machines full of free snacks, and talking scooters that take you to your classes, what could possibly go wrong? The answer: everything. With the trusty Cheat Book and its lifehacks by his side, can Kamal find a way to fight back?",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "222 sidor",
+    "genres": [
+      "Skönlitteratur",
+      "Mellanåldersböcker",
+      "Bildromaner"
+    ],
+    "subjects": [
+      "Pojkar",
+      "Robotar",
+      "Skolan",
+      "Vardagsliv",
+      "Vänskap"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Barn",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-24T12:05:31.377616+00:00",
+    "openlibrary_work_id": "/works/OL45343877W"
+  },
+  {
+    "title_id": "9326184",
+    "title": "One-Punch man 34",
+    "shelves": [],
+    "author": "ONE",
+    "isbn": "9781974766529",
+    "isbns": [
+      "9781974766529",
+      "1974766527"
+    ],
+    "description": "Life gets pretty boring when you can beat the snot out of any villain with just one punch.[Bokinfo]",
+    "original_title": null,
+    "original_language": "Japanska",
+    "translators": [
+      "John Werry"
+    ],
+    "page_count": "1 volym (opaginerad)",
+    "genres": [
+      "Tecknade serier",
+      "Manga",
+      "Ungdomsböcker"
+    ],
+    "subjects": [
+      "Superhjältar",
+      "Monster",
+      "Ont och gott",
+      "Cyborger",
+      "Japan"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Ung",
+            "section": null,
+            "location": "Skönlitteratur",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-24T12:05:33.152966+00:00"
   }
 ]
