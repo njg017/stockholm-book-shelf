@@ -831443,5 +831443,198 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-24T15:11:04.534040+00:00"
+  },
+  {
+    "title_id": "9264071",
+    "title": "Female life on planet earth",
+    "shelves": [],
+    "author": "Laleh Khadivi",
+    "isbn": "9781836432821",
+    "isbns": [
+      "9781836432821",
+      "1836432828"
+    ],
+    "description": "\"After a lifetime together, Heti thought she knew her mother inside out. She's about to discover how wrong she was... Heti moves in a daze of grief after her mother dies, until her life is upended by the arrival of an unmarked package containing photographs of her mother as a young woman in Iran, enveloped head to toe in a black veil, pointing a machine gun at a group of sobbing young women. Unable to confront the one person she most wants answers from, she turns to the women around her, listening to their surprising, funny and often contradictory stories. Through them, she realises that every woman contains hidden lives and private truths. So when it falls to her to organise a memorial marking the first anniversary of her mother's death, Heti gathers the women who knew her best and asks them: Who was my mother? And who are we?\"--Publisher.",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "214 sidor",
+    "genres": [
+      "Familjeskildringar",
+      "Psykologiska skildringar",
+      "Romaner",
+      "Domestic fiction."
+    ],
+    "subjects": [
+      "Kvinnor",
+      "Minnen",
+      "Migration",
+      "Döden",
+      "Sorg",
+      "Mor-dotterrelationer",
+      "Familjehemligheter",
+      "Iranier",
+      "Identitet (psykologi)",
+      "Kvinnlig vänskap",
+      "Women - Fiction",
+      "Iranian Americans - Fiction",
+      "Accountants - Fiction",
+      "Mothers - Death - Fiction",
+      "Secrecy - Fiction",
+      "Grief - Fiction",
+      "Identity (Philosophical concept) - Fiction",
+      "Förenta staterna",
+      "Iran"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018042",
+        "branch": "Tranströmerbiblioteket",
+        "slug": "transtromerbiblioteket",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018047",
+        "branch": "Östberga bibliotek",
+        "slug": "ostberga-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      },
+      {
+        "branch_id": "CSE-7018040",
+        "branch": "Tensta bibliotek",
+        "slug": "tensta-bibliotek",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": "Vuxen",
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 3,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-25T15:16:20.458283+00:00"
+  },
+  {
+    "title_id": "9329331",
+    "title": "A sudden flicker of light",
+    "shelves": [],
+    "author": "David Thomson",
+    "isbn": "9780241843345",
+    "isbns": [
+      "9780241843345",
+      "0241843340"
+    ],
+    "description": "From cinema's most distinguished and 'The best writer on film in our time' (Michael Ondaatje) comes a masterful assessment of the whole sweep of movie history'The movies traded on the liberation of secret desires-drive that car as fast as you can; turn your humble abode into a palace; conquer all the mean spirits in the world; be as free and winsome as the Tramp yet as ric[Bokinfo]",
+    "original_title": null,
+    "original_language": null,
+    "translators": null,
+    "page_count": "368 sidor",
+    "genres": [
+      "Facklitteratur"
+    ],
+    "subjects": [
+      "Film - historia",
+      "Film - sociala aspekter",
+      "Film - teori, filosofi"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018007",
+        "branch": "Bokhotellet, Frihamnen",
+        "slug": "bokhotellet-frihamnen",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": null,
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-25T15:16:22.183981+00:00"
   }
 ]
