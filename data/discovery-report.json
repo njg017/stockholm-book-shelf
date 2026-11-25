@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T12:11:27.274344+00:00",
+  "generated_at": "2026-11-25T13:30:34.248253+00:00",
   "dry_run": false,
   "priority_languages": [
     "Engelska",
@@ -7,21 +7,32 @@
   ],
   "page_size": 500,
   "fetches": 10,
-  "records_seen": 998,
+  "records_seen": 668,
   "titles_queued_for_import": 0,
-  "already_imported_titles_reconciled": 998,
+  "already_imported_titles_reconciled": 668,
   "cursor": {
     "phases": {},
-    "queue_length": 49
+    "queue_length": 48
   },
   "coverage": {
-    "generated_at": "2026-11-25T12:11:27.274320+00:00",
-    "discovered": 998,
-    "imported": 998,
+    "generated_at": "2026-11-25T13:30:34.248235+00:00",
+    "discovered": 668,
+    "imported": 668,
     "pending": 0,
     "failed": 0,
     "skipped": 0,
     "coverage_percent": 100.0
   },
-  "errors": []
+  "errors": [
+    {
+      "partition": {
+        "kind": "branch_year",
+        "language": "Engelska",
+        "year": 2026,
+        "branch": "Bokhotellet, Frihamnen",
+        "total": 451
+      },
+      "error": "502 Server Error: Bad Gateway for url: https://biblioteket.stockholm.se/graphql"
+    }
+  ]
 }
