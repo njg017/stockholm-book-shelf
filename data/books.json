@@ -831636,5 +831636,142 @@
     "reservation_count": 0,
     "reservable": true,
     "availability_checked_at": "2026-11-25T15:16:22.183981+00:00"
+  },
+  {
+    "title_id": "9039741",
+    "title": "What if I said, \"I love you?\" 2",
+    "shelves": [],
+    "author": "Kumosoku",
+    "isbn": "9798888778357",
+    "isbns": [
+      "9798888778357"
+    ],
+    "description": "\"Romance blossoms between Kazuho and Tokio after they declare their love for each other. They're officially a couple who don't hesitate with physical displays of affection - but only when no one else is around. School makes it tough to steal private moments together, especially when their classmates assume the two boys are simply old childhood friends. How will their relationship develop while overcoming the need to be accepted?\"--Back cover",
+    "original_title": "Ore ga sukitte ittara dousuru?",
+    "original_language": "Japanska",
+    "translators": [
+      "Diana Taylor"
+    ],
+    "page_count": "172 sidor",
+    "genres": [
+      "Manga",
+      "Tecknade serier",
+      "Ungdomsböcker",
+      "Bildromaner"
+    ],
+    "subjects": [
+      "Samkönade relationer",
+      "High school",
+      "Ungdomar",
+      "Kärlek",
+      "Queer",
+      "HBTQI",
+      "Unga homosexuella"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Manga",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-27T13:24:54.143142+00:00"
+  },
+  {
+    "title_id": "9050512",
+    "title": "Shinobi undercover 2",
+    "shelves": [],
+    "author": "Ippon Takegushi",
+    "isbn": "9781974764822",
+    "isbns": [
+      "9781974764822",
+      "1974764826"
+    ],
+    "description": "\"Yodaka's worst nightmare comes true when his job as a Public Safety ninja forces him to go to high school and even worse...talk to people! When it comes to combat, his skills are off the charts. When it comes to social interaction, he completely falls apart. But things take an unexpected turn when he discovers that talking to Aoi Mukai, the girl he's assigned to guard, is surprisingly easy. \"--Back cover",
+    "original_title": "Shinobigoto",
+    "original_language": "Japanska",
+    "translators": [
+      "Jan Mitsuko Cash"
+    ],
+    "page_count": "176 sidor",
+    "genres": [
+      "Manga",
+      "Bildromaner",
+      "Ungdomsböcker",
+      "Tecknade serier"
+    ],
+    "subjects": [
+      "Gymnasieelever",
+      "Livvakter",
+      "Ninjor",
+      "Fobier",
+      "Yrkesmördare",
+      "High school",
+      "Japan"
+    ],
+    "holdings": [
+      {
+        "branch_id": "CSE-7018024",
+        "branch": "Lava, Kulturhuset",
+        "slug": "lava",
+        "loan_status": "NOT_AVAILABLE_FOR_LOAN",
+        "total_copies": 1,
+        "available_copies": 0,
+        "reservable": true,
+        "reference_only": false,
+        "locations": [
+          {
+            "department": null,
+            "section": null,
+            "location": "Manga",
+            "sublocation": null,
+            "firstLoanDueDate": null,
+            "shelfMark": null,
+            "periodical": null,
+            "loanStatus": "NOT_AVAILABLE_FOR_LOAN",
+            "nofTotal": 1,
+            "nofOrdered": 0,
+            "nofReference": 0,
+            "nofAvailableForLoan": 0,
+            "note": null
+          }
+        ]
+      }
+    ],
+    "available_copies": 0,
+    "total_copies": 1,
+    "available_branches": [],
+    "availability_status": "unavailable",
+    "reservation_count": 0,
+    "reservable": true,
+    "availability_checked_at": "2026-11-27T13:24:55.911073+00:00"
   }
 ]
